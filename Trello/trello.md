@@ -1,5 +1,43 @@
-###Introduction to Project Management with Trello
-####Friday, January 16, 2015
+##Introduction to Project Management with Trello
+###Workshop Notes and Resources
+Friday, January 16, 2015
 *Jodie Gambill and Cliff Anderson*
-#####Workshop Notes and Resources
 
+
+####Agenda
+* Brief introduction to agile project management principles -- Cliff
+* Trello tour, usage, examples -- Jodie
+* Hands-on activity: Creating a Trello board for a real-life scenario -- Jodie and attendees
+* Group sharing of boards -- Jodie and attendees
+* Wrap-up and [Evaluation](https://redcap.vanderbilt.edu/surveys/?s=XK87WNFLCP) -- Cliff
+
+####Scenario for hands-on activity
+It's time to create your own Trello board! We will each create a simple board given a specific scenario. You may work independently or in pairs -- your choice.
+
+If you have a **real-life scenario** in mind that you would like to try out, work-related or not, please feel free to use it! If not, we give you this **sample scenario** to use for this exercise:
+
+> The holidays have just passed. For most of us, this is a very hectic time of year, with many responsibilites and commitments. Imagine that you have been designated to host your family's holiday gathering this year. How might you use a Trello board to organize this large responsibility? Some tasks to consider (you may think of more!):
+> 
+> * Meal-planning
+> * Gifts (buy for all, buy for kids only, draw names, Dirty Santa...?)
+> * Decorating your house
+> * Cleaning your house
+> 
+> Think about what tasks, people, and deadlines might be needed to pull off a successful family holiday gathering, and see if you can organize it all in a Trello board!
+
+You will have about **30 minutes** to work on this, so get creative! After this hands-on time, we will share with the group how we put our boards together and what challenges, delights, or surprises we encountered during the process.
+
+
+####Further reading
+
+#####Trello Resources: Beginner
+* [Trello Tour](https://trello.com/tour)
+* [Beginner Tips for Using Trello](http://blog.trello.com/beginner-tips-for-using-trello/) -- This includes a great introductory video that reviews many of the features and board examples we went over in the workshop.
+* Trello board examples -- Here is a [short list](https://trello.com/examples) of basic Trello example boards. Here is a [long list](https://trello.com/inspiringboards) of creative ways to use Trello, curated by the Trello folks. Some particular example boards from this group that we looked at:
+* [Apps for all platforms](https://trello.com/platforms)
+
+#####Trello Resources: Advanced
+* How to use Trello like a pro: [Part 1](http://blog.trello.com/how-to-use-trello-like-a-pro/), [Part 2](http://blog.trello.com/using-trello-like-a-pro-part-2/), [Part 3](http://blog.trello.com/using-trello-like-a-pro-part-3/)
+* [Trello Resources](https://trello.com/resources) -- Overwhelmingly large list of Trello tips, examples, clients, addons, and more. Curated by Trello with community input (commenting/voting).
+* [Search for cards across all boards](http://help.trello.com/article/808-searching-for-cards-all-boards)
+* [Filtering cards on a single board](http://help.trello.com/article/787-filtering-cards-on-a-board)

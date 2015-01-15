@@ -21,7 +21,8 @@ Friday, January 16, 2015
     * Learn and improve continuously
 * What is a Kanban board? 
 
-![Kanban Board](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Simple-kanban-board-.jpg/640px-Simple-kanban-board-.jpg) 
+![Kanban Board](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Simple-kanban-board-.jpg/640px-Simple-kanban-board-.jpg)
+
 [CC-BY Jeff.lasovski](https://commons.wikimedia.org/wiki/File:Simple-kanban-board-.jpg)
 
 

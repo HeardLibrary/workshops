@@ -1,6 +1,7 @@
 ##Introduction to Project Management with Trello
 ###Workshop Notes and Resources
 Friday, January 16, 2015
+
 *Jodie Gambill and Cliff Anderson*
 
 
@@ -29,15 +30,23 @@ You will have about **30 minutes** to work on this, so get creative! After this 
 
 
 ####Further reading
+Trello has amazing documentation and examples. All resources below are from them.
 
 #####Trello Resources: Beginner
-* [Trello Tour](https://trello.com/tour)
+* [Trello Tour](https://trello.com/tour) -- A brief overview of the basics of Trello.
 * [Beginner Tips for Using Trello](http://blog.trello.com/beginner-tips-for-using-trello/) -- This includes a great introductory video that reviews many of the features and board examples we went over in the workshop.
 * Trello board examples -- Here is a [short list](https://trello.com/examples) of basic Trello example boards. Here is a [long list](https://trello.com/inspiringboards) of creative ways to use Trello, curated by the Trello folks. Some particular example boards from this group that we looked at:
+    - [Welcome Board](https://trello.com/b/bKbdmCKB/welcome-board)
+    - [Job Hunting](https://trello.com/b/zGRPWTSQ/job-hunt)
+    - [Goal Setting](https://trello.com/b/BdarzfKF/life-goals)
+    - [Office Holiday Party](https://trello.com/b/EEksZewK/office-holiday-party)
+    - [Vacation Planning](https://trello.com/b/ocCuiDQ4/hawaii-vacation)
 * [Apps for all platforms](https://trello.com/platforms)
+* [Trello Help](http://help.trello.com/) -- Comprehensive help files.
 
 #####Trello Resources: Advanced
 * How to use Trello like a pro: [Part 1](http://blog.trello.com/how-to-use-trello-like-a-pro/), [Part 2](http://blog.trello.com/using-trello-like-a-pro-part-2/), [Part 3](http://blog.trello.com/using-trello-like-a-pro-part-3/)
+* [Search for cards across all boards](http://help.trello.com/article/808-searching-for-cards-all-boards), or [filter cards on a single board](http://help.trello.com/article/787-filtering-cards-on-a-board)
+* [Keyboard shortcuts](https://trello.com/shortcuts) -- For the geeks among us
 * [Trello Resources](https://trello.com/resources) -- Overwhelmingly large list of Trello tips, examples, clients, addons, and more. Curated by Trello with community input (commenting/voting).
-* [Search for cards across all boards](http://help.trello.com/article/808-searching-for-cards-all-boards)
-* [Filtering cards on a single board](http://help.trello.com/article/787-filtering-cards-on-a-board)
+* [Trello Blog](http://blog.trello.com/) -- For ongoing inspiration/examples and insight into the Trello platform

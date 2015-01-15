@@ -4,7 +4,6 @@ Friday, January 16, 2015
 
 *Jodie Gambill and Cliff Anderson*
 
-
 ####Agenda
 * Brief introduction to agile project management principles -- Cliff
 * Trello tour, usage, examples -- Jodie
@@ -20,7 +19,9 @@ Friday, January 16, 2015
     * Lead using a team approach
     * Reduce the Batch Size of your Efforts
     * Learn and improve continuously
-* What is a Kanban board? ![Kanban Board](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Simple-kanban-board-.jpg/640px-Simple-kanban-board-.jpg) [CC-BY Jeff.lasovski](https://commons.wikimedia.org/wiki/File:Simple-kanban-board-.jpg)
+* What is a Kanban board? 
+
+![Kanban Board](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Simple-kanban-board-.jpg/640px-Simple-kanban-board-.jpg) [CC-BY Jeff.lasovski](https://commons.wikimedia.org/wiki/File:Simple-kanban-board-.jpg)
 
 
 ####Scenario for hands-on activity

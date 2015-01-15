@@ -12,6 +12,17 @@ Friday, January 16, 2015
 * Group sharing of boards -- Jodie and attendees
 * Wrap-up and [Evaluation](https://redcap.vanderbilt.edu/surveys/?s=XK87WNFLCP) -- Cliff
 
+###Agile Project Management
+* [The Agile Manifesto](http://www.agilemanifesto.org/)
+* [Waterfalls](http://www.commonplaces.com/sites/commonplaces.com/files/waterfall_method.png) versus [Spirals](http://www.commonplaces.com/sites/commonplaces.com/files/agile_method-01.png)
+* The principles of Kanban [CC-BY Open Kanban](http://agilelion.com/agile-kanban-cafe/open-kanban)
+    * Visualize the workflow
+    * Lead using a team approach
+    * Reduce the Batch Size of your Efforts
+    * Learn and improve continuously
+* What is a Kanban board? ![Kanban Board](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Simple-kanban-board-.jpg/640px-Simple-kanban-board-.jpg) [CC-BY Jeff.lasovski](https://commons.wikimedia.org/wiki/File:Simple-kanban-board-.jpg)
+
+
 ####Scenario for hands-on activity
 It's time to create your own Trello board! We will each create a simple board given a specific scenario. You may work independently or in pairs -- your choice.
 

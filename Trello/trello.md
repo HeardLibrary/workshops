@@ -12,6 +12,7 @@ Friday, January 16, 2015
 * Wrap-up and [Evaluation](https://redcap.vanderbilt.edu/surveys/?s=XK87WNFLCP) -- Cliff
 
 ###Agile Project Management
+* What's wrong with traditional project management? On [project failures](http://www.drdobbs.com/architecture-and-design/the-non-existent-software-crisis-debunki/240165910) and [death marches](http://books.google.com/books?id=FdAZUX9H_gAC&printsec=frontcove) 
 * [The Agile Manifesto](http://www.agilemanifesto.org/)
 * [Waterfalls](http://www.commonplaces.com/sites/commonplaces.com/files/waterfall_method.png) versus [Spirals](http://www.commonplaces.com/sites/commonplaces.com/files/agile_method-01.png)
 * The principles of Kanban [CC-BY Open Kanban](http://agilelion.com/agile-kanban-cafe/open-kanban)
@@ -25,6 +26,14 @@ Friday, January 16, 2015
 
 [CC-BY Jeff.lasovski](https://commons.wikimedia.org/wiki/File:Simple-kanban-board-.jpg)
 
+* Standup Meetings
+   * What did I do yesterday?
+   * What do I plan to do today?
+   * What impediments am I facing?
+
+* Recommended Reading
+   * [Kanban: Successful Evolutionary Change for Your Technology Business](http://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402) by David J. Anderson 
+   * [Kanban In Action](http://www.manning.com/hammarberg/) by Marcus Hammarberg and Joakim Sunden
 
 ####Scenario for hands-on activity
 It's time to create your own Trello board! We will each create a simple board given a specific scenario. You may work independently or in pairs -- your choice.

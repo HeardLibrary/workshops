@@ -7,7 +7,7 @@ Friday, January 16, 2015
 ####Agenda
 * Brief introduction to agile project management principles -- Cliff
 * Trello tour, usage, examples -- Jodie
-* Hands-on activity: Creating a Trello board for a real-life scenario -- Jodie and attendees
+* [Hands-on activity](#scenario-for-hands-on-activity): Creating a Trello board for a real-life scenario -- Jodie and attendees
 * Group sharing of boards -- Jodie and attendees
 * Wrap-up and [Evaluation](https://redcap.vanderbilt.edu/surveys/?s=XK87WNFLCP) -- Cliff
 
@@ -35,7 +35,7 @@ Friday, January 16, 2015
    * [Kanban: Successful Evolutionary Change for Your Technology Business](http://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402) by David J. Anderson 
    * [Kanban In Action](http://www.manning.com/hammarberg/) by Marcus Hammarberg and Joakim Sunden
 
-####Scenario for hands-on activity
+###Scenario for hands-on activity
 It's time to create your own Trello board! We will each create a simple board given a specific scenario. You may work independently or in pairs -- your choice.
 
 If you have a **real-life scenario** in mind that you would like to try out, work-related or not, please feel free to use it! If not, we give you this **sample scenario** to use for this exercise:
@@ -52,7 +52,7 @@ If you have a **real-life scenario** in mind that you would like to try out, wor
 You will have about **30 minutes** to work on this, so get creative! After this hands-on time, we will share with the group how we put our boards together and what challenges, delights, or surprises we encountered during the process.
 
 
-####Further reading
+###Further reading
 Trello has amazing documentation and examples. All resources below are from them.
 
 #####Trello Resources: Beginner

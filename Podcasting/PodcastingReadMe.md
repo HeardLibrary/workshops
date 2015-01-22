@@ -5,8 +5,10 @@ Friday, January 16, 2015
 *Presented by [Ed Warga](mailto:ed.warga@vanderbilt.edu)*
 
 ##Agenda  
+* Sign In
 * Discussion: **What is a [Podcast](http://en.wikipedia.org/wiki/Podcast)?**
 * Activity: **Recording podcasts with [Audacity](http://audacity.sourceforge.net/)**
+* Follow up session? Respond on the survey if you would like to attend a follow up session on podcasting -- ***[Workshop Evaluation Survey](https://redcap.vanderbilt.edu/surveys/?s=XK87WNFLCP)***
 
 ##Notes
 

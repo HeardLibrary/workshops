@@ -9,28 +9,33 @@ Friday, January 16, 2015
 * Discussion: **What is a [Podcast](http://en.wikipedia.org/wiki/Podcast)?**
 * **Audacity demo**
 * Activity: **Recording podcasts with [Audacity](http://audacity.sourceforge.net/)**
-* Follow up session? Respond on the survey if you would like to attend a follow up session on podcasting -- ***[Workshop Evaluation Survey](https://redcap.vanderbilt.edu/surveys/?s=XK87WNFLCP)***
+* **Follow up session?** Respond on the survey if you would like to attend a follow up session on podcasting -- ***[Workshop Evaluation Survey](https://redcap.vanderbilt.edu/surveys/?s=XK87WNFLCP)***
 
 ##What is a Podcast?
 What makes a podcast a podcast? What's the difference between podcasts, broadcasts, and webcasts? Let's list some characteristics of podcasts.
 
 ##Audacity
-Let's take a look at Audacity.
+Let's take a look at Audacity. I have created some example files for us to work with. All the examples feature a dry signal from the mic. No added effects or editing have been applied to the audio. Check the [Examples folder](https://github.com/EdWarga/workshops/tree/master/Podcasting/Examples).
 
-* Open this file in Audacity: ```[Podcasts]/Examples/EdwargaPodcastIntroOutro.mp3```
+* Open this file in Audacity: [EdwargaPodcastIntroOutro.mp3](https://github.com/EdWarga/workshops/blob/master/Podcasting/Examples/EdWargaPodcastIntroOutro.mp3)
 * Save as an Audacity project (.aup). 
 * Close the project and open it again. 
 * Export the audio to MP3.
 
 ##Activites
-1. Listen to the five mic test files (iPhone, Internal, HeadSet, Dynamic, Yeti)
-4. Edit this file. Remove some of the silence between voice audio in the Examples/DynamicMic.mp3 file.
-2. Try [this editing recipe](http://www.buzzsprout.com/blog/2014/05/02/
-how-to-get-the-best-sounding-audio-for-your-podcast) on your test file or the Examples/EdwargaPodcastIntroOutro.mp3.
-3. Add music to the Examples/EdwargaPodcastIntroOutro.mp3 file
-5. Record a test track. Try recording a short introduction to your own podcast.
+1. Listen to the five mic test files (iPhone, Internal, HeadSet, Dynamic, Yeti).Which one sounds best?
+4. Edit this file. Remove some of the silence between the audio in [DynamicMic.mp3](https://github.com/EdWarga/workshops/blob/master/Podcasting/Examples/Microphones/DynamicMic.mp3)
+2. Try [this editing recipe](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast) on EdwargaPodcastIntroOutro
+3. Add music to EdwargaPodcastIntroOutro. Here's a track from SoundCloud with a CC license: 
+5. Record a test track of your own. Try recording a short introduction to your own podcast. Record the audio, apply the [editing recipe](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast), add some music, and export the track as an MP3.
 
 ##Notes
+
+**Example Podcasts**
+
+* [EscapePod](http://escapepod.org/). Free science fiction stories since 2005. Over 700 episodes.
+* Vanderbilt University [Center for Teaching Podcast](http://cft.vanderbilt.edu/blog/podcasts/). A solid example of a locally produced podcast.
+
 **Recording Gear**  
 
 * Computer
@@ -57,7 +62,7 @@ how-to-get-the-best-sounding-audio-for-your-podcast) on your test file or the Ex
 **Editing**
 
 * [Editing voice recording for podcasts](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast) - This looks like a good place to start. As you get more comfortable with mixing audio you can strike off and explore the world of compression and other effects processing on your own.
-* [Editing Narration in Audacity](http://blogs.techsmith.com/tips-how-tos/editing-narration-in-audacity-tutorial/): check this video out after the workshop.
+* [Editing Narration in Audacity](http://blogs.techsmith.com/tips-how-tos/editing-narration-in-audacity-tutorial/): check out this video after the workshop.
 
 
 **Adding Music**

@@ -7,18 +7,41 @@ Friday, January 16, 2015
 ##Agenda  
 * Sign In
 * Discussion: **What is a [Podcast](http://en.wikipedia.org/wiki/Podcast)?**
+* **Audacity demo**
 * Activity: **Recording podcasts with [Audacity](http://audacity.sourceforge.net/)**
 * Follow up session? Respond on the survey if you would like to attend a follow up session on podcasting -- ***[Workshop Evaluation Survey](https://redcap.vanderbilt.edu/surveys/?s=XK87WNFLCP)***
 
-##Notes
+##What is a Podcast?
+What makes a podcast a podcast? What's the difference between podcasts, broadcasts, and webcasts? Let's list some characteristics of podcasts.
 
-**Recording Gear**
+##Audacity
+Let's take a look at Audacity.
+
+* Open this file in Audacity: ```[Podcasts]/Examples/EdwargaPodcastIntroOutro.mp3```
+* Save as an Audacity project (.aup). 
+* Close the project and open it again. 
+* Export the audio to MP3.
+
+##Activites
+1. Let's all do this together: 
+4. Edit this file. Remove some of the silence between voice audio in the Examples/DynamicMic.mp3 file.
+2. Try [this editing recipe](http://www.buzzsprout.com/blog/2014/05/02/
+how-to-get-the-best-sounding-audio-for-your-podcast) on your test file or the Examples/EdwargaPodcastIntroOutro.mp3.
+3. Add music to the Examples/EdwargaPodcastIntroOutro.mp3 file
+5. Record a test track. Try recording a short introduction to your own podcast.
+
+##Notes
+**Recording Gear**  
 
 * Computer
-* Microphone and Sound Card -- or -- Microphone and Analog to Digital Interface 
+* Input
+  * Microphone, Mixer, Interface
+  * Microphone and Sound Card - or - Microphone and USB Interface - or - USB microphone
   * Sound Settings: See what input/output devices are currently connected to your computer.
       * PC: Control Panel --> Sound
-      * Mac: Settings --> Sound  
+      * Mac: System Prefrences --> Sound  
+* Output
+  * Headphones or Speakers
 * Audio Software
 * [Podcasting Gear Run Down](http://music.tutsplus.com/articles/the-complete-list-of-audio-gear-youll-need-for-your-podcast--audio-20527)
 

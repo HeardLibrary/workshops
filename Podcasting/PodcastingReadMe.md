@@ -28,7 +28,7 @@ Let's take a look at Audacity. I have created some example files for us to work 
 4. Edit this file. Remove some of the silence between the audio in [DynamicMic.mp3](https://drive.google.com/file/d/0B5qrNoxFaFhuTExhcFpYRkxtSm8/view?usp=sharing)
 2. Try [this editing recipe](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast) on EdwargaPodcastIntroOutro
 3. Add music to EdwargaPodcastIntroOutro. [Here's a track](https://drive.google.com/file/d/0B5qrNoxFaFhuUHZzRXJCUUwtWms/view?usp=sharing) by [Alistair Christie](https://soundcloud.com/alistairchristie) from SoundCloud with a [CC license](http://creativecommons.org/licenses/by-nc-sa/3.0/).
-5. Record a test track of your own. Try recording a short introduction to your own podcast. Record the audio, apply the [editing recipe](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast), add some music, and export the track as an MP3.
+5. Record a test track of your own. Try recording a short introduction to your own podcast. Record the audio, apply the [editing recipe](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast), add some music, and export the track as an MP3. Use the notes as guide.
 
 ##Notes
 

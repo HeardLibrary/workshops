@@ -24,7 +24,7 @@ Let's take a look at Audacity. I have created some example files for us to work 
 * Export the audio to MP3.
 
 ##Activites
-1. Listen to the five mic test files ([iPhone](https://drive.google.com/file/d/0B5qrNoxFaFhuelVDeGNwWG15Yk0/view?usp=sharing), [Internal](https://drive.google.com/file/d/0B5qrNoxFaFhubzFSR1BGR3VQWEU/view?usp=sharing), [HeadSet](https://drive.google.com/file/d/0B5qrNoxFaFhuMXhFa0Q5d1MwRkU/view?usp=sharing), [Dynamic](https://drive.google.com/file/d/0B5qrNoxFaFhuTExhcFpYRkxtSm8/view?usp=sharing), [Yeti](https://drive.google.com/file/d/0B5qrNoxFaFhuXzh3MndYQjVrNW8/view?usp=sharing)). Which one sounds best?
+1. Listen to the five mic test files ([iPhone](https://drive.google.com/file/d/0B5qrNoxFaFhuLUdXVUJlQ2pXd00/view?usp=sharing), [Internal](https://drive.google.com/file/d/0B5qrNoxFaFhubzFSR1BGR3VQWEU/view?usp=sharing), [HeadSet](https://drive.google.com/file/d/0B5qrNoxFaFhuMXhFa0Q5d1MwRkU/view?usp=sharing), [Dynamic](https://drive.google.com/file/d/0B5qrNoxFaFhuTExhcFpYRkxtSm8/view?usp=sharing), [Yeti](https://drive.google.com/file/d/0B5qrNoxFaFhuXzh3MndYQjVrNW8/view?usp=sharing)). Which one sounds best?
 4. Edit this file. Remove some of the silence between the audio in [DynamicMic.mp3](https://drive.google.com/file/d/0B5qrNoxFaFhuTExhcFpYRkxtSm8/view?usp=sharing)
 2. Try [this editing recipe](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast) on EdwargaPodcastIntroOutro
 3. Add music to EdwargaPodcastIntroOutro. [Here's a track](https://drive.google.com/file/d/0B5qrNoxFaFhuUHZzRXJCUUwtWms/view?usp=sharing) by [Alistair Christie](https://soundcloud.com/alistairchristie) from SoundCloud with a [CC license](http://creativecommons.org/licenses/by-nc-sa/3.0/).

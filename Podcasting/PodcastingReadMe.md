@@ -17,7 +17,7 @@ What makes a podcast a podcast? What's the difference between podcasts, broadcas
 ##Audacity
 Let's take a look at Audacity. I have created some example files for us to work with. All the examples feature a dry signal from the mic. No added effects or editing have been applied to the audio. Check the [Examples folder](https://github.com/EdWarga/workshops/tree/master/Podcasting/Examples).
 
-* Open this file in Audacity: [EdwargaPodcastIntroOutro.mp3](https://github.com/EdWarga/workshops/blob/master/Podcasting/Examples/EdWargaPodcastIntroOutro.mp3)
+* Open this file in Audacity: [EdwargaPodcastIntroOutro.mp3](https://drive.google.com/file/d/0B5qrNoxFaFhueTdzQmlmMEItb2s/view?usp=sharing)
 * Save as an Audacity project (.aup). 
 * Close the project and open it again. 
 * Export the audio to MP3.

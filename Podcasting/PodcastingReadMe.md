@@ -23,7 +23,7 @@ Let's take a look at Audacity.
 * Export the audio to MP3.
 
 ##Activites
-1. Let's all do this together: 
+1. Listen to the five mic test files (iPhone, Internal, HeadSet, Dynamic, Yeti)
 4. Edit this file. Remove some of the silence between voice audio in the Examples/DynamicMic.mp3 file.
 2. Try [this editing recipe](http://www.buzzsprout.com/blog/2014/05/02/
 how-to-get-the-best-sounding-audio-for-your-podcast) on your test file or the Examples/EdwargaPodcastIntroOutro.mp3.
@@ -69,6 +69,7 @@ how-to-get-the-best-sounding-audio-for-your-podcast) on your test file or the Ex
 **Publishing Your Podcast**
 
 * [Publishing your podcast](http://wiki.audacityteam.org/wiki/How_to_publish_a_Podcast)
+* [Vanderbilt Content Management Options](http://web.vanderbilt.edu/resources/cms-options/)
 * 3rd party podcast solutions: 
   * [libsyn](https://www.libsyn.com/)
   * [PodcastGenerator](http://podcastgen.sourceforge.net/)

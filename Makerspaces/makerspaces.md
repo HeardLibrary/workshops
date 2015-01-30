@@ -45,6 +45,8 @@ Traditionally, Makerspaces were focused primarily on science, technology, and en
 technologies themselves, these spaces promoted "makers" to foster their creative process. Right now, the United States is 
 seeing a continuing crisis in educating students in Science, Technology, Engineering, and Math (STEM). Here are some 
 staggering statistics from the [National Math and Science Initiative](https://www.nms.org/AboutNMSI/TheSTEMCrisis/STEMEducationStatistics.aspx):
+
+![Infographic of STEM Statistics](https://www.nms.org/portals/0/Images/infographics/info-graphic_StemCrisis2.png)
   * 38% of US Students change who declare STEM majors when entering college change to another discipline before graduating
   * 87% of Bachelor's degrees in engineering fields were held by men in 2008
   * 31% of U.S. bachelor's degrees were in science or engineering in 2008 (compared to 61% in Japan, 51% in China)
@@ -61,16 +63,14 @@ Makerspaces can change this fact by offering tools that push people to think cre
 #### What if I am interested, but don't know much about technology?
   
 That's great! In fact, everyone should get involved; it's not all about the tech! In 2011, Google did a [mangement study]
-(http://www.thestreet.com/story/12328981/1/googles-project-oxygen-pumps-fresh-air-into-management.html) known as [_Project Oxygen_]
-(https://prezi.com/f0pyxvrpwsbs/copy-of-google-project-oxygen/), which crunched data from every Google personnel back to 1998.
-It found that "technical expertise" didn't even make the list of the top skills of good managers! What did? Having a clear 
-vision and strategy for your team, communicating well, actively listening, and being results-oriented and colalborative.
+(http://www.thestreet.com/story/12328981/1/googles-project-oxygen-pumps-fresh-air-into-management.html) known as [_Project Oxygen_](https://prezi.com/f0pyxvrpwsbs/copy-of-google-project-oxygen/), which crunched data from every Google personnel 
+back to 1998. It found that "technical expertise" didn't even make the list of the top skills of good managers! What did? Having a clear vision and strategy for your team, communicating well, actively listening, and being results-oriented and colalborative.
   
 In 2008, the [Society for Human Resource Management](http://www.shrm.org/pages/default.aspx) worked with the Wall Street 
-Journal to do a [survey](http://www.shrm.org/Research/SurveyFindings/Articles/Documents/Critical%20Skills%20Needs%20and%20Resources%20for%20the%20Changing%20Workforce%20Survey%20Report.pdf)
-of the skills most sought after for new entrants to the workforce (i.e. our students!). Almost all of them are skills that 
-makerspaces focus on and address head-on! So, they're not just spaces for engineers and science geeks. The methods and 
-skills they seek to foster are good for careers in all disciplines.
+Journal to do a [survey](http://www.shrm.org/Research/SurveyFindings/Articles/Documents/Critical%20Skills%20Needs%20and%20Resources%20for%20the%20Changing%20Workforce%20Survey%20Report.pdf) of the skills most sought after for new entrants to the workforce (i.e. our students!). Almost all of them are skills that 
+makerspaces focus on and address head-on! So, they're not just spaces for engineers and science geeks. The methods and skills they seek to foster are good for careers in all disciplines.
+
+**Skills Most Sought After for New Entrants into the Workforce:**
   
   1. Flexibility/Adaptability
   2. Critical Thinking/Problem Solving
@@ -106,9 +106,10 @@ around the U.S. Also check out these makerspaces as examples:
 
 Luckily, there's quite a bit going on here! Vanderbilt has its own growing corpus of opportunities, and there are community 
 makers buzzing around with projects and spaces too. Definitely get involved!
+
 * Spaces:
   * Vanderbilt: [Engineering, Featheringill Hall: Design Studio](https://my.vanderbilt.edu/designstudio/aboutus/)
-  * Vanderbilt: [Children's Hospital: Project M@CH](http://littlebits.cc/community-spotlight-project-mch)
+  * Vanderbilt: [Children's Hospital: Project M@CH](http://www.projectmach.com/)
   * [Center615](http://center615.com/)
   * [Fort Houston](http://forthouston.com/)
   * [Hub Nashville](http://hubnashville.strikingly.com/)
@@ -140,9 +141,12 @@ you get started:
 * And be sure to attend your local [Maker Faire](http://makerfaire.com/)!
  
 ## Workshop
+#### Making ArtBots!
 
 [Here](http://makezine.com/projects/scribble-machine/) are the instructions we used as guidelines in designing our workshop. To replicate it at home you'll need the following
 materials:
+
+![Image of Scribble Bot](https://makezineblog.files.wordpress.com/2014/07/scribblebots-5.jpg?w=620&h=413)
 
 * 1 DC Motor (1.5-3 Volts)
 * 1 AA battery
@@ -167,6 +171,7 @@ presented at the  Information Professionals 2050 Symposium, 4 June 2012.
 held at the University of North Carolina School of Information and Library Science, pp. 11-12.
 * Lane, Kin. [“Let's Remake Libraries as Hacker Spaces and Community Innovation Centers,”](http://apievangelist.com/2012/02/07/lets-remake-libraries-as-hacker-spaces-and-community-innovation-centers/)
  API Evangelist Blog, February 7, 2012. 
+* [Library as Incubator Project](http://www.libraryasincubatorproject.org/)
 * Makers Nation, The. [“The State of Makerspaces”](http://themakersnation.com/portfolio/the-state-of-makerspaces/) report, delivered May-June 2014.
 * Metropolitan New York Library Council. [“From Stacks to Hacks: Makerspaces and LibraryBox,”](http://metro.org/articles/from-stacks-to-hacks-makerspaces-and-librarybox/) October 19th, 2012. 
 * Weinberger, David. [“Library as Platform”](http://lj.libraryjournal.com/2012/09/future-of-libraries/by-david-weinberger/) 

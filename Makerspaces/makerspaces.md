@@ -6,7 +6,7 @@ Friday, January 30, 2015
 
 _Sara Sterkenburg and Chris Strasbaugh_
 
-#### Agenda
+#### Outline
 
 * Part I: Presentation
   * What are makerspaces and where do they come from?
@@ -16,6 +16,7 @@ _Sara Sterkenburg and Chris Strasbaugh_
   * Getting started on your own
 * Part II: Workshop
   * Making [ArtBots](http://makezine.com/projects/scribble-machine/)!
+* Part III: Further Reading
   
 ## Presentation:  
 #### So, what are makerspaces? 

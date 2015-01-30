@@ -13,6 +13,7 @@ _Sara Sterkenburg and Chris Strasbaugh_
   * Why are they valuable?
   * What do they look like, and where can you find them?
   * How to get involved locally
+  * Getting started on your own
 * Part II: Workshop
   * Making [ArtBots](http://makezine.com/projects/scribble-machine/)!
   

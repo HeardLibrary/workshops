@@ -30,9 +30,9 @@ developing creative people that can approach problems in a new way._
 
 Lots! The founding principles of makerspaces align directly with the goals for the future of libraries (see list below). 
 Both libraries and makerspaces prioritize experience, idea exchange, collaboration, creative initiative, and the value of 
-adaptability. Changes in technologiesand educational design have helped teachers, instructors, universities, and informal 
-learning centers realize that our spaces should be **transformational**,not transactional. "We are transitioning from a 
-product-based economy to an experience-based one...Libraries will transition from a center of information,to a center of 
+adaptability. Changes in technologies and educational design have helped teachers, instructors, universities, and informal 
+learning centers realize that our spaces should be **transformational**, not transactional. "We are transitioning from a 
+product-based economy to an experience-based one...Libraries will transition from a center of information, to a center of 
 culture ([DaVinci Institute on the Future of Libraries](http://www.davinciinstitute.com/papers/the-future-of-libraries/))."
   * Experience
   * Discover
@@ -41,9 +41,9 @@ culture ([DaVinci Institute on the Future of Libraries](http://www.davinciinstit
 
 #### Why are they valuable?
 
-Traditionally, Makerspaces were focused primarily on science, technology, and engineering. But more than it being about the 
+Traditionally, makerspaces were focused primarily on science, technology, and engineering. But more than being about the 
 technologies themselves, these spaces promoted "makers" to foster their creative process. Right now, the United States is 
-seeing a continuing crisis in educating students in Science, Technology, Engineering, and Math (STEM). Here are some 
+seeing a continuing crisis in educating students in science, technology, engineering, and math (STEM) fields. Here are some 
 staggering statistics from the [National Math and Science Initiative](https://www.nms.org/AboutNMSI/TheSTEMCrisis/STEMEducationStatistics.aspx):
 
 ![Infographic of STEM Statistics](https://www.nms.org/portals/0/Images/infographics/info-graphic_StemCrisis2.png)
@@ -58,13 +58,13 @@ workers in this area. As educators, we are chronically failing to teach and empo
 and creators, or to think creatively in their use and application of technology. This is important both inside and outside 
 of traditional STEM disciplines.
 
-Makerspaces can change this fact by offering tools that push people to think creatively, to collaborate and share resources to solve problems, and to be innovative and strategic. 
+Makerspaces can help to change this by offering tools that push people to think creatively, to collaborate and share resources to solve problems, and to be innovative and strategic. 
   
 #### What if I am interested, but don't know much about technology?
   
 That's great! In fact, everyone should get involved; it's not all about the tech! In 2011, Google did a [mangement study]
-(http://www.thestreet.com/story/12328981/1/googles-project-oxygen-pumps-fresh-air-into-management.html) known as [_Project Oxygen_](https://prezi.com/f0pyxvrpwsbs/copy-of-google-project-oxygen/), which crunched data from every Google personnel 
-back to 1998. It found that "technical expertise" didn't even make the list of the top skills of good managers! What did? Having a clear vision and strategy for your team, communicating well, actively listening, and being results-oriented and colalborative.
+(http://www.thestreet.com/story/12328981/1/googles-project-oxygen-pumps-fresh-air-into-management.html) known as [_Project Oxygen_](https://prezi.com/f0pyxvrpwsbs/copy-of-google-project-oxygen/), which crunched data from all Google personnel 
+back to 1998. It found that "technical expertise" didn't even make the list of the top skills of good managers! What did? Having a clear vision and strategy for your team, communicating well, actively listening, and being results-oriented and collaborative.
   
 In 2008, the [Society for Human Resource Management](http://www.shrm.org/pages/default.aspx) worked with the Wall Street 
 Journal to do a [survey](http://www.shrm.org/Research/SurveyFindings/Articles/Documents/Critical%20Skills%20Needs%20and%20Resources%20for%20the%20Changing%20Workforce%20Survey%20Report.pdf) of the skills most sought after for new entrants to the workforce (i.e. our students!). Almost all of them are skills that 
@@ -88,7 +88,7 @@ makerspaces focus on and address head-on! So, they're not just spaces for engine
 Makerspaces are extremely diverse. One will look very different from the next. Some are commercial and operate on a 
 business-model (i.e. you pay to be a member, and use the space for dedicated projects).  Others are pop-up style, or mobile, 
 and aren't intended to be permanent. There are examples of heavy-duty labs with expensive, high-tech gear. And, of course, 
-there are also low-tech labs that make things out of cheap, easily readible materials like legos, K'nex, batteries and 
+there are also low-tech labs that make things out of cheap, easily readible materials like legos, Knex, batteries and 
 simple motors, cardboard boxes, and recycled materials. 
 
 The [makerspace.com](http://makerspace.com/) website has a fairly current [directory of makerspaces](http://spaces.makerspace.com/makerspace-directory)

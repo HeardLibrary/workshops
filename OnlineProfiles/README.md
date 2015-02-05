@@ -3,16 +3,18 @@
 ##Profiles
 * departmental website
 * Personal website ([my.vanderbilt.edu](https://my.vanderbilt.edu/))
-* LinkdIn
-* Scopus -- Scopus is the largest abstract and citation database of peer-reviewed literature
+* [LinkedIn](https://www.linkedin.com/)
 * [Thomson Reuters ResearcherID](https://www.researcherid.com) - similar to ORCID.
 * [Mendeley](http://www.mendeley.com)
 * [Academia.edu](http://www.academia.edu/)
+*  [Pivot]() - [integrated with ORCID](http://www.proquest.com/blog/2014/ORCID-Integration-with-Pivot-Targets-Best-Funding-Sources.html)
+*  [ResarcherGate](http://www.researchgate.net/)
 
 ##Why do I need an identifier?
 * authority control
 * disambiguation/uniqueness
 * bring together disparate forms of your own name (Edward Warga; Ed Warga, Edward J. Warga)
+* OCLC [VIAF](http://www.oclc.org/viaf.en.html)
 
 ##OrcidID
 * Create a profile
@@ -27,9 +29,11 @@
 * Who can access your work?
 * Ideally your work will have a DOI (digital object identifier). This is a unique identifier which resolves to the version of record on the publisher site. By listing the DOI on your profiles and CV, anyone can follow the link to the work. However only those with subscriptions can read the article there (unless the publication itself is open access). 
 * To make your work more accessible, you could archive a copy in [DiscoverArchive](discoverarchive.vanderbilt.edu) Vanderbilt's institutional repository and include a link to this version in your profile or CV. This is similar to placing a copy of the work on your personal web site, Acedemia.edu, etc, but comes with the benefits of library involvement in managing the item over time. Your work will persist on the web if placed in the repository (contact [Ed Warga](mailto:ed.warga@vanderbilt.edu) for more information).
+*  For datasets, consider a service like [figsare](http://figshare.com/).
 
 ## Altmetrics
 * tracking online mentions of your work. 
+* [Manifesto](http://altmetrics.org/manifesto/)
 * [Altmetric](http://www.altmetric.com/)
   * explore altmetric data
   * incorporate altimetric badges on your website with the API

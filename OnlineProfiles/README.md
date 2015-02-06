@@ -58,3 +58,8 @@
 ## Resources
 * [http://orcid.org/blog/2013/12/05/i-claimed-my-orcid-id-now-what]()
 * [Using Google Scholar Citations to Profile Scholars' Work](http://www.istl.org/14-fall/app.html)
+
+##Best Practices
+*Crowd sourced at workshop.*
+
+*  

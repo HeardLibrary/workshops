@@ -1,4 +1,4 @@
-#Online Scholar Profiles
+#Online Researcher Profiles
 
 ##Slides
 [See workshop slides here](https://speakerdeck.com/edwarga/researcherprofilesworkshop)
@@ -21,7 +21,7 @@
 * disambiguation/uniqueness
 * bring together disparate forms of your own name (Edward Warga; Ed Warga, Edward J. Warga)
 
-##OrcidID
+##ORCID ID
 * Create a profile
 * receive an ID (unique identifier)
 * link works to ID

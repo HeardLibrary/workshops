@@ -1,7 +1,7 @@
 #Online Researcher Profiles
 
 ##Slides
-[See workshop slides here](https://speakerdeck.com/edwarga/researcherprofilesworkshop)
+[See workshop slides here](https://github.com/EdWarga/workshops/blob/master/OnlineProfiles/ProfileWkShp_2015-02-06.pptx)
 
 ## Agenda
 * Introduction
@@ -62,15 +62,14 @@
 ##Best Practices
 *Crowd sourced at workshop.*
 
-*  15 different options - which one to use? Find the best ones and recommend them to the community.
-*  features are different...how do you choose? categorize and recommend.
+*  many different options - which one to use? do some research and find the best ones for you, or the the most used in your community.
 *  keep it up to date... don't procrastinate!
 *  CV vs Profile? generate a CV from a profile?
 *  be selective to what you include on these profiles.
 *  Keep a master list from which you can pull for these profiles.
-*  consistency...
+*  consistency
 *  Advanced Planning
 *  look at examples before diving in.
-*  Copyright... Manuscript vs published pdf.
 *  Use DOIs
-*  upload contnet -- be careful of copyright.
+*  upload content -- be careful of copyright. 
+*  Copyright... Manuscript vs published pdf.

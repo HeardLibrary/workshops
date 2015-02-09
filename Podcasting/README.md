@@ -16,7 +16,7 @@ Friday, January 16, 2015
 What makes a podcast a podcast? What's the difference between podcasts, broadcasts, and webcasts? Let's list some characteristics of podcasts.
 
 ##Audacity
-Let's take a look at Audacity. I have created some example files for us to work with. All the examples feature a dry signal from the mic. No added effects or editing have been applied to the audio.
+Let's take a look at Audacity. I have created some example files for us to work with. (To use the examples, click the name of the file in the GitHub folder 'Examples"; then right click the Raw button and choose 'save link as'. Then you can open the saved file in yor local copy of Audacity.) All the examples feature a dry signal from the mic. No added effects or editing have been applied to the audio.
 
 * Open this file in Audacity: [EdwargaPodcastIntroOutro.mp3](https://drive.google.com/file/d/0B5qrNoxFaFhueTdzQmlmMEItb2s/view?usp=sharing)
 * Save as an Audacity project (.aup). 
@@ -38,7 +38,7 @@ Let's take a look at Audacity. I have created some example files for us to work 
 
 **Example Podcasts**
 
-* [EscapePod](http://escapepod.org/). Free science fiction stories since 2005. Over 700 episodes.
+* [EscapePod](http://escapepod.org/). Free science fiction stories since 2005. Over 400 episodes.
 * Vanderbilt University [Center for Teaching Podcast](http://cft.vanderbilt.edu/blog/podcasts/). A solid example of a locally produced podcast.
 
 **Recording Gear**  

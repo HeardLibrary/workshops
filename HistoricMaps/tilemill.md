@@ -25,9 +25,8 @@
 24. Click "Create Project".
 25. Once in your project, select a basemap.
 26. Click in the map frame and zoom to your historic map.
-27. Click "Project" in the top menu bar.
-28. Copy your MapID.
-29. Open Atom and the map.js file from your github folder.
-30. Paste the MapID into the appropriate area (currently there is a place holder that says vulibrarygis.##### - this is where your MapID goes).
-31. Click Save.
-32. Open idex.html and you should see your historic map!
+27. Tada!
+
+##Are you Feeling Lucky?
+1.  Go to the network dirve we mapped earlier and open the Berlin folder.  In there you will find a script titled ```berlin.geojson```.  Drag and drop the berlin.geojson to your mapbox project and VOILA!  We now have points you can style.  You can also add points yourself, but this is just another fun and easy way to add data to your project.
+2.  By clicking "Project" in your mapbox menu, you will also find options for embedding your map into your own projects or you can share you project by sharing the link provided!

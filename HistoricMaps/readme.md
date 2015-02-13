@@ -17,7 +17,7 @@ _Lindsey Fox_
 #### Outline
 * Part I: ArcGIS
 	* If you would like to download and install ArcGIS on your workstation please request a license [here](https://www.library.vanderbilt.edu/restricted/forms/gislic.php).
-	* Directions for georeferencing can be found [here](https://github.com/HeardLibrary/workshops/blob/master/HistoricMaps/Georeferencing.md).
+	* Directions for georeferencing can be found  [here](https://github.com/HeardLibrary/workshops/blob/master/HistoricMaps/georeferencing.md).
 	
 * Part II: Mapbox
 	* Create a free account with [Mapbox](https://www.mapbox.com/signup/), and continue on with TileMill [instructions](https://github.com/HeardLibrary/workshops/blob/master/HistoricMaps/tilemill.md).

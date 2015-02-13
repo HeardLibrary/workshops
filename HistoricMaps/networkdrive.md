@@ -2,9 +2,9 @@
 
 In Windows Explorer click on Tools\Map Network Drive
 
-1.  Choose a drive letter and enter \\library14\ArcImage in the Folder box
+1.  Choose a drive letter and enter ```\\library14\ArcImage``` in the Folder box
 2.  Click on Connect using a different user name
-3.  In the User name field enter vanderbilt\
+3.  In the User name field enter ```vanderbilt\yourusername```
 4.  In the Password field enter your ePassword
 5.  Click OK then Finish
 

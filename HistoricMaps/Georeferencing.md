@@ -7,3 +7,13 @@
 5.  Click the "add control points" button.  You will begin by adding a known control point to the map that has no spatial reference and continue by mathcing a control point on the basemap that has a spatial reference.
 6.  Once you have added at leat 4 control points, click the "Georeferencing" dropdown and selec "Update Georeferencing"
 7.  If your map has not been referenced in WGS1984 now is the time to reproject your data.  
+
+##Tips and Tricks
+1.	Tiffs, Geotiffs, pdfs, and Jpegs can all be georeferenced (basically any compatible image format that works within ArcGIS can be georeferenced).
+2.	Oblique angles are very hard to georeference. 
+3.	The higher the resolution the map you are georeferencing is, the better.  Finding landmarks on a low-resolution image is very hard to do, especially once you have zoomed in to the appropriate scale.
+4.	City centers and county lines (as well as other named geographic regions) may be difficult to use as a point of reference when geocoding.  This is primarily because boundaries change and people move, thus a region that may have been well defined in the 1800s may not be defined the same way today.
+5.	Choosing features such as major rivers and landforms are a better methodology; however, it is important to keep in mind that these features also change over time.
+6.	Not all maps can be georeferenced.
+7.	Also important to keep in mind, historic maps are hand drawn and may distort certain features of interest.  This means that once georeferenced the images might not necessarily match up, and that is OK!
+8.	 If your paper map references a projection, it is important to set your data frame to the same projection before adding any data.  If this is true for your project, I can help you set this up.

@@ -28,6 +28,7 @@ directs the [Because Play Matters Game Lab](http://becauseplaymatters.com/)
  * How to create a new world
  * Edit custom settings
  * Download and import [custom toolbrushes](http://www.worldpainter.net/trac/wiki/CustomBrushes)
+   * More [custom brushes](http://www.planetminecraft.com/project/six-epic-world-painter-custom-brushes/)
  * Create custom terrain
  * Other downloadable modifications: [Trees](http://www.planetminecraft.com/project/native-trees-of-europe-template-repository-1779952/)
  * Exporting your map

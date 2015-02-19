@@ -1,6 +1,6 @@
 ##Modding Minecraft Maps
 
-![https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Minecraft_logo.svg/640px-Minecraft_logo.svg.png](Minecraft Logo)
+![http://i1279.photobucket.com/albums/y523/textcraft/Feb%202015%20-%203/493c46ec9f55ac99278f402717763559d1609cd2e00b34dafbf0ae02729b5e4c37cafd5a2addb345da39a3ee5e6b4b0d3255bfef95601890afd80709ca64874137734ff0cd79_zpsfe64cae9.png](Minecraft Logo)
 
 ###Gaming in the Academy?
 

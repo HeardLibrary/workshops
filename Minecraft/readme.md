@@ -31,5 +31,6 @@ directs the [Because Play Matters Game Lab](http://becauseplaymatters.com/)
  * Create custom terrain
  * Other downloadable modifications: [Trees](http://www.planetminecraft.com/project/native-trees-of-europe-template-repository-1779952/)
  * Exporting your map
+![Imgur](http://i.imgur.com/vqCq1zR.jpg)
 
 ###Wrapping Up

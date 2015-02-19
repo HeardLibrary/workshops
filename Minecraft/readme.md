@@ -20,10 +20,16 @@ directs the [Because Play Matters Game Lab](http://becauseplaymatters.com/)
 ###Exploring [Minecraft](https://minecraft.net/)
 
   * [Markus Persson](https://en.wikipedia.org/wiki/Markus_Persson), a.k.a. "Notch," is the lead developer of Minecraft. [Mojang](https://mojang.com/), an independent game studio until its [acquisition by Microsoft in 2014](http://news.microsoft.com/2014/09/15/minecraft-to-join-microsoft/) launched the beta version of Minecraft in 2009 and the release version in 2011.
-  * Minecraft is an [Open World(https://en.wikipedia.org/wiki/Open_world) style game, meaning that there aren't well-defined goals or narratives. The Minecraft game environment is frequently compared to an online Lego® set. 
+  * Minecraft is an [Open World](https://en.wikipedia.org/wiki/Open_world) style game, meaning that there aren't well-defined goals or narratives. The Minecraft game environment is frequently compared to an online Lego® set. 
 
 ###Modding Minecraft with [CanaryMod](http://canarymod.net/)
 
 ###Making Minecraft Maps with [WorldPainter](http://www.worldpainter.net/)
+ * How to create a new world
+ * Edit custom settings
+ * Download and import [custom toolbrushes](http://www.worldpainter.net/trac/wiki/CustomBrushes)
+ * Create custom terrain
+ * Other downloadable modifications: [Trees](http://www.planetminecraft.com/project/native-trees-of-europe-template-repository-1779952/)
+ * Exporting your map
 
 ###Wrapping Up

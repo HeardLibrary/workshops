@@ -1,5 +1,7 @@
 ##Modding Minecraft Maps
 
+![https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Minecraft_logo.svg/640px-Minecraft_logo.svg.png](Minecraft Logo)
+
 ###Gaming in the Academy?
 
 *Just some highlights. Feel free to submit pull requests with other key moments*
@@ -16,6 +18,7 @@ directs the [Because Play Matters Game Lab](http://becauseplaymatters.com/)
   * In 2013, Jay Clayton, William R. Kenan Jr. Professor of English at Vanderbilt University, teaches the first MOOC on online gaming: [Online Games: Literature, New Media, and Narrative](https://www.coursera.org/course/onlinegames)
 
 ###Exploring [Minecraft](https://minecraft.net/)
+
 
 ###Modding Minecraft with [CanaryMod](http://canarymod.net/)
 

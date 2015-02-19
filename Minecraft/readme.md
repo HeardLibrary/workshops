@@ -20,9 +20,22 @@ directs the [Because Play Matters Game Lab](http://becauseplaymatters.com/)
 ###Exploring [Minecraft](https://minecraft.net/)
 
   * [Markus Persson](https://en.wikipedia.org/wiki/Markus_Persson), a.k.a. "Notch," is the lead developer of Minecraft. [Mojang](https://mojang.com/), an independent game studio until its [acquisition by Microsoft in 2014](http://news.microsoft.com/2014/09/15/minecraft-to-join-microsoft/) launched the beta version of Minecraft in 2009 and the release version in 2011.
+  
   * Minecraft is an [Open World](https://en.wikipedia.org/wiki/Open_world) style game, meaning that there aren't well-defined goals or narratives. The Minecraft game environment is frequently compared to an online Lego® set. 
 
+  * Minecraft is a client/server application. While it's possible to play the game on your own machine, a lot of the fun comes from interacting with other players on Minecraft servers.
+  
+  * Minecraft offers several [game modes](http://minecraft.gamepedia.com/Gameplay). We'll be working in Creative Mode, which means that won't be inadvertently killed by creepers or skeletons. 
+
 ###Modding Minecraft with [CanaryMod](http://canarymod.net/)
+
+  * Minecraft is written in [Java](https://www.java.com/en/). "Mods" (modifications) allows users to change the underlying game environment.
+  
+  * The legal environment for creating mods is very complex; the [recent controversy](http://www.programmableweb.com/news/minecraft-server-software-and-modding-plug-ins-facing-uncertain-future/analysis/2014/09/24) afflicting the popular [CraftBukkit](https://github.com/Bukkit) mod serve as example of the licensing challenges.
+  
+  * [CanaryMod](http://canarymod.net/) allows you to write Java code to interact with the Minecraft Server. You can also write CanaryMod mods in [JavaScript](https://github.com/walterhiggins/ScriptCraft/). Since CanaryMod runs on the JVM, it's also possible to write mods in [Scala](http://www.scala-lang.org/) and [Clojure](https://github.com/cpmcdaniel/CanaryClojureLibrary).
+  
+  * [Learn to Program Minecraft with Minecraft Plugins](https://pragprog.com/book/ahmine2/learn-to-program-with-minecraft-plugins) by Andy Hunt provides a great introduction to Java and CanaryMod.
 
 ###Making Minecraft Maps with [WorldPainter](http://www.worldpainter.net/)
  * How to create a new world
@@ -33,4 +46,19 @@ directs the [Because Play Matters Game Lab](http://becauseplaymatters.com/)
  * Other downloadable modifications: [Trees](http://www.planetminecraft.com/project/native-trees-of-europe-template-repository-1779952/)
  * Exporting your map
 
+ * Steps to import your new map into CanaryMod.
+   * From WorldPainter toolbar file-->export-->export as new Minecraft map
+   * Open the map in Singleplayer mode in Minecraft
+   * Hit [esc], then "Save and Quit to Title"
+   * Navigate to your Minecraft saved games folder
+     * On a Mac, it's ```/Users/[USER]/Library/Application Support/minecraft/saves```
+   * Copy the folder with the name of your world from the saved games folder in your Minecraft application director to the worlds folder in your CanaryMod server directory.
+   * Restart CanaryMod
+   * Load the new world by issuing the command ```/loadworld [NAME] normal```
+   * Switch to the new world by issuing the command ```/spawn [NAME] [USER]```
+
 ###Wrapping Up
+
+* Our goal for our [Dean's Fellow Project](http://www.library.vanderbilt.edu/about/deansfellowsprojects2015.php) is to create a representation of campus in Minecraft.
+
+

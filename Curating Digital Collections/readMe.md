@@ -24,3 +24,6 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 * An exhibit is a set of webpages that showcase a combination of digital objects in your Omeka archive with narrative text.
 * Exhibits are built using the Omeks dashboard. Click the "exhibits" link in the left nav column to get started.
 * For information on how to manage exhibits in Omeka, see: [http://omeka.org/codex/Plugins/ExhibitBuilder]()
+* Example...
+
+####Simple Pages

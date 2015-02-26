@@ -2,9 +2,9 @@
 
 ## Omeka
 
-Omeka is a software platform for managing digital collections and building Online Exhibits with the items in these collections.
+Omeka is a web publishing platform for sharing digital collections and building online exhibits with the items in these collections.
 
-![](https://vimeo.com/6401343)
+[Video! 'What is Omeka'](https://vimeo.com/6401343)
 
 ###Getting Started
 Here are a few key concepts to get you started with Omeka. Links to documentation provide more detailed support.

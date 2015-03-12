@@ -52,6 +52,29 @@ ggplot(averages, aes(x=height, y=weight)) + geom_point() + stat_smooth(method = 
 
 ###[Lower Secondary School Age Population in the USA](https://www.quandl.com/data/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA-Lower-Secondary-School-age-population-All-genders-United-States-of-America)
 
+This dataset from the United Nations on [Quandl](https://www.quandl.com/) contains the population of all genders of middle school ("lower secondary school") kids in the United States.
+
+```R
+# Load the required libraries
+library(RCurl)
+library(ggplot2)
+
+# Load the dataset directly from Quandl & read CSV into data.frame
+csv <- rget("https://www.quandl.com/api/v1/datasets/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA.csv?auth_token=[TOKEN]")
+kids <- read.csv(text = data, header=T)
+
+# Explore the dataset
+head(kids
+str(kids)
+View(kids)
+
+# Plot the dataset
+ggplot(kids, aes(x=Year, y=Number)) + geom_point()
+
+# Plot the dataset with cleaner x axis and title
+gplot(kids, aes(x=Year, y=Number)) + geom_point() + theme(axis.text.x = element_text(angle = 90) + ggtitle("Lower Secondary School Age Population")
+```
+
 ###[New Private Housing Units Authorized By Building Permit for Tennessee](https://www.quandl.com/data/FRED/TNBPPRIV-New-Private-Housing-Units-Authorized-By-Building-Permit-for-Tennessee)
 
 ###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)

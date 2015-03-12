@@ -61,7 +61,7 @@ library(ggplot2)
 
 # Load the dataset directly from Quandl & read CSV into data.frame
 csv <- rget("https://www.quandl.com/api/v1/datasets/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA.csv?auth_token=[TOKEN]")
-kids <- read.csv(text = data, header=T)
+kids <- read.csv(text = csv, header=T)
 
 # Explore the dataset
 head(kids
@@ -76,6 +76,37 @@ gplot(kids, aes(x=Year, y=Number)) + geom_point() + theme(axis.text.x = element_
 ```
 
 ###[New Private Housing Units Authorized By Building Permit for Tennessee](https://www.quandl.com/data/FRED/TNBPPRIV-New-Private-Housing-Units-Authorized-By-Building-Permit-for-Tennessee)
+
+This dataset from the Federal Reserve on [Quandl](https://www.quandl.com) contains data on new private housing units authorized by building permit for Tennessee.
+
+```R
+#Load required libraries
+library(ggplot2)
+library(RCurl)
+
+# Get dataset directly from Quandl 
+csv <- getURL("https://www.quandl.com/api/v1/datasets/FRED/TNBPPRIVSA.csv?auth_token=[TOKEN]")
+permits <- read.csv(text = csv)
+
+# Explore dataset
+head(permits)
+View(permits)
+str(permits)
+
+# Make a simple scatter plot
+ggplot(permits, aes(x=Date, y=Value)) + geom_point()
+ 
+# Edit the dates in the dataset using the strptime function
+# Thanks to http://stackoverflow.com/questions/20967445/plotting-historical-data-with-missing-values/20969623#20969623
+permits$Year <- strptime(as.character(permits$Date), "%Y-%m-%d")
+permits$Year <- format(permits$Year, "%Y")
+
+# Make another simple scatter plot
+ggplot(permits, aes(x=Year, y=Value)) + geom_point()
+
+# Switch to a boxplot
+ggplot(permits, aes(x=Year, y=Value)) + geom_boxplot() + ggtitle("New Private Housing Units Authorized By Building Permit for Tennessee")
+```
 
 ###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 

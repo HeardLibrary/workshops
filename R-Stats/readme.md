@@ -8,6 +8,12 @@ R is an open source programming language for statistical analysis. In this sessi
 
 * Download the [R Programming Language](http://www.r-project.org/) in the version appropriate to your computer.
 * Download the desktop version of [R Studio](http://www.rstudio.com/products/rstudio/)
+* Install ggplot2 (the code below is for our workshop laptops)
+
+```R
+install.packages("ggplot2")
+library("ggplot2", lib.loc = "~/R/win-library/3.1")
+```
 
 ##Why R?
 

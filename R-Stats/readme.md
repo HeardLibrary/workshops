@@ -69,7 +69,7 @@ library(RCurl)
 library(ggplot2)
 
 # Load the dataset directly from Quandl & read CSV into data.frame
-csv <- rget("https://www.quandl.com/api/v1/datasets/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA.csv?auth_token=[TOKEN]")
+csv <- rget("https://www.quandl.com/api/v1/datasets/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA.csv")
 kids <- read.csv(text = csv, header=T)
 
 # Explore the dataset
@@ -94,7 +94,7 @@ library(ggplot2)
 library(RCurl)
 
 # Get dataset directly from Quandl 
-csv <- getURL("https://www.quandl.com/api/v1/datasets/FRED/TNBPPRIVSA.csv?auth_token=[TOKEN]")
+csv <- getURL("https://www.quandl.com/api/v1/datasets/FRED/TNBPPRIVSA.csv")
 permits <- read.csv(text = csv)
 
 # Explore dataset

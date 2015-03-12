@@ -29,6 +29,27 @@ R is an open source programming language for statistical analysis. In this sessi
 
 ###[Average Heights and Weights for American Women](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html)
 
+This practice dataset of the average heights and weights for American women (ages 30-39) comes built in with the R programming language.
+
+```R
+# Load the ggplot2 graphing library
+library(ggplot2)
+
+# Assign the dataset to a variable
+averages <- women
+
+# explore the dataset
+head(averages)
+str(averages)
+View(averages)
+
+# plot the dataset
+ggplot(averages, aes(x=height, y=weight)) + geom_point()
+
+# plot the dataset with a trend line (linear regression)
+ggplot(averages, aes(x=height, y=weight)) + geom_point() + stat_smooth(method = "lm")
+```
+
 ###[Lower Secondary School Age Population in the USA](https://www.quandl.com/data/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA-Lower-Secondary-School-age-population-All-genders-United-States-of-America)
 
 ###[New Private Housing Units Authorized By Building Permit for Tennessee](https://www.quandl.com/data/FRED/TNBPPRIV-New-Private-Housing-Units-Authorized-By-Building-Permit-for-Tennessee)

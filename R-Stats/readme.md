@@ -1,7 +1,27 @@
-##Introduction to Open Source Statistical Analysis with R
+#Introduction to Open Source Statistical Analysis with R
 
-###Prerequisites
+##Goals
+
+R is an open source programming language for statistical analysis. In this session, we’ll show you how to get started with R. Learn how to load data into R and to plot simple graphs. We’ll also introduce you to RStudio, a free integrated development environment (IDE) for R. You won’t leave as an R expert, but you’ll learn enough to get started on your data analysis journey.
+
+##Prerequisites
 
 * Download the [R Programming Language](http://www.r-project.org/) in the version appropriate to your computer.
-
 * Download the desktop version of [R Studio](http://www.rstudio.com/products/rstudio/)
+
+##Why R?
+
+* R is open source, meaning that you can get started today without any upfront costs
+* R is widely-used both here at Vanderbilt and globally for data analysis
+* R has [a package (usually multiple packages!)](http://cran.r-project.org/) for nearly every kind of analysis
+* Using R fosters [reproducible research](http://christophergandrud.github.io/RepResR-RStudio/index.html)
+
+##R is a *programming* Language
+
+* R is a programming language, not a 'point-and-click' statistical application 
+* RStudio provides a integrated development environment (IDE) for R, making its appearance more user-friendly 
+* People use R in lots of different ways
+  * from evaluating simple statistical functions in a [REPL](http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
+  * to developing interactive web applications with [Shiny](http://shiny.rstudio.com/)
+* The combination of R & RStudio makes it possible to become production by learning a few functions and then develop expertise over time as necessary
+  

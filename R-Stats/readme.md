@@ -1,4 +1,4 @@
-#Introduction to Open Source Statistical Analysis with R
+#Open Source Statistical Analysis with R
 
 ##Goals
 
@@ -25,3 +25,15 @@ R is an open source programming language for statistical analysis. In this sessi
   * to developing interactive web applications with [Shiny](http://shiny.rstudio.com/)
 * The combination of R & RStudio makes it possible to become production by learning a few functions and then develop expertise over time as necessary
   
+##R Exercises
+
+###[Average Heights and Weights for American Women](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html)
+
+###[Lower Secondary School Age Population in the USA](https://www.quandl.com/data/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA-Lower-Secondary-School-age-population-All-genders-United-States-of-America)
+
+###[New Private Housing Units Authorized By Building Permit for Tennessee](https://www.quandl.com/data/FRED/TNBPPRIV-New-Private-Housing-Units-Authorized-By-Building-Permit-for-Tennessee)
+
+###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
+
+###Next Steps with R
+ 

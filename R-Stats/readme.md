@@ -110,5 +110,64 @@ ggplot(permits, aes(x=Year, y=Value)) + geom_boxplot() + ggtitle("New Private Ho
 
 ###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 
+This dataset from the Association for Research Libraries (ARL) contains key information about academic library budgets and staffing. An Excel (XLS) file is available [here}(http://www.arlstatistics.org/documents/ARLStats/index13.xls), but we will be working with a converted CSV file.
+
+```R
+# Load required libraries
+library(ggplot2)
+library(scales)
+
+# Load dataset from CSV
+arl <- read.csv(file.choose(), header=T, skip=1)
+
+# Explore dataset
+head(arl)
+str(arl)
+View(arl)
+
+# Remove columns we do not want for our analysis
+arl <- arl[,-c(1,2,3,4,5)]
+View(arl)
+
+# Remove row of extraneous data
+arl <- arl[-116,]
+View(arl)
+
+# Changes names of columns for easier access 
+names(arl)[c(1:5)] <- c("Institution", "Total", "Salaries", "Material", "Staff")
+View(arl)
+
+# Create a simple scatter plot
+ggplot(arl, aes(x=Staff, y=Salaries)) + geom_point()
+
+# Convert wages from factor (discrete variable) to numeric (continuous variable)
+wages <- arl$Salaries
+wages <- unlist(wages)
+wages <- gsub(",","",wages)
+wages <- as.numeric(wages)
+arl$Wages <- wages
+
+# Create a simple scatter plot (with trend line)
+ggplot(arl, aes(x=Staff, y=Wages)) + geom_point()
+ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm")
+
+# Make the Y axes less cluttered
+ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma)
+
+# Add title
+ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + main("ARL Salaries")
+
+# Highlight Vanderbilt on the plot
+# Thanks to http://stackoverflow.com/questions/14351608/color-one-point-and-add-an-annotation-in-ggplot2/14351684#14351684
+
+# First, create a subset of the data with only vanderbilt
+Vandy <- subset(arl, Institution == "VANDERBILT")
+View(Vandy)
+
+# Then, create a scatter plot with a highlighted point for Vanderbilt
+ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Salaries") + xlab("All Staff") + ylab("Professional Salaries") + geom_point(data=Vandy, colour="red")
+
+```
+
 ###Next Steps with R
  

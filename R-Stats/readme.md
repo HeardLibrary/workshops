@@ -25,7 +25,7 @@ library("RCurl", lib.loc = "~/R/win-library/3.1")
 * R has [a package (usually multiple packages!)](http://cran.r-project.org/) for nearly every kind of analysis
 * Using R fosters [reproducible research](http://christophergandrud.github.io/RepResR-RStudio/index.html)
 
-##R is a *programming* Language
+##R is a *Programming* Language
 
 * R is a programming language, not a 'point-and-click' statistical application 
 * RStudio provides a integrated development environment (IDE) for R, making its appearance more user-friendly 
@@ -119,7 +119,7 @@ ggplot(permits, aes(x=Year, y=Value)) + geom_boxplot() + ggtitle("New Private Ho
 
 ###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 
-This dataset from the Association for Research Libraries (ARL) contains key information about academic library budgets and staffing. An Excel (XLS) file is available [here}(http://www.arlstatistics.org/documents/ARLStats/index13.xls), but we will be working with a converted CSV file.
+This dataset from the Association for Research Libraries (ARL) contains key information about academic library budgets and staffing. An Excel (XLS) file is available [here](http://www.arlstatistics.org/documents/ARLStats/index13.xls), but we will be working with a converted CSV file on your desktop.
 
 ```R
 # Load required libraries

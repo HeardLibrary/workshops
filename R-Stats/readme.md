@@ -12,10 +12,10 @@ R is an open source programming language for statistical analysis. In this sessi
 
 ```R
 install.packages("ggplot2")
-library("ggplot2", lib.loc = "~/R/win-library/3.1")
+library(ggplot2)
 
 install.packages("RCurl")
-library("RCurl", lib.loc = "~/R/win-library/3.1")
+library(RCurl)
 ```
 
 ##Why R?
@@ -69,7 +69,7 @@ library(RCurl)
 library(ggplot2)
 
 # Load the dataset directly from Quandl & read CSV into data.frame
-csv <- rget("https://www.quandl.com/api/v1/datasets/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA.csv")
+csv <- getURL("https://www.quandl.com/api/v1/datasets/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA.csv")
 kids <- read.csv(text = csv, header=T)
 
 # Explore the dataset
@@ -81,7 +81,7 @@ View(kids)
 ggplot(kids, aes(x=Year, y=Number)) + geom_point()
 
 # Plot the dataset with cleaner x axis and title
-gplot(kids, aes(x=Year, y=Number)) + geom_point() + theme(axis.text.x = element_text(angle = 90) + ggtitle("Lower Secondary School Age Population")
+ggplot(kids, aes(x=Year, y=Number)) + geom_point() + theme(axis.text.x = element_text(angle = 90)) + ggtitle("Lower Secondary School Age Population")
 ```
 
 ###[New Private Housing Units Authorized By Building Permit for Tennessee](https://www.quandl.com/data/FRED/TNBPPRIV-New-Private-Housing-Units-Authorized-By-Building-Permit-for-Tennessee)

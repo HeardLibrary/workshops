@@ -44,8 +44,10 @@
 	- Click on Merge selected and close
 	- Now we can browse through this list and see if there are any other duplications
 - **Note: Undo/redo will roll back the data to a previous state** (this is true for any action you take in OpenRefine
+
 #####A second way to deal with these inconsistencies
 - Hover over entries in the Facet/ Filter pane and select "edit" to change the way those entries are listed in the data
+
 ####Now we can use the "Sort by: count" feature to look at the most frequent contribution recipients
 
 ####Dollar amounts
@@ -74,6 +76,7 @@ substring(value,1)
 - Notice the image that appears in the Facet pane, showing the range of numbers of contributions 
 - You can move this slider to view only part of the data- let's see who contributed the most often during this time period
 - Click "Remove all" in the Facet pane to see our un-filtered data again
+
 ####Reformatting contributor addresses
 - Let's say you want to see what states Tennessee contributors come from
 - First, let's divide the addresses into their components

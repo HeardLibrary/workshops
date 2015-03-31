@@ -6,7 +6,7 @@ Friday, April 3, 2015
 
 _Ramona Romero, Suellen Stringer-Hye, Jodie Gambill_
 
-GitHub pates are hosted for free through Github so anyone who has a GitHub account can creat a personal website or website for a GitHub project. We'll take a look at using GitHub pages to create a simple website and then using Jekyll, a GitHub plugin, we'll look at how to create templates that make managing your website much easier. 
+GitHub Pages are hosted for free through Github, so anyone who has a GitHub account can create a personal website or a website for a GitHub project. We'll take a look at using GitHub Pages to create a simple website. Then, using Jekyll, a GitHub plugin, we'll look at how to create templates that make managing your website much easier. 
 
 
 #### Outline
@@ -14,5 +14,5 @@ GitHub pates are hosted for free through Github so anyone who has a GitHub accou
 
 * Part II: Hands on
 
-* Part III: Using Jeckyll to develop fancier websites 
+* Part III: Using Jekyll to develop fancier websites 
 	

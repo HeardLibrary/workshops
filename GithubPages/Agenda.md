@@ -2,8 +2,8 @@
 
 Friday, April 3
 
-Jodie Gambill
-Ramona Romero
+Jodie Gambill,
+Ramona Romero,
 Suellen Stringer-Hye
 
 ##Workshop Description

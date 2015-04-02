@@ -26,6 +26,7 @@ Did you know it’s possible to host a website freely using your GitHub reposito
 * Markdown: [http://daringfireball.net/projects/markdown/](http://daringfireball.net/projects/markdown/)
 
 #### Tutorials
+* [Using Jekyll with Pages (from Github Help)](https://help.github.com/articles/using-jekyll-with-pages/)
 * [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
 * [Get Started With GitHub Pages (Plus Bonus Jekyll)](http://24ways.org/2013/get-started-with-github-pages/)
 

@@ -10,13 +10,13 @@
 ###What is Omeka?
 Omeka is a web publishing platform for sharing digital collections and building online exhibits with the items in these collections.
 
-###Examples
+####Examples
 
 * [Photo Archive](https://www.mc.vanderbilt.edu/throughtime/)
 * [Research Collection](http://resources-bgc.bard.edu/19thcNYC/)
 * [Using Omeka in the Classroom](https://www.library.unt.edu/news/public-services/omeka-exhibition-assignments-aeah-5813-visual-culture-refugees-and-migrants)
 
-[Video! 'What is Omeka'](https://vimeo.com/6401343)
+[Video: 'What is Omeka'](https://vimeo.com/6401343)
 
 ##Getting Started
 Here are a few key concepts to get you started with Omeka. Links to documentation provide more detailed support.

@@ -38,18 +38,19 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 * Exhibits are built using the Omeka dashboard. Click the "exhibits" link in the left nav column to get started.
 * For information on how to manage exhibits in Omeka, see: [http://omeka.org/codex/Plugins/ExhibitBuilder]()
 
+###Metadata
+* Metadata is information about an object (data about data). It allows users to discover, identify, and locate items. It also enables systems to sort and filter items to present during search and browse operations.
+* In Omeka you can create metadata for collections and objects. 
+* Omeka uses a metadata standard called Dublin Core. It is a set of elements used to describe an item. Some elements include Creator, Date, Title, Publisher, Description, and Rights.
+* Other metadata standards can be used in Omeka with some configuration and customization.
+
 ####Simple Pages
 * Another Omeka plugin that allows site managers to create simple webpages on there site.
 * Use cases include about pages, contact pages, and the like.
 
 ###Customization
 * With any system like this, out of the box will only get you so far. Customization will be necessary to take your project to the next level. Web development skills should get you there (PHP, CSS).
-
-###Metadata
-* Metadata is information about an object (data about data). It allows users to discover, identify, and locate items. It also enables systems to sort and filter items to present during search and browse operations.
-* In Omeka you can create metadata for collections and objects. 
-* Omeka uses a metadata standard called Dublin Core. It is a set of elements used to describe an item. Some elements include Creator, Date, Title, Publisher, Description, and Rights.
-* Other metadata standards can be used in Omeka with some configuration and customization.
+* You can switch themes for a different look. [http://omeka.org/codex/Themes]() 
 
 ###Support
 * You will find documentation and forums on the Omeka website: [Omeka.org](Omeka.org)
@@ -141,9 +142,19 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 	* Check appropriate settings and select the next button
 	* Set the mapping settings and click the Import CSV File button
 	* Use the Status tab to check status of import and undo import at any time.
+	* ![#20](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2020.png)
+	* ![#21](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2021.png)
 
 ###6. Build an Exhibit
 * Click the Exhibits tab on your dashboard and get started building an exhibit.
 * See this document for details: [http://omeka.org/codex/Plugins/ExhibitBuilder]().
+* ![#19](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2019.png)
+* ![#23](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2023.png)
+* ![#24](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2024.png)
+* ![#25](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2025.png)
+* ![#26](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2026.png)
+* ![#27](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2027.png)
 
-
+###7. About Page
+* The Simple Pages plugin automatically created an About page on your site. You can edit this page and create more pages from the Simple Pages tab on your dashboard.
+*  ![#28](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2028.png)

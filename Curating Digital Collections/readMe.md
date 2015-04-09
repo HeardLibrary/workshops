@@ -36,6 +36,14 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 * Another Omeka plugin that allows site managers to create simple webpages on there site.
 * Use cases include about pages, contact pages, and the like.
 
+###Metadata
+* Metadata is information about an object (data about data). It allows users to discover, identify, and locate items. It also enables systems to sort and filter items to present during search and browse operations.
+* In Omeka you can create metadata for collections and objects. 
+* Omeka uses a metadata standard called Dublin Core. It is a set of elements used to describe an item. Some elements include Creator, Date, Title, Publisher, Description, and Rights.
+* Other metadata standards can be used in Omeka with some configuration and customization.
+
+
+
 ---------------
 
 ##Start a Digital Collection and Exhibit with Omeka!
@@ -74,13 +82,25 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 
 ###3. Create a Collection and Upload an Item
 * Create a collection in the **Collections**  tab on the dashboard.
+![#10](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2010.png)
+
+![#11](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2011.png)
+
+![#12](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2012.png)
+
 * Upload an Item on the **Items** tab
+![#13](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2013.png)
+![#14](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2014.png)
+![#15](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2015.png)
+![#16](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2016.png)
+![#17](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2017.png)
 
 ###4. Install Plugins
 * Navigate to the plugins area of your Dashboard. Click the green **Install** button next to the following plugins.
 	* Exhibit builder
 	* CSV Import
 	* Simple Pages
+![#18](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2018.png)
 
 ###5. Upload a Batch of Items
 

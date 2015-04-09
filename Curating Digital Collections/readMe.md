@@ -38,32 +38,51 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 ---------------
 
 ##Start a Digital Collection and Exhibit with Omeka!
-###Set Up a Free Omega.net Account
+###1. Set Up a Free Omega.net Account
 * open omeka.net
+* choose **Plans** link near the top right corner of the page
+![#1](https://raw.githubusercontent.com/EdWarga/workshops/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.12.33%20PM.png)
 
-![omeka.net](https://raw.githubusercontent.com/EdWarga/workshops/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.12.33%20PM.png)
-
-* choose Plans link
 * choose Basic Free Plan
-* Create Account
-* LogIn
+![#2](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.13.52%20PM.png)
 
-###Set Up a Site
-* site metadata
-* view site = public facing web view.
+* Create Account
+![#3](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.14.09%20PM.png)
+* LogIn
+![#4](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.18.49%20PM.png)
+
+###2. Set Up a Site
+* Click the Add a Site button
+![#5](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.19.02%20PM.png)
+* Add site metadata
+![#6](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.27.18%20PM.png)
+* View Site / Manage Site
+![#](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.27.31%20PM.png)
+* View Site = public facing web view.
     * explore the collections and exhibits
     * public view
-* manage site = admin dashboard.
+	![#](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.27.52%20PM.png)
+* Manage Site = admin dashboard.
     * manage collections
+    * manage items
     * build and edit exhibits
+    * manage users
+    * manage plugins
+    * manage settings
+    ![#](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.27.59%20PM.png)
 
-### Create a Collection and Upload Items
+###3. Create a Collection and Upload an Item
 * Create a collection in the **Collections**  tab on the dashboard.
 * Upload an Item on the **Items** tab
-* Install Plugins
+
+###4. Install Plugins
+* Navigate to the plugins area of your Dashboard. Click the green **Install** button next to the following plugins.
 	* Exhibit builder
 	* CSV Import
 	* Simple Pages
-* Upload a batch of items
 
+###5. Upload a Batch of Items
+
+
+###6. Build an Exhibit
 

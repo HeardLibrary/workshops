@@ -26,18 +26,23 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 * For information on how to manage collections in Omeka, see: [http://omeka.org/codex/Managing_Collections]()
 
 #### Building Exhibits
+* The Exhibit Builder plug allows you to build online exhibits using items in your collections.
 * An exhibit is a set of webpages that showcase a combination of digital objects in your Omeka archive with narrative text.
-* Exhibits are built using the Omeks dashboard. Click the "exhibits" link in the left nav column to get started.
+* Exhibits are built using the Omeka dashboard. Click the "exhibits" link in the left nav column to get started.
 * For information on how to manage exhibits in Omeka, see: [http://omeka.org/codex/Plugins/ExhibitBuilder]()
-* Example...
 
 ####Simple Pages
+* Another Omeka plugin that allows site managers to create simple webpages on there site.
+* Use cases include about pages, contact pages, and the like.
 
 ---------------
 
 ##Start a Digital Collection and Exhibit with Omeka!
 ###Set Up a Free Omega.net Account
 * open omeka.net
+
+![omeka.net](https://raw.githubusercontent.com/EdWarga/workshops/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.12.33%20PM.png)
+
 * choose Plans link
 * choose Basic Free Plan
 * Create Account

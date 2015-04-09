@@ -10,6 +10,12 @@
 ###What is Omeka?
 Omeka is a web publishing platform for sharing digital collections and building online exhibits with the items in these collections.
 
+###Examples
+
+* [Photo Archive](https://www.mc.vanderbilt.edu/throughtime/)
+* [Research Collection](http://resources-bgc.bard.edu/19thcNYC/)
+* [Using Omeka in the Classroom](https://www.library.unt.edu/news/public-services/omeka-exhibition-assignments-aeah-5813-visual-culture-refugees-and-migrants)
+
 [Video! 'What is Omeka'](https://vimeo.com/6401343)
 
 ##Getting Started
@@ -36,26 +42,32 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 * Another Omeka plugin that allows site managers to create simple webpages on there site.
 * Use cases include about pages, contact pages, and the like.
 
+###Customization
+* With any system like this, out of the box will only get you so far. Customization will be necessary to take your project to the next level. Web development skills should get you there (PHP, CSS).
+
 ###Metadata
 * Metadata is information about an object (data about data). It allows users to discover, identify, and locate items. It also enables systems to sort and filter items to present during search and browse operations.
 * In Omeka you can create metadata for collections and objects. 
 * Omeka uses a metadata standard called Dublin Core. It is a set of elements used to describe an item. Some elements include Creator, Date, Title, Publisher, Description, and Rights.
 * Other metadata standards can be used in Omeka with some configuration and customization.
 
+###Support
+* You will find documentation and forums on the Omeka website: [Omeka.org](Omeka.org)
 
 
 ---------------
 
 ##Start a Digital Collection and Exhibit with Omeka!
 ###1. Set Up a Free Omega.net Account
-* open omeka.net
-* choose **Plans** link near the top right corner of the page
+* Omeka.net allows you to set up a hosted Omeka site. Get started in minutes with a free plan...
+* Open omeka.net
+* Choose **Plans** link near the top right corner of the page
 ![#1](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%201.png)
 
-* choose Basic Free Plan
+* Choose Basic Free Plan
 ![#2](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202.png)
 
-* Create Account
+* Create an account
 ![#3](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%203.png)
 * LogIn
 ![#4](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%204.png)
@@ -89,6 +101,23 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 ![#12](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2012.png)
 
 * Upload an Item on the **Items** tab
+	* [use the sample item here](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/1935.13.23_1a.jpg)
+	* use the following metadata
+		* **Title** : Bullnecks
+		* **Subject** : Animal - bird - duck
+		* **Subject** : graphic arts - print
+		* **Description** : Print of a group of ducks coming in for a landing
+		* **Description** : drypoint
+		* **Creator** : Bishop, Richard E.
+		* **Source** : http://americanart.si.edu/collections/search/artwork/?id=2121
+		* **Publisher** : Smithsonian American Art Museum
+		* **Date** : 1975
+		* **Rights** : http://americanart.si.edu/collections/rights/index.cfm
+		 	
+		* **Item Type Metadata** : sight 11 x 15 1/2 in. (27.9 x 39.4 cm)
+		
+		* **Tag** : just birds
+  
 ![#13](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2013.png)
 ![#14](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2014.png)
 ![#15](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2015.png)
@@ -103,7 +132,18 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 ![#18](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2018.png)
 
 ###5. Upload a Batch of Items
-
+* With the CSV Import plugin you just installed, you can upload a batch of items at once. Very handy!
+* Item files must be on the public Web. Today we are using image files posted on the Smithsonian American Art Museum's website. Alternately you could use a service like Dropbox or Box to meet this requirement, or a Web enabled directory.
+* Metadata is stored with in a CSV file along with the path to the item files.
+* From the Dashboard interface:
+	* choose the CSV Import tab, 
+	* Choose your CSV file [or this example file]()(save the file to your desktop and then use the Choose File button to find it.)
+	* Check appropriate settings and select the next button
+	* Set the mapping settings and click the Import CSV File button
+	* Use the Status tab to check status of import and undo import at any time.
 
 ###6. Build an Exhibit
+* Click the Exhibits tab on your dashboard and get started building an exhibit.
+* See this document for details: [http://omeka.org/codex/Plugins/ExhibitBuilder]().
+
 

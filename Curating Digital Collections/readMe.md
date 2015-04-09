@@ -5,8 +5,9 @@
 * collection: an accumulation of objects gathered for study, comparison, or exhibition ([Merriam-Webster](http://www.merriam-webster.com/dictionary/collection))
 * digital: of, relating to, or being data in the form of especially binary digits ([Merriam-Webster](http://www.merriam-webster.com/dictionary/digital))
 * Digital Collection: a collection of objects (digitized or born digital) stored in digital formats and accessible over a network.
+* Examples: Library, Museum, Archive, Research
 
-###Omeka
+###What is Omeka?
 Omeka is a web publishing platform for sharing digital collections and building online exhibits with the items in these collections.
 
 [Video! 'What is Omeka'](https://vimeo.com/6401343)
@@ -41,27 +42,27 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 ###1. Set Up a Free Omega.net Account
 * open omeka.net
 * choose **Plans** link near the top right corner of the page
-![#1](https://raw.githubusercontent.com/EdWarga/workshops/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.12.33%20PM.png)
+![#1](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%201.png)
 
 * choose Basic Free Plan
-![#2](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.13.52%20PM.png)
+![#2](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202.png)
 
 * Create Account
-![#3](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.14.09%20PM.png)
+![#3](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%203.png)
 * LogIn
-![#4](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.18.49%20PM.png)
+![#4](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%204.png)
 
 ###2. Set Up a Site
 * Click the Add a Site button
-![#5](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.19.02%20PM.png)
+![#5](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%205.png)
 * Add site metadata
-![#6](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.27.18%20PM.png)
+![#6](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%206.png)
 * View Site / Manage Site
-![#](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.27.31%20PM.png)
+![#7](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%207.png)
 * View Site = public facing web view.
     * explore the collections and exhibits
     * public view
-	![#](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.27.52%20PM.png)
+	![#8](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%208.png)
 * Manage Site = admin dashboard.
     * manage collections
     * manage items
@@ -69,7 +70,7 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
     * manage users
     * manage plugins
     * manage settings
-    ![#](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%202015-04-07%20at%209.27.59%20PM.png)
+    ![#9](https://github.com/EdWarga/workshops/raw/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%209.png)
 
 ###3. Create a Collection and Upload an Item
 * Create a collection in the **Collections**  tab on the dashboard.

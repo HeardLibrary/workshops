@@ -1,12 +1,17 @@
 # Curating Digital Collections #
 
-## Omeka
+##Introduction
+###What is a Digital Collection?
+* collection: an accumulation of objects gathered for study, comparison, or exhibition ([Merriam-Webster](http://www.merriam-webster.com/dictionary/collection))
+* digital: of, relating to, or being data in the form of especially binary digits ([Merriam-Webster](http://www.merriam-webster.com/dictionary/digital))
+* Digital Collection: a collection of objects (digitized or born digital) stored in digital formats and accessible over a network.
 
+###Omeka
 Omeka is a web publishing platform for sharing digital collections and building online exhibits with the items in these collections.
 
 [Video! 'What is Omeka'](https://vimeo.com/6401343)
 
-###Getting Started
+##Getting Started
 Here are a few key concepts to get you started with Omeka. Links to documentation provide more detailed support.
 #### Managing Items
 * An item is a digital file(s) and its metadata record.
@@ -27,3 +32,33 @@ Here are a few key concepts to get you started with Omeka. Links to documentatio
 * Example...
 
 ####Simple Pages
+
+---------------
+
+##Start a Digital Collection and Exhibit with Omeka!
+###Set Up a Free Omega.net Account
+* open omeka.net
+* choose Plans link
+* choose Basic Free Plan
+* Create Account
+* LogIn
+
+###Set Up a Site
+* site metadata
+* view site = public facing web view.
+    * explore the collections and exhibits
+    * public view
+* manage site = admin dashboard.
+    * manage collections
+    * build and edit exhibits
+
+### Create a Collection and Upload Items
+* Create a collection in the **Collections**  tab on the dashboard.
+* Upload an Item on the **Items** tab
+* Install Plugins
+	* Exhibit builder
+	* CSV Import
+	* Simple Pages
+* Upload a batch of items
+
+

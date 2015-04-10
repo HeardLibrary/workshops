@@ -106,8 +106,9 @@ Here are a few instructions to start a free site, create a collection, upload it
 ![#12](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2012.png)
 
 * Upload an Item on the **Items** tab
-	* [use the sample item here](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/1935.13.23_1a.jpg)
-	* use the following metadata
+	* [Save the sample item to the Desktop](https://drive.google.com/file/d/0B5qrNoxFaFhuQm9Od2R4OHFtM3c/view?usp=sharing)
+	* Navigate to the Items tab
+	* Input the following metadata
 		* **Title** : Bullnecks
 		* **Subject** : Animal - bird - duck
 		* **Subject** : graphic arts - print
@@ -122,6 +123,8 @@ Here are a few instructions to start a free site, create a collection, upload it
 		* **Item Type Metadata** : 11 x 15 1/2 in. (27.9 x 39.4 cm)
 		
 		* **Tag** : just birds
+	
+	*Upload the file saved on the Desktop -- 1935.13.23_1a.jpg
   
 ![#13](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2013.png)
 ![#14](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2014.png)

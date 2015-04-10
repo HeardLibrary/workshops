@@ -23,20 +23,20 @@ In this workshop we will learn how to create a free Omeka site, start a digital 
 #### Managing Items
 * An item is a digital file(s) and its metadata record.
 * An item can be included in one collection, or no collection.
-* For information on how to manage items in Omeka, see: [http://omeka.org/codex/Managing_Items]()
+* For information on how to manage items in Omeka, see: [http://omeka.org/codex/Managing_Items](http://omeka.org/codex/Managing_Items)
 * [Use this guide when inputting metadata](https://docs.google.com/spreadsheets/d/1W3QFz1HYHDCv5ieEVkrqPfhAvyHdFvzgjmyfiOar2yE/edit#gid=0)
-* You may want to tag items: [http://omeka.org/codex/Managing_Tags]()
+* You may want to tag items: [http://omeka.org/codex/Managing_Tags](http://omeka.org/codex/Managing_Tags)
  
 #### Managing Collections
 * A collection is a group of items. Items may only belong to one collection a time.
 * A collection has a metadata record describing it.
-* For information on how to manage collections in Omeka, see: [http://omeka.org/codex/Managing_Collections]()
+* For information on how to manage collections in Omeka, see: [http://omeka.org/codex/Managing_Collections](http://omeka.org/codex/Managing_Collections)
 
 #### Building Exhibits
 * The Exhibit Builder plug allows you to build online exhibits using items in your collections.
 * An exhibit is a set of webpages that showcase a combination of digital objects in your Omeka archive with narrative text.
 * Exhibits are built using the Omeka dashboard. Click the "exhibits" link in the left nav column to get started.
-* For information on how to manage exhibits in Omeka, see: [http://omeka.org/codex/Plugins/ExhibitBuilder]()
+* For information on how to manage exhibits in Omeka, see: [http://omeka.org/codex/Plugins/ExhibitBuilder](http://omeka.org/codex/Plugins/ExhibitBuilder)
 
 #### Metadata
 * Metadata is information about an object (data about data). It allows users to discover, identify, and locate items. It also enables systems to sort and filter items to present during search and browse operations.
@@ -51,7 +51,7 @@ In this workshop we will learn how to create a free Omeka site, start a digital 
 
 ####Customization
 * With any system like this, out of the box will only get you so far. Customization will be necessary to take your project to the next level. Web development skills should get you there (PHP, CSS).
-* You can switch themes for a different look. [http://omeka.org/codex/Themes]() 
+* You can switch themes for a different look. [http://omeka.org/codex/Themes](http://omeka.org/codex/Themes) 
 
 ####Support
 * You will find documentation and forums on the Omeka website: [Omeka.org](Omeka.org)
@@ -62,7 +62,7 @@ In this workshop we will learn how to create a free Omeka site, start a digital 
 
 ##Start a Digital Collection and Exhibit with Omeka!
 
-Here are a few instructions to start a free site, create a collection, upload items, and start an exhibit. A practice set of digital objects is available to work with. There is an example site using the same content available at [edwarga.omeka.net]().
+Here are a few instructions to start a free site, create a collection, upload items, and start an exhibit. A practice set of digital objects is available to work with. There is an example site using the same content available at [edwarga.omeka.net](edwarga.omeka.net).
 ####1. Set Up a Free Omeka.net Account
 * Omeka.net allows you to set up a hosted Omeka site. Get started in minutes with a free plan...
 * Open omeka.net
@@ -155,7 +155,7 @@ Here are a few instructions to start a free site, create a collection, upload it
 
 ####6. Build an Exhibit
 * Click the Exhibits tab on your dashboard and get started building an exhibit.
-* See this document for details: [http://omeka.org/codex/Plugins/ExhibitBuilder]().
+* See this document for details: [http://omeka.org/codex/Plugins/ExhibitBuilder](http://omeka.org/codex/Plugins/ExhibitBuilder).
  ![#19](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2019.png)
  ![#23](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2023.png)
  ![#24](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/screenShots/Screen%20Shot%2024.png)

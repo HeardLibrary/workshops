@@ -1,1 +1,3 @@
-:whale2:
+:whale2: 
+
+(emoji whale)

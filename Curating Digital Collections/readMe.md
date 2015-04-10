@@ -8,7 +8,7 @@
 * Examples: Library, Museum, Archive, Research
 
 ###What is Omeka?
-Omeka is a web publishing platform for sharing digital collections and building online exhibits with the items in these collections.
+Omeka is a web publishing platform for sharing digital collections and building online exhibits with the items in these collections. Omega might be a good solution for a digital archive, research collection, student research and course work, prototyping larger digital projects. It is not a blogging platform or preservation system. It is a quick way to put up a website to showcase a digital collection.
 
 ####Examples
 
@@ -139,10 +139,10 @@ Here are a few instructions to start a free site, create a collection, upload it
 ####5. Upload a Batch of Items
 * With the CSV Import plugin you just installed, you can upload a batch of items at once. Very handy!
 * Item files must be on the public Web. Today we are using image files posted on the Smithsonian American Art Museum's website. Alternately you could use a service like Dropbox or Box to meet this requirement, or a Web enabled directory.
-* Metadata is stored with in a CSV file along with the path to the item files.
+* I transferred the metadata for these items to a [CSV file](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/OmekaWkshpCollection.csv) along with the path to the item files.
 * From the Dashboard interface:
 	* choose the CSV Import tab, 
-	* Choose your CSV file [or this example file]()(save the file to your desktop and then use the Choose File button to find it.)
+	* Choose your CSV file [or this example file](https://drive.google.com/file/d/0B5qrNoxFaFhuYi1QWV9mZUtYMmc/view?usp=sharing)(save the file to your desktop and then use the Choose File button to find it.)
 	* Check appropriate settings and select the next button
 	* Set the mapping settings and click the Import CSV File button
 	* Use the Status tab to check status of import and undo import at any time.

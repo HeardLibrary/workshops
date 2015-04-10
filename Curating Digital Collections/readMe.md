@@ -43,6 +43,7 @@ In this workshop we will learn how to create a free Omeka site, start a digital 
 * In Omeka you can create metadata for collections and objects. 
 * Omeka uses a metadata standard called Dublin Core. It is a set of elements used to describe an item. Some elements include Creator, Date, Title, Publisher, Description, and Rights.
 * Other metadata standards can be used in Omeka with some configuration and customization.
+* Along with content files, metadata is a standard part of a digital object.
 
 ####Simple Pages
 * Another Omeka plugin that allows site managers to create simple webpages on there site.
@@ -56,13 +57,12 @@ In this workshop we will learn how to create a free Omeka site, start a digital 
 * You will find documentation and forums on the Omeka website: [Omeka.org](Omeka.org)
 
 
-
-
 --------------
 
 
-
 ##Start a Digital Collection and Exhibit with Omeka!
+
+Here are a few instructions to start a free site, create a collection, upload items, and start an exhibit. A practice set of digital objects is available to work with. There is an example site using the same content available at [edwarga.omeka.net]().
 ####1. Set Up a Free Omeka.net Account
 * Omeka.net allows you to set up a hosted Omeka site. Get started in minutes with a free plan...
 * Open omeka.net
@@ -119,7 +119,7 @@ In this workshop we will learn how to create a free Omeka site, start a digital 
 		* **Date** : 1975
 		* **Rights** : http://americanart.si.edu/collections/rights/index.cfm
 		 	
-		* **Item Type Metadata** : sight 11 x 15 1/2 in. (27.9 x 39.4 cm)
+		* **Item Type Metadata** : 11 x 15 1/2 in. (27.9 x 39.4 cm)
 		
 		* **Tag** : just birds
   

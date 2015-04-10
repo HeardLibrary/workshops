@@ -139,10 +139,11 @@ Here are a few instructions to start a free site, create a collection, upload it
 ####5. Upload a Batch of Items
 * With the CSV Import plugin you just installed, you can upload a batch of items at once. Very handy!
 * Item files must be on the public Web. Today we are using image files posted on the Smithsonian American Art Museum's website. Alternately you could use a service like Dropbox or Box to meet this requirement, or a Web enabled directory.
-* I transferred the metadata for these items to a [CSV file](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/OmekaWkshpCollection.csv) along with the path to the item files.
+* I transferred the metadata for these items to a [CSV file](https://github.com/EdWarga/workshops/blob/master/Curating%20Digital%20Collections/OmekaWkshpCollection.csv) along with the path to the item files. 
+* [You can download the CSV file here](https://drive.google.com/file/d/0B5qrNoxFaFhuYi1QWV9mZUtYMmc/view?usp=sharing). Save to the desktop.
 * From the Dashboard interface:
 	* choose the CSV Import tab, 
-	* Choose your CSV file [or this example file](https://drive.google.com/file/d/0B5qrNoxFaFhuYi1QWV9mZUtYMmc/view?usp=sharing)(save the file to your desktop and then use the Choose File button to find it.)
+	* Choose the CSV file you just saved to the Desktop
 	* Check appropriate settings and select the next button
 	* Set the mapping settings and click the Import CSV File button
 	* Use the Status tab to check status of import and undo import at any time.

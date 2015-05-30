@@ -15,6 +15,12 @@ Friday, January 16, 2015
 ##What is a Podcast?
 What makes a podcast a podcast? What's the difference between podcasts, broadcasts, and webcasts? Let's list some characteristics of podcasts.
 
+##Podcasting at Vanderbilt
+
+* [Center for Teaching Podcasting webpage](http://cft.vanderbilt.edu/guides-sub-pages/podcasting/)
+* [Center for Teaching podcasts](http://cft.vanderbilt.edu/blog/podcasts/)
+* [DiscoverArchive Podcast collection](http://discoverarchive.vanderbilt.edu/handle/1803/143)- podcast collecting initiative mirrored the iTunesU collection; needs to be relaunched to collect current and ongoing podcasts at the University.
+
 ##Audacity
 Let's take a look at Audacity. I have created some example files for us to work with. (To use the examples, click the name of the file in the GitHub folder 'Examples"; then right click the Raw button and choose 'save link as'. Then you can open the saved file in yor local copy of Audacity.) All the examples feature a dry signal from the mic. No added effects or editing have been applied to the audio.
 
@@ -78,8 +84,24 @@ Let's take a look at Audacity. I have created some example files for us to work 
 
 **Publishing Your Podcast**
 
+
 * [Publishing your podcast](http://wiki.audacityteam.org/wiki/How_to_publish_a_Podcast)
+
+* Hosting, RSS, podcast directories
+
+Hosting
+* [WordPress](http://codex.wordpress.org/Podcasting)
+* [SoundCloud](http://help.soundcloud.com/customer/portal/articles/1209292-can-i-podcast-with-soundcloud-)
 * [Vanderbilt Content Management Options](http://web.vanderbilt.edu/resources/cms-options/)
 * 3rd party podcast solutions: 
-  * [libsyn](https://www.libsyn.com/)
+  * [libsyn](http://www.libsyn.com/plans-pricing/)
   * [PodcastGenerator](http://podcastgen.sourceforge.net/)
+
+RSS
+* Feeds: [https://support.google.com/feedburner/answer/79408]()
+
+*Podcast Readers
+	•	iTunes
+	•	Juice
+	•	Doppler
+	•	FireAnt

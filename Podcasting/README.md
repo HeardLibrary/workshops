@@ -1,19 +1,22 @@
 ## Getting Started with Podcasting ##
 
 ###Workshop Notes and Resources
-Friday, January 16, 2015  
 *Presented by [Ed Warga](mailto:ed.warga@vanderbilt.edu)*
 
 ##Agenda  
-* Sign In
-* Discussion: **What is a [Podcast](http://en.wikipedia.org/wiki/Podcast)?**
-* **Review the notes**
-* **Audacity demo**
-* Activity: **Recording podcasts with [Audacity](http://audacity.sourceforge.net/)**
-* **Follow up session?** Respond on the survey if you would like to attend a follow up session on podcasting -- ***[Workshop Evaluation Survey](https://redcap.vanderbilt.edu/surveys/?s=XK87WNFLCP)***
+* Discussion: What is a [Podcast](http://en.wikipedia.org/wiki/Podcast)?
+* Discussion: Podcasting at Vanderbilt University
+* Activity: Recording podcasts with [Audacity](http://audacity.sourceforge.net/)
+* Discussion: Publishing a podcast
 
 ##What is a Podcast?
 What makes a podcast a podcast? What's the difference between podcasts, broadcasts, and webcasts? Let's list some characteristics of podcasts.
+
+##Podcasting at Vanderbilt
+
+* [Center for Teaching Podcasting Guide](http://cft.vanderbilt.edu/guides-sub-pages/podcasting/)
+* [Center for Teaching Podcast](http://cft.vanderbilt.edu/blog/podcasts/)
+* [DiscoverArchive Podcast collection](http://discoverarchive.vanderbilt.edu/handle/1803/143)- podcast collecting initiative mirrored the iTunesU collection; needs to be relaunched to collect current and ongoing podcasts at the University.
 
 ##Audacity
 Let's take a look at Audacity. I have created some example files for us to work with. (To use the examples, click the name of the file in the GitHub folder 'Examples"; then right click the Raw button and choose 'save link as'. Then you can open the saved file in yor local copy of Audacity.) All the examples feature a dry signal from the mic. No added effects or editing have been applied to the audio.
@@ -78,8 +81,26 @@ Let's take a look at Audacity. I have created some example files for us to work 
 
 **Publishing Your Podcast**
 
+
 * [Publishing your podcast](http://wiki.audacityteam.org/wiki/How_to_publish_a_Podcast)
+* Publishing includes : Licensing, Hosting, RSS, sharing with podcast directories
+
+***Hosting***
+
+* [WordPress](http://codex.wordpress.org/Podcasting)
+* [SoundCloud](http://help.soundcloud.com/customer/portal/articles/1209292-can-i-podcast-with-soundcloud-)
 * [Vanderbilt Content Management Options](http://web.vanderbilt.edu/resources/cms-options/)
 * 3rd party podcast solutions: 
-  * [libsyn](https://www.libsyn.com/)
+  * [libsyn](http://www.libsyn.com/plans-pricing/)
   * [PodcastGenerator](http://podcastgen.sourceforge.net/)
+
+***RSS***
+
+* Feeds: [https://support.google.com/feedburner/answer/79408]()
+
+***Podcast Readers/Directories***
+
+* iTunes
+* Juice
+* Doppler
+* FireAnt

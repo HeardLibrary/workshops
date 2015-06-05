@@ -1,5 +1,5 @@
 # Curating Digital Collections #
-
+Presenter: [Ed Warga](mailto:ed.warga@vanderbilt.edu)
 ##Introduction
 ###What is a Digital Collection?
 * collection: an accumulation of objects gathered for study, comparison, or exhibition ([Merriam-Webster](http://www.merriam-webster.com/dictionary/collection))

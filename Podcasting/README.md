@@ -14,12 +14,13 @@ What makes a podcast a podcast? What's the difference between podcasts, broadcas
 
 ##Podcasting at Vanderbilt
 
-* [Center for Teaching Podcasting Guide](http://cft.vanderbilt.edu/guides-sub-pages/podcasting/)
-* [Center for Teaching Podcast](http://cft.vanderbilt.edu/blog/podcasts/)
+* What podcasts are being produced at Vanderbilt University - what purpose and audience?
+* Support - [Center for Teaching Podcasting Guide](http://cft.vanderbilt.edu/guides-sub-pages/podcasting/)
+* Example - [Center for Teaching Podcast](http://cft.vanderbilt.edu/blog/podcasts/)
 * [DiscoverArchive Podcast collection](http://discoverarchive.vanderbilt.edu/handle/1803/143)- podcast collecting initiative mirrored the iTunesU collection; needs to be relaunched to collect current and ongoing podcasts at the University.
 
 ##Audacity
-Let's take a look at Audacity. I have created some example files for us to work with. (To use the examples, click the name of the file in the GitHub folder 'Examples"; then right click the Raw button and choose 'save link as'. Then you can open the saved file in yor local copy of Audacity.) All the examples feature a dry signal from the mic. No added effects or editing have been applied to the audio.
+Let's take a look at Audacity. I have created some example files for us to work with. (To use the examples, click the name of the file in the GitHub folder 'Examples"; then right click the Raw button and choose 'save link as'. Then you can open the saved file in your local copy of Audacity.) All the examples feature a dry signal from the mic. No added effects or editing have been applied to the audio.
 
 * Open this file in Audacity: [EdwargaPodcastIntroOutro.mp3](https://drive.google.com/file/d/0B5qrNoxFaFhueTdzQmlmMEItb2s/view?usp=sharing)
 * Save as an Audacity project (.aup). 
@@ -84,6 +85,10 @@ Let's take a look at Audacity. I have created some example files for us to work 
 
 * [Publishing your podcast](http://wiki.audacityteam.org/wiki/How_to_publish_a_Podcast)
 * Publishing includes : Licensing, Hosting, RSS, sharing with podcast directories
+
+***Licensing***
+
+* Consider releasing your podcast under a Creative Commons license so others can reuse the content without seeking permission first.
 
 ***Hosting***
 

@@ -53,6 +53,7 @@
 	- Click on "Merge selected" and close
 	- Now we can browse through this list and see if there are any other duplicates
 - **Note: Undo/redo will roll back the data to a previous state** (this is true for any action you take in OpenRefine)
+
 ######A second way to deal with these inconsistencies
 - Hover over entries in the Facet/ Filter pane and select "edit" to change the way those entries are listed in the data
 - Now we can use the "Sort by: count" feature to look at the most frequent contributing schools

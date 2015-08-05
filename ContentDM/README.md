@@ -15,7 +15,7 @@
 - [Download software at http://openrefine.org/download.html]
 - [Select the most recent stable version for your operating system- we are using version 2.5]
 - [Decompress files] 
-- Click on the OpenRefine icon  ![OpenRefine logo](http://127.0.0.1:3333/images/logo-gem-40.png) on your desktop to launch the software 
+- Click on the OpenRefine blue diamond icon on your desktop to launch the software 
 - This will open a browser window at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) and terminal window tracking your work
 
 ####Create a project
@@ -38,6 +38,7 @@
 ###Exploring and cleaning the data
 
 ####Let's see which schools have made the most contributions to the institutional repository
+
 - Let's sort by college to group contributions by the same unit: in dc.description.college column, select Sort  
 - Sort cell values as text 
 - a-z
@@ -47,6 +48,7 @@
 	- We see 25 choices sorted by name- many of them are duplicates.
 
 ######An easy way to deal with these inconsistencies
+
 - In the Facet/ Filter pane, "Cluster" will suggest which responses are probably duplicates and allow you to merge them under a new name
 	- Notice the difference between clustering methods by switching from Key Collision to Nearest Neighbor
 	- If appropriate, click "Merge" next to each grouping.  You can edit the new cell value they will take on
@@ -55,10 +57,12 @@
 - **Note: Undo/redo will roll back the data to a previous state** (this is true for any action you take in OpenRefine)
 
 ######A second way to deal with these inconsistencies
+
 - Hover over entries in the Facet/ Filter pane and select "edit" to change the way those entries are listed in the data
 - Now we can use the "Sort by: count" feature to look at the most frequent contributing schools
 
 ####What are the most common document types in DiscoverArchive?
+
 - In the dc.type column, select Facet> Custom text facet
 	- value.split("||")
 	- This will facet the column looking at multiple values in cells separately
@@ -72,7 +76,9 @@
 	- Refresh the facet to see the change in type counts
 	- Then sort by count to see the most common content types
 	- If we click on "Recording, oral," we'll see that many of these items are also podcasts
+
 ####Let's see which authors occur most frequently in DiscoverArchive
+
 - Looking through the dc.contributor.author column, you'll notice that many of the items have multiple authors, separated by the double vertical bar ||
 - OpenRefine can create a facet for each of these names separately
 	- In the dc.contributor.author column, select Facet> Custom text facet

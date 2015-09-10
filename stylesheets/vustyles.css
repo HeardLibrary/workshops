@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+  html{
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+  }
+
+.container {
+   min-height: 75%;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  border-top: 5px solid #dda85b;
+background: #333;
+color: #999;
+}
+
+
+
+.navbar.navbar-default {
+    min-height: 125px;
+    margin-bottom: 21px;
+    border: 1px solid transparent;
+	  border-top: 2px solid #DDA85B;
+	  background: #0B0B0B url("http://www.library.vanderbilt.edu/assets/images/bg-header.jpg") repeat-x scroll 0px 0px;
+}
+
+.nav.navbar-nav {
+  margin-top: 30px;
+}
+
+h1,h2,h3,.h3,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	font-family:"Roboto Condensed",Helvetica,sans-serif;
+	font-weight:300;
+	line-height:1.2em;
+	margin:0.67em 0
+}
+
+h1,.h1{
+	color:#993d1b;
+	font-size:2.642em;
+	line-height:1.2em;
+	margin:0.5em 0
+}
+
+h2,h3,.h3,.h2{
+	color:#993d1b;
+	font-size:2.215em;
+	font-weight:400;
+	line-height:1.2em
+}
+
+h3,.h3{
+	color:#00687b
+}
+
+h4,.h4{
+	color:#993d1b;
+	font-family:"Roboto",Helvetica,sans-serif;
+	font-size:1.357em;
+	font-weight:700
+}
+
+h5,.h5{
+	font-family:"Roboto",Helvetica,sans-serif;
+	font-size:1.071em;
+	font-weight:500;
+	line-height:1.5em
+}
+
+h6,.h6{
+	color:#555;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:0.857em;
+	font-weight:700;
+	line-height:1.5em;
+	text-transform:uppercase
+}
+
+a,a:visited{
+	color:#00687b
+}
+
+a:hover,a:active{
+	color:#003d48
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: #006878;
+    border-color: #006878;
+  }
+  .btn-primary:hover {
+      color: #FFF;
+      background-color: #005360;
+      border-color: #004854;
+    }
+  .btn-info {
+      color: #FFF;
+      background-color: #DDA85B;
+      border-color: #DDA85B;
+  }
+  .btn-info:hover {
+      color: #FFF;
+      background-color: #C69751;
+      border-color: #B08648;
+  }
+.navbar-nav>.active>a{color: #ffffff;
+background-color: #999999;}

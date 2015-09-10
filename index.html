@@ -1,0 +1,18 @@
+---
+layout: default
+title: Workshops
+---
+<div class="page-header">
+  <h1>Get Started With Workshops <small> Scholarly Communications</small></h1>
+</div>
+<div id="home">
+  <h2>What's This About?</h2>
+  <p>We spend a lot of time as scholarly communication specialists teaching ourselves and others about tools and technologies in the field. So we figured we'd share the ride as we navigate the basics of the digital scholarship across a variety of disciplines. Hopefully, you'll learn just enough here to get going with your own cool projects.</p>
+  <h2>Technologies</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.description }}</p>
+    {% endfor %}
+  </ul>
+</div>

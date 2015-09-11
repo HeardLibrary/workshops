@@ -11,7 +11,7 @@ title: Workshops
   <h2>Technologies</h2>
   <ul class="posts">
     {% for post in site.posts %}
-      <h2><a href="/{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></h2>
       <p>{{ post.description }}</p>
     {% endfor %}
   </ul>

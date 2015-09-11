@@ -6,11 +6,11 @@ categories: tech
 description: Review the various resources that are available for creating and sharing an online map
 ---
 
-##Goals
+###Goals
 
 My goal in this session is to review the various resources that are available for creating an online map.  Some of the resources are free at the basic level and tier up in cost as usage increases.  By the end of this session you should be able to understand the basics concepts needed to create and share a map.
 
-##Mapping Resources
+###Mapping Resources
 
 There are many online mapping options available, and this list is in no way all-inclusive.  Several mapping options include:
 
@@ -19,7 +19,7 @@ There are many online mapping options available, and this list is in no way all-
 * [Google MyMaps](https://www.google.com/maps/d/)
 * [ZeeMaps](https://www.zeemaps.com)
 
-##Create A Map With ArcGIS Online
+###Create A Map With ArcGIS Online
 
 **Creating an ArcGIS.com Account**
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting Started with Maps"
+title:  "Get started with maps"
 date:   2015-09-18 11:00:00
 categories: tech
 ---

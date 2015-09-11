@@ -10,7 +10,11 @@
   }
 
 .container {
-   min-height: 75%;
+  min-height: 75%;
+}
+
+.starter-template {
+  margin-bottom: 25px;
 }
 
 .footer {
@@ -20,8 +24,12 @@
   /* Set the fixed height of the footer here */
   height: 100px;
   border-top: 5px solid #dda85b;
-background: #333;
-color: #999;
+  background: #333;
+  color: #999;
+}
+
+.footer p {
+  margin-top: 10.5px;
 }
 
 

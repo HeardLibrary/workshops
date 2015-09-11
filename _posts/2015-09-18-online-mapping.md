@@ -3,6 +3,7 @@ layout: post
 title:  "Get started with maps"
 date:   2015-09-18 11:00:00
 categories: tech
+description: Review the various resources that are available for creating and sharing an online map
 ---
 
 ##Goals

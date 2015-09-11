@@ -8,5 +8,5 @@ At the end of this workshop you will:
 * Have a basic understanding of source control and Git.  
 * Be able to use MarKdown to edit and create documents in GitHub.  
 * Be able to create a repository from scratch.  
-  * Create branches, commits, issues, and pull request for that repository.  
+  * Create branches, commits, issues, and pull requests for that repository.  
 * Be able to fork and contribute to someone else's repository.  

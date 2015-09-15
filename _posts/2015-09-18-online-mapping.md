@@ -17,13 +17,13 @@ categories: tech
   * What is GIS?
     -A Geographic Information Systems (GIS) is a suite of softwares and technologies that are used to collect, create, maintain, store, change, analyze, and display geographically referenced data.  Geographically referenced data can be any location referenced by either a coordinate, address, or any other identifying piece of information that can be used to reference a point to a known geographic location.
   * Information about a location is referred to as an attribute
-  ![Attribute](http://imgur.com/z5FKhjm)
+ ![Imgur](http://i.imgur.com/z5FKhjm.png)
   * This information is stored in a shapefile and displayed as layers
   * Shapefiles can be represented in multiple geometries:
      - Point
      - Line
      - Polygon (see below for example of census data stored as a polygon)
-  ![Table to Map Polygon](http://imgur.com/parR3o9)    
+ ![Imgur](http://i.imgur.com/parR3o9.png)    
 
 ##Online Mapping Resources
 

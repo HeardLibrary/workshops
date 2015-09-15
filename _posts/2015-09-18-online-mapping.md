@@ -1,16 +1,31 @@
 ---
 layout: post
-title:  "Get started with maps"
+title:  "Getting Started with Maps"
 date:   2015-09-18 11:00:00
 categories: tech
-description: Review the various resources that are available for creating and sharing an online map
 ---
 
-###Goals
+##Goals
 
-My goal in this session is to review the various resources that are available for creating an online map.  Some of the resources are free at the basic level and tier up in cost as usage increases.  By the end of this session you should be able to understand the basics concepts needed to create and share a map.
+**Goals in this session are to:**
+  * Cover basic mapping terminology
+  * Review the various resources that are available for creating an online map  
+  * Be able to understand the basics concepts needed to create and share an online map
 
-###Mapping Resources
+##Basics of GIS Terminology
+
+  * What is GIS?
+    -A Geographic Information Systems (GIS) is a suite of softwares and technologies that are used to collect, create, maintain, store, change, analyze, and display geographically referenced data.  Geographically referenced data can be any location referenced by either a coordinate, address, or any other identifying piece of information that can be used to reference a point to a known geographic location.
+  * Information about a location is referred to as an attribute
+  ![Attribute](http://imgur.com/z5FKhjm)
+  * This information is stored in a shapefile and displayed as layers
+  * Shapefiles can be represented in multiple geometries:
+     - Point
+     - Line
+     - Polygon (see below for example of census data stored as a polygon)
+  ![Table to Map Polygon](http://imgur.com/parR3o9)    
+     
+##Online Mapping Resources
 
 There are many online mapping options available, and this list is in no way all-inclusive.  Several mapping options include:
 
@@ -19,7 +34,7 @@ There are many online mapping options available, and this list is in no way all-
 * [Google MyMaps](https://www.google.com/maps/d/)
 * [ZeeMaps](https://www.zeemaps.com)
 
-###Create A Map With ArcGIS Online
+##Create A Map With ArcGIS Online
 
 **Creating an ArcGIS.com Account**
 
@@ -34,78 +49,49 @@ There are many online mapping options available, and this list is in no way all-
 
 2.  Zoom into the Nashville area and select **Basemap**. Spend a few
     minutes changing between basemaps.
+    
+    - There are many basemaps to choose from.  Choosing a proper basemap can add aesthetic while also driving your point.  There are even ways to bring in custom basemaps.
 
-3.  Click **Add Data**, and select **add layer from file**.
-
-4.  Select **choose file**.
-
-5.  Browse for the desktop and select **“ArcGISOnlineIntro”** and
+3.  Click **Add Data**, and select **add layer from file**.  Select **choose file**.  Browse for the desktop and select **“ArcGISOnlineIntro”** and
     then select **“Tracts2010\_ACS.zip”** and **open**.
 
-6.  Click **Import Layer**
+4.  Click **Import Layer**
 
-7.  Repeat 5 through 9 so that when you are complete there are two
+5.  Repeat 3 through 4 so that when you are complete there are two
     **“Tracts2010”** layers.
 
-8.  Once the Tracts 2010 layer has been added twice then we can begin
+6.  Once the Tracts 2010 layer has been added twice then we can begin
     the process of examining our data and changing symbology. To examine
-    your data select the down arrow found to the right of your data
-    layer and select **Show Table**.
+    your data hover over the layer until the second symbol **Show Table** appears and click it.
 
-9.  Spend a few minutes browsing through the fields to see what type of
-    data is available for use.
+7.  Spend a few minutes browsing through the fields to see what type of
+    data is available for use. Once you are finished browsing the data hide the table.
 
-10. Once you are finished browsing the data close the table.
+8. Hover over your layer again and select the third symbol, **Change Style**
 
-11. Click the down arrow to the right of your first layer name and
-    select **Change Symbols**
+9. Click the first option **Counts and Amounts (Size)** 
 
-12. Click the down arrow next to **Use: A Single Symbol** and change the drop down to **Size**.
-
-13.  Next, we want to select the field we want to symbolize by size. Do this by selecting the **To show** field and changing the drop down menu to “PctNoDiplo”. This will change our polygons to be
+10.  Next, we want to select the field we want to symbolize by size. Do this by selecting the **Choose an attribute to show** field and changing the drop down menu to “PctNoDiplo”. This will change our polygons to be
 represented by dots varying in size depending on the value for that polygon (or the value for Percent with No Diploma). Here, you can also change the way that the data is broken down by selecting
-**By**.
+**Classift Data Using** and choosing the method by which you want to break down the data.  Remember to also check that your size is broken down to cary from 8 to 30.
 
-14.  Click **Options** and select **Change all symbols**. Change the color to yellow. Click apply and done.
+11.  Click **Symbols** icon and select the way in which you want to represent your data.  Here you can pick the type of symbol and also change the fill and outline of your symbols.  CLick **OK** and **DONE**.
 
-15.  Click the **Details** button at the top of the menu to go back to our detailed view.
+12.  Now we want to change the symbology for the second symbol.  Hover over the second dataset and click on the third symbol, **Change Symbols**
 
-16.  Next click the down arrow to the right of the second **Tracts2010** layer.
+13. **Choose an attribute to show** should read “PctBelowPo”. This will change our tract polygons to be varying shades of color depending on the values for that tract, or in this case, the value of percent below poverty.  If your dropdown does not say this, please change it now.
 
-17.  Again, select **Change Symbols**
+14.  Select the first option, **Counts and Amounts (Color)**.  Here we can break down our data in a similar way to what we did before.  By clicking **Symbols** you can change the color scale.  You can also change the way in which the data is broken down. When you are finish click **OK** and **Done** to return back to our layers window.
 
-18.  Change the **Use** drop down menu to **Color**.
+15.  Now we want to rename our layers so that they show up correctly in our legend to do this we will hover over each of the layers and click the last symbol **...** on the layer you wish to rename (rename should be one of the options that populates)
 
-19.  Change the **To Show** drop down to “PctBelowPo”. This will change
-    our tract polygons to be varying shades of color depending on the
-    values for that tract, or the value of percent below poverty.
+16.  Change the name to each of the layers that we edited to read the attributes that they are displaying.  In this case our first layer (the one with the dots) should read “Percent with No Diploma”. Repeat the previous
+    step for the second layer (in this case it should be the layer that we broke down base on a color gradient) and change the name to “Percent Below Poverty”.
 
-20.  Select a color ramp and click **Apply.** Here you can also change
-    the way the data is broken down by selecting **By** and changing the
-    drop down menu.
+17.  Click **Save** at the top of the window. Name your map. You must enter all of the fields in order to save your document.
 
-21.  Click **Done Changing Symbols.**
+18.  In the menu at the top right of the map click **Legend.**
 
-22.  Click the **Details** button again at the top of the menu.
+19.  You should now have a complete map showing the population of Nashville by percentage with no diploma and percent below poverty.  Your map should look something like the one shown on the next page.
 
-23.  Go to the first Tracts 2010 ACS and select the down arrow and select
-    **Rename.**
-
-24.  Change the name to “Percent with No Diploma”. Repeat the previous
-    step for the second layer and change the name to “Percent
-    Below Poverty”.
-
-25.  Click **Save** at the top of the window. Name your map. You must
-    enter all of the fields in order to save your document.
-
-26.  In the menu at the top right of the map click **Legend.**
-
-27.  You should now have a complete map showing the population of
-    Nashville by percentage with no diploma and percent below poverty.
-    Your map should look something like the one shown on the next page.
-
-28.  From here you can choose options like **Share** and **Print.** You
-    can also select new fields to display and change the symbology and
-    labels however you choose. You can do this by selecting the drop
-    down arrow next to the layer you want to change. Through the same
-    workflow we can also add labels and popups to our map.
+20.  From here you can choose options like **Share** and **Print.** You can also select new fields to display and change the symbology and labels however you choose. You can do this by selecting the drop down arrow next to the layer you want to change. Through the same workflow we can also add labels and popups to our map.

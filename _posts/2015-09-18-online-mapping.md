@@ -24,7 +24,7 @@ categories: tech
      - Line
      - Polygon (see below for example of census data stored as a polygon)
   ![Table to Map Polygon](http://imgur.com/parR3o9)    
-     
+
 ##Online Mapping Resources
 
 There are many online mapping options available, and this list is in no way all-inclusive.  Several mapping options include:
@@ -47,33 +47,23 @@ There are many online mapping options available, and this list is in no way all-
 
 1.  Click **Create Map**
 
-2.  Zoom into the Nashville area and select **Basemap**. Spend a few
-    minutes changing between basemaps.
-    
-    - There are many basemaps to choose from.  Choosing a proper basemap can add aesthetic while also driving your point.  There are even ways to bring in custom basemaps.
+2.  Zoom into the Nashville area and select **Basemap**. Spend a few minutes changing between basemap.  There are many basemaps to choose from.  Choosing a proper basemap can add aesthetic while also driving your point.  There are even ways to bring in custom basemaps.
 
-3.  Click **Add Data**, and select **add layer from file**.  Select **choose file**.  Browse for the desktop and select **“ArcGISOnlineIntro”** and
-    then select **“Tracts2010\_ACS.zip”** and **open**.
+3.  Click **Add Data**, and select **add layer from file**.  Select **choose file**.  Browse for the desktop and select **“ArcGISOnlineIntro”** and then select **“Tracts2010\_ACS.zip”** and **open**.
 
 4.  Click **Import Layer**
 
-5.  Repeat 3 through 4 so that when you are complete there are two
-    **“Tracts2010”** layers.
+5.  Repeat 3 through 4 so that when you are complete there are two **“Tracts2010”** layers.
 
-6.  Once the Tracts 2010 layer has been added twice then we can begin
-    the process of examining our data and changing symbology. To examine
-    your data hover over the layer until the second symbol **Show Table** appears and click it.
+6.  Once the Tracts 2010 layer has been added twice then we can begin the process of examining our data and changing symbology. To examine your data hover over the layer until the second symbol **Show Table** appears and click it.
 
-7.  Spend a few minutes browsing through the fields to see what type of
-    data is available for use. Once you are finished browsing the data hide the table.
+7.  Spend a few minutes browsing through the fields to see what type of data is available for use. Once you are finished browsing the data hide the table.
 
 8. Hover over your layer again and select the third symbol, **Change Style**
 
 9. Click the first option **Counts and Amounts (Size)** 
 
-10.  Next, we want to select the field we want to symbolize by size. Do this by selecting the **Choose an attribute to show** field and changing the drop down menu to “PctNoDiplo”. This will change our polygons to be
-represented by dots varying in size depending on the value for that polygon (or the value for Percent with No Diploma). Here, you can also change the way that the data is broken down by selecting
-**Classift Data Using** and choosing the method by which you want to break down the data.  Remember to also check that your size is broken down to cary from 8 to 30.
+10.  Next, we want to select the field we want to symbolize by size. Do this by selecting the **Choose an attribute to show** field and changing the drop down menu to “PctNoDiplo”. This will change our polygons to be represented by dots varying in size depending on the value for that polygon (or the value for Percent with No Diploma). Here, you can also change the way that the data is broken down by selecting **Classify Data Using** and choosing the method by which you want to break down the data.  Remember to also check that your size is broken down to cary from 8 to 30.
 
 11.  Click **Symbols** icon and select the way in which you want to represent your data.  Here you can pick the type of symbol and also change the fill and outline of your symbols.  CLick **OK** and **DONE**.
 
@@ -85,8 +75,7 @@ represented by dots varying in size depending on the value for that polygon (or 
 
 15.  Now we want to rename our layers so that they show up correctly in our legend to do this we will hover over each of the layers and click the last symbol **...** on the layer you wish to rename (rename should be one of the options that populates)
 
-16.  Change the name to each of the layers that we edited to read the attributes that they are displaying.  In this case our first layer (the one with the dots) should read “Percent with No Diploma”. Repeat the previous
-    step for the second layer (in this case it should be the layer that we broke down base on a color gradient) and change the name to “Percent Below Poverty”.
+16.  Change the name to each of the layers that we edited to read the attributes that they are displaying.  In this case our first layer (the one with the dots) should read “Percent with No Diploma”. Repeat the previous step for the second layer (in this case it should be the layer that we broke down base on a color gradient) and change the name to “Percent Below Poverty”.
 
 17.  Click **Save** at the top of the window. Name your map. You must enter all of the fields in order to save your document.
 

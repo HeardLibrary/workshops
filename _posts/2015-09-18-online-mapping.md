@@ -7,7 +7,6 @@ categories: tech
 
 ##Goals
 
-**Goals in this session are to:**
   * Cover basic mapping terminology
   * Review the various resources that are available for creating an online map  
   * Be able to understand the basics concepts needed to create and share an online map
@@ -17,13 +16,13 @@ categories: tech
   * What is GIS?
     -A Geographic Information Systems (GIS) is a suite of softwares and technologies that are used to collect, create, maintain, store, change, analyze, and display geographically referenced data.  Geographically referenced data can be any location referenced by either a coordinate, address, or any other identifying piece of information that can be used to reference a point to a known geographic location.
   * Information about a location is referred to as an attribute
- ![Imgur](http://i.imgur.com/z5FKhjm.png)
+![Imgur](http://i.imgur.com/z5FKhjm.png)
   * This information is stored in a shapefile and displayed as layers
   * Shapefiles can be represented in multiple geometries:
      - Point
      - Line
-     - Polygon (see below for example of census data stored as a polygon)
- ![Imgur](http://i.imgur.com/parR3o9.png)    
+     - Polygon (see below for example of census data displayed as a polygon)
+![Imgur](http://i.imgur.com/parR3o9.png)    
 
 ##Online Mapping Resources
 
@@ -39,8 +38,7 @@ There are many online mapping options available, and this list is in no way all-
 **Creating an ArcGIS.com Account**
 
 1.  Sign up for an [ESRI Global account](https://accounts.esri.com/signup)
-2.  Go to [ArcGIS.com](http://www.arcgis.com/)
-    and sign in to your account using your new ESRI global account.
+2.  Go to [ArcGIS.com](http://www.arcgis.com/) and sign in to your account using your new ESRI global account.
 
 
 **Creating an Online Map Using US Census Data**

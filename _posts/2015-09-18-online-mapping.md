@@ -3,6 +3,7 @@ layout: post
 title:  "Getting Started with Maps"
 date:   2015-09-18 11:00:00
 categories: tech
+description: "Learn basic mapping terminology, learn how to create an online map, and share your work with others."
 ---
 
 ##Goals

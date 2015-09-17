@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Get started with validating XML"
+title:  "Getting started with validating XML"
 date:   2014-11-09 18:49:00
 categories: tech
 description: "Review the various means to validate an XML document, look at DTDs and XML Schema, and try out RELAX NG and Schematron"

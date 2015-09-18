@@ -32,7 +32,6 @@ There are many online mapping options available, and this list is in no way all-
 * [ArcGIS Online](https://www.arcgis.com/home/webmap/viewer.html?useExisting=1)
 * [Mapbox](https://www.mapbox.com)
 * [Google MyMaps](https://www.google.com/maps/d/)
-* [ZeeMaps](https://www.zeemaps.com)
 
 ##Create A Map With ArcGIS Online
 
@@ -42,7 +41,7 @@ There are many online mapping options available, and this list is in no way all-
 2.  Go to [ArcGIS.com](http://www.arcgis.com/) and sign in to your account using your new ESRI global account.
 
 
-**Creating an Online Map Using US Census Data**
+**Creating an ArcGIS Online Map Using US Census Data**
 
 1.  Click **Create Map**
 
@@ -52,34 +51,18 @@ There are many online mapping options available, and this list is in no way all-
 
 4.  Click **Import Layer**
 
-5.  Repeat 3 through 4 so that when you are complete there are two **“Tracts2010”** layers.
+5.  Next, we want to select the field we want to symbolize. Do this by selecting the **Choose an attribute to show** field and changing the drop down menu to “PctNoDiplo”. We will then be given the option to change the drawing style, change this to the ssecond option **Counts and Amounts (Size)** and then click **Options** to customize the symbols.
 
-6.  Once the Tracts 2010 layer has been added twice then we can begin the process of examining our data and changing symbology. To examine your data hover over the layer until the second symbol **Show Table** appears and click it.
+6. Here we will be configuring the way our symbols represent the value.  It will change to varying in size depending on the value for that polygon (or the value for Percent with No Diploma). Here, you can also change the way that the data is broken down by selecting **Classify Data Using** and choosing the method by which you want to break down the data.  Remember to also check that your size is broken down to cary from 8 to 30 (or any range that you like).  You can also select **Symbols** to change the color and fill of the dots.  When you are finished click **OK** and **DONE.**
 
-7.  Spend a few minutes browsing through the fields to see what type of data is available for use. Once you are finished browsing the data hide the table.
+7.  Repeat the process outlined in step 3.  We are going to add the same data a second time, only this time we will work on changing the symbology to represent the percent of the population below poverty.  You can do this by changing the dropdown **Choose an attribute to show** to **PctBelowPo.** Then select the first symbol option, **Counts and Amounts (Color)**.  Here we can break down our data in a similar way to what we did before.  By clicking **Symbols** you can change the color scale.  You can also change the way in which the data is broken down. When you are finish click **OK** and **Done** to return back to our layers window.
 
-8. Hover over your layer again and select the third symbol, **Change Style**
+8.  Now that we have symbolized our data, we want to rearrange it so that the "dots" show up as the top layer.  Do this by hovering over the left side of the layer in the contents window until you see the mouse arrow change to a double crossed arrow.  Drag the top layer to the bottom.  Now it should be easier to see the dots on top of the polygons.
 
-9. Click the first option **Counts and Amounts (Size)** 
+9.  Now we want to rename our layers so that they show up correctly in our legend to do this we will hover over each of the layers and click the **"..."** symbol on the layer you wish to rename.  A popup menu should show and rename should be one of the options that populates.
 
-10.  Next, we want to select the field we want to symbolize by size. Do this by selecting the **Choose an attribute to show** field and changing the drop down menu to “PctNoDiplo”. This will change our polygons to be represented by dots varying in size depending on the value for that polygon (or the value for Percent with No Diploma). Here, you can also change the way that the data is broken down by selecting **Classify Data Using** and choosing the method by which you want to break down the data.  Remember to also check that your size is broken down to cary from 8 to 30.
+10.  Change the name to each of the layers that we edited to reflect the attributes that are displaying.  In this case our first layer (the one with the dots) should read “Percent with No Diploma”. Repeat the previous step for the second layer (in this case it should be the layer that we broke down base on a color gradient) and change the name to “Percent Below Poverty”.  To view your symbols and legend click the **"Legend"** option in the menu.
 
-11.  Click **Symbols** icon and select the way in which you want to represent your data.  Here you can pick the type of symbol and also change the fill and outline of your symbols.  CLick **OK** and **DONE**.
+11.  Click **Save** at the top of the window. Name your map. You must enter all of the fields in order to save your document.  You should now have a complete map showing the population of Nashville by percentage with no diploma and percent below poverty.  Your map should look something like the one shown on the next page.
 
-12.  Now we want to change the symbology for the second symbol.  Hover over the second dataset and click on the third symbol, **Change Symbols**
-
-13. **Choose an attribute to show** should read “PctBelowPo”. This will change our tract polygons to be varying shades of color depending on the values for that tract, or in this case, the value of percent below poverty.  If your dropdown does not say this, please change it now.
-
-14.  Select the first option, **Counts and Amounts (Color)**.  Here we can break down our data in a similar way to what we did before.  By clicking **Symbols** you can change the color scale.  You can also change the way in which the data is broken down. When you are finish click **OK** and **Done** to return back to our layers window.
-
-15.  Now we want to rename our layers so that they show up correctly in our legend to do this we will hover over each of the layers and click the last symbol **...** on the layer you wish to rename (rename should be one of the options that populates)
-
-16.  Change the name to each of the layers that we edited to read the attributes that they are displaying.  In this case our first layer (the one with the dots) should read “Percent with No Diploma”. Repeat the previous step for the second layer (in this case it should be the layer that we broke down base on a color gradient) and change the name to “Percent Below Poverty”.
-
-17.  Click **Save** at the top of the window. Name your map. You must enter all of the fields in order to save your document.
-
-18.  In the menu at the top right of the map click **Legend.**
-
-19.  You should now have a complete map showing the population of Nashville by percentage with no diploma and percent below poverty.  Your map should look something like the one shown on the next page.
-
-20.  From here you can choose options like **Share** and **Print.** You can also select new fields to display and change the symbology and labels however you choose. You can do this by selecting the drop down arrow next to the layer you want to change. Through the same workflow we can also add labels and popups to our map.
+12.  From here you can choose options like **Share** and **Print.** You can also select new fields to display and change the symbology and labels however you choose. You can do this by selecting the drop down arrow next to the layer you want to change. Through the same workflow we can also add labels and popups to our map.

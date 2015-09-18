@@ -33,6 +33,15 @@ There are many online mapping options available, and this list is in no way all-
 * [Mapbox](https://www.mapbox.com)
 * [Google MyMaps](https://www.google.com/maps/d/)
 
+##Acceptable Data Formats##
+* CSV
+* GPX
+* KML
+* Geojson (Mapbox)
+* XLS (Google)
+* Most tabular forms of data can be used or easily converted for use in an online mapping resource.  A correctlyt formatted table for GIS looks like the following.  Keep in mind that not all fields are necessary but must have at least one type of georeferencing data (an address or latitude and longitude).
+![Imgur](http://i.imgur.com/WaoXBtE.png)
+
 ##Create A Map With ArcGIS Online
 
 **Creating an ArcGIS.com Account**

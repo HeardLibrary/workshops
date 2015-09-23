@@ -13,10 +13,7 @@ Neo4j is a NOSQL database that allows for coding relationships between things. C
 
 [![Network](http://img.youtube.com/vi/Zgkmbk-Qf_4/0.jpg)](http://www.youtube.com/watch?v=Zgkmbk-Qf_4)
 
-![video](http://www.library.vanderbilt.edu/webimages/graphs/video.png)
-This is a short video that introduces the concepts we will use while graphing the Borges short story.
 
-https://youtu.be/Zgkmbk-Qf_4
 
 This is an image of the graph noted in the video that was created to illustrate some possible connections in the Flannery O'connor short story "The Life You Save May Be Your Own".
 ![The Life You Save May Be Your Own](http://www.library.vanderbilt.edu/webimages/graphs/life.png)

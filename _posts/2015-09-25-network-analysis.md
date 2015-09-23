@@ -11,6 +11,8 @@ Neo4j is a NOSQL database that allows for coding relationships between things. C
 
 ##Graphing for textual analysis
 
+To get started, watch this video that will introduce you to the key concepts we will use while creating a graph of Borges' story. 
+
 [![Network](http://img.youtube.com/vi/Zgkmbk-Qf_4/0.jpg)](http://www.youtube.com/watch?v=Zgkmbk-Qf_4)
 
 

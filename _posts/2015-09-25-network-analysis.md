@@ -36,8 +36,8 @@ and paste the url of the gist into the search box in the upper right hand corner
 
 Once you are on this page, click  the Page Source button at the top left of the page. Then select "edit" to  edit the page.  Scroll down until you see this Cypher code.
 
-      === OUR DATASET
-      [source, cypher]
+     === OUR DATASET
+      [source, cypher] 
    ----
     CREATE
       //People
@@ -61,21 +61,19 @@ Once you are on this page, click  the Page Source button at the top left of the 
 
 To make changes to the code put a real person's name into the first "People" node.
 
-   === OUR DATASET
-      [source, cypher]
    ----
     CREATE
       //People
       (a:Person{name:'Donald Trump'}),
-      (b:Person{name:'b'}),
+      (b:Person{name:'Barack Obama'}),
       (c:Person{name:'c'}),
       
        //Places
-      (d:Location{name:'New York'}),
+      (d:Location{name:'d'}),
       (e:Location{name:'e'}),
       
       //Relationships
-      (a)-[:LIVES_IN]->(b),
+      (a)-[:OPPOSES>(b),
       (b)-[:S]->(c),
       (b)-[:T]->(d),
       (c)-[:U]->(a),
@@ -84,18 +82,8 @@ To make changes to the code put a real person's name into the first "People" nod
 
       ----
 
+Note that in the above example, we have named that "a" variable "Donald Trump" and the "b" variable "Barack Obama" so in our Relationships statement, we need only reference the variables to express the the OPPOSES relationship. 
 
-</div>
-You can do the same thing for any of the other People or Places nodes. Now create a relationship between two nodes that you have configured. It might look something like this:
-<div>
-(a)-[:KNOWS]->(b),
-</div>
-or
-
-<div>
-(a)-[:IS_FROM]->(b),
-</div>
-After creating a few more examples, you are ready to move on to creating a data model for the short story.
 
 ## Creating the data model
 

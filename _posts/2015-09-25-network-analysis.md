@@ -15,10 +15,8 @@ To get started, watch this video that will introduce you to the key concepts we 
 
 [![Network](http://img.youtube.com/vi/Zgkmbk-Qf_4/0.jpg)](http://www.youtube.com/watch?v=Zgkmbk-Qf_4)
 
+[Full graph annotation  of the Flannery O'conner short story "The Life You Save May Be Your Own"](http://gist.neo4j.org/?3775cf12f473866affcf)
 
-
-This is an image of the graph noted in the video that was created to illustrate some possible connections in the Flannery O'connor short story "The Life You Save May Be Your Own".
-![The Life You Save May Be Your Own](http://www.library.vanderbilt.edu/webimages/graphs/life.png)
 
 ## What you will need to do in order to complete the class
 

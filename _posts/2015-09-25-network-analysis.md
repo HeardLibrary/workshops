@@ -82,24 +82,24 @@ To make changes to the code put a real person's name into the first "People" nod
 
       ----
 
-Note that in the above example, we have named that "a" variable "Donald Trump" and the "b" variable "Barack Obama" so in our Relationships statement, we need only reference the variables to express the the OPPOSES relationship. 
+Note that in the above example, we have named that "a" variable "Donald Trump" and the "b" variable "Barack Obama" so in our Relationships statement, we need only reference the variables to express the OPPOSES relationship. 
 
 
-## Creating the data model
-
-Data modeling can be very simple and hand drawn. Below is an illustration of a hand drawn data model that was later coded into a Neo4j graph.
-
-![Data Model](http://www.library.vanderbilt.edu/webimages/graphs/graph.png)
 ###On Exactitude in Science
 Though the story is only one paragraph long, Borges has woven into the narrative many levels of interpretation. No one graph of the story can ever include all of the threads, allusions, associations and levels (unless of course as in the story itself, the map becomes the territory) but it is illuminating to try and encode some of these in a graph.
 
-First, create a data model. It might look something like this:
+First, create a data model. 
 
-Or it might be completely different. It really depends on YOUR understanding of the story and how you want to express that understanding as a graph.
+## Creating the data model
 
-Next, using the Cypher example from the first activity above, create nodes and relationships as outlined by your data model. Here is an example of what a very simple graph might look like. Yours can be as simple or as complex as you want it to be.
+Data modeling can be very simple and hand drawn. Below is an illustration of a hand drawn data model that was later coded into a Neo4j graph. 
+
+![Data Model](http://www.library.vanderbilt.edu/webimages/graphs/graph.png)
 
 
+There is no "correct" data model for a short story. It really depends on YOUR understanding of the story and how you want to express that understanding as a graph. After reading the short story, draw a data model that best illustrates the relationships you would like to graph. 
+
+Next, using the Cypher example from the first activity above, create nodes and relationships as outlined by your data model. View the graph by plugging it into the neo4j graph gist.  
 
 ##Value of Graphing for literary analysis
 

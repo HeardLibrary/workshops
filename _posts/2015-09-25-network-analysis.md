@@ -38,27 +38,27 @@ Now we will look at a very simple graph that has been coded with Cypher to expre
 and paste the url of the gist into the search box in the upper right hand corner of the page. If you scroll down the page you will see a graph that looks like this:
 
 Once you are on this page, click  the Page Source button at the top left of the page and you will now be able to edit the code, once you select the edit button in the upper right corner of the page, scroll down until you see this Cipher code.
-<div>
-=== OUR DATASET
-[source, cypher]
-----
-CREATE
-//People
-(a:Person{name:'a'}),
-(b:Person{name:'b'}),
-(c:Person{name:'c'}),
 
-//Places
-(d:Location{name:'d'}),
-(e:Location{name:'e'}),
+  === OUR DATASET
+  [source, cypher]
+  ----
+  CREATE
+  //People
+  (a:Person{name:'a'}),
+  (b:Person{name:'b'}),
+  (c:Person{name:'c'}),
 
-//Relationships
-(a)-[:R]->(b),
-(b)-[:S]->(c),
-(b)-[:T]->(d),
-(c)-[:U]->(a),
-(e)-[:Z]->(b)
-</div>
+  //Places
+  (d:Location{name:'d'}),
+  (e:Location{name:'e'}),
+
+  //Relationships
+  (a)-[:R]->(b),
+  (b)-[:S]->(c),
+  (b)-[:T]->(d),
+  (c)-[:U]->(a),
+  (e)-[:Z]->(b)
+
 
 ----
 to make changes to the code put a real person's name into the first "People" node like this:

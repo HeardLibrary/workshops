@@ -20,13 +20,14 @@ To get started, watch this video that will introduce you to the key concepts we 
 
 ## What you will need to do in order to complete the class
 
-1) Log in to your Github account or set one up. You can very easily do this at https://github.com/. If you don't know what Github is, it will all be explained at the Github website.
+1) Log in to your Github account or set one up. You can very easily do this at (https://github.com/). If you don't know what Github is, it will all be explained at the Github website.
 
-2) In a separate window, navigate to http://gist.neo4j.org/.
+2) In a separate window, navigate to (http://gist.neo4j.org/.)
 
-3) Read the short story "On Exactitude in Science"By Jorge Louis Borges. It is very short but also very complex so it is a good text to use when learning about graphing for textual analysis. (http://www.sccs.swarthmore.edu/users/08/bblonder/phys120/docs/borges.pdf)
+3) Read the short story ["On Exactitude in Science"] (http://www.sccs.swarthmore.edu/users/08/bblonder/phys120/docs/borges.pdf) by Jorge Louis Borges. It is very short but also very complex so it is a good text to use when learning about graphing for textual analysis. 
 
 ## Creating the data model
+
 Data modeling can be very simple and hand drawn. Below is an illustration of a hand drawn data model that was later coded into a Neo4j graph.
 
 ![Data Model](http://www.library.vanderbilt.edu/webimages/graphs/graph.png)

@@ -39,25 +39,25 @@ and paste the url of the gist into the search box in the upper right hand corner
 
 Once you are on this page, click  the Page Source button at the top left of the page and you will now be able to edit the code, once you select the edit button in the upper right corner of the page, scroll down until you see this Cipher code.
 
-  === OUR DATASET
+   === OUR DATASET
   [source, cypher]
-  ----
-  CREATE
-  //People
-  (a:Person{name:'a'}),
-  (b:Person{name:'b'}),
-  (c:Person{name:'c'}),
+   ----
+    CREATE
+   //People
+    (a:Person{name:'a'}),
+    (b:Person{name:'b'}),
+    (c:Person{name:'c'}),
 
-  //Places
-  (d:Location{name:'d'}),
-  (e:Location{name:'e'}),
+    //Places
+    (d:Location{name:'d'}),
+    (e:Location{name:'e'}),
 
-  //Relationships
-  (a)-[:R]->(b),
-  (b)-[:S]->(c),
-  (b)-[:T]->(d),
-  (c)-[:U]->(a),
-  (e)-[:Z]->(b)
+    //Relationships
+    (a)-[:R]->(b),
+    (b)-[:S]->(c),
+    (b)-[:T]->(d),
+    (c)-[:U]->(a),
+    (e)-[:Z]->(b)
 
 
 ----

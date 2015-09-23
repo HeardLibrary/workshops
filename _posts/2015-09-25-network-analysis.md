@@ -10,6 +10,9 @@ categories: tech
 Neo4j is a NOSQL database that allows for coding relationships between things. Cypher is the query language that allows us to create the nodes and relationships between things and then ask questions of them. In this class we will create a small graph of the Borges story "On Exactitude in Science" noting the complexity of the story and illustrating some of the patterns that allowed for this complexity.
 
 ##Graphing for textual analysis
+
+[![Network](http://img.youtube.com/vi/Zgkmbk-Qf_4/0.jpg)](http://www.youtube.com/watch?v=Zgkmbk-Qf_4)
+
 ![video](http://www.library.vanderbilt.edu/webimages/graphs/video.png)
 This is a short video that introduces the concepts we will use while graphing the Borges short story.
 

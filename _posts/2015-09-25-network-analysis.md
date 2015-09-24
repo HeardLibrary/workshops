@@ -3,7 +3,8 @@ layout: post
 title:  "Getting started with Network Analyis"
 date:   2014-11-09 18:49:00
 categories: tech
-description: "Learn the basics of network analysis using Neo4j and Neo4j graphgists. In this session we will create an annotation of the short story "On Exactitude in Science" written by Jorge Louis Borges as a Neo4j graphgist. You will then know the basics of graphing and network analysis and be able to create your own graphs."
+description: "Learn the basics of network analysis using Neo4j and Neo4j graphgists.  By the end of the session you will know the basics of graphing and network analysis and be able to create your own graphs."
+
 ---
 
 ##Goals

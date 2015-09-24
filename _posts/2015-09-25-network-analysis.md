@@ -86,6 +86,7 @@ Note that in the above example, we have named that "a" variable "Donald Trump" a
 
 
 ###On Exactitude in Science
+![On Exactitude In Science](http://www.baunetz.de/img/9/7/3/8/5/3/086b2181c747f019.jpg)
 Though the story is only one paragraph long, Borges has woven into the narrative many levels of interpretation. No one graph of the story can ever include all of the threads, allusions, associations and levels (unless of course as in the story itself, the map becomes the territory) but it is illuminating to try and encode some of these in a graph.
 
 First, create a data model. 

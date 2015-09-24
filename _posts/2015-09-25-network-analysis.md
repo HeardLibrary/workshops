@@ -7,7 +7,7 @@ categories: tech
 
 ##Goals
 
-Neo4j is a NOSQL database that allows for coding relationships between things. Cypher is the query language that allows us to create the nodes and relationships between things and then ask questions of them. In this class we will create a small graph of the Borges story "On Exactitude in Science" noting the complexity of the story and illustrating some of the patterns that allowed for this complexity.
+Neo4j is a NOSQL database that allows for coding relationships between things. Cypher is the query language that allows us to create the nodes and relationships and then ask questions of them. In this class we will create a small graph of the Borges story ["On Exactitude in Science"](http://www.sccs.swarthmore.edu/users/08/bblonder/phys120/docs/borges.pdf) noting the complexity of the story and illustrating some of the patterns that allowed for this complexity.
 
 ##Graphing for textual analysis
 
@@ -20,7 +20,7 @@ To get started, watch this video that will introduce you to the key concepts we 
 
 ## What you will need to do in order to complete the class
 
-1) Log in to your [Github]((https://github.com/) account or set one up. If you don't know what Github is, it will all be explained at the Github website.
+1) Log in to your [Github](https://github.com/) account or set one up. If you don't know what Github is, it will all be explained at the Github website.
 
 2) In a separate window, navigate to [ Neo4j GraphGist] (http://gist.neo4j.org/.)
 
@@ -28,7 +28,7 @@ To get started, watch this video that will introduce you to the key concepts we 
 
 
 ##Cypher-the Neo4j Query language
-Now we will look at a very simple graph that has been coded with Cypher to express generic nodes and relationships. Your job will be to modify the cypher to change the variables to something meaningful. In order to do this, go to this [gist] (http://gist.neo4j.org/?3e91a19c317acd660d71) fork the gist which will create a new gist in your own github account. Once you have done this and you have the URL, go to the open window at the [Neo4j graphgist] ( http://gist.neo4j.org/)
+Now we will look at a very simple graph that has been coded with Cypher to express generic nodes and relationships. Your job will be to modify the cypher to change the variables to something meaningful. In order to do this, go to this [gist] (http://gist.neo4j.org/?3e91a19c317acd660d71), fork the gist which will create a new gist in your own github account. Once you have done this and you have the URL, go to the open window at the [Neo4j graphgist] ( http://gist.neo4j.org/)
 and paste the url of the gist into the search box in the upper right hand corner of the page.
 
 ![Graph Gist](http://www.library.vanderbilt.edu/webimages/graphs/url.png)
@@ -59,7 +59,7 @@ Once you are on this page, click  the Page Source button at the top left of the 
 
       ----
 
-To make changes to the code put a real person's name into the first "People" node.
+To make changes to the code put a real person's name into the first "People" node and change another node and then specify what the relationship is under "Relationships".
 
    ----
     CREATE
@@ -104,6 +104,10 @@ Next, using the Cypher example from the first activity above, create nodes and r
 ##Value of Graphing for literary analysis
 
 As noted in the video at the start, good readers have always been close readers. Modelling a short story in this way can help us see beyond the surface narrative and perhaps help us glimpse the glimmering warp and weft of the inner story. It is really just another way to annotate a text, something students and scholars have always done.   
-
+![Annotation](http://lbhs.yourcharlotteschools.net/documents/Study%20skills/Notetaking%20Templates/Linguistic%20graphic%20organizers/sample%20poetry%20annotation.jpg)
 
 ##Next Steps
+Whenever you are creating nodes and relationships between nodes you are creating a mathematical graph. Mathematical graphs have properties and these properties can be used to analyze large complex graphs which we often call networks or intricate graphs such as in the Borges short story. By traversing the patterns in the graph, we can uncover information that was not immediately apparent. Services like Facebook, Linked In and OKCupid all use graphing technology to manage the large datasets and complex interconnections that allow for recommendations, targeted advertising and friend suggestions. Google takes advantage of network properties to create algorithms that surface relevant information. The dream of the semantic web and the reality of the World Wide Web all depend on the properties of networks and mathematical graphs to deliver information. 
+
+Further Reading:
+

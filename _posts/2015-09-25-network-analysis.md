@@ -110,4 +110,12 @@ As noted in the video at the start, good readers have always been close readers.
 Whenever you are creating nodes and relationships between nodes you are creating a mathematical graph. Mathematical graphs have properties and these properties can be used to analyze large complex graphs which we often call networks or intricate graphs such as in the Borges short story. By traversing the patterns in the graph, we can uncover information that was not immediately apparent. Services like Facebook, Linked In and OKCupid all use graphing technology to manage the large datasets and complex interconnections that allow for recommendations, targeted advertising and friend suggestions. Google takes advantage of network properties to create algorithms that surface relevant information. The dream of the semantic web and the reality of the World Wide Web all depend on the properties of networks and mathematical graphs to deliver information. 
 
 Further Reading:
+[Linked: How Everything Is Connected to Everything Else and What It Means for Business, Science, and Everyday Life](http://www.amazon.com/Linked-Everything-Connected-Business-Everyday/dp/0452284392)
+This book is a little outdated bu still very good in explaining how graphs and networks operate. 
+
+[How Graph Databases Relate To Other NoSQL Data Models](http://neo4j.com/developer/graph-db-vs-nosql/)
+Good explanation of why you might want to use a graph database instead of a relational database.
+
+[Linked Data and the Semantic Web](http://www.w3.org/standards/semanticweb/data) 
+Both Linked Data and the Semantic Web is nomenclature developed by Tim Berners Lee and the W3C to describe a set of standards and technologies that encode data on the web so that it can reveal information not available through other query mechanisms.
 

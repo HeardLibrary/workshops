@@ -105,7 +105,7 @@ Next, using the Cypher example from the first activity above, create nodes and r
 
 <img src="http://lbhs.yourcharlotteschools.net/documents/Study%20skills/Notetaking%20Templates/Linguistic%20graphic%20organizers/sample%20poetry%20annotation.jpg" width="250">
 
-As noted in the video at the start, good readers have always been close readers. Modelling a short story in this way can help us see beyond the surface narrative and perhaps help us glimpse the glimmering warp and weft of the inner story. It is really just another way to annotate a text, something students and scholars have always done. 
+As noted in the video at the start, good readers have always been close readers. Modelling a short story in this way can help us see beyond the story line and perhaps allow for a glimpse of the inner weave of the story. It is really just another way to annotate a text, something students and scholars have always done. 
 
 
 ![Annotation](http://lbhs.yourcharlotteschools.net/documents/Study%20skills/Notetaking%20Templates/Linguistic%20graphic%20organizers/sample%20poetry%20annotation.jpg)

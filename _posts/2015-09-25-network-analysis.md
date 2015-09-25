@@ -32,9 +32,9 @@ To get started, watch this video that will introduce you to the key concepts we 
 ##Cypher-the Neo4j Query language
 Now we will look at a very simple graph that has been coded with Cypher to express generic nodes and relationships. Your job will be to modify the cypher to change the variables to something meaningful. In order to do this, go to:
 
-* [the gist for the graph] (http://gist.neo4j.org/?3e91a19c317acd660d71)
+* [The gist for the graph] (http://gist.neo4j.org/?3e91a19c317acd660d71).
 * Fork the gist which will create a new gist in your own github account.
-* Go to the open window at the [Neo4j graphgist] ( http://gist.neo4j.org/)and paste the url of the gist into the search box in the upper right hand corner of the page.
+* Go to the open window at the [Neo4j graphgist] ( http://gist.neo4j.org/) and paste the url of the gist into the search box in the upper right hand corner of the page.
 
 ![Graph Gist](http://www.library.vanderbilt.edu/webimages/graphs/url.png)
 

@@ -87,7 +87,7 @@ To make changes to the code put a real person's name into the first "People" nod
 
       ----
 
-Note that in the above example, we have named that "a" variable "Donald Trump" and the "b" variable "Barack Obama" so in our Relationships statement, we need only reference the variables to express the OPPOSES relationship. 
+Note that in the above example, we have named the "a" variable "Donald Trump" and the "b" variable "Barack Obama" so in our Relationships statement, we need only reference the variables to express the OPPOSES relationship. 
 
 
 ###On Exactitude in Science

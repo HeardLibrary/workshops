@@ -117,7 +117,9 @@ ggplot(permits, aes(x=Year, y=Value)) + geom_point()
 ggplot(permits, aes(x=Year, y=Value)) + geom_boxplot() + ggtitle("New Private Housing Units Authorized By Building Permit for Tennessee")
 ```
 
-###Shiny Housing Starts
+####Shiny Housing Starts
+
+[Shiny](http://shiny.rstudio.com/) is a framework developed by [RStudio](https://www.rstudio.com/) for turning data analyses in R into interactive websites. Shiny allows you to port your code over to the web without having to know very much about HTML, CSS, Javascript or other web technologies. 
 
 ```R
 # ui.R

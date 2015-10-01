@@ -117,6 +117,64 @@ ggplot(permits, aes(x=Year, y=Value)) + geom_point()
 ggplot(permits, aes(x=Year, y=Value)) + geom_boxplot() + ggtitle("New Private Housing Units Authorized By Building Permit for Tennessee")
 ```
 
+###Shiny Housing Starts
+
+```R
+# ui.R
+
+shinyUI(fluidPage(
+  titlePanel("Housing Permits in Tennessee"),
+  
+  sidebarLayout(
+    sidebarPanel(
+      helpText("Select a date range."),
+      
+      dateRangeInput("daterange", "Date range:",
+                     start  = "1988-01-01",
+                     end    = "2015-07-01",
+                     min    = "1988-01-01",
+                     max    = "2015-07-01",
+                     format = "mm/dd/yyyy",
+                     startview = "year",
+                     separator = " - ")
+    ),
+    
+    mainPanel(plotOutput("plot"))
+  )
+))
+```
+
+```R
+# server.R
+
+#Load required libraries
+library(ggplot2)
+library(RCurl)
+
+# Get dataset directly from Quandl 
+csv <- getURL("https://www.quandl.com/api/v1/datasets/FRED/TNBPPRIVSA.csv")
+permits <- read.csv(text = csv)
+
+# Edit the dates in the dataset using the strptime function
+# Thanks to http://stackoverflow.com/questions/20967445/plotting-historical-data-with-missing-values/20969623#20969623
+permits$Year <- strptime(as.character(permits$Date), "%Y-%m-%d")
+permits$Year <- format(permits$Year, "%Y")
+
+permits$Date <- as.Date(permits$Date)
+
+shinyServer(
+  function(input, output) {
+    
+    output$plot <- renderPlot({
+      minYear <- as.Date(input$daterange[1])
+      maxYear <- as.Date(input$daterange[2])
+      permits <- subset(permits, Date >= minYear & Date <= maxYear)
+      ggplot(permits, aes(x=Year, y=Value)) + geom_boxplot() + ggtitle("New Private Housing Units Authorized By Building Permit for Tennessee")    
+    })
+  }
+)
+```
+
 ###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 
 This dataset from the Association for Research Libraries (ARL) contains key information about academic library budgets and staffing. An Excel (XLS) file is available [here](http://www.arlstatistics.org/documents/ARLStats/index13.xls), but we will be working with a converted CSV file on your desktop.

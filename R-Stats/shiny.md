@@ -9,10 +9,10 @@ R is an open source programming language for statistical analysis. In this sessi
 * Download the [R Programming Language](http://www.r-project.org/) in the version appropriate to your computer.
 * Download the desktop version of [R Studio](http://www.rstudio.com/products/rstudio/)
 * Install the required packages from CRAN (the R code is below):
-** [ggplot2](http://cran.r-project.org/web/packages/ggplot2/index.html)
-** [leaflet](http://rstudio.github.io/leaflet/)
-** [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
-** [Shiny](https://cran.r-project.org/web/packages/shiny/index.html)
+ * [ggplot2](http://cran.r-project.org/web/packages/ggplot2/index.html)
+ * [leaflet](http://rstudio.github.io/leaflet/)
+ * [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
+ * [Shiny](https://cran.r-project.org/web/packages/shiny/index.html)
 
 ```R
 install.packages("ggplot2")
@@ -191,9 +191,9 @@ shinyServer(
 )
 ```
 
-###[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
+####[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
 
-
+R doesn't just produce plots. You can produce all kinds of outputs with the appropriate packages. In this example, we use [leaflet](https://rstudio.github.io/leaflet/), an open source Javascript mapping library, to produce a map of Starbuck's locations in Tennessee.
 
 ```R
 # Plot Starbuck locations in Tennessee on a map
@@ -213,7 +213,9 @@ map  <- addMarkers(map, starbuckstn$Longitude, starbuckstn$Latitude, popup=starb
 map
 ```
 
-###Shiny Starbucks
+####Shiny Starbucks
+
+But why strict ourselves to Tennessee? Wouldn't it be better to allow users to select their own location from a dropdown control? Here's a Shiny version of the code above, which permits users to display Starbuck's locations in their own regions.
 
 ```R
 # ui.R
@@ -234,6 +236,8 @@ shinyUI(fluidPage(
   )
 ))
 ```
+
+Like all Shiny applications, the ```server.R``` code below will update the map according to the region selected by the user. As you'll note, we're storing the CSV locally in a folder called ```data``` in order to avoid sending too many requests to the website of the data provider.
 
 ```R
 # server.R
@@ -322,7 +326,9 @@ ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + s
 
 ```
 
-###Shiny ARL
+####Shiny ARL
+
+A final example makes it possible for users to select their own institution as a basis of comparison.
 
 ```R
 # ui.R
@@ -347,6 +353,8 @@ shinyUI(fluidPage(
   )
 ))
 ```
+
+Note how we've divided up the code. We've placed most of the code outside the reactive context, meaning that it will only be called on loading the application, not everytime a user updates the plot.
 
 ```R
 # server.R
@@ -383,12 +391,12 @@ shinyServer(
 )
 ```
 
-
 ###Next Steps with R
 
 * Sign up for the [Free Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) on [DataCamp](https://www.datacamp.com)
 * Read a good book on R. 
  * Gentle introduction: [R for Dummies](http://www.amazon.com/R-For-Dummies-Andrie-Vries/dp/1119962846/ref=cm_cr_pr_product_top) by Andrie de Vries
  * Graphing in R (with ggplot2): [R Graphics Cookbook](http://www.amazon.com/R-Graphics-Cookbook-Winston-Chang/dp/1449316956) by Winston Chang
+ * Take the Shiny tutorial at RStudio: [Shiny Tutorial](http://shiny.rstudio.com/tutorial/)
  * R as a programming language: [The Art of R Programming](http://www.nostarch.com/artofr.htm) by Norman Matloff
 * Consider pursuing the [Data Science specialization](https://www.coursera.org/specialization/jhudatascience/1) on Coursera.

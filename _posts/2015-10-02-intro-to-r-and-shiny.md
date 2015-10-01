@@ -197,6 +197,10 @@ shinyServer(
 )
 ```
 
+Here's a screenshow the resulting [Shiny application](https://andersoncliffb.shinyapps.io/housing-starts-TN):
+
+[Imgur](http://i.imgur.com/mrmYE0L.png)
+
 ###[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
 
 R doesn't just produce plots. You can produce all kinds of outputs with the appropriate packages. In this example, we use [leaflet](https://rstudio.github.io/leaflet/), an open source Javascript mapping library, to produce a map of Starbuck's locations in Tennessee.
@@ -270,6 +274,10 @@ shinyServer(
   }
 )
 ```
+
+Here's how your Shiny application winds up looking:
+
+![Imgur](http://i.imgur.com/TqxSsi7.png)
 
 ###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 

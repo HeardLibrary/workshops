@@ -199,7 +199,7 @@ shinyServer(
 
 Here's a screenshow the resulting [Shiny application](https://andersoncliffb.shinyapps.io/housing-starts-TN):
 
-[Imgur](http://i.imgur.com/mrmYE0L.png)
+![Imgur](http://i.imgur.com/mrmYE0L.png)
 
 ###[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
 

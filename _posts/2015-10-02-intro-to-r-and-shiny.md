@@ -6,8 +6,6 @@ categories: tech
 description: "R is an open source programming language for statistical analysis. In this session, we’ll show you how to get started with R. We’ll introduce you to RStudio, a free integrated development environment (IDE) for R. You will learn how to load data into R and to plot simple graphs. We'll also demonstrate how to migrate your graphs to the web and make them interactive. You won’t leave as an R expert, but you’ll learn enough to get started on your data analysis journey."
 ---
 
-#Open Source Statistical Analysis with R
-
 ##Goals
 
 R is an open source programming language for statistical analysis. In this session, we’ll show you how to get started with R. We’ll introduce you to RStudio, a free integrated development environment (IDE) for R. You will learn how to load data into R and to plot simple graphs. We'll also demonstrate how to migrate your graphs to the web and make them interactive. You won’t leave as an R expert, but you’ll learn enough to get started on your data analysis journey.
@@ -199,7 +197,7 @@ shinyServer(
 )
 ```
 
-####[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
+###[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
 
 R doesn't just produce plots. You can produce all kinds of outputs with the appropriate packages. In this example, we use [leaflet](https://rstudio.github.io/leaflet/), an open source Javascript mapping library, to produce a map of Starbuck's locations in Tennessee.
 

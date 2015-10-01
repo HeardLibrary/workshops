@@ -2,20 +2,30 @@
 
 ##Goals
 
-R is an open source programming language for statistical analysis. In this session, we’ll show you how to get started with R. Learn how to load data into R and to plot simple graphs. We’ll also introduce you to RStudio, a free integrated development environment (IDE) for R. You won’t leave as an R expert, but you’ll learn enough to get started on your data analysis journey.
+R is an open source programming language for statistical analysis. In this session, we’ll show you how to get started with R. We’ll introduce you to RStudio, a free integrated development environment (IDE) for R. You will learn how to load data into R and to plot simple graphs. We'll also demonstrate how to migrate your graphs to the web and make them interactive. You won’t leave as an R expert, but you’ll learn enough to get started on your data analysis journey.
 
 ##Prerequisites
 
 * Download the [R Programming Language](http://www.r-project.org/) in the version appropriate to your computer.
 * Download the desktop version of [R Studio](http://www.rstudio.com/products/rstudio/)
-* Install [ggplot2](http://cran.r-project.org/web/packages/ggplot2/index.html) and [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html) packages (the code below is for our workshop laptops)
+* Install the required packages from CRAN (the R code is below):
+** [ggplot2](http://cran.r-project.org/web/packages/ggplot2/index.html)
+** [leaflet](http://rstudio.github.io/leaflet/)
+** [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
+** [Shiny](https://cran.r-project.org/web/packages/shiny/index.html)
 
 ```R
 install.packages("ggplot2")
 library(ggplot2)
 
+install.packages("leaflet")
+library(leaflet)
+
 install.packages("RCurl")
 library(RCurl)
+
+install.packages("Shiny")
+library(Shiny)
 ```
 
 ##Why R?
@@ -119,7 +129,9 @@ ggplot(permits, aes(x=Year, y=Value)) + geom_boxplot() + ggtitle("New Private Ho
 
 ####Shiny Housing Starts
 
-[Shiny](http://shiny.rstudio.com/) is a framework developed by [RStudio](https://www.rstudio.com/) for turning data analyses in R into interactive websites. Shiny allows you to port your code over to the web without having to know very much about HTML, CSS, Javascript or other web technologies. 
+[Shiny](http://shiny.rstudio.com/) is a framework developed by [RStudio](https://www.rstudio.com/) for turning data analyses in R into interactive websites. Shiny allows you to port your code over to the web without having to know very much about HTML, CSS, Javascript or other web technologies. Shiny apps are divided into two parts: ```ui.R``` and ```server.R```. The first part contains the layout and the second the analysis.
+
+In this example, the ```ui.R``` allows users to select a date range from a date menu picker.
 
 ```R
 # ui.R
@@ -145,6 +157,8 @@ shinyUI(fluidPage(
   )
 ))
 ```
+
+Whenever a new date is selected, the ```server.r``` code will update the plot accordingly. This paradigm is termed 'reactive' programming because the server *reacts* to the user's selections in ```ui.r```.
 
 ```R
 # server.R
@@ -178,6 +192,8 @@ shinyServer(
 ```
 
 ###[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
+
+
 
 ```R
 # Plot Starbuck locations in Tennessee on a map
@@ -292,7 +308,7 @@ ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm")
 ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma)
 
 # Add title
-ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + main("ARL Salaries")
+ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Salaries")
 
 # Highlight Vanderbilt on the plot
 # Thanks to http://stackoverflow.com/questions/14351608/color-one-point-and-add-an-annotation-in-ggplot2/14351684#14351684

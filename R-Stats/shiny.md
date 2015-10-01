@@ -177,7 +177,7 @@ shinyServer(
 )
 ```
 
-###Mapping Stabucks Locations
+###[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
 
 ```R
 # Plot Starbuck locations in Tennessee on a map
@@ -195,6 +195,54 @@ map <- leaflet()
 map <- addTiles(map)
 map  <- addMarkers(map, starbuckstn$Longitude, starbuckstn$Latitude, popup=starbuckstn$Name)
 map
+```
+
+###Shiny Starbucks
+
+```R
+# ui.R
+
+regions <- unique(as.vector(starbucks$Country.Subdivision))
+
+shinyUI(fluidPage(
+  titlePanel("Starbucks Locations"),
+  
+  sidebarLayout(
+    sidebarPanel(
+      helpText("Select a region from the list below."),
+
+      selectInput("region", choices = regions, label = "Regions", selected="TN")
+    ),
+    
+    mainPanel(leafletOutput("map"))
+  )
+))
+```
+
+```R
+# server.R
+
+#Load required libraries
+library(leaflet)
+library(RCurl)
+
+# Get dataset from CSV 
+starbucks <- read.csv("data/starbucks.csv", header=TRUE)
+
+# Insantiate leaflet map
+map <- leaflet()
+map <- addTiles(map)
+
+shinyServer(
+  function(input, output) {
+    
+    output$map <- renderLeaflet({
+      starbuckstn <- subset(starbucks, Country.Subdivision == input$region)
+      map  <- addMarkers(map, starbuckstn$Longitude, starbuckstn$Latitude, popup=starbuckstn$Name)
+      map    
+    })
+  }
+)
 ```
 
 ###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)

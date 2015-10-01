@@ -177,6 +177,26 @@ shinyServer(
 )
 ```
 
+###Mapping Stabucks Locations
+
+```R
+# Plot Starbuck locations in Tennessee on a map
+
+library(leaflet)
+library(RCurl)
+
+# Data source: https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed
+data <- getURL("https://opendata.socrata.com/api/views/7sg8-44ed/rows.csv?accessType=DOWNLOAD")
+starbucks <- read.csv(text = data, header=TRUE)
+starbuckstn <- subset(starbucks, Country.Subdivision == "TN")
+
+# Create and display leaflet map
+map <- leaflet()
+map <- addTiles(map)
+map  <- addMarkers(map, starbuckstn$Longitude, starbuckstn$Latitude, popup=starbuckstn$Name)
+map
+```
+
 ###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 
 This dataset from the Association for Research Libraries (ARL) contains key information about academic library budgets and staffing. An Excel (XLS) file is available [here](http://www.arlstatistics.org/documents/ARLStats/index13.xls), but we will be working with a converted CSV file on your desktop.

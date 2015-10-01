@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting Started with Online Mapping"
+title:  "Getting Started with R and Shiny"
 date:   2015-10-02 11:00:00
 categories: tech
 description: "R is an open source programming language for statistical analysis. In this session, we’ll show you how to get started with R. We’ll introduce you to RStudio, a free integrated development environment (IDE) for R. You will learn how to load data into R and to plot simple graphs. We'll also demonstrate how to migrate your graphs to the web and make them interactive. You won’t leave as an R expert, but you’ll learn enough to get started on your data analysis journey."

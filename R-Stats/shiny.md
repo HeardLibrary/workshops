@@ -1,4 +1,5 @@
-#Open Source Statistical Analysis with R
+#Interactive Data Analysis with R and Shiny
+
 
 ##Goals
 
@@ -12,6 +13,7 @@ R is an open source programming language for statistical analysis. In this sessi
  * [ggplot2](http://cran.r-project.org/web/packages/ggplot2/index.html)
  * [leaflet](http://rstudio.github.io/leaflet/)
  * [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html)
+ * [Scales](https://cran.r-project.org/web/packages/scales/index.html)
  * [Shiny](https://cran.r-project.org/web/packages/shiny/index.html)
 
 ```R
@@ -23,6 +25,9 @@ library(leaflet)
 
 install.packages("RCurl")
 library(RCurl)
+
+install.packages("Scales")
+library(scales)
 
 install.packages("Shiny")
 library(Shiny)
@@ -69,6 +74,10 @@ ggplot(averages, aes(x=height, y=weight)) + geom_point()
 ggplot(averages, aes(x=height, y=weight)) + geom_point() + stat_smooth(method = "lm")
 ```
 
+This code produces a nice plot of the dataset.
+
+![Imgur](http://i.imgur.com/M6CXxYv.png)
+
 ###[Lower Secondary School Age Population in the USA](https://www.quandl.com/data/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA-Lower-Secondary-School-age-population-All-genders-United-States-of-America)
 
 This dataset from the United Nations on [Quandl](https://www.quandl.com/) contains the population of all genders of middle school ("lower secondary school") kids in the United States.
@@ -77,13 +86,14 @@ This dataset from the United Nations on [Quandl](https://www.quandl.com/) contai
 # Load the required libraries
 library(RCurl)
 library(ggplot2)
+library(scales)
 
 # Load the dataset directly from Quandl & read CSV into data.frame
 csv <- getURL("https://www.quandl.com/api/v1/datasets/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA.csv")
 kids <- read.csv(text = csv, header=T)
 
 # Explore the dataset
-head(kids
+head(kids)
 str(kids)
 View(kids)
 
@@ -91,8 +101,12 @@ View(kids)
 ggplot(kids, aes(x=Year, y=Number)) + geom_point()
 
 # Plot the dataset with cleaner x axis and title
-ggplot(kids, aes(x=Year, y=Number)) + geom_point() + theme(axis.text.x = element_text(angle = 90)) + ggtitle("Lower Secondary School Age Population")
+ggplot(kids, aes(x=Year, y=Number)) + geom_point() + theme(axis.text.x = element_text(angle = 90)) + ggtitle("Lower Secondary School Age Population") + scale_y_continuous(labels = comma)
 ```
+
+And, voila, we have another nice plot:
+
+![Imgur](http://i.imgur.com/NrhcJ2x.png)
 
 ###[New Private Housing Units Authorized By Building Permit for Tennessee](https://www.quandl.com/data/FRED/TNBPPRIV-New-Private-Housing-Units-Authorized-By-Building-Permit-for-Tennessee)
 
@@ -191,7 +205,11 @@ shinyServer(
 )
 ```
 
-####[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
+Here's a screenshow the resulting [Shiny application](https://andersoncliffb.shinyapps.io/housing-starts-TN):
+
+![Imgur](http://i.imgur.com/mrmYE0L.png)
+
+###[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
 
 R doesn't just produce plots. You can produce all kinds of outputs with the appropriate packages. In this example, we use [leaflet](https://rstudio.github.io/leaflet/), an open source Javascript mapping library, to produce a map of Starbuck's locations in Tennessee.
 
@@ -264,6 +282,10 @@ shinyServer(
   }
 )
 ```
+
+Here's how your Shiny application winds up looking:
+
+![Imgur](http://i.imgur.com/TqxSsi7.png)
 
 ###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 
@@ -394,9 +416,9 @@ shinyServer(
 ###Next Steps with R
 
 * Sign up for the [Free Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) on [DataCamp](https://www.datacamp.com)
+* Take the Shiny tutorial at RStudio: [Shiny Tutorial](http://shiny.rstudio.com/tutorial/)
 * Read a good book on R. 
  * Gentle introduction: [R for Dummies](http://www.amazon.com/R-For-Dummies-Andrie-Vries/dp/1119962846/ref=cm_cr_pr_product_top) by Andrie de Vries
  * Graphing in R (with ggplot2): [R Graphics Cookbook](http://www.amazon.com/R-Graphics-Cookbook-Winston-Chang/dp/1449316956) by Winston Chang
- * Take the Shiny tutorial at RStudio: [Shiny Tutorial](http://shiny.rstudio.com/tutorial/)
  * R as a programming language: [The Art of R Programming](http://www.nostarch.com/artofr.htm) by Norman Matloff
 * Consider pursuing the [Data Science specialization](https://www.coursera.org/specialization/jhudatascience/1) on Coursera.

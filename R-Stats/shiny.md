@@ -352,37 +352,11 @@ ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + s
 
 A final example makes it possible for users to select their own institution as a basis of comparison.
 
-```R
-# ui.R
-
-#Convert Data.Frame to Vector for display in selectInput
-Institutions <- as.vector(arl$Institution)
-
-shinyUI(fluidPage(
-  titlePanel("ARL Salaries"),
-  
-  sidebarLayout(
-    sidebarPanel(
-      helpText("Select a library to highlight."),
-      
-      selectInput("var", 
-                  label = "Choose a library",
-                  choices = Institutions,
-                  selected = "VANDERBILT")
-    ),
-    
-    mainPanel(plotOutput("plot"))
-  )
-))
-```
-
-Note how we've divided up the code. We've placed most of the code outside the reactive context, meaning that it will only be called on loading the application, not everytime a user updates the plot.
+Note how we've divided up the code. We've placed most of the code outside the reactive context in ```global.R```, meaning that it will only be called on loading the application, not everytime a user updates the plot. ```global.R``` puts our code in scope of both ```ui.R``` and ```server.R```.
 
 ```R
-# server.R
-
-library(ggplot2)
-library(scales)
+# global.R
+# Put information here to make it available to both server.R and ui.R
 
 # Load dataset from CSV
 arl <- read.csv("data/index13.csv", header=T, skip=1)
@@ -403,11 +377,41 @@ wages <- gsub(",","",wages)
 wages <- as.numeric(wages)
 arl$Wages <- wages
 
+#Convert Data.Frame to Vector for display in selectInput
+Institutions <- as.vector(arl$Institution)
+```
+
+Our ```ui.R``` and ```server.R``` scripts are very minimal.
+
+```R
+# ui.R
+
+shinyUI(fluidPage(
+  titlePanel("ARL Salaries"),
+  
+  sidebarLayout(
+    sidebarPanel(
+      helpText("Select a library to highlight."),
+      
+      selectInput("var", 
+                  label = "Choose a library",
+                  choices = Institutions,
+                  selected = "VANDERBILT")
+    ),
+    
+    mainPanel(plotOutput("plot"))
+  )
+))
+```
+
+```R
+# server.R
+
 shinyServer(
   function(input, output) {
     output$plot <- renderPlot({
       Vandy <- subset(arl, Institution == input$var)
-      ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Salaries") + xlab("All Staff") + ylab("Professional Salaries") + geom_point(data=Vandy, colour="red", size = 5)      
+      ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Salaries") + xlab("All Staff") + ylab("Professional Salaries") + geom_point(data=Vandy, colour="red", size = 5)   
     })
   }
 )

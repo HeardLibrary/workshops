@@ -29,8 +29,8 @@ library(RCurl)
 install.packages("Scales")
 library(scales)
 
-install.packages("Shiny")
-library(Shiny)
+install.packages("shiny")
+library(shiny)
 ```
 
 ##Why R?

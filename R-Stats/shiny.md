@@ -235,6 +235,25 @@ map
 
 But why strict ourselves to Tennessee? Wouldn't it be better to allow users to select their own location from a dropdown control? Here's a Shiny version of the code above, which permits users to display Starbuck's locations in their own regions.
 
+We divide the code between the files this time. Note how we've divided things up. We've placed most of the code outside the reactive context in ```global.R```, meaning that it will only be called on loading the application, not everytime a user updates the plot. ```global.R``` puts our code in scope of both ```ui.R``` and ```server.R```.
+
+```R
+# global.R
+# Code here is in scope to both ui.R and server.R
+
+#Load required libraries
+library(RCurl)
+
+# Get dataset from CSV 
+starbucks <- read.csv("data/starbucks.csv", header=TRUE)
+
+# Create a vector of country subdivions (i.e. states in the U.S.)
+regions <- unique(as.vector(starbucks$Country.Subdivision))
+
+```
+
+We then create a drop down list populated by the regions column of our data frame. Ideally, we'd clean up this list and make it more human readible.
+
 ```R
 # ui.R
 
@@ -334,7 +353,7 @@ ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm")
 ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma)
 
 # Add title
-ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Salaries")
+ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Expenditures")
 
 # Highlight Vanderbilt on the plot
 # Thanks to http://stackoverflow.com/questions/14351608/color-one-point-and-add-an-annotation-in-ggplot2/14351684#14351684
@@ -344,19 +363,17 @@ Vandy <- subset(arl, Institution == "VANDERBILT")
 View(Vandy)
 
 # Then, create a scatter plot with a highlighted point for Vanderbilt
-ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Salaries") + xlab("All Staff") + ylab("Professional Salaries") + geom_point(data=Vandy, colour="red")
+ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Expenditures") + xlab("All Staff") + ylab("Professional Salaries") + geom_point(data=Vandy, colour="red")
 
 ```
 
 ####Shiny ARL
 
-A final example makes it possible for users to select their own institution as a basis of comparison.
-
-Note how we've divided up the code. We've placed most of the code outside the reactive context in ```global.R```, meaning that it will only be called on loading the application, not everytime a user updates the plot. ```global.R``` puts our code in scope of both ```ui.R``` and ```server.R```.
+A final example makes it possible for users to select their own institution as a basis of comparison. As before, we put code to load the data in ```global.r```, putting it in scope of both ```ui.r``` and ```server.r```.
 
 ```R
 # global.R
-# Put information here to make it available to both server.R and ui.R
+# Put code here to make it available to both server.R and ui.R
 
 # Load dataset from CSV
 arl <- read.csv("data/index13.csv", header=T, skip=1)
@@ -381,13 +398,13 @@ arl$Wages <- wages
 Institutions <- as.vector(arl$Institution)
 ```
 
-Our ```ui.R``` and ```server.R``` scripts are very minimal.
+Our ```ui.R``` and ```server.R``` scripts are very minimal. The ```ui.R``` provides a dropdown list of the institutions we'd can choose to highight.
 
 ```R
 # ui.R
 
 shinyUI(fluidPage(
-  titlePanel("ARL Salaries"),
+  titlePanel("ARL Expenditures"),
   
   sidebarLayout(
     sidebarPanel(
@@ -404,18 +421,26 @@ shinyUI(fluidPage(
 ))
 ```
 
+The ```server.R``` produces a plot of the data, highlighting the selected institution with a larger red dot.
+
 ```R
 # server.R
+
+library(ggplot2)
+library(scales)
 
 shinyServer(
   function(input, output) {
     output$plot <- renderPlot({
       Vandy <- subset(arl, Institution == input$var)
-      ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Salaries") + xlab("All Staff") + ylab("Professional Salaries") + geom_point(data=Vandy, colour="red", size = 5)   
+      ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Expenditures") + xlab("Total Staff") + ylab("Professional Salaries") + geom_point(data=Vandy, colour="red", size = 5)      
     })
   }
 )
 ```
+The resulting website allows users to select an institution to highlight on the plot.
+
+![Imgur](http://i.imgur.com/RoSGjUq.png)
 
 ###Next Steps with R
 

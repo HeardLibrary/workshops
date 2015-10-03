@@ -241,8 +241,8 @@ We divide the code between the files this time. Note how we've divided things up
 # global.R
 # Code here is in scope to both ui.R and server.R
 
-#Load required libraries
-library(RCurl)
+#Load required library
+library(leaflet)
 
 # Get dataset from CSV 
 starbucks <- read.csv("data/starbucks.csv", header=TRUE)
@@ -278,13 +278,6 @@ Like all Shiny applications, the ```server.R``` code below will update the map a
 
 ```R
 # server.R
-
-#Load required libraries
-library(leaflet)
-library(RCurl)
-
-# Get dataset from CSV 
-starbucks <- read.csv("data/starbucks.csv", header=TRUE)
 
 # Insantiate leaflet map
 map <- leaflet()

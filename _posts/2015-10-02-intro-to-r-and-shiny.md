@@ -31,7 +31,7 @@ library(leaflet)
 install.packages("RCurl")
 library(RCurl)
 
-install.packages("Scales")
+install.packages("scales")
 library(scales)
 
 install.packages("shiny")

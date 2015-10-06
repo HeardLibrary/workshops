@@ -365,6 +365,12 @@ ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + s
 
 ```
 
+A little complicated, right? Laura K. Wiley, a Ph.D. candidate at Vanderbilt University who attended this workshop, kindly provided an alternative code example that makes use of the [```dplyr``` library](https://cran.r-project.org/web/packages/dplyr/index.html). Her example shows how much ```dplyr``` simplifies data manipulation operations such as selecting, subsetting, and renaming columns and rows in data frames.
+
+{% gist laurakwiley/25c317015a0b2e3fe40e %}
+
+Thanks again, Laura, for taking the time to contribute this code example!
+
 ####Shiny ARL
 
 A final example makes it possible for users to select their own institution as a basis of comparison. As before, we put code to load the data in ```global.r```, putting it in scope of both ```ui.r``` and ```server.r```.

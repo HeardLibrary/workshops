@@ -4,7 +4,7 @@ title:  "Getting Started with Editing Wikipedia"
 date:   2015-10-09 11:00:00
 categories: tech
 description: "Wikipedia is the premier reference source of our era. But who writes its articles? How does the editorial process work? In this session, we’ll teach you everything you need to know to become a productive editor of Wikipedia. Learn how to create an account, add to existing articles, comment and pose questions on talk pages, and even create your own articles. We’ll also suggest how to incorporate Wikipedia into your pedagogy and scholarship."
-Rights: Ed Warga / Vanderbilt University. CC BY. 
+Rights: Ed Warga / Vanderbilt University. CC BY. http://creativecommons.org/licenses/by/4.0/
 Rights: Attribution - some material used here was derived from https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Workshop/Sample_one-day_workshop
 ---
 #Wikipedia
@@ -158,11 +158,16 @@ Here's a look at what's expected of a participating Wikipedia. Don't be scared o
 * Join an active [Wikipedia Wikiproject](https://en.wikipedia.org/wiki/Category:WikiProjects) to work with others on articles of interest.
 * Find any local Wikipedia Meetup at [Meetup/Nashville](https://en.wikipedia.org/wiki/Meetup/Nashville).
 * Organize your own "self-help" workshop with others who are interested in editing Wikipedia. 
-* As editors become more experienced, have an "edit-a-thon" where editors edit articles of their choosing **or** all edit articles on a specific topic **or** improve one article together. (See [Collaborations](https://en.wikipedia.org/wiki/Collaborations).) Have a social event later to make it a more fun day.
+* As editors become more experienced, have an "edit-a-thon" where editors edit articles of their choosing or all edit articles on a specific topic or improve one article together. (See [Collaborations](https://en.wikipedia.org/wiki/Collaborations).)
 
 ##Join us on Wikipedia
 The Jean and Alexander Heard Library at Vanderbilt University hosts events and encourages participation in the Wikipedia project. Find us on Wikipedia at (https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/GLAM/VU).
 
-Attribution: some material used here was derived from https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Workshop/Sample_one-day_workshop
+
+
+<br/>
+------
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Getting Started with Editing Wikipedia</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/EdWarga" property="cc:attributionName" rel="cc:attributionURL">Ed Warga </a> / Vanderbilt University is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://en.wikipedia.org/wiki/Wikipedia:Workshop/Sample_one-day_workshop" rel="dct:source">https://en.wikipedia.org/wiki/Wikipedia:Workshop/Sample_one-day_workshop </a>.
+
 
 

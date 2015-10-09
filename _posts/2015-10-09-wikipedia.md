@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting Started with Editing Wikipedia"
+title:  "Get Started with Editing Wikipedia"
 date:   2015-10-09 11:00:00
 categories: tech
 description: "Wikipedia is the premier reference source of our era. But who writes its articles? How does the editorial process work? In this session, we’ll teach you everything you need to know to become a productive editor of Wikipedia. Learn how to create an account, add to existing articles, comment and pose questions on talk pages, and even create your own articles. We’ll also suggest how to incorporate Wikipedia into your pedagogy and scholarship."

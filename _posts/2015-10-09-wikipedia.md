@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Get Started with Editing Wikipedia"
+title:  "Getting Started with Editing Wikipedia"
 date:   2015-10-09 11:00:00
 categories: tech
 description: "Wikipedia is the premier reference source of our era. But who writes its articles? How does the editorial process work? In this session, we’ll teach you everything you need to know to become a productive editor of Wikipedia. Learn how to create an account, add to existing articles, comment and pose questions on talk pages, and even create your own articles. We’ll also suggest how to incorporate Wikipedia into your pedagogy and scholarship."
@@ -34,17 +34,15 @@ Your [Wikipedia Adventure](https://en.wikipedia.org/wiki/The_Wikipedia_Adventure
 
 ###Principles and policies of Wikipedia
 
-* There are [Five Pillars of Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Five_pillars) of Wikipedia.
+There are [Five Pillars of Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Five_pillars) of Wikipedia.
 
-* Wikipedia describes itself by stating [what Wikipedia is not](https://en.wikipedia.org/wiki/What_Wikipedia_is_not). For instance it is not a dictionary - articles with only definitions should be expanded with additional encyclopedic content.
+Wikipedia describes itself by stating [what Wikipedia is not](https://en.wikipedia.org/wiki/What_Wikipedia_is_not). For instance it is not a dictionary - articles with only definitions should be expanded with additional encyclopedic content.
 
-* The Wikipedia [core content policies](https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies) are:
+The Wikipedia [core content policies](https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies) are:
 
-	* [Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view)
-
-	* [Verifiablity](https://en.wikipedia.org/wiki/Wikipedia:Verifiablity)
-
-	* [No original research](https://en.wikipedia.org/wiki/Wikipedia:No_original_research)
+* [Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view)
+* [Verifiablity](https://en.wikipedia.org/wiki/Wikipedia:Verifiablity)
+* [No original research](https://en.wikipedia.org/wiki/Wikipedia:No_original_research)
 
 ###Navigating Wikipedia
 ####The side bar
@@ -130,17 +128,14 @@ Here's a look at what's expected of a Wikipedian. Don't be scared. The Wikipedia
 * [Noticeboards](https://en.wikipedia.org/wiki/Wikipedia:Noticeboards) are used to seek advice about issues and resolve conflicts, or to deal with problematic behavior by other editors.
 * [Wikipedia Wikiprojects](https://en.wikipedia.org/wiki/Category:WikiProjects) allow you to work with editors worldwide on articles of common interest, seek advice and solve problems. There are Wikiprojects covering the broadest issues: science, humanities, arts, etc.; and ones covering narrow issues: specific animal species, individual countries, music genres, etc. However, avoid [canvassing](https://en.wikipedia.org/wiki/Canvassing), which is asking a number of individual editors, especially those who have never edited the article in question, to support you on an issue.
 
-##Some useful links for self-teaching
+###Some useful links for self-teaching
 
 * [Annotated article](https://en.wikipedia.org/wiki/Wikipedia:Annotated_article) which shows you many of the main features of an article such as the lead, table of contents, section headers, images, external links, etc.
-
 * [Tutorial](https://en.wikipedia.org/wiki/Wikipedia:Tutorial) on html editing and formatting, linking, citing sources, using talk pages, etc. For future study, see [How to edit a page](https://en.wikipedia.org/wiki/Wikipedia:How_to_edit_a_page) and [Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style). For information about Wiki markup, see [Help:Wiki_markup](https://en.wikipedia.org/wiki/Help:Wiki_markup).
-
 * Check out the [Editing talk pages exercise](https://en.wikipedia.org/wiki/Workshop/Sample_exercises#Editing_talk_pages).
-
 * Note that there are special rules to study for [Biographies of living persons](https://en.wikipedia.org/wiki/Biographies_of_living_persons) and [Article titles](https://en.wikipedia.org/wiki/Article_titles).
 
-##More training opportunities
+###More training opportunities
 * Learning by doing will be your primary method of learning to edit Wikipedia. Think of it as a [Wikipedia Adventure!](https://en.wikipedia.org/wiki/The_Wikipedia_Adventure)
 * Explore various other outreach and training modules as linked from [workshop](https://en.wikipedia.org/wiki/Workshop) training resources section.
 * Join an active [Wikipedia Wikiproject](https://en.wikipedia.org/wiki/Category:WikiProjects) to work with others on articles of interest.

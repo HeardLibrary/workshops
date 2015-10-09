@@ -8,6 +8,7 @@ Rights: Ed Warga / Vanderbilt University. CC BY. http://creativecommons.org/lice
 Rights: Attribution - some material used here was derived from https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Workshop/Sample_one-day_workshop
 ---
 #Wikipedia
+
 ##Purveyor of public knowledge
 ###Wikipedia is full of information! 
 Wikipedia is a first stop for many when seeking new information or trying to learn about something. Students and academics can add to this public store by creating new content and adding to existing content. 
@@ -16,7 +17,6 @@ Wikipedia is a first stop for many when seeking new information or trying to lea
 ####Crowdsourcing
 Encyclopedias aim at three states - current, comprehensive, and authoritative. [This article](http://qz.com/480741/this-free-online-encyclopedia-has-achieved-what-wikipedia-can-only-dream-of/) suggests that the Wikipedia model - crowdsourcing - might only attain currency.
 
-CROWDSOURCING
 |  State | Attainment |
 |---|---|
 | Authoritative | X |

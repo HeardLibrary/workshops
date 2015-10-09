@@ -144,7 +144,7 @@ Here's a look at what's expected of a Wikipedian. Don't be scared. The Wikipedia
 * As editors become more experienced, have an "edit-a-thon" where editors edit articles of their choosing or all edit articles on a specific topic or improve one article together. (See [Collaborations](https://en.wikipedia.org/wiki/Wikipedia:Collaborations).)
 
 ##Join us on Wikipedia
-The Jean and Alexander Heard Library at Vanderbilt University hosts events and encourages participation in the Wikipedia project. Find us on Wikipedia at [](https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/GLAM/VU).
+The Jean and Alexander Heard Library at Vanderbilt University hosts events and encourages participation in the Wikipedia project. Find us on Wikipedia at [https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/GLAM/VU]().
 
 
 

@@ -17,12 +17,6 @@ Wikipedia is a first stop for many when seeking new information or trying to lea
 ####Crowdsourcing
 Encyclopedias aim at three states - current, comprehensive, and authoritative. [This article](http://qz.com/480741/this-free-online-encyclopedia-has-achieved-what-wikipedia-can-only-dream-of/) suggests that the Wikipedia model - crowdsourcing - might only attain currency.
 
-|  State | Attainment |
-|---|---|
-| Authoritative | X |
-| Comprehensive | X |
-| Up-to-date | √ |
-
 ####Contribute to Wikipedia
 You can [contribute](https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia) to the authority and comprehensivness of Wikipedia by doing research and citing authoritative sources. If you and your colleagues concentrate on a particular section of Wikipedia, perhaps that portion of the encyclopedia can attain currency, comprensiveness, and authority. Or you could join a [project](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Directory), and pick up the work!
 

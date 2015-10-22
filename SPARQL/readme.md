@@ -35,7 +35,8 @@ Form of a triple:
 	<http://viaf.org/viaf/96994048> <http://www.w3.org/2000/01/rdf-schema#label> "William Shakespeare"@en.
 
 	viaf:96994048 rdfs:label "William Shakespeare"@en.
-![](http://imgur.com/Ic7g3J6)
+
+![William Shakespeare](http://imgur.com/Ic7g3J6.png)
 
 
 
@@ -53,7 +54,7 @@ RDF/turtle (Turtle = Terse RDF Triple Language; a W3C standard) serialization of
 
 Graphical representation of the graph:
  
-![](http://imgur.com/kljitpd)
+![Graph](http://imgur.com/kljitpd.png)
 
 ###5. What's Linked Data?
 

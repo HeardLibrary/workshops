@@ -267,8 +267,8 @@ Click on "Explore the Bioimages data".  View the page source.  Notice that in th
 [http://www.library.vanderbilt.edu/webimages/Bioimages/bioimages.js](http://www.library.vanderbilt.edu/webimages/Bioimages/bioimages.js)
 
 The script contains a number of functions that get called by various events that fire when the user interacts with the controls on the web page.  Here's the general pattern:
-**
-A.** Define the SPARQL query as a string, with the thing you want to vary inserted as a variable.  For example:
+
+**A.** Define the SPARQL query as a string, with the thing you want to vary inserted as a variable.  For example:
 
 	var string = 'SELECT DISTINCT ?species WHERE {'
 	+'?identification <http://rs.tdwg.org/dwc/terms/genus> '+passedGenus+'.'

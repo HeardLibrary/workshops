@@ -1,7 +1,9 @@
 #Get Started Encrypting Communications
-with Derek Bruff
+Derek Bruff
+October 30, 2015
 
 ##See attached slides
+[https://github.com/HeardLibrary/workshops/raw/master/EncryptingCommunications/EncryptingComms.pptx](https://github.com/HeardLibrary/workshops/raw/master/EncryptingCommunications/EncryptingComms.pptx)
 
 ##Some notes from Derek
 

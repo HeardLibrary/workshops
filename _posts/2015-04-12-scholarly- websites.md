@@ -24,7 +24,7 @@ Squarespace is an excellent all around platform for buiding websites. Although y
 [Example Squarespace Faculty website](http://marcelogleiser.com/)
 
 ####Wordpress 
-Wordpress started off as a blogging platform but has grown to become a widely used, lightweight, content management tool for websites as well. The advantage of hosting your own instance of Wordpress (rather than using Wordpress hosting in the cloud options) is that you have maximum flexibility to customize and take advantage of the thousands of themes developed by the Wordpress community that are either free or available for purchase.
+Wordpress started off as a blogging platform but has grown to become a widely used, lightweight, content management tool for websites as well. The advantage of hosting your own instance of Wordpress (rather than using Wordpress hosting) is that you have maximum flexibility to customize and take advantage of the thousands of themes developed by the Wordpress community that are either free or available for purchase.
 
 [Example Hosted  Wordpress Scholarly website](http://suellenstringerhye.com/wp/)
  

@@ -42,6 +42,8 @@ Everyone who opens a free Github account can build a set of webpages under their
 
 It is also possible to create a scholarly website directly on the Wordpress site. 
 
+[Vanderbilt Course Related website hosted on Wordpress](https://geneticsandliterature.wordpress.com)
+
 [Wordpress](https://wordpress.com/)
 
 

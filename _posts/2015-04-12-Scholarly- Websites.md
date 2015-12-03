@@ -30,7 +30,9 @@ There are many hosting options for personal websites that can help manage your s
 ####Github Pages
 
 Everyone who opens a free Github account can build a set of webpages under their domain. 
+
 [Example Professional Website using Github](http://jodiegambill.com/)
+
 #####Brief tour about how github pages work
 
 #####Wordpress

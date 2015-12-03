@@ -34,7 +34,6 @@ Everyone who opens a free Github account can build a set of webpages under their
 
 [Example Professional Website using Github](http://jodiegambill.com/)
 
-#####Brief tour about how github pages work
 
 #####Wordpress
 

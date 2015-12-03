@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting started with Creating a Scholarly Website"
+title:  "Getting Started with Creating a Scholarly Website"
 date:   2015-12-04 18:49:00
 categories: tech
 description: "Learn to create a personal Scholarly Website"

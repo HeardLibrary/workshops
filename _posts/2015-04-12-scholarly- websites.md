@@ -49,7 +49,7 @@ It is also possible to create a scholarly website directly on the Wordpress site
 
 #####Wordpress at Vanderbilt
 
-Vanderbilt Web Communications hosts a wordpress installation with a few themes customized for the  Vanderbilt environment.  Any member of the Vanderbilt community can set up a free site using this service. I'll show you the basics of getting going and we'll create a bare bones profile page that you can then later go back and customize. Vanderbilt Web Services sponsors monthly training sessions on how to use my.vanderbilt.edu
+Vanderbilt Web Communications hosts a wordpress installation with a few themes customized for the  Vanderbilt environment.  Any member of the Vanderbilt community can set up a free site using this service. We'll use this free service  to create a bare bones profile page that you can then later go back and customize. Vanderbilt Web Communications sponsors monthly training sessions on how to use my.vanderbilt.edu.
 
 [my.vanderbilt.edu](https://my.vanderbilt.edu/)
 

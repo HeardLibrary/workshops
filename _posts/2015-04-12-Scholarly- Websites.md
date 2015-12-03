@@ -6,7 +6,7 @@ categories: tech
 ---
  
 ##Goals
- 
+![Online presence](http://www.pmcwriters.com/wp-content/uploads/2011/01/Online-Presence-Management.jpg)
 Increasingly, we all have an online presence whether we want to or not. Articles written, comments posted, online opinions expressed all float around cyberspace and are reflections of our online identity. One way to take control of the message is to create your own website. This allows you to write your own story and link out to the services and web pages that best illustrate who you are. In today's class we will learn about tools you might want to use to create your scholarly presence.
  
 ##Tools of the Trade

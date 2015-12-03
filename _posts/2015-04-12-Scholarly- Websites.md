@@ -22,6 +22,7 @@ Squarespace is an excellent all around platform for buiding websites. Although y
 
 ####Wordpress 
 Wordpress started off as a blogging platform but has grown to become a widely used, lightweight, content management tool for websites as well. The advantage of hosting your own instance of Wordpress (rather than using Wordpress hosting in the cloud options) is that you have maximum flexibility to customize and take advantage of the thousands of themes developed by the Wordpress community that are either free or available for purchase.
+
 [Example Hosted  Wordpress Scholarly website](http://suellenstringerhye.com/wp/)
  
 ###Services you don't pay for
@@ -36,10 +37,16 @@ Everyone who opens a free Github account can build a set of webpages under their
 #####Brief tour about how github pages work
 
 #####Wordpress
+
+It is also possible to create a scholarly website directly on the Wordpress site. 
+
 (https://wordpress.com/)
-######Themes
+
+
 #####Wordpress at Vanderbilt
+
 (https://my.vanderbilt.edu/)
+
 ######Things you might want to add to your site
 * Contact info
 * Publications

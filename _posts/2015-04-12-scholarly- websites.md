@@ -42,7 +42,7 @@ Everyone who opens a free Github account can build a set of webpages under their
 
 It is also possible to create a scholarly website directly on the Wordpress site. 
 
-[Vanderbilt Course Related website hosted on Wordpress](https://geneticsandliterature.wordpress.com)
+[Vanderbilt course related website hosted on Wordpress](https://geneticsandliterature.wordpress.com)
 
 [Wordpress](https://wordpress.com/)
 
@@ -51,7 +51,7 @@ It is also possible to create a scholarly website directly on the Wordpress site
 
 Vanderbilt Web Communications hosts a wordpress installation with a few themes customized for the  Vanderbilt environment.  Any member of the Vanderbilt community can set up a free site using this service. I'll show you the basics of getting going and we'll create a bare bones profile page that you can then later go back and customize. Vanderbilt Web Services sponsors monthly training sessions on how to use my.vanderbilt.edu
 
-(https://my.vanderbilt.edu/)
+[my.vanderbilt.edu](https://my.vanderbilt.edu/)
 
 ######Things you might want to add to your site
 * Bio

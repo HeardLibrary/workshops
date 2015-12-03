@@ -49,11 +49,12 @@ It is also possible to create a scholarly website directly on the Wordpress site
 (https://my.vanderbilt.edu/)
 
 ######Things you might want to add to your site
+* Bio
 * Contact info
 * Publications
-* Bio
 * CV 
-* Data
+* Personal Profiles on other academic or professional sites (such as Linked-In, Google Scholar, ORCID, Academia)
+* Social Network info (twitter, facebook, etc..)
 * Service
 * Teaching
 * Honors
@@ -66,3 +67,8 @@ It is also possible to create a scholarly website directly on the Wordpress site
 * Blog
 * Twitter feed
 * ORCID
+* Personal or teaching philosophy
+* Digital Scholarship
+* Portfolio
+* Data
+

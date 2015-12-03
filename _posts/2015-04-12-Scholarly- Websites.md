@@ -39,20 +39,20 @@ Everyone who opens a free Github account can build a set of webpages under their
 #####Wordpress at Vanderbilt
 (https://my.vanderbilt.edu/)
 ######Things you might want to add to your site
-*Contact info
-*Publications
-*Bio
-*CV 
-*Data
-*Service
-*Teaching
-*Honors
-*In the News
-*Research
-*Current classes
-*Photos of self
-*Other photos
-*Videos
-*Blog
-*Twitter feed
-*ORCID
+* Contact info
+* Publications
+* Bio
+* CV 
+* Data
+* Service
+* Teaching
+* Honors
+* In the News
+* Research
+* Current classes
+* Photos of self
+* Other photos
+* Videos
+* Blog
+* Twitter feed
+* ORCID

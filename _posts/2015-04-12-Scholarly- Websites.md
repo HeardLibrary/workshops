@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Getting started with Network Analyis"
-date:   2014-11-09 18:49:00
+title:  "Getting started with Creating a Scholarly Website"
+date:   2015-12-04 18:49:00
 categories: tech
-description: "Learn the basics of network analysis using Neo4j and Neo4j graphgists.  By the end of the session you will know the basics of graphing and network analysis and be able to create your own graphs."
+description: "Learn to create a personal Scholarly Website"
 
 ---
  

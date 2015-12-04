@@ -29,7 +29,7 @@ Wordpress started off as a blogging platform but has grown to become a widely us
 [Example Hosted  Wordpress Scholarly website](http://suellenstringerhye.com/wp/)
  
 ###Services you don't pay for
-There are many hosting options for personal websites that can help manage your scholarly presence. Sites like Tumblr, Blogger and Google sites are all freely available and have a wide variety of uses. Two tools that we will look at today are especially useful as they are easy to set up and manage. 
+There are many hosting options for personal websites that can help manage your scholarly presence. Sites like [Tumblr](https://www.tumblr.com/), Blogger and Google sites are all freely available and have a wide variety of uses. Two tools that we will look at today are especially useful as they are easy to set up and manage. 
 
 ####Github Pages
 

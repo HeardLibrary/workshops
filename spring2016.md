@@ -1,6 +1,13 @@
 ﻿##Spring 2016 Workshops
 
-* Text-Mining with the R tm package – Cliff (1/8)
+All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Library.
+
+###Text Mining with the R tm Package
+####Friday, January 8
+*Cliff Anderson*
+
+* This workshops teaches the basics of text mining or the large-scale analysis of textual corpora. If you have interest in finding and visualizing patterns in textual corpora, this workshop will help you get started. In particlar, we'll show you how to use the [tm: Text Mining Package](https://cran.r-project.org/web/packages/tm/index.html) in R. Participants will have the opportunity to develop a corpus, conduct common transformations on words, and to create and visualize term document matrixes. 
+
 * Annotating the Web with Genius and Hypothes.is – Ed (1/15)
 * GitHub as an Educational Technology- Ramona (1/22)
 * Data Publication with Figshare – Morgan (1/29)	
@@ -14,7 +21,7 @@
 
 ###Managing Your Citations with Zotero
 ####Friday, April 8
-*Chris B.*
+*Chris Benda*
 
 * [Zotero](http://www.zotero.org) is an open source bibliographic management system that stores citation information and lets you use it in documents. (Translation:  say goodbye to your citation nightmares.) This workshop will introduce Zotero, give participants a chance to start using it to build a library of references, and point to developer tools, like Web APIs, that allow you to use citation data creatively.
 

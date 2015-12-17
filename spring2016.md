@@ -1,4 +1,4 @@
-##Spring 2016 Workshops
+﻿##Spring 2016 Workshops
 
 * Text-Mining with the R tm package – Cliff (1/8)
 * Annotating the Web with Genius and Hypothes.is – Ed (1/15)
@@ -11,5 +11,11 @@
 * Markup Languages for Digital Humanities – Suellen and Cliff (3/18)
 * Practical Cartography with Mapbox Studio - Lindsey (3/25)
 * Exploring Altmetrics with ImpactStory – Rick S-H. (4/1)
-* Managing Your Citations with Zotero – Chris B. (4/8)
+
+###Managing Your Citations with Zotero
+####Friday, April 8
+*Chris B.*
+
+* [Zotero](http://www.zotero.org) is an open source bibliographic management system that stores citation information and lets you use it in documents. (Translation:  say goodbye to your citation nightmares.) This workshop will introduce Zotero, give participants a chance to start using it to build a library of references, and point to developer tools, like Web APIs, that allow you to use citation data creatively.
+
 * Network Analysis and Visualization with Cytoscape – Lindsey and Suellen (4/15)

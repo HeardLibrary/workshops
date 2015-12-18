@@ -1,4 +1,4 @@
-﻿##Spring 2016 Workshops
+##Spring 2016 Workshops
 
 All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Library.
 
@@ -8,8 +8,14 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 
 * This workshops teaches the basics of text mining or the large-scale analysis of textual corpora. If you have interest in finding and visualizing patterns in textual corpora, this workshop will help you get started. In particlar, we'll show you how to use the [tm: Text Mining Package](https://cran.r-project.org/web/packages/tm/index.html) in R. Participants will have the opportunity to develop a corpus, conduct common transformations on words, and to create and visualize term document matrixes.
 
-* Annotating the Web with Genius and Hypothes.is – Ed (1/15)
-* GitHub as an Educational Technology- Ramona (1/22)
+###Annotating the Web with Genius and Hypothes.is
+####Friday, January 15
+*Ed Warga* 
+
+* A web annotation is an online annotation associated with a web resource. With a Web annotation system, a user can add, modify or remove information from a Web resource without modifying the resource itself. The annotations can be thought of as a layer on top of the existing resource, and this annotation layer is usually visible to other users who share the same annotation system. In such cases, the web annotation tool is a type of social software tool ([Wikipedia](https://en.wikipedia.org/wiki/Web_annotation)). 
+
+* We will explore the concept of web annotation and discuss its use in digital research. We will try out a few different tools for web annotation and evaluate their usefulness for inclusion in participants' research workflows.
+###GitHub as an Educational Technology- Ramona (1/22)
 
 ###Data Publication with Figshare 
 ####Friday, January 29
@@ -17,7 +23,7 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 
 * The datasets underlying research findings are increasingly acknowledged as valuable scholarly products. Through data publication, researchers can give more visibility to their work while making data available to others for reuse. This workshop will address data publication from the researcher's perspective, including benefits to researchers and best practices for sharing datasets. Participants will learn how to submit a dataset to Figshare, a versatile online tool for data publication.
 
-* Minecraft as an Educational Technology – Cliff & Lindsey (2/5)
+###Minecraft as an Educational Technology – Cliff & Lindsey (2/5)
 
 ###Cleaning Up Your Data with OpenRefine
 ####Friday, February 12
@@ -25,9 +31,15 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 
 * Cleaning and preserving a dataset makes it more available for long-term use and sharing with interested colleagues (and can help you meet funding agency requirements for data management!) In this session, we'll explore the tool OpenRefine and use it to work with a sample dataset. We'll also talk about simple ways to preserve your research data.
 
-* Building Digital Collections with Omeka – Carla and Ed (2/19)
-* Digital Curation with Pinterest and History Pin - Mary Anne (2/26)
-* Markup Languages for Digital Humanities – Suellen and Cliff (3/18)
+###Building Digital Collections with Omeka
+####Friday, February 19
+*Carla Beals and Ed Warga*
+
+* Participants will learn how to build digital exhibits using the [Omeka](http://omeka.org/) content management system. Omeka can be used for a variety of projects including digital archives, exhibits, and collections; digital humanities projects; course sites;  and student projects. 
+This workshop offers: examples of digital collections built on the Omeka platform; hands on experience building a digital collection in Omeka; and ideas for web hosting.
+
+###Digital Curation with Pinterest and History Pin - Mary Anne (2/26)
+###Markup Languages for Digital Humanities – Suellen and Cliff (3/18)
 
 ###Fundamentals of Cartography
 ####Friday, March 25
@@ -47,4 +59,4 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 
 * [Zotero](http://www.zotero.org) is an open source bibliographic management system that stores citation information and lets you use it in documents. (Translation:  say goodbye to your citation nightmares.) This workshop will introduce Zotero, give participants a chance to start using it to build a library of references, and point to developer tools, like Web APIs, that allow you to use citation data creatively.
 
-* Network Analysis and Visualization with Cytoscape – Lindsey and Suellen (4/15)
+###Network Analysis and Visualization with Cytoscape – Lindsey and Suellen (4/15)

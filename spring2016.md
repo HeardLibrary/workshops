@@ -34,6 +34,12 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 *Lindsey Fox*
 *Cartography combines both the science and the aesthetic of making maps.  Cartography is essential to the dissemination of geographic information.  In this workshop, we will cover the fundamentals of cartography while discussing the place it takes in the world of Geographic Information Systems (GIS).
 
+###Exploring Altmetrics with ImpactStory
+####Friday, April 1
+*Rick Stringer-Hye*
+
+* Altmetrics is the study and use of non-traditional scholarly impact measures that are based on activity in web-based environments. As scholarship increasingly moves online, these metrics track associated interactions and activity to generate fine-grained data, allowing researchers and policy makers to create a higher resolution picture of the reach and impact of academic research. In thei workshop ImpactStory, one of the leading open source Altmetrics services will be demonstrated.
+
 ###Managing Your Citations with Zotero
 ####Friday, April 8
 *Chris Benda*

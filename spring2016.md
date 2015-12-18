@@ -12,10 +12,13 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 ####Friday, January 15
 *Ed Warga* 
 
-* A web annotation is an online annotation associated with a web resource. With a Web annotation system, a user can add, modify or remove information from a Web resource without modifying the resource itself. The annotations can be thought of as a layer on top of the existing resource, and this annotation layer is usually visible to other users who share the same annotation system. In such cases, the web annotation tool is a type of social software tool ([Wikipedia](https://en.wikipedia.org/wiki/Web_annotation)). 
+* A web annotation is an online annotation associated with a web resource. With a Web annotation system, a user can add, modify or remove information from a Web resource without modifying the resource itself. The annotations can be thought of as a layer on top of the existing resource, and this annotation layer is usually visible to other users who share the same annotation system. In such cases, the web annotation tool is a type of social software tool ([Wikipedia](https://en.wikipedia.org/wiki/Web_annotation)). We will explore the concept of web annotation and discuss its use in digital research. We will try out a few different tools for web annotation and evaluate their usefulness for inclusion in participants' research workflows.
 
-* We will explore the concept of web annotation and discuss its use in digital research. We will try out a few different tools for web annotation and evaluate their usefulness for inclusion in participants' research workflows.
-###GitHub as an Educational Technology- Ramona (1/22)
+###GitHub as an Educational Technology
+####Friday, January 22
+*Ramona Romero*
+
+* Among other things, [GitHub](https://github.com/) is a social network for computer programmers. But GitHub is also a fantastic educational technology. In this session, we'll introduce you to git, the distributed version control system that powers GitHub. We'll show you how to set up an account with GitHub and collaborate with others on projects. You will learn the basics of Markdown, the simple markup language used to communicate on GitHub. We'll talk about the uses of GitHub in the classroom, the sciences, and the digital humanities. If you're brave, we'll even get into advance topics like branching and forking. By the end of the session, you'll be ready to create repositories and collaborate with scholars around the interwebs.
 
 ###Data Publication with Figshare 
 ####Friday, January 29
@@ -23,7 +26,11 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 
 * The datasets underlying research findings are increasingly acknowledged as valuable scholarly products. Through data publication, researchers can give more visibility to their work while making data available to others for reuse. This workshop will address data publication from the researcher's perspective, including benefits to researchers and best practices for sharing datasets. Participants will learn how to submit a dataset to Figshare, a versatile online tool for data publication.
 
-###Minecraft as an Educational Technology – Cliff & Lindsey (2/5)
+###Minecraft as an Educational Technology
+####Friday, February 5
+*Cliff Anderson & Lindsey Fox*
+
+* [Minecraft](https://minecraft.net/) is among the most popular video games ever. Minecraft is deceptively simple to play, but offers an enormously malleable game environment. In this session, we'll show you how to write Minecraft *mods* (or modifications) using open source toolkits. Beyond teaching you how to write simple mods to alter the Minecraft game environment, we'll talk about potential uses for Minecraft as an educational technology.
 
 ###Cleaning Up Your Data with OpenRefine
 ####Friday, February 12
@@ -35,11 +42,19 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 ####Friday, February 19
 *Carla Beals and Ed Warga*
 
-* Participants will learn how to build digital exhibits using the [Omeka](http://omeka.org/) content management system. Omeka can be used for a variety of projects including digital archives, exhibits, and collections; digital humanities projects; course sites;  and student projects. 
-This workshop offers: examples of digital collections built on the Omeka platform; hands on experience building a digital collection in Omeka; and ideas for web hosting.
+* Participants will learn how to build digital exhibits using the [Omeka](http://omeka.org/) content management system. Omeka can be used for a variety of projects including digital archives, exhibits, and collections; digital humanities projects; course sites;  and student projects. This workshop offers: examples of digital collections built on the Omeka platform; hands on experience building a digital collection in Omeka; and ideas for web hosting.
 
-###Digital Curation with Pinterest and History Pin - Mary Anne (2/26)
-###Markup Languages for Digital Humanities – Suellen and Cliff (3/18)
+###Digital Curation with Pinterest and History Pin - Mary Anne
+####Friday, February 26
+*Mary Anne Caton*
+
+* DESCRIPTION NEEDED
+
+###Markup Languages for Digital Humanities
+####Friday, March 18
+*Cliff Anderson & Suellen Stringer-Hye*
+
+* Developing digital editions of scholarly texts requires the use of various so-called 'markup languages.' In this session, we'll introduce you to two key markup languages: the [Text Encoding Initiative (TEI)](http://www.tei-c.org/index.xml) and the [Journal Article Tagging Suite (JATS)](http://jats.nlm.nih.gov/). You will also learn how to mark up a document in both languages using the [oXygen XML editor](https://www.oxygenxml.com/).
 
 ###Fundamentals of Cartography
 ####Friday, March 25
@@ -57,6 +72,10 @@ This workshop offers: examples of digital collections built on the Omeka platfor
 ####Friday, April 8
 *Chris Benda*
 
-* [Zotero](http://www.zotero.org) is an open source bibliographic management system that stores citation information and lets you use it in documents. (Translation:  say goodbye to your citation nightmares.) This workshop will introduce Zotero, give participants a chance to start using it to build a library of references, and point to developer tools, like Web APIs, that allow you to use citation data creatively.
+* [Zotero](http://www.zotero.org) is an open source bibliographic management system that stores citation information and lets you use it in documents. (Translation: say goodbye to your citation nightmares.) This workshop will introduce Zotero, give participants a chance to start using it to build a library of references, and point to developer tools, like Web APIs, that allow you to use citation data creatively.
 
-###Network Analysis and Visualization with Cytoscape – Lindsey and Suellen (4/15)
+###Network Analysis and Visualization with Cytoscape
+####Friday, April 15
+*Lindsey Fox & Suellen Stringer-Hye*
+
+* DESCRIPTION

@@ -44,7 +44,7 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 
 * Participants will learn how to build digital exhibits using the [Omeka](http://omeka.org/) content management system. Omeka can be used for a variety of projects including digital archives, exhibits, and collections; digital humanities projects; course sites;  and student projects. This workshop offers: examples of digital collections built on the Omeka platform; hands on experience building a digital collection in Omeka; and ideas for web hosting.
 
-###Digital Curation with Pinterest and History Pin
+###Digital Curation with Pinterest and Historypin
 ####Friday, February 26
 *Mary Anne Caton*
 
@@ -78,4 +78,4 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 ####Friday, April 15
 *Lindsey Fox & Suellen Stringer-Hye*
 
-* DESCRIPTION
+* DESCRIPTION NEEDED

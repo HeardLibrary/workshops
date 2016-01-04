@@ -78,4 +78,4 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 ####Friday, April 15
 *Lindsey Fox & Suellen Stringer-Hye*
 
-* DESCRIPTION NEEDED
+* [Cytoscape](http://www.cytoscape.org/) is an open source platform for analzying and visualizing network data. While originally developed to support biological research, you can use Cytoscape to explore any kind of network graph. We'll show you how to get started using Cytoscape to analyze simple data sets from a number of different domains, ranging from the natural sciences to the digital humanities.

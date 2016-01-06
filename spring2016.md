@@ -48,7 +48,7 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 ####Friday, February 26
 *Mary Anne Caton*
 
-* DESCRIPTION NEEDED
+* If you're dealing with the web, you face the problem of information overload. How do you collect and organize your scholarly interests, particularly collections of images? We'll teach you how to get started with digital curation using two platforms: [Pinterest](www.pinterest.com) and [Historypin](https://www.historypin.org/). Digital curation is not just about organizing images of cats and your favorite vacation spots. By the end of this workshop, you'll know how to use these curation tools to advance your scholarly work.
 
 ###Markup Languages for Digital Humanities
 ####Friday, March 18

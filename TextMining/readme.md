@@ -13,12 +13,45 @@ library("tm")
 setwd("/Users/Clifford/Desktop/19cTexts")
 ```
 
-
-##Cleaning Textual Data
+##Generating a Corpus 
 
 ```R
 corpus <- Corpus(DirSource("1800-09"))
 ```
+
+```R
+inspect(corpus)
+```
+
+```R
+inspect(corpus[1:3])
+```
+
+```R
+(corpus[[3]])$meta
+```
+
+```R
+(corpus[[3]])$content
+```
+
+```R
+meta(corpus[[3]])
+```
+
+```R
+DublinCore(corpus[[3]])
+```
+
+```R
+DublinCore(corpus[[3]], "Title") <- "Address to the People of the United States on the Policy of Maintaining Permanent Navy"
+```
+
+```R
+writeCorpus(corpus, path = "./corpus", filenames = DublinCore(corpus)$identifier)
+```
+
+##Transforming a Corpus
 
 ```R
 getTransformations()
@@ -44,7 +77,11 @@ clean <- tm_map(clean, removePunctuation)
 clean <- tm_map(clean, removeWords, stopwords("english"))
 ```
 
-##Exploring Textual Data
+```R
+writeCorpus(corpus, path = "./corpus", filenames = DublinCore(corpus)$identifier)
+```
+
+##Exploring a Term Document Matrix
 
 ```R
 tdm <- TermDocumentMatrix(clean)

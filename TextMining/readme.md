@@ -207,11 +207,13 @@ g
 
 *This visualization is adapted slightly from [Basic Text Mining in R](https://rstudio-pubs-static.s3.amazonaws.com/31867_8236987cf0a8444e962ccd2aec46d9c3.html).*
 
+```R
 sparse <- removeSparseTerms(dtm, 0.01)
 d <- dist(t(sparse), method="euclidian")   
 fit <- hclust(d=d, method="ward.D2")
 groups <- cutree(fit, k=6)
 rect.hclust(fit, k=6, border="red") 
 plot(fit, hang=0)
+```
 
 ##Next Steps

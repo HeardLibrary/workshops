@@ -181,7 +181,7 @@ fishmongers     granted       later       naval   newcastle  poflefllon     sell
 
 ###Making a Heatmap
 
-*This example is adapted slightly from [Text Mining the Complete Works of William Shakespeare](http://www.exegetic.biz/blog/2013/09/text-mining-the-complete-works-of-william-shakespeare/) by Andew Collier.*
+*This example is adapted slightly from [Text Mining the Complete Works of William Shakespeare](http://www.exegetic.biz/blog/2013/09/text-mining-the-complete-works-of-william-shakespeare/) by Andrew Collier.*
 
 ```R
 common <- removeSparseTerms(tdm, 0.005)
@@ -234,3 +234,7 @@ g
 ![dendrogram](http://i.imgur.com/yfYTnQY.png)
 
 ##Next Steps
+
+* If you're interested in going farther with text mining in R, you should definitely read Ingo Feinerer's [Introduction to the tm Package: Text Mining in R](https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf). 
+* After reading that, you should check out the blog post by Andrew Collier titled[Text Mining the Complete Works of William Shakespeare](http://www.exegetic.biz/blog/2013/09/text-mining-the-complete-works-of-william-shakespeare/) and RStudio's [Basic Text Mining in R](https://rstudio-pubs-static.s3.amazonaws.com/31867_8236987cf0a8444e962ccd2aec46d9c3.html).
+* If you want a more extensive introduction, then you should read Matthew Jocker's [Text Analysis with R for Students of Literature](http://link.springer.com/book/10.1007/978-3-319-03164-4).

@@ -23,18 +23,14 @@ Thanks to Ted Underwood, you may download the data for corpus [here](https://dl.
 setwd("/Users/Clifford/Desktop/19cTexts")
 ```
 
-<<<<<<< HEAD
 ##Creating a Corpus
-=======
-##Generating a Corpus 
->>>>>>> origin/master
+
 
 ```R
 corpus <- Corpus(DirSource("1800-09"))
 ```
 
 ```R
-<<<<<<< HEAD
 corpus
 ```
 
@@ -68,7 +64,7 @@ DublinCore(corpus[[2]], tag="title") <- strsplit(corpus[[1]]$content, '\t')[[2]]
 clean <- corpus[-1]
 ```
 
-=======
+```R
 inspect(corpus)
 ```
 
@@ -102,7 +98,6 @@ writeCorpus(corpus, path = "./corpus", filenames = DublinCore(corpus)$identifier
 
 ##Transforming a Corpus
 
->>>>>>> origin/master
 ```R
 getTransformations()
 ```
@@ -136,17 +131,14 @@ clean <- tm_map(clean, removeWords, stopwords("english"))
 ```
 
 ```R
-<<<<<<< HEAD
 stem  <- tm_map(clean, stemDocument, language = "english")  
 ```
 
-##Exploring a Corpus
-=======
+```R
 writeCorpus(corpus, path = "./corpus", filenames = DublinCore(corpus)$identifier)
 ```
 
 ##Exploring a Term Document Matrix
->>>>>>> origin/master
 
 ```R
 tdm <- TermDocumentMatrix(clean)
@@ -185,9 +177,8 @@ fishmongers     granted       later       naval   newcastle  poflefllon     sell
        0.85        0.85        0.85        0.85        0.85        0.85        0.85        0.85 
 ```
 
-##Visualizing Textual Data
+##Visualizing A Corpus
 
-<<<<<<< HEAD
 ###Making a Heatmap
 
 *This example is adapted slightly from [Text Mining the Complete Works of William Shakespeare](http://www.exegetic.biz/blog/2013/09/text-mining-the-complete-works-of-william-shakespeare/) by Andew Collier.*
@@ -224,6 +215,3 @@ rect.hclust(fit, k=6, border="red")
 plot(fit, hang=0)
 
 ##Next Steps
-=======
-##Next Steps
->>>>>>> origin/master

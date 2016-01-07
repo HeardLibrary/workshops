@@ -8,6 +8,7 @@ You'll need to load the following R packages to carry out the examples below.
 
 ```R
 library(cluster)  
+library(ggdendro)
 library(ggplot2)
 library(reshape2)
 library(tm)
@@ -17,7 +18,7 @@ library(tm)
 
 *Ted Underwood collected this data from Project Gutenberg. See his excellent introduction to text mining [Where to start with text mining](http://tedunderwood.com/2012/08/14/where-to-start-with-text-mining/) as well as his updated post titled [Seven ways humanists are using computers to understand text](http://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/).*
 
-Thanks to Ted Underwood, you may download the data for corpus [here](https://dl.dropbox.com/u/4713959/JDH%20article/19cTexts.zip). You should unzip them to a file titled ```19cTexts``` on your Desktop.
+You may download the data for the corpus we'll be building here [here](https://dl.dropbox.com/u/4713959/JDH%20article/19cTexts.zip). You should unzip the files to a folder titled ```19cTexts``` on your Desktop.
 
 ```R
 setwd("/Users/Clifford/Desktop/19cTexts")
@@ -138,7 +139,7 @@ stem  <- tm_map(clean, stemDocument, language = "english")
 writeCorpus(corpus, path = "./corpus", filenames = DublinCore(corpus)$identifier)
 ```
 
-##Exploring a Term Document Matrix
+##Exploring a Term Document Matrices
 
 ```R
 tdm <- TermDocumentMatrix(clean)
@@ -147,7 +148,6 @@ tdm <- TermDocumentMatrix(clean)
 ```R
 dtm <- DocumentTermMatrix(clean)
 ```
-
 
 ```R
 inspect(DocumentTermMatrix(clean,list(dictionary = c("economy", "money", "finance", "debt", "income", "expenditures", "bonds", "stocks"))))
@@ -198,10 +198,15 @@ dense = melt(common, value.name = "count")
 
 ```R
 g <- ggplot(dense, aes(x = Docs, y = Terms, fill = log(count)))
-g <- g + geom_tile(colour = "grey") 
+g <- g + geom_tile(colour = "grey")
 g <- g + scale_fill_gradient(high="#114357" , low="#F29492")
+g <- g +  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+g <- g + ggtitle("Heatmap of Term Frequency")
 g
 ```
+
+![Heatmap](http://i.imgur.com/pESrRzd.png)
+
 
 ###Clustering Similar Words
 
@@ -209,11 +214,23 @@ g
 
 ```R
 sparse <- removeSparseTerms(dtm, 0.01)
+```
+
+```R
 d <- dist(t(sparse), method="euclidian")   
 fit <- hclust(d=d, method="ward.D2")
-groups <- cutree(fit, k=6)
-rect.hclust(fit, k=6, border="red") 
-plot(fit, hang=0)
 ```
+
+```R
+g <- ggplot(segment(ddata))
+g <- g + geom_segment(aes(x = x, y = y, xend = xend, yend = yend))
+g <- g + geom_text(data = ddata$labels, aes(x = x, y = y, label = label))
+g <- g + coord_flip() 
+g <- g + theme_dendro()
+g <- g + ggtitle("Clusters of Most Frequent Terms")
+g
+```
+
+![dendrogram](http://i.imgur.com/yfYTnQY.png)
 
 ##Next Steps

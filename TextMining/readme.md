@@ -18,7 +18,7 @@ library(tm)
 
 *Ted Underwood collected this data from Project Gutenberg. See his excellent introduction to text mining [Where to start with text mining](http://tedunderwood.com/2012/08/14/where-to-start-with-text-mining/) as well as his updated post titled [Seven ways humanists are using computers to understand text](http://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/).*
 
-You may download the data for the corpus we'll be building here [here](https://dl.dropbox.com/u/4713959/JDH%20article/19cTexts.zip). You should unzip the files to a folder titled ```19cTexts``` on your Desktop.
+You may download the data for the corpus we'll be building [here](https://dl.dropbox.com/u/4713959/JDH%20article/19cTexts.zip). You should unzip the files to a folder titled ```19cTexts``` on your Desktop.
 
 ```R
 setwd("/Users/Clifford/Desktop/19cTexts")

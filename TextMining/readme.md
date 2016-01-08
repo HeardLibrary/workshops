@@ -14,7 +14,7 @@ library(reshape2)
 library(tm)
 ```
 
-##Getting Textual Data
+##Creating a Corpus
 
 *Ted Underwood collected this data from Project Gutenberg. See his excellent introduction to text mining [Where to start with text mining](http://tedunderwood.com/2012/08/14/where-to-start-with-text-mining/) as well as his updated post titled [Seven ways humanists are using computers to understand text](http://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/).*
 
@@ -24,15 +24,16 @@ You may download the data for the corpus we'll be building here [here](https://d
 setwd("/Users/Clifford/Desktop/19cTexts")
 ```
 
-##Creating a Corpus
-
-
 ```R
 corpus <- Corpus(DirSource("1800-09"))
 ```
 
 ```R
 corpus
+```
+
+```R
+clean <- corpus[-1]
 ```
 
 ```R
@@ -59,45 +60,12 @@ DublinCore(corpus[[2]])
 DublinCore(corpus[[2]], tag="title") <- strsplit(corpus[[1]]$content, '\t')[[2]][14]
 ```
 
-##Cleaning a Corpus
-
-```R
-clean <- corpus[-1]
-```
-
-```R
-inspect(corpus)
-```
-
-```R
-inspect(corpus[1:3])
-```
-
-```R
-(corpus[[3]])$meta
-```
-
-```R
-(corpus[[3]])$content
-```
-
-```R
-meta(corpus[[3]])
-```
-
-```R
-DublinCore(corpus[[3]])
-```
-
-```R
-DublinCore(corpus[[3]], "Title") <- "Address to the People of the United States on the Policy of Maintaining Permanent Navy"
-```
-
 ```R
 writeCorpus(corpus, path = "./corpus", filenames = DublinCore(corpus)$identifier)
 ```
 
-##Transforming a Corpus
+##Cleaning a Corpus
+
 
 ```R
 getTransformations()
@@ -139,7 +107,7 @@ stem  <- tm_map(clean, stemDocument, language = "english")
 writeCorpus(corpus, path = "./corpus", filenames = DublinCore(corpus)$identifier)
 ```
 
-##Exploring a Term Document Matrices
+##Exploring Term Document Matrices
 
 ```R
 tdm <- TermDocumentMatrix(clean)

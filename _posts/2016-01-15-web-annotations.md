@@ -45,7 +45,7 @@ According to [Todd A Carpenter](http://scholarlykitchen.sspnet.org/2013/04/30/ia
 This workshop uses [Hypothes.is](https://hypothes.is/groups/JEQoYxZJ/web-annotations-workshop) to present and demonstrate web annotation tools.
 
 ###Pedagogy
-* [collaborative learning](http://www.sciencedirect.com/science/article/pii/S0360131510000886)
+* [Collaborative Learning](http://www.sciencedirect.com/science/article/pii/S0360131510000886)
 * [Introduction to Rhetoric Course Readings](http://caseyboyle.net/3860/readings/)
 * Here is a great discussion at the Chronicle of Higher Education's ProfHacker blog: [How Do You Annotate in Your Class? by Lee Skallerup Bessette](http://chronicle.com/blogs/profhacker/how-do-you-annotate-in-your-class/60101)
 * Applications for MOOCs? Blackboard?

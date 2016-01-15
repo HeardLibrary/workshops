@@ -52,11 +52,10 @@ This workshop uses [Hypothes.is](https://hypothes.is/groups/JEQoYxZJ/web-annotat
 * [#Education Genius](http://genius.com/static/education)
 * [Hypothes.is/Education](https://hypothes.is/education/)
 
-###Public Scholarship
-* [An astronomer discusses a poem about the sunset.](http://genius.com/789992)
-
 ###Open Research
+* Scholarly Communications - [video @4:40](https://hypothes.is/annotating-all-knowledge/)
 * [Sharing](http://onlinelibrary.wiley.com/doi/10.1002/asi.23124/abstract) annotations made during the research process
+* Public Scholarship - [An astronomer discusses a poem about the sunset.](http://genius.com/789992)
 * Commenting on published research
 * Open peer review?
 * [Reading group](https://hypothes.is/groups/nwQKV3WM/vu-scholcommreadinggroup)

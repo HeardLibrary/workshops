@@ -22,7 +22,7 @@ This presentation makes use of the [Hypothes.is](http://hypothes.is) web annotat
 
 Now you can annotate this page and other pages we will look at today with the group.
 
-##What are annotations?
+##What Are Web Annotations?
 Web annotations is a concept specific to the Internet. '*Web*' here referring to the world wide web - the net of interconnected [documents](http://people.ischool.berkeley.edu/~buckland/digdoc.html). Web annotations create another layer of the web - graph of relationships each annotation pointing to others and the  other and to the internet resources they reference.
 
 The [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) provides two definitions along with a draft of specifications to use when implementing annotation functionality.

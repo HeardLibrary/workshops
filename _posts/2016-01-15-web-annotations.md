@@ -22,7 +22,7 @@ This presentation makes use of the [Hypothes.is](http://hypothes.is) web annotat
 
 Now you can annotate this page and other pages we will look at today with the group.
 
-##What are annotations?
+##What Are Web Annotations?
 Web annotations is a concept specific to the Internet. '*Web*' here referring to the world wide web - the net of interconnected [documents](http://people.ischool.berkeley.edu/~buckland/digdoc.html). Web annotations create another layer of the web - graph of relationships each annotation pointing to others and the  other and to the internet resources they reference.
 
 The [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) provides two definitions along with a draft of specifications to use when implementing annotation functionality.
@@ -45,7 +45,7 @@ According to [Todd A Carpenter](http://scholarlykitchen.sspnet.org/2013/04/30/ia
 This workshop uses [Hypothes.is](https://hypothes.is/groups/JEQoYxZJ/web-annotations-workshop) to present and demonstrate web annotation tools.
 
 ###Pedagogy
-* [collaborative learning](http://www.sciencedirect.com/science/article/pii/S0360131510000886)
+* [Collaborative Learning](http://www.sciencedirect.com/science/article/pii/S0360131510000886)
 * [Introduction to Rhetoric Course Readings](http://caseyboyle.net/3860/readings/)
 * Here is a great discussion at the Chronicle of Higher Education's ProfHacker blog: [How Do You Annotate in Your Class? by Lee Skallerup Bessette](http://chronicle.com/blogs/profhacker/how-do-you-annotate-in-your-class/60101)
 * Applications for MOOCs? Blackboard?

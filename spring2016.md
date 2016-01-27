@@ -14,9 +14,11 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 
 * A web annotation is an online annotation associated with a web resource. With a Web annotation system, a user can add, modify or remove information from a Web resource without modifying the resource itself. The annotations can be thought of as a layer on top of the existing resource, and this annotation layer is usually visible to other users who share the same annotation system. In such cases, the web annotation tool is a type of social software tool ([Wikipedia](https://en.wikipedia.org/wiki/Web_annotation)). We will explore the concept of web annotation and discuss its use in digital research. We will try out a few different tools for web annotation and evaluate their usefulness for inclusion in participants' research workflows.
 
-###GitHub as an Educational Technology (this workshop was rescheduled. New date: March 4)
+###GitHub as an Educational Technology 
 ####Friday, January 22
 *Ramona Romero*
+
+*this workshop was rescheduled. New date: March 4
 
 * Among other things, [GitHub](https://github.com/) is a social network for computer programmers. But GitHub is also a fantastic educational technology. In this session, we'll introduce you to git, the distributed version control system that powers GitHub. We'll show you how to set up an account with GitHub and collaborate with others on projects. You will learn the basics of Markdown, the simple markup language used to communicate on GitHub. We'll talk about the uses of GitHub in the classroom, the sciences, and the digital humanities. If you're brave, we'll even get into advance topics like branching and forking. By the end of the session, you'll be ready to create repositories and collaborate with scholars around the interwebs.
 

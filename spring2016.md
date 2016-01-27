@@ -49,6 +49,12 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 *Mary Anne Caton*
 
 * If you're dealing with the web, you face the problem of information overload. How do you collect and organize your scholarly interests, particularly collections of images? We'll teach you how to get started with digital curation using two platforms: [Pinterest](www.pinterest.com) and [Historypin](https://www.historypin.org/). Digital curation is not just about organizing images of cats and your favorite vacation spots. By the end of this workshop, you'll know how to use these curation tools to advance your scholarly work.
+* 
+###GitHub as an Educational Technology 
+####Friday, March 4 
+*Ramona Romero*
+
+* Among other things, [GitHub](https://github.com/) is a social network for computer programmers. But GitHub is also a fantastic educational technology. In this session, we'll introduce you to git, the distributed version control system that powers GitHub. We'll show you how to set up an account with GitHub and collaborate with others on projects. You will learn the basics of Markdown, the simple markup language used to communicate on GitHub. We'll talk about the uses of GitHub in the classroom, the sciences, and the digital humanities. If you're brave, we'll even get into advance topics like branching and forking. By the end of the session, you'll be ready to create repositories and collaborate with scholars around the interwebs.
 
 ###Markup Languages for Digital Humanities
 ####Friday, March 18

@@ -59,11 +59,15 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
  * Load the new world by issuing the command ```/loadworld [NAME] normal```
  * Switch to the new world by issuing the command ```/spawn [NAME] [USER]```
  
+###Programming Inside Minecraft
+ 
+ * [Redstone Programming Language](http://tossha.com/rpl/)
+ * [ComputerCraftEdu](http://computercraftedu.com/)
+
 ###Minecraft in Primary and Secondary Education
 
  * [Minecraft.Edu](https://minecraftedu.com/)
  * [Minecraft: Educational Edition](http://education.minecraft.net/)
- * [ComputerCraftEdu](http://computercraftedu.com/)
 
 ###Minecraft in Higher Education
 
@@ -71,6 +75,9 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
 [![Hullcraft Expedition](http://img.youtube.com/vi/lJ4zuurJtRs/0.jpg)](https://www.youtube.com/watch?v=lJ4zuurJtRs)
 
+* [Trustworthy Cyber Infrastructure for the Power Grid *World of Energy*](https://tcipg.mste.illinois.edu/minecraft)
+
+[![World of Energy](hhttp://img.youtube.com/vi/LMZD9h8wkEA/0.jpg)](https://www.youtube.com/watch?v=LMZD9h8wkEA)
 
 ###Wrapping Up
 

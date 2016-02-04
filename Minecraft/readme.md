@@ -77,7 +77,7 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
 * [Trustworthy Cyber Infrastructure for the Power Grid *World of Energy*](https://tcipg.mste.illinois.edu/minecraft)
 
-[![World of Energy](hhttp://img.youtube.com/vi/LMZD9h8wkEA/0.jpg)](https://www.youtube.com/watch?v=LMZD9h8wkEA)
+[![World of Energy](http://img.youtube.com/vi/LMZD9h8wkEA/0.jpg)](https://www.youtube.com/watch?v=LMZD9h8wkEA)
 
 ###Wrapping Up
 

@@ -69,7 +69,7 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
 * [HullCraft](http://www.hullcraft.com/) at the University of Hull
 
-[![Hullcraft Expedition](https://www.youtube.com/watch?v=lJ4zuurJtRs/0.jpg)](https://www.youtube.com/watch?v=lJ4zuurJtRs)
+[![Hullcraft Expedition](http://img.youtube.com/vi/lJ4zuurJtRs/0.jpg)](https://www.youtube.com/watch?v=lJ4zuurJtRs)
 
 
 ###Wrapping Up

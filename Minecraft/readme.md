@@ -43,9 +43,9 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
 Let's change a block type in our Castle: here's [the list of avaiable block types](http://docs.visualillusionsent.net/CanaryLib/1.0-RC-3/net/canarymod/api/world/blocks/class-use/BlockType.html) in CanaryMod.
 
-Now let's recompile our source code...
+Now let's recompile our source code...and issue the command ```/buildcastle```
 
-
+![Fawlty Towers?](http://i.imgur.com/OeCWJ6c.png)
 
 ###Making Minecraft Maps with [WorldPainter](http://www.worldpainter.net/)
 
@@ -97,6 +97,7 @@ Now let's recompile our source code...
 
 ###Wrapping Up
 
-* Our goal for our [Dean's Fellow Project](http://www.library.vanderbilt.edu/about/deansfellowsprojects2015.php) is to create a representation of campus in Minecraft.
+* Last year, we sponsored a [Dean's Fellow Project](http://www.library.vanderbilt.edu/about/deansfellowsprojects2015.php) to create a representation of the campus library in Minecraft.
+* What other uses might we find for Minecraft and other forms of educational gaming at Vanderbilt?
 
 

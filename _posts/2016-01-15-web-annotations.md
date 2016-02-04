@@ -7,9 +7,9 @@ description: Explore the concept of web annotation and discuss its use in resear
 ---
 #Web Annotations
 
-Do you have notes in the margins of your books? Do you highlight important phrases and passages? Do you refer back to these notes later in the research and learning process?... 
+Do you have notes in the margins of your books? Do you highlight important phrases and passages? Do you refer back to these notes later in the research and learning process? Have you ever wished you could do the same with web pages and PDFs?...
 
-Have you ever wished you could do the same with web pages and PDFs? Web annotation tools provide the capability of filling in the margins of the web with notes and ideas. These notes can go social with the use of groups, or stay private for your own use. With applications to research and learning this web annotations provide a way to create and share a running commentary on the World Wide Web.
+ Web annotation tools provide the capability of filling in the margins of the web with notes and ideas. These notes can go social with the use of groups, or stay private for your own use. With applications to research and learning this web annotations provide a way to create and share a running commentary on the World Wide Web.
 
 A web annotation is an online annotation associated with a web resource. With a web annotation system, a user can add, modify or remove information from a web resource without modifying the resource itself. The annotations can be thought of as a layer on top of the existing resource, and this annotation layer is usually visible to other users who share the same annotation system ([Wikipedia](https://en.wikipedia.org/wiki/Web_annotation)). 
 
@@ -39,7 +39,7 @@ The [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) provide
 * [An annotation](https://hypothes.is/a/AVJCxP6_8sFu_DXLVdz9) is considered to be a set of connected resources, typically including a body and target, and conveys that the body is related to the target. The exact nature of this relationship changes according to the intention of the annotation, but the body is most frequently somehow "about" the target. This perspective results in a basic model with three parts, depicted below. The full model supports additional functionality, enabling content to be embedded within the annotation, selecting arbitrary segments of resources, choosing the appropriate representation of a resource and providing styling hints to help clients render the annotation appropriately. Annotations created by or intended for machines are also possible, ensuring that the Data Web is not ignored in favor of only considering the human-oriented Document Web. 
 
 ###History Lesson
-According to [Todd A Carpenter](http://scholarlykitchen.sspnet.org/2013/04/30/iannotate-whatever-happened-to-the-web-as-an-annotation-system/), [web annotation](https://hypothes.is/a/AVJC51mT8sFu_DXLVd1v) was part of the original vision of the Web. And it was [almost](https://hypothes.is/a/AVJC6HpH8sFu_DXLVd11) part of the design of the early web browser [Mosaic](https://en.wikipedia.org/wiki/Mosaic_(web_browser)). 
+Early visions of the web included annotations ([Todd A Carpenter](http://scholarlykitchen.sspnet.org/2013/04/30/iannotate-whatever-happened-to-the-web-as-an-annotation-system/), [Wikipedia](https://en.wikipedia.org/wiki/Memex). The Memex machine envisioned by Vannevar Bush was a prototype hypertext machine and included functionality for producing and recalling personal annotations. Tim Berners Lee included annotations in the early models of the web, and they were [almost](https://hypothes.is/a/AVJC6HpH8sFu_DXLVd11) part of the early web browser [Mosaic's](https://en.wikipedia.org/wiki/Mosaic_(web_browser)) design. 
 
 [Marc Andreessen](http://genius.com/MarcAndreessen), one of Mosaic's developers, invested in [RapGenius](http://rap.genius.com/) early on. Now called [Genius](http://www.genius.com), the site offers much more than just annotated song lyrics. We will take a closer look later.
 

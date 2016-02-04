@@ -37,9 +37,14 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
   
   * [Learn to Program Minecraft with Minecraft Plugins](https://pragprog.com/book/ahmine2/learn-to-program-with-minecraft-plugins) by Andy Hunt provides a great introduction to both Java and CanaryMod.
 
-  * Writing a Command to Build a Castle in CanaryMod
+####Writing a Command to Build a Castle in CanaryMod
   
 ![Source Code](http://i.imgur.com/27pvKZw.png)
+
+Let's change a block type in our Castle: here's [the list of avaiable block types](http://docs.visualillusionsent.net/CanaryLib/1.0-RC-3/net/canarymod/api/world/blocks/class-use/BlockType.html) in CanaryMod.
+
+Now let's recompile our source code...
+
 
 
 ###Making Minecraft Maps with [WorldPainter](http://www.worldpainter.net/)
@@ -64,6 +69,8 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
  * Load the new world by issuing the command ```/loadworld [NAME] normal```
  * Switch to the new world by issuing the command ```/spawn [NAME] [USER]```
  
+![Central Library in Minecraft](http://i.imgur.com/PPvbeEm.png)
+
 ###Programming Inside Minecraft
  
  * [Redstone Programming Language](http://tossha.com/rpl/)

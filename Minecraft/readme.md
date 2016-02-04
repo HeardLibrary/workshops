@@ -37,6 +37,11 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
   
   * [Learn to Program Minecraft with Minecraft Plugins](https://pragprog.com/book/ahmine2/learn-to-program-with-minecraft-plugins) by Andy Hunt provides a great introduction to both Java and CanaryMod.
 
+  * Writing a Command to Build a Castle in CanaryMod
+  
+![Source Code](http://i.imgur.com/27pvKZw.png)
+
+
 ###Making Minecraft Maps with [WorldPainter](http://www.worldpainter.net/)
 
  * How to create a new world

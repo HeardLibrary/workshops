@@ -79,6 +79,10 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
 [![World of Energy](http://img.youtube.com/vi/LMZD9h8wkEA/0.jpg)](https://www.youtube.com/watch?v=LMZD9h8wkEA)
 
+* [Using Minecraft to Unboggle the Robot Mind](https://news.brown.edu/articles/2015/06/minecraft) at Brown University
+
+[![Using Minecraft to Unboggle the Robot Mind](https://i.vimeocdn.com/video/199359555_640.webp](https://vimeo.com/129738486)
+
 ###Wrapping Up
 
 * Our goal for our [Dean's Fellow Project](http://www.library.vanderbilt.edu/about/deansfellowsprojects2015.php) is to create a representation of campus in Minecraft.

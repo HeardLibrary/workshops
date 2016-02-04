@@ -47,7 +47,7 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
  * Create custom terrain
  * Other downloadable modifications: [Trees](http://www.planetminecraft.com/project/native-trees-of-europe-template-repository-1779952/)
 
-###Exporting Your Map from WorldPainter to CanaryMod
+####Exporting Your Map from WorldPainter to CanaryMod
 
  * From WorldPainter toolbar file-->export-->export as new Minecraft map
  * Open the map in Singleplayer mode in Minecraft
@@ -59,11 +59,18 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
  * Load the new world by issuing the command ```/loadworld [NAME] normal```
  * Switch to the new world by issuing the command ```/spawn [NAME] [USER]```
  
-###Minecraft in Education
+###Minecraft in Primary and Secondary Education
 
  * [Minecraft.Edu](https://minecraftedu.com/)
- * [Minecraft: Educational Edition]([http://education.minecraft.net/)
+ * [Minecraft: Educational Edition](http://education.minecraft.net/)
  * [ComputerCraftEdu](http://computercraftedu.com/)
+
+###Minecraft in Higher Education
+
+* [HullCraft](http://www.hullcraft.com/) at the University of Hull
+
+[![Hullcraft Expedition](https://www.youtube.com/watch?v=lJ4zuurJtRs/0.jpg)](https://www.youtube.com/watch?v=lJ4zuurJtRs)
+
 
 ###Wrapping Up
 

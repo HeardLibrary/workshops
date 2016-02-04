@@ -70,7 +70,7 @@ This presentation uses [Hypothes.is](https://hypothes.is/groups/JEQoYxZJ/web-ann
 * Data?
 
 ###What Else?
-* Add annotations to this page with your own ideas for how this technology might be used. Use the tag *[useCase*](https://hypothes.is/stream?q=tag:%27usecase%27).
+* Add annotations to this page with your own ideas for how this technology might be used. Use the tag *[useCase](https://hypothes.is/stream?q=tag:%27usecase%27)*.
 
 ##Examples
 ###Genius.com

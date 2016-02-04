@@ -58,6 +58,12 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
  * Restart CanaryMod
  * Load the new world by issuing the command ```/loadworld [NAME] normal```
  * Switch to the new world by issuing the command ```/spawn [NAME] [USER]```
+ 
+###Minecraft in Education
+
+ * [Minecraft.Edu](https://minecraftedu.com/)
+ * [Minecraft: Educational Edition]([http://education.minecraft.net/)
+ * [ComputerCraftEdu](http://computercraftedu.com/)
 
 ###Wrapping Up
 

@@ -81,7 +81,7 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
 * [Using Minecraft to Unboggle the Robot Mind](https://news.brown.edu/articles/2015/06/minecraft) at Brown University
 
-[![Using Minecraft to Unboggle the Robot Mind](https://i.vimeocdn.com/video/199359555_640.webp](https://vimeo.com/129738486)
+[![Using Minecraft to Unboggle the Robot Mind](https://i.vimeocdn.com/video/199359555_640.webp)](https://vimeo.com/129738486)
 
 ###Wrapping Up
 

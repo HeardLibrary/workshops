@@ -30,6 +30,7 @@ Audio production does require specialized equipment However basic recordings can
 * [Audacity](http://www.audacityteam.org/) is an open source multi-track audio 
 editor and recorder. It is free and easy to use. Audacity is a great tool for beginner audio producers.
 * Other ideas: mobile applications, other [DAW software](https://en.wikipedia.org/wiki/Digital_audio_workstation), other audio tools like [VLC media player](http://www.videolan.org/vlc/index.html).
+
 ###Hardware
 * Computer
 * Input

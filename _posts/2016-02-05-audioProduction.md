@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting Started with Audio Production "
-date:   2016-02-05 15:10:00
+date:   2016-02-03 15:10:00
 categories: tech
 description: Let's learn how to create and share audio. We will practice creating an audio presentation to share our ideas and research.
 ---

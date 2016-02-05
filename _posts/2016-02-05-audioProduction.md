@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title:  "Getting Started with Audio Production "
@@ -6,9 +7,8 @@ categories: tech
 description: Let's learn how to create and share audio. We will practice creating an audio presentation to share our ideas and research.
 ---
 
-## Getting Started with Audio Production ##
+#Audio Production
 
-###Notes and Resources
 *Presented by [Ed Warga](mailto:ed.warga@vanderbilt.edu)* </br>
 Vanderbilt Library
 
@@ -17,7 +17,7 @@ Vanderbilt Library
 
 We all share and consume information in different mediums. Media is a broad term for technology used to store and transfer information ([Wikipedia](https://en.wikipedia.org/wiki/Media_(communication))).
 
-We are all familiar with producing and consuming textual media in our scholarly communications. However, other media could be used to share knowledge. Audio and video are two other examples of physical media used to store and share information.
+We are all familiar with producing and consuming textual media in our scholarly communications. However, other media could be used to share knowledge. 
 
 Let's learn how to create and share audio. We will practice creating an audio presentation to share our ideas and research.
 
@@ -115,14 +115,14 @@ There are several online repositories of audio content. Here are two examples.
 ####Internet Archive
 * [Searching the Internet Archive](https://archive.org/about/faqs.php#Search_Tips)
 
-###Sharing Your Work
+##Sharing Your Work
 * You could post your recordings on the web in audio repositories like SoundCloud or scholarly repositories like [DiscoverArchive](http://discoverarchive.vanderbilt.edu/) or [Figshare](https://figshare.com/). 
 * Use metadata to provide users with information about your work. **Metadata** is information about a work describing what it is and how others can reuse it. Descriptive information helps people find and identify the work and decide if they want to use it. Reuse information guides people both technically and legally in use of the work.
 * Descriptive metadata - title, creator, creationDate, description
 * Technical metadata - file format, file size, [codec](https://en.wikipedia.org/wiki/Codec), [sampling](https://en.wikipedia.org/wiki/Sampling_(signal_processing))
 * Rights metadata - copyright, licensing
 
-##Notes
+##Resources
 Here are some additional notes to help you continue on your own.
 
 **Getting started with Audacity:**

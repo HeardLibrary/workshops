@@ -1,4 +1,4 @@
-#Introduction to Data Cleaning and Preservation
+#Introduction to Data Cleaning with OpenRefine
 ####Friday, February 12
 
 

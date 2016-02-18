@@ -7,6 +7,10 @@ Presenter: [Ed Warga](mailto:ed.warga@vanderbilt.edu)
 * Digital Collection: a collection of objects (digitized or born digital) stored in digital formats and accessible over a network.
 * Examples: Library, Museum, Archive, Research
 
+### Discussion
+* What are some digital collections that you have used?
+* How are digital collections used in scholarship?
+
 ###What is Omeka?
 Omeka is a web publishing platform for sharing digital collections and building online exhibits with the items in these collections. Omega might be a good solution for a digital archive, research collection, student research and course work, prototyping larger digital projects. It is not a blogging platform or preservation system. It is a quick way to put up a website to showcase a digital collection.
 

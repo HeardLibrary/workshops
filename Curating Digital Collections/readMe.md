@@ -1,4 +1,6 @@
-# Curating Digital Collections #
+##Participate with [Hypothes.is](https://hypothes.is/)!
+Join the Hypothes.is group [VU_Digital-Scholarship](https://hypothes.is/groups/x8pPRYQm/vu-digital-scohlarship), and take part in the discussion.
+# Curating Digital Collections
 Presenter: [Ed Warga](mailto:ed.warga@vanderbilt.edu)
 ##Introduction
 ###What is a Digital Collection?

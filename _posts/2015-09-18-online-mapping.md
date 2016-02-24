@@ -72,6 +72,6 @@ There are many online mapping options available, and this list is in no way all-
 
 10.  Change the name to each of the layers that we edited to reflect the attributes that are displaying.  In this case our first layer (the one with the dots) should read “Percent with No Diploma”. Repeat the previous step for the second layer (in this case it should be the layer that we broke down base on a color gradient) and change the name to “Percent Below Poverty”.  To view your symbols and legend click the **"Legend"** option in the menu.
 
-11.  Click **Save** at the top of the window. Name your map. You must enter all of the fields in order to save your document.  You should now have a complete map showing the population of Nashville by percentage with no diploma and percent below poverty.  Your map should look something like the one shown on the next page.
+11.  Click **Save** at the top of the window. Name your map. You must enter all of the fields in order to save your document.  You should now have a complete map showing the population of Nashville by percentage with no diploma and percent below poverty.
 
 12.  From here you can choose options like **Share** and **Print.** You can also select new fields to display and change the symbology and labels however you choose. You can do this by selecting the drop down arrow next to the layer you want to change. Through the same workflow we can also add labels and popups to our map.

@@ -39,7 +39,7 @@ There are many online mapping options available, and this list is in no way all-
 * KML
 * Geojson (Mapbox)
 * XLS (Google)
-* Most tabular forms of data can be used or easily converted for use in an online mapping resource.  A correctlyt formatted table for GIS looks like the following.  Keep in mind that not all fields are necessary but must have at least one type of georeferencing data (an address or latitude and longitude).
+* Most tabular forms of data can be used or easily converted for use in an online mapping resource.  A correctly formatted table for GIS looks like the table below.  Keep in mind that not all fields are necessary but must have at least one type of georeferencing data (an address or latitude and longitude).
 ![Imgur](http://i.imgur.com/WaoXBtE.png)
 
 ##Create A Map With ArcGIS Online
@@ -54,15 +54,15 @@ There are many online mapping options available, and this list is in no way all-
 
 1.  Click **Create Map**
 
-2.  Zoom into the Nashville area and select **Basemap**. Spend a few minutes changing between basemap.  There are many basemaps to choose from.  Choosing a proper basemap can add aesthetic while also driving your point.  There are even ways to bring in custom basemaps.
+2.  Zoom into the Nashville area and select **Basemap**. Spend a few minutes changing among basemaps.  There are many options to choose from.  Choosing a proper basemap can add aesthetic while also driving your point.  There are even ways to bring in custom basemaps.
 
 3.  Click **Add Data**, and select **add layer from file**.  Select **choose file**.  Browse for the desktop and select **“ArcGISOnlineIntro”** and then select **“Tracts2010\_ACS.zip”** and **open**.
 
 4.  Click **Import Layer**
 
-5.  Next, we want to select the field we want to symbolize. Do this by selecting the **Choose an attribute to show** field and changing the drop down menu to “PctNoDiplo”. We will then be given the option to change the drawing style, change this to the ssecond option **Counts and Amounts (Size)** and then click **Options** to customize the symbols.
+5.  Next, we want to select the field we want to symbolize. Do this by selecting the **Choose an attribute to show** field and changing the drop down menu to “PctNoDiplo”. We will then be given the option to change the drawing style. Change it to the second option **Counts and Amounts (Size)** and then click **Options** to customize the symbols.
 
-6. Here we will be configuring the way our symbols represent the value.  It will change to varying in size depending on the value for that polygon (or the value for Percent with No Diploma). Here, you can also change the way that the data is broken down by selecting **Classify Data Using** and choosing the method by which you want to break down the data.  Remember to also check that your size is broken down to cary from 8 to 30 (or any range that you like).  You can also select **Symbols** to change the color and fill of the dots.  When you are finished click **OK** and **DONE.**
+6. Here we will be configuring the way our symbols represent the value.  It will change to vary in size depending on the value for that polygon (or the value for Percent with No Diploma). Here, you can also change the way that the data is broken down by selecting **Classify Data Using** and choosing the method by which you want to break down the data.  Remember to also check that your size is broken down to cary from 8 to 30 (or any range that you like).  You can also select **Symbols** to change the color and fill of the dots.  When you are finished click **OK** and **DONE.**
 
 7.  Repeat the process outlined in step 3.  We are going to add the same data a second time, only this time we will work on changing the symbology to represent the percent of the population below poverty.  You can do this by changing the dropdown **Choose an attribute to show** to **PctBelowPo.** Then select the first symbol option, **Counts and Amounts (Color)**.  Here we can break down our data in a similar way to what we did before.  By clicking **Symbols** you can change the color scale.  You can also change the way in which the data is broken down. When you are finish click **OK** and **Done** to return back to our layers window.
 

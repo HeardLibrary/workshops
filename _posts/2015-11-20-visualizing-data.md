@@ -10,11 +10,11 @@ description: "Data visualization can help you turn your research data into an ea
 
 Data visualization can help you turn your research data into an easily interpreted, compelling story. In this workshop, we load datasets into several visualization tools to explore their benefits for different research needs.  
 
-This workshop is intended to enable participants to:
+This workshop is intended to enable you to:
 
-* Gain an awareness of best practices in data visualization
-* Become familiar with several useful tools for data visualization
-* Consider which kinds of visualizations work best with different data sets and various stories we may wish to tell with data
+* Gain an awareness of best practices in data visualization.
+* Become familiar with several useful tools for data visualization.
+* Consider which kinds of visualizations work best with different data sets and various stories we may wish to tell with data.
 
 
 ##Data Visualization: A Map and a Design
@@ -24,7 +24,7 @@ One way of thinking about data visualization is a kind of information mapping.  
 [Edward Tufte has argued](http://www.edwardtufte.com/tufte/books_ei) that confusing data is a design issue, 
 “What about confusing clutter? Information overload? Doesn't data have to be 'boiled down' and 'simplified?' These common questions miss the point, for the quantity of detail is an issue completely separate from the difficulty of reading. Clutter and confusion are failures of design, not attributes of information.”     
 
-A good visualization can make data comprehensible without the need to simplify or boil down the dataset.  Indeed, Tufte maintains that
+A good visualization can make data comprehensible without the need to simplify or boil down the dataset.  Indeed, Tufte maintains that:
 
 “Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space.”
 		
@@ -35,18 +35,19 @@ A good visualization can make data comprehensible without the need to simplify o
 ##Examples
 Below are just a few examples of compelling uses of data visualization:
 
-* Combining a map of the United States with a timeline, the [Tornado deaths in the US](http://www.nytimes.com/interactive/2011/04/28/us/tornado-deaths.html) visualization from the New York Times allows users to see differences in both geographic and temporal dimensions. 
-* A second New York Times visualization, [How different groups spend their day](http://www.nytimes.com//interactive/2009/07/31/business/20080801-metrics-graphic.html), uses a steamgraph visualization to group activities like eating, work, and socializing to show how American study participants spend their time in these activities throughout the day.  Users can view the visualization for the participants as an entire group, or see the data broken into demographic categories.
+* Combining a map of the United States with a timeline, the [Tornado Deaths in the US](http://www.nytimes.com/interactive/2011/04/28/us/tornado-deaths.html) visualization from the New York Times allows users to see differences in both geographic and temporal dimensions. 
+* A second New York Times visualization, [How Different Groups Spend Their Day](http://www.nytimes.com//interactive/2009/07/31/business/20080801-metrics-graphic.html), uses a steamgraph visualization to group activities like eating, work, and socializing to show how American study participants spend their time in these endeavors throughout the day.  Users can view the visualization for the participants as an entire group, or see the data broken into demographic categories.
 * The visualization [Snake Oil Supplements?](http://www.informationisbeautiful.net/visualizations/snake-oil-supplements/) maps the strength of evidence provided in published medical studies for the use of supplements to treat various health conditions.  Data may be filtered by the health condition a user wishes to treat or by the type of supplement in question.
-* The [Wikipedia deletion debates](http://notabilia.net/) visualization shows the debate on Wikipedia over removing or keeping 100 individual articles.  Each line was created by following arguments made in the conversation-- a curly line shows consensus, where each opinion tended to agree with those before it.  A straighter line indicates a great deal of opposing discussion, pulling the conversation in separate directions so frequently that the visualization results in a straight line. 
+* The [Wikipedia Deletion Debates](http://notabilia.net/) visualization shows the debate on Wikipedia over removing or keeping 100 individual articles.  Each line was created by following arguments made in the conversation.  A curly line shows consensus, where each opinion tended to agree with those before it.  A straighter line indicates a great deal of opposing discussion, pulling the conversation in separate directions so frequently that the visualization results in a straight line. 
 
 ##Exercise
 This exercise focuses on experimenting with various kinds of visualization.  
 
-* In groups of 2 or 3, participants worked with the [RAW project](http://raw.densitydesign.org/) from [DensityDesign Lab](http://raw.densitydesign.org/)
-* Groups opted to “choose one of our samples” for their data source, selected a chart, and mapped the data onto specific dimensions of the visualization
-* After trying a few visualizations for their selected dataset, participants discussed what visualization types worked best and why
-* Finally, they reported their responses back to the group, generating a fruitful discussion of visualization types and uses
+* During the workshop, in groups of 2 or 3, participants worked with the [RAW project](http://raw.densitydesign.org/) from [DensityDesign Lab](http://raw.densitydesign.org/).
+* Groups opted to “choose one of our samples” for their data source, selected a chart, and mapped the data onto specific dimensions of the visualization.
+* After trying a few visualizations for their selected dataset, participants discussed what visualization types worked best and why.
+* Finally, they reported their responses back to the group, generating a fruitful discussion of visualization types and uses.
+* Try this activity on your own to explore different visualization types and think about how you might use them.
 
 
 
@@ -54,21 +55,21 @@ This exercise focuses on experimenting with various kinds of visualization.
 The workshop walked through a few well-known, useful, and easy to use tools for data visualization:
 
 ###[Timeline.js](http://timeline.knightlab.com/)
-* This timeline tool makes chronological visualization easy
-* It uses an easy to modify Google Spreadsheets template
-* Easily embed the timeline you create in a website
-* Use multiple media sources to create engaging content
+* This timeline tool makes chronological visualization easy.
+* It uses an easy to modify Google Spreadsheets template.
+* Easily embed the timeline you create in a website.
+* Use multiple media sources to create engaging content.
 
 ###[Datawrapper](https://datawrapper.de/)
-* An online tool for making interactive charts
-* Upload csv data, create a chart, select and customize visualization method, and embed the chart in your website 
-* In order to embed your chart, you'll be required to create an account
+* An online tool for making interactive charts.
+* Upload .csv data, create a chart, select and customize visualization method, and embed the chart in your website.
+* In order to embed your chart, you will be required to create an account.
 
 ###[Tableau](http://www.tableau.com/products/cloud-bi#form)
-* A general purpose data visualization tool
-* Offers paid and free/ desktop and online versions
-* Students can [sign up](http://www.tableau.com/academic/students) for one year free access
-* See Tableau's [Gallery](https://public.tableau.com/s/gallery) for some great visualization ideas
+* A general purpose data visualization tool.
+* Offers both paid and free versions of desktop and online applications.
+* Students can [sign up](http://www.tableau.com/academic/students) for one year free access.
+* See Tableau's [Gallery](https://public.tableau.com/s/gallery) for some great visualization ideas.
 
 
 

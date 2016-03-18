@@ -14,14 +14,6 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 
 * A web annotation is an online annotation associated with a web resource. With a Web annotation system, a user can add, modify or remove information from a Web resource without modifying the resource itself. The annotations can be thought of as a layer on top of the existing resource, and this annotation layer is usually visible to other users who share the same annotation system. In such cases, the web annotation tool is a type of social software tool ([Wikipedia](https://en.wikipedia.org/wiki/Web_annotation)). We will explore the concept of web annotation and discuss its use in digital research. We will try out a few different tools for web annotation and evaluate their usefulness for inclusion in participants' research workflows.
 
-###GitHub as an Educational Technology 
-####Friday, January 22
-*Ramona Romero*
-
-*this workshop was rescheduled. New date: March 4
-
-* Among other things, [GitHub](https://github.com/) is a social network for computer programmers. But GitHub is also a fantastic educational technology. In this session, we'll introduce you to git, the distributed version control system that powers GitHub. We'll show you how to set up an account with GitHub and collaborate with others on projects. You will learn the basics of Markdown, the simple markup language used to communicate on GitHub. We'll talk about the uses of GitHub in the classroom, the sciences, and the digital humanities. If you're brave, we'll even get into advance topics like branching and forking. By the end of the session, you'll be ready to create repositories and collaborate with scholars around the interwebs.
-
 ###Data Publication with Figshare 
 ####Friday, January 29
 *Morgan Daniels*
@@ -42,7 +34,7 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 
 ###Building Digital Collections with Omeka
 ####Friday, February 19
-*Carla Beals and Ed Warga*
+*Ed Warga*
 
 * Participants will learn how to build digital exhibits using the [Omeka](http://omeka.org/) content management system. Omeka can be used for a variety of projects including digital archives, exhibits, and collections; digital humanities projects; course sites;  and student projects. This workshop offers: examples of digital collections built on the Omeka platform; hands on experience building a digital collection in Omeka; and ideas for web hosting.
 
@@ -51,7 +43,7 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 *Mary Anne Caton*
 
 * If you're dealing with the web, you face the problem of information overload. How do you collect and organize your scholarly interests, particularly collections of images? We'll teach you how to get started with digital curation using two platforms: [Pinterest](www.pinterest.com) and [Historypin](https://www.historypin.org/). Digital curation is not just about organizing images of cats and your favorite vacation spots. By the end of this workshop, you'll know how to use these curation tools to advance your scholarly work.
-* 
+
 ###GitHub as an Educational Technology 
 ####Friday, March 4 
 *Ramona Romero*
@@ -60,7 +52,7 @@ All workshops take place from 11:00 a.m. to 12:00 p.m. in 418a of the Central Li
 
 ###Markup Languages for Digital Humanities
 ####Friday, March 18
-*Cliff Anderson & Suellen Stringer-Hye*
+*Cliff Anderson*
 
 * Developing digital editions of scholarly texts requires the use of various so-called 'markup languages.' In this session, we'll introduce you to two key markup languages: the [Text Encoding Initiative (TEI)](http://www.tei-c.org/index.xml) and the [Journal Article Tagging Suite (JATS)](http://jats.nlm.nih.gov/). You will also learn how to mark up a document in both languages using the [oXygen XML editor](https://www.oxygenxml.com/).
 

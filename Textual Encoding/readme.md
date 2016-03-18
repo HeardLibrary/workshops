@@ -10,3 +10,4 @@ Let's consider how to markup H.P. Lovecraft's short story, ["The Statement of Ra
 
 ##Journal Article Tagging Suite
 
+The Journal Article Tagging Suite or [JATS](http://jats.nlm.nih.gov/) is a set of three schemas for marking up journal articles and scholarly books. Here is a [sample article](JATS/journal.pbio.1002402.XML) marked up with JATS. Interestingly, all the articles in [PLOS](https://www.plos.org/) can be downloaded in JATS format. Here's [a tar file with a whole bunch of PLOS articles](JATS/pbio-xml.tgz). The [Open Library of the Humanities](https://olh.openlibhums.org/) also provides articles in JATS format for download.

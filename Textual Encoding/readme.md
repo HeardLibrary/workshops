@@ -6,4 +6,4 @@ The goal of this workshop is to introduce students to marking up documents with 
 
 Let's consider how to markup H.P. Lovecraft's short story, ["The Statement of Randolph Carter"](https://en.wikisource.org/wiki/Avon_Fantasy_Reader/Issue_10/The_Statement_of_Randolph_Carter). 
 
-![TEI/randolph-carter.png](Randolph Carter)
+![Randolph Carter](TEI/randolph-carter.png)

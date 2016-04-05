@@ -14,38 +14,38 @@ Vanderbilt Library
 
 ##Introduction
 
-We all share and consume information in different mediums. Media is a broad term for technology used to store and transfer information ([Wikipedia](https://en.wikipedia.org/wiki/Media_(communication))).
+We all share and consume information in different mediums. [Media](https://en.wikipedia.org/wiki/Media_(communication) is a broad term for technology used to store and transfer information. 
 
-We are all familiar with producing and consuming textual media in our scholarly communications. However, other media could be used to share knowledge. 
+We are all familiar with producing and consuming textual media in our scholarly communications. Other media, however, could be used to share knowledge. 
 
-Let's learn how to create and share audio. We will practice creating an audio presentation to share our ideas and research.
+Now, we can learn how to create and share audio. We will practice creating an audio presentation to share our ideas and research.
 
-###Learning Objective
+##Learning Objective
 Learn and practice recording and sharing audio files with Audacity audio production software.
 
 ##Audio Production Equipment
-Audio production does require specialized equipment However basic recordings can be made with readily available tools including -  personal computer with sound card, free audio production software, and a headset mic.
+Audio production does require specialized equipment. Basic recordings can be made with readily available tools including  a personal computer with sound card, free audio production software, and a headset microphone.
 
 ###Software
-* [Audacity](http://www.audacityteam.org/) is an open source multi-track audio 
+* [Audacity](http://www.audacityteam.org/) is an open source, multi-track audio 
 editor and recorder. It is free and easy to use. Audacity is a great tool for beginner audio producers.
 * Other ideas: mobile applications, other [DAW software](https://en.wikipedia.org/wiki/Digital_audio_workstation), other audio tools like [VLC media player](http://www.videolan.org/vlc/index.html).
 
 ###Hardware
 * Computer
 * Input
-  * Microphone and Mixer/interface -or- Microphone and Sound Card
+  * Microphone and Mixer Interface -or- Microphone and Sound Card.
   * **Sound Settings**: See what input/output devices are currently connected to your computer.
-      * PC: Control Panel --> Sound
-      * Mac: System Preferences --> Sound  
+      * PC: Control Panel > Sound
+      * Mac: System Preferences > Sound  
 * Output
   * Headphones or Speakers
 
 See Also - Adrian Try's [article](http://music.tutsplus.com/articles/the-complete-list-of-audio-gear-youll-need-for-your-podcast--audio-20527) on audio production gear.
 
 
-## Recording and Sharing Audio
-Download and install [Audacity](http://www.audacityteam.org/) if it is not available on your workstation. Please form small groups of two or three and work through the following activities.
+##Recording and Sharing Audio
+Download and install [Audacity](http://www.audacityteam.org/) if it is not available on your workstation. Now we will work through the following activities.
 
 ###Mic Test
 * Listen to these four microphone test files
@@ -56,14 +56,14 @@ Download and install [Audacity](http://www.audacityteam.org/) if it is not avail
 * Which one sounds best? Worst? Which sound acceptable for sharing with colleagues?
 
 ###Hello World! - Test Recording
-Let's learn how to record, save, edit and export audio.
+We can learn how to record, save, edit and export audio.
 
-* Create a directory called 'working' and a project sub-directory called helloWorld
-* Open Audacity
+* Create a directory called 'working' and a project sub-directory called helloWorld.
+* Open Audacity.
 * Save as an Audacity project (.aup). 
-	* save project in the helloWorld directory
-* Record "Hello World"
-* Save the project
+	* save project in the helloWorld directory.
+* Record "Hello World".
+* Save the project.
 * Close the project, inspect the project directory, and open the .aup file.
 * Try [this editing recipe](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast).
 * Export the audio to MP3.
@@ -73,7 +73,9 @@ Let's learn how to record, save, edit and export audio.
 I have prepared sample tracks for an audio presentation. We will mix and export them to demonstrate the process for creating an audio presentation. I have included some open source music and public domain primary source audio. 
 
 * [Download the demonstration project files](https://vanderbilt.box.com/s/wwo9314zfj8x36ksyn87oo4wc4wme2zb).
+
 * Zip the file in your working directory.
+
 * Open the .AUP file.
 
 * Save as a new project in the project directory.
@@ -81,8 +83,8 @@ I have prepared sample tracks for an audio presentation. We will mix and export 
 	* Save the project periodically as you work.
 
 * Import audio and trim for use.
-	* File-->Import-->Audio
-	* Open the CrookSpeech file at [Working]/AudacityDemo/ExternalAudio
+	* File > Import > Audio
+	* Open the CrookSpeech file at [Working]/AudacityDemo/ExternalAudio.
 	* Trim the audio for use.
 	* Position the clip in your presentation.
 	* Note: this audio clip is in the public domain and was retrieved from the Internet Archive at [https://archive.org/details/CrookSpeech](https://archive.org/details/CrookSpeech).
@@ -108,19 +110,21 @@ Importing audio in Audacity is straightforward. The challenge is finding audio t
 	* How would you cite sources used in an audio presentation?
 
 ###Online Audio
-There are several online repositories of audio content. Here are two examples.
+There are several online repositories of audio content. Here are two examples:
+
 ####SoundCloud
 * [Searching SounCloud](http://help.soundcloud.com/customer/portal/articles/2167100?b_id=9644)
 * [SoundCloud Copyright Resorces](https://soundcloud.com/pages/copyright#further-resources)
+
 ####Internet Archive
 * [Searching the Internet Archive](https://archive.org/about/faqs.php#Search_Tips)
 
 ##Sharing Your Work
 * You could post your recordings on the web in audio repositories like SoundCloud or scholarly repositories like [DiscoverArchive](http://discoverarchive.vanderbilt.edu/) or [Figshare](https://figshare.com/). 
 * Use metadata to provide users with information about your work. **Metadata** is information about a work describing what it is and how others can reuse it. Descriptive information helps people find and identify the work and decide if they want to use it. Reuse information guides people both technically and legally in use of the work.
-* Descriptive metadata - title, creator, creationDate, description
-* Technical metadata - file format, file size, [codec](https://en.wikipedia.org/wiki/Codec), [sampling](https://en.wikipedia.org/wiki/Sampling_(signal_processing))
-* Rights metadata - copyright, licensing
+..* Descriptive metadata: title, creator, creationDate, and description.
+..* Technical metadata: file format, file size, [codec](https://en.wikipedia.org/wiki/Codec), and [sampling](https://en.wikipedia.org/wiki/Sampling_(signal_processing)).
+..* Rights metadata: copyright and licensing.
 
 ##Resources
 Here are some additional notes to help you continue on your own.
@@ -135,8 +139,8 @@ Here are some additional notes to help you continue on your own.
 
 **Editing**
 
-* [Editing voice recording for podcasts](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast) - This looks like a good place to start. As you get more comfortable with mixing audio you can strike off and explore the world of compression and other effects processing on your own.
-* [Editing Narration in Audacity](http://blogs.techsmith.com/tips-how-tos/editing-narration-in-audacity-tutorial/): check out this video after the workshop.
+* This looks like good place to start: [Editing voice recording for podcasts](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast). As you get more comfortable with mixing audio you can strike off and explore the world of compression and other effects processing on your own.
+* [Editing Narration in Audacity](http://blogs.techsmith.com/tips-how-tos/editing-narration-in-audacity-tutorial/): check out this video.
 * [Mixing Narration with Background Music](http://manual.audacityteam.org/o/man/tutorial_mixing_a_narration_with_background_music.html)
 
 

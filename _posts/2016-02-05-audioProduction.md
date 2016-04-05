@@ -14,7 +14,7 @@ Vanderbilt Library
 
 ##Introduction
 
-We all share and consume information in different mediums. [Media](https://en.wikipedia.org/wiki/Media_(communication) is a broad term for technology used to store and transfer information. 
+We all share and consume information in different mediums. [Media](https://en.wikipedia.org/wiki/Media_(communication)) is a broad term for technology used to store and transfer information. 
 
 We are all familiar with producing and consuming textual media in our scholarly communications. Other media, however, could be used to share knowledge. 
 

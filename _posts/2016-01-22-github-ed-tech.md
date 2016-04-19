@@ -11,11 +11,11 @@ My goal for this session is to provide you with a brief introduction to GitHub. 
 
 ### Source Control, Git and GitHub
 
-**Source Control**, also known as version control, is the management of changes to documents, computer programs, large web sites, and other collections of information. Source control can occur on a small scale such as using track changes when editing a word document or the environment can be more complex like a website with multiple pages and sub-pages. The more complex the information environment, the more likely you will need some sort of tool to get a handle on your information. There are many tools, both proprietary and open source, that are available for source control, one example is Git.
+**Source Control**, also known as version control, is the management of changes to documents, computer programs, large web sites, and other collections of information. Source control can occur on a small scale such as using track changes when editing a word document, or on a large scale, like a website with multiple pages and sub-pages. The more complex the information environment, the more likely you will need some sort of tool to get a handle on your information. There are many tools, both proprietary and open source, that are available for source control. One example is Git.
 
-**Git**, [http://git-scm.com/](http://git-scm.com/), is a free and open source distributed version control system designed to handle everything from small projects to very large ones. Git is completely command line based, which isn't everyone's cup of tea, but that's where GitHub can save the day.
+**Git**, [http://git-scm.com/](http://git-scm.com/), is a free and open source distributed version control system designed to handle everything from small projects to very large ones. Git is completely command line based (as opposed to point and click-based). Command line-based programs are not everyone's cup of tea, but that's where GitHub can save the day.
 
-**GitHub**, [http://github.com](http://github.com), is a web-based Git repository hosting service with all of the revision control and source code management of Git plus some added features. GitHub provides a web-based graphical interface and desktop client as well as mobile integration. Use of the command line is optional. GitHub is widely used as tool for projects in multiple disciplines, including the humanities.  For some examples visit the Heard Library's repositories on GitHub: [https://github.com/HeardLibrary](https://github.com/HeardLibrary)
+**GitHub**, [http://github.com](http://github.com), is a web-based Git repository hosting service with all of the revision control and source code management of Git plus some added features. GitHub provides a web-based graphical interface and desktop client as well as mobile integration. Use of the command line is optional. GitHub is widely used as tool for projects in multiple disciplines, including the humanities. For some examples visit the Heard Library's repositories on GitHub: [https://github.com/HeardLibrary](https://github.com/HeardLibrary)
 
 ## Why Would I Want to Use GitHub?
 
@@ -35,20 +35,20 @@ A collaborative research project publishling online reference works concerning t
 
 ### GitHub in the Classroom
 
-**GitHub Education**, [https://education.github.com/](https://education.github.com/) Free and discounted plans for educational use. Faculty using are using GitHub instead of a traditional course managment system (Blackboard, Moodle, Sakai) or using Github as a submission platform for student assignments.
+**GitHub Education**, [https://education.github.com/](https://education.github.com/) Free and discounted plans for educational use. Faculty are using GitHub instead of a traditional course managment system (Blackboard, Moodle, Sakai) or using Github as a submission platform for student assignments.
 
 *Related Readings*
 
-*The Emergence of GitHub as a Collaborative Platform for Education* [http://alexeyza.com/pdf/cscw15.pdf](http://alexeyza.com/pdf/cscw15.pdf)
+**The Emergence of GitHub as a Collaborative Platform for Education** [http://alexeyza.com/pdf/cscw15.pdf](http://alexeyza.com/pdf/cscw15.pdf)
 
-*Push, Pull, Fork: GitHub for Academics* [http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/)
+**Push, Pull, Fork: GitHub for Academics** [http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/)
 
 **COMP 116: Introduction to Computer Security**, [https://github.com/tuftsdev/DefenseOfTheDarkArts](https://github.com/tuftsdev/DefenseOfTheDarkArts)
 Course website for COMP 116: Introduction to Computer Security.
 
 ### The Basics of Markdown
 
-To get the most out of GitHub, you will need to learn some Markdown. Markdown, [http://daringfireball.net/projects/markdown/](http://daringfireball.net/projects/markdown/), is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. Click on the following link for a handy cheat sheet on Markdown syntax: [http://packetlife.net/media/library/16/Markdown.pdf](http://packetlife.net/media/library/16/Markdown.pdf)
+To get the most out of GitHub, you will need to learn some Markdown. Markdown, [http://daringfireball.net/projects/markdown/](http://daringfireball.net/projects/markdown/), is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. Click on this [link](http://packetlife.net/media/library/16/Markdown.pdf) for a handy cheat sheet on Markdown syntax. 
 
 You can use Markdown to:
 * Create a [Gist](https://help.github.com/articles/about-gists/) - a quick and easy way to share snippets of code with collaborators
@@ -56,13 +56,13 @@ You can use Markdown to:
 * Editing the repository Wiki
 * Create files with a `.md` or `.markdown` extension such as the repository `Readme.md` file
 
-GitHub.com uses its own version of the Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com. Visit the **Mastering Markdown** guide to learn more about GitHub flavored markdown: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+GitHub.com uses its own version of the Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com. Visit the **Mastering Markdown** [guide](https://guides.github.com/features/mastering-markdown/) to learn more about GitHub-flavored markdown.
 
 ### Getting Started with GitHub
 
-GitHub is free to use for public projects.  A free account give you the ability to create an unlimited number of public repositories with an unlimited number of collaborators.  GitHub also offers a number of personal and organizational plans for those who need to collaborate on private repositories. More information about plan pricing is available at [https://github.com/pricing](https://github.com/pricing)
+GitHub is free to use for public projects.  A free account gives you the ability to create an unlimited number of public repositories with an unlimited number of collaborators.  GitHub also offers a number of personal and organizational plans for those who need to collaborate on private repositories. More information about plan pricing is available [here](https://github.com/pricing).
 
-Creating your free account is the first step to mastering GitHub: [https://github.com/](https://github.com/)
+Creating your [free account](https://github.com/) is the first step to mastering GitHub.
 
 Now that you have an account you can quickly and easily edit your public profile and other settings by clicking on the **edit profile** button or selecting settings from the drop down menu in the top right corner next to your profile image.
 
@@ -76,7 +76,7 @@ You can create a new repository in one of two ways.  You can click on the + next
 
 ![Creating a new repository in GitHub](http://i.imgur.com/xRUNkhe.png)
 
-Now that you've committed to creating a new repository there are just a few more easy steps to initialize your repository:
+Now that you have committed to creating a new repository there are just a few more easy steps to initialize your repository:
 
 1. Name it - Always keep it short and sweet.
   * Let's create a repository named **Hello-World**
@@ -89,19 +89,19 @@ Now that you've committed to creating a new repository there are just a few more
 
 ![New Repository Form](http://i.imgur.com/854WHz3.png)
 
-### Let's Play with Your New Repository
+### Playing with Your New Repository
 
-Let's explore three concepts using our new **Hello-World** repository:  Creating an Issue, Branching and Creating a Pull Request.
+We will explore three concepts using our new **Hello-World** repository:  Creating an Issue, Branching and Creating a Pull Request.
 
 **Issues**
 
-An Issue is a note on a repository about something that needs attention.  The Issue could relate to a bug, a feature request, and questions. You are basically creating a conversation between you and your collaborators.
+An Issue is a note on a repository about something that needs attention.  The Issue could relate to a bug, a feature request, or any questions you might have. You are basically creating a conversation between you and your collaborators.
 
 Try this feature out by opening an Issue about README edits by clicking on the Issues link in the column on the right and then clicking on the green New Issue button on the following screen.
 
 ![Imgur](http://i.imgur.com/atkXV7n.png)
 
-In the Issues pane you'll need to create a title for your Issue, and you can describe it in further detail below. In this case let's create an issue about adding more detail to the README file.
+In the Issues pane you will need to create a title for your Issue, and you can describe it in further detail below. In this case we will create an issue about adding more detail to the README file.
 
 You can also use the features in the column on the right to add a label describing the issue, a milestone (this associates your issue with a particular feature or phase of your project), or assign the issue to one of you collaborators.
 
@@ -125,11 +125,11 @@ We are currently in our working branch `readme-edits`, let's edit our README fil
 
 **Pull Requests**
 
-Pull Requests are the key to collaboration on GitHub. Using a **pull request**, you are proposing changes and requesting that someone pull in your contributions. In GitHub, pull requests allow you to compare the content of two branches, and the changes, additions and subtractions are shown in green and red and called **diffs**.
+Pull Requests are the key to collaboration on GitHub. Using a **pull request**, you are proposing changes and requesting that someone pull in your contributions. In GitHub, pull requests allow you to compare the content of two branches. The changes, additions, and subtractions are shown in green and red and called **diffs**.
 
 Think of pull requests as a way to start a conversation where you can get feedback on the development process.  You can also use GitHub's @mention system to ask for feedback from specific people.
 
-We're going to open a pull request for our own repository and merge it ourself for practice. Click on the Pull Request icon in the side bar on the right. With our pull request, we can also closed the Issue about the README file we opened earlier. In the comments section of pull request, include the following text **fixes #** and number of the issue which in this case is 1.
+We are going to open a pull request for our own repository and merge it ourself for practice. Click on the Pull Request icon in the side bar on the right. With our pull request, we can also closed the Issue about the README file we opened earlier. In the comments section of pull request, include the following text **fixes #** and number of the issue which in this case is 1.
 
 ![Imgur](http://i.imgur.com/whLHZ8q.png)
 
@@ -137,29 +137,29 @@ The last step is to put it all together and merge your `readme-edits` branch in 
 
 ![Imgur](http://i.imgur.com/6nPrNJQ.png)+
 
-Everything we've done so far has been in the web client of GitHub. To work offline, you will need to install the GitHub desktop client, which we'll discuss in more detail below.
+Everything we have done so far has been in the web client of GitHub. To work offline, you will need to install the GitHub desktop client, which we will discuss in more detail below.
 
 ### Working with a Forked Repository
 
-Building your own repository can be fun, but sometimes you just want to contribute to an existing project or maybe you'd like to use someone else's project as the starting point for a new project of your own. If that's the case it's time to Fork.
+Building your own repository can be fun, but sometimes you just want to contribute to an existing project or maybe you would like to use someone else's project as the starting point for a new project of your own. If that is the case it is time to Fork.
 
-Creating a **fork** creates a personal copy of someone else's project. You can submit Pull Requests to help make other people's projects better by offering your changes up to the original project. We're going to create a fork of the **Spoon-Knife** repository created by **octocat**.
+Creating a **fork** creates a personal copy of someone else's project. You can submit Pull Requests to help make other people's projects better by offering your changes up to the original project. We are going to create a fork of the **Spoon-Knife** repository created by **octocat**.
 
 Navigate to the page for the **Spoon-Knife** repository, and click the **Fork** button in the header of the repository.
 
 ![Imgur](http://i.imgur.com/Bi0jTS8.png)
 
-We've been able to make edits to our repository files in the web version of GitHub, but that can get tricky.  Installing the GitHub desktop client gives us more flexibility in how we can interact with the documents and files within our repository.  
+We have been able to make edits to our repository files in the web version of GitHub, but that can get tricky.  Installing the GitHub desktop client gives us more flexibility in how we can interact with the documents and files within our repository.  
 
-Download GitHub Desktop (available for MAC and PC) [https://desktop.github.com/](https://desktop.github.com/)
+Download [GitHub Desktop](https://desktop.github.com/) (available for MAC and PC).
 
-Now that you've successfully installed GitHub Desktop and forked the Spoon-Knife repository, it's time to get to work.  Currently your fork of the Spoon-Knife repository only exists on GitHub, but we need to clone it to your computer.
+Now that you have successfully installed GitHub Desktop and forked the Spoon-Knife repository, it is time to get to work.  Currently your fork of the Spoon-Knife repository only exists on GitHub, but we need to clone it to your computer.
 
 Navigate to your fork of the Spoon-Knife repository.  Click on **Clone in Desktop** in the right hand side bar.
 
 ![Imgur](http://i.imgur.com/zP8YY9R.png)
 
-Once you've successfully cloned the repository, all the repository files will be available to you on your desktop.  Let's open a text editor (you can use any text editor, but I recommend installing ATOM, [https://atom.io/](https://atom.io/)) and make some changes to the *index.html* file in the Spoon-Knife repository.
+Once you have successfully cloned the repository, all the repository files will be available to you on your desktop.  We can open a text editor (you can use any text editor, but I recommend installing [ATOM](https://atom.io/) and make some changes to the *index.html* file in the Spoon-Knife repository.
 
 **Remember to create a working branch first!**
 
@@ -167,13 +167,13 @@ Commit your changes and then click on the **Sync** button to push your changes f
 
 ![Imgur](http://i.imgur.com/G1vEqi4.png)
 
-Currently, the changes you made are only part of your forked repository.  Now it's time to propose changes into the main project by octocat.
+Currently, the changes you made are only part of your forked repository.  Now it is time to propose changes into the main project by octocat.
 
 Go to your fork of the repository on GitHub.com and click on the green **Compare and Pull Request** button located next to your branch to initiate a pull request.
 
 ![Imgur](http://i.imgur.com/19DFE5p.png)
 
-Once you've submitted the pull request it is up to the project owner whether your changes will be pulled into the repository or not.  
+Once you have submitted the pull request it is up to the project owner whether your changes will be pulled into the repository or not.  
 
 Success!  You are now a GitHub user!
 

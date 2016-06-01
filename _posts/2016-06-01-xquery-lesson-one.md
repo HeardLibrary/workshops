@@ -1,16 +1,11 @@
 ---
 layout: post
 title:  "Getting Started with XQuery - Lesson One"
-date:   2015-12-04 18:49:00
+date:   2016-06-01 09:00:00
 categories: tech
 description: "Learn the basics of the XQuery programming language."
 
 ---
-
-#Introduction to XQuery
-
-##Lesson One
-
 ##Lesson Goals
 In this lesson, you will learn the very basics of XQuery. This lesson covers how XQuery differs from other programming languages, its fundamental structures, and how to begin writing your own XQuery programs.
 

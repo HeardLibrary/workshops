@@ -1,0 +1,93 @@
+---
+layout: post
+title:  "Getting Started with GraphGists - Lesson One"
+date:   2016-06-01 09:00:00
+categories: tech
+description: "Learn how to use Neo4j graphgists"
+
+---
+##Lesson Goals
+In this lesson, you will learn how to use Neo4j graphgists to analyze simple networks.  This lesson will explain how to  encode objects and the relationships between them and how these networks can then be queried using the Neo4j query language cypher.
+
+###What is a Graph?
+
+Let's start out with a graph is not (at least in the sense in which we mean it here). A graph is not a bar chart or a pie chart but for our purposes a mathematically defined set of nodes (vertices) and edges (edges) that have mathematical properties. Once data has been expressed as a graph, it can be traversed and queried so that the patterns, inherent in the dataset, can be explored and analyzed, revealing insights that might not have been immediately apparent. The Panama Papers, the journalistic study revealing crooks in the offshore banking world is an example of this type of investigation.  The journalists were able to load large datasets into Neo4j, a graph database,  and discover that xyz.
+
+```
+This expression evaluates to 2. Pretty simple, right? You can evaluate any function in XQuery in like manner. For instance, try:
+```xquery
+fn:upper-case("hello, world!")
+```
+
+
+###What is a Graph Database
+So what is a graph database? We are all familiar with relational databases as most people have used these kinds of databases even if they don't know they are using them. Orignally built for the banking industry, they store data in predetermined rows and columns and require a rigid data model as ambiguity in data and complex relationships are not easily handled. Graph databases are especially helpful in humanities research when the data is often ambiguous and complex.
+
+###Neo4j
+Neo4j is a graph database application that stores data as nodes, edges or attributes. The Neo4j community edition is an open source tool that can be downloaded to your workstation or used in the cloud via GrapheneDB. There are certain restrictions on both of them but for many projects in the digital humanities, the community edition will be fine. Neo4j and Cypher, the Neo4j query language, are very intuitive and the tutorials clear and concise so, while it may take some time to master Cypher, it is not necessary to have a programming background to get started.  
+
+###Graphgists
+
+One of the best ways to familiarize yourself with how Neo4j and graph datamodelling works is to create a Neo4j graph gist. Graphgists are good for relatively small datasets and can be used as either a learning tool or to create small scale digital humanities projects. We have used it for many such projects which you can see here.
+
+Github account,
+
+First you will need a github account (link to github tutorials etc..) Once you get set up in github, you should navigate to:
+
+Gists are places in Github where you can store code for future use. From there, "fork" the gist and you will then have it in your own github account so you can play with it without effecting the original.
+
+![Imgur](http://i.imgur.com/X1CkFMw.png?1)
+
+
+###Modelling your data
+
+Modelling your data is always the first step toward creating the set of nodes and relationships that you think may be most valuable for your research. This process can be as simple as using a whiteboard or pen and pencil to  diagram how you want to represent your data. After sketching out your ideas, you will try to come up with a model that captures the essential structures and which aspects need to be nodes or objects, what relationships are important between them and which aspects of your data you want to use to qualify those points.  
+
+For this tutorial, we will use an already structured geneology of Ancient Gods as our data model, simply because geneologies already have relationships built into them so it makes data modelling simpler to learn and understand.
+
+
+You can see by this picture that we have a set of gods and their relationships to other gods represented as a geneology chart. Below that is a set of information about that chart that we will then use to develop our graph. But before we can do that, we must take the data in our gist, and render it as a graph. To do that, copy the URL of the gist and paste that URL into this page:
+
+Once you have done that, you will see a primitive graph where some of the data from the geneology chart has already been encoded. If you use your cursor to pull on the nodes, you will see the types of relationships specified in the code displayed.
+
+
+
+###Coding a graphgist
+
+So how does this work? First you must look at the code view of the gist. In order to do this, you can click on the "code" button in the upper right hand corner. This will take you back to the most recent version of the cypher code for the graph. You can also get to it directly from github but clicking the button insures that you will be updating the most recent version.
+
+Now hit "edit" in order to be able to go in and change the file. Select one of the gods not yet added to the gist and copy and paste, a line from the //People nodes, add it to the line below and then change the name label to the name of the god you have selected. You also need to change the identifier at the beginning of the line. The identifier can be a single character, a number or a sting of characters and/or numbers. To make it easier on yourself, as you will later be using these identifiers to create relationships, you can use the same name you use for the "name" property of the node.
+
+```
+//People
+```
+
+If you have chosen a god who already has a relationship with one of the already coded gods, you can go on to create a relationship. If not do the same thing again and create a node for your second character.
+
+To create a relationship, you will do the same thing as you did above but under the Relationships heading
+
+```
+//Relationships
+```
+To see if your graph renders, copy the URL and then paste it in to:
+
+Did it work? If not, did you get a screen that looks like this? Nine times out of ten, it is due to a punctuation error so recheck your code to make sure the code matches in syntax the one you have pasted. Common errors are missing square brackets, missing single or double quotation marks or unclosed statements. Neo4j will give you some clues about your errors below. The most common mistake is adding a comma after the last cypher statement. No comma signals the end of the sequence.
+
+How to add nodes
+
+How to add relationships
+
+How and when to add properties
+
+What to watch out for when coding.
+But we're going to try not to use regular expressions when we don't need to.
+
+###Querying a graphgist
+
+*Hint: A good way to approach this problem without relying on regular expressions is to write a recursive function to handle moving the leading consonants to the end of each word.*
+
+Ready to check your work? Here's how I did it... [Zorba](http://try-zorba.28.io/queries/xquery/htyppNcHns5R%2BLIHC%2FJz%2BmlQGDU%3D) and [Gist](https://gist.github.com/CliffordAnderson/6ed7e1f9a32abf15d9fd)
+
+*Bonus Credit: Remember that recursion always requires a base case. In my example, the base case works most of the time but will not always work. Can you create an example where it will fail? Actually, don't try this in class–recursion is painful to the nth degree when it fails.*
+
+There are always lots of different ways to accomplish a task in any programming language, though some may have subtle bugs and others may be less straightforward. [Here are a few other attempts at a Pig Latin parser in XQuery](https://gist.github.com/CliffordAnderson/a1ac3141828b504ee756/edit). If we have time, we might look at these. Otherwise, please try them out yourself and see if you can spot any bugs.

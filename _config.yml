@@ -1,5 +1,5 @@
 name: Get Started With...
-markdown: redcarpet
+markdown: kramdown
 twitter_username: VandyLibraries
 github_username: HeardLibrary
 baseurl: /workshops

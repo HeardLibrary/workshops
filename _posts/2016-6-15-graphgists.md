@@ -177,5 +177,8 @@ Your graph may differ depending on what properties you selected to add. The nice
 
 
 
-In the next lesson, I will show you how to query the completed graph.
+###Querying the graph
+
+Now let's use Cypher to ask a question of our data set. If you look on the bottom of the completed graph, you will see the cypher code that queries the graph for all the Person nodes with a "gender:male" property and following that, the code for all the Person nodes with the "gender:female" property. The last query asks for a graph of all the offspring of Nyx. 
+
 

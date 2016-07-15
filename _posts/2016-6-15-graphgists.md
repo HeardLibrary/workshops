@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Getting Started with GraphGists - Lesson One"
@@ -178,3 +177,4 @@ Your graph may differ depending on what properties you selected to add. The nice
 [Completed Graph](http://heardlibrary.github.io/graphgist/?e7fe169ecc92f13563f949d25dea9358)
 
 In the next lesson, I will show you how to query the completed graph.
+

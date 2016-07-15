@@ -13,18 +13,22 @@ In this lesson, you will learn the very basics of XQuery. This lesson covers how
 
 If you've programmed in a language like PHP or Python, you've probably been exposed to imperative and object-oriented constructs. The distinguishing feature of such programming languages is that they rely on changes of state to process information. That is, they require you to tell the computer how to process your ideas step-by-step, kind of like when you are making a recipe and taking the flour from a dry mix to dough to some baked good.
 
-XQuery belongs to a different strand of programming languages derived from the lambda calculus and related to programming languages like Erlang, Haskell, Lisp, and R. In functional programming languages, everything is an expression and all expressions evaluate to some value. Clear? :) A simpler way of putting things is that in functional programming you write functions that take a value as input and produce a value as an output. So, returning to our baking example, 
+XQuery belongs to a different strand of programming languages derived from the lambda calculus and related to programming languages like Erlang, Haskell, Lisp, and R. In functional programming languages, everything is an expression and all expressions evaluate to some value. Clear? :) A simpler way of putting things is that in functional programming you write functions that take a value as input and produce a value as an output. So, returning to our baking example,
 
 While many programmers consider functional programming languages hard to learn, my experience is that first-time programmers find them easier to understand.
 
 For example, try out this expression in XQuery:
+
 ```xquery
 1 + 1
 ```
+
 This expression evaluates to 2. Pretty simple, right? You can evaluate any function in XQuery in like manner. For instance, try:
+
 ```xquery
 fn:upper-case("hello, world!")
 ```
+
 Since all expressions evaluate to some value, you can use a expression in XQuery wherever you would use a value. For example, you can pass one expression as the input to another expression. This example takes a string ```"1,2,3"```, converts it into a sequence of three strings, reverse the order, and then joins the sequence of three strings back together.
 
 ```xquery
@@ -113,11 +117,11 @@ Like other programming languages, XQuery permits conditions expressions of the f
 
 ```xquery
 xquery version "3.0";
- 
+
 (: Fizz Buzz in XQuery :)
- 
+
 for $i in (1 to 100)
-return 
+return
   if ($i mod 3 = 0 and $i mod 5 = 0) then "fizzbuzz"
   else if ($i mod 3 = 0) then "fizz"
   else if ($i mod 5 = 0) then "buzz"
@@ -169,7 +173,7 @@ return $say-hello("Dave")
 Let's get back to our pseudo-function that we sketch out at top. How may we turn this pseudo-code into a real XQuery expression? Let's write the function first. Remember that we want to take a food choice and a yes/no (true/false) decision about whether to add a salad as inputs and then return a combined food choice as a result. Below is a first pass at writing that function.
 
 ```xquery
-xquery version "3.1"; 
+xquery version "3.1";
 
 declare function local:add-salad($food, $salad)
 {
@@ -181,11 +185,11 @@ To call this function we need a main expression body. It's actually pretty simpl
 ```xquery
 local:add-salad("Steak",false())
 ```
-Et voilá! You have written a function to add (or not) salads to every food order. Still, there is a problem. What if someone sends a malformed order? For example, what if patron just asked for 1 with a salad. What would happen? We'd get back the result ```1 and salad```. Even stranger, what happens when someone orders "Fish" and says "No" to salad. We'd an error saying ```Items of type xs:string and xs:boolean cannot be compared.``` What does that mean? Isn't there a way to check for these errors before they happen? 
+Et voilá! You have written a function to add (or not) salads to every food order. Still, there is a problem. What if someone sends a malformed order? For example, what if patron just asked for 1 with a salad. What would happen? We'd get back the result ```1 and salad```. Even stranger, what happens when someone orders "Fish" and says "No" to salad. We'd an error saying ```Items of type xs:string and xs:boolean cannot be compared.``` What does that mean? Isn't there a way to check for these errors before they happen?
 
 In fact, there is. In the fancy language of computer science, this is called type checking. Basically, we want to define what type of information can go into our function and also what type of information can be returned as values by our function. In XQuery, we can check the types in the so-called function signature. Here's how we do that.
 ```xquery
-xquery version "3.1"; 
+xquery version "3.1";
 
 declare function local:add-salad($food as xs:string, $salad as xs:boolean) as xs:string
 {
@@ -208,7 +212,7 @@ The rules for [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin) are relativel
 
 *Exercise #1*
 
-So, for our first exercise, let's write a basic XQuery expression that takes a word and returns its equivalent this dialect of Pig Latin. 
+So, for our first exercise, let's write a basic XQuery expression that takes a word and returns its equivalent this dialect of Pig Latin.
 
 *Hint: If you need help getting started, try using this function: [fn:substring](http://www.xqueryfunctions.com/xq/fn_substring.html)*
 
@@ -242,12 +246,12 @@ return
         $word || "ay"
 ```
 
-But we're going to try not to use regular expressions when we don't need to. 
+But we're going to try not to use regular expressions when we don't need to.
 
 *Hint: A good way to approach this problem without relying on regular expressions is to write a recursive function to handle moving the leading consonants to the end of each word.*
 
 Ready to check your work? Here's how I did it... [Zorba](http://try-zorba.28.io/queries/xquery/htyppNcHns5R%2BLIHC%2FJz%2BmlQGDU%3D) and [Gist](https://gist.github.com/CliffordAnderson/6ed7e1f9a32abf15d9fd)
 
-*Bonus Credit: Remember that recursion always requires a base case. In my example, the base case works most of the time but will not always work. Can you create an example where it will fail? Actually, don't try this in class–recursion is painful to the nth degree when it fails.* 
+*Bonus Credit: Remember that recursion always requires a base case. In my example, the base case works most of the time but will not always work. Can you create an example where it will fail? Actually, don't try this in class–recursion is painful to the nth degree when it fails.*
 
 There are always lots of different ways to accomplish a task in any programming language, though some may have subtle bugs and others may be less straightforward. [Here are a few other attempts at a Pig Latin parser in XQuery](https://gist.github.com/CliffordAnderson/a1ac3141828b504ee756/edit). If we have time, we might look at these. Otherwise, please try them out yourself and see if you can spot any bugs.

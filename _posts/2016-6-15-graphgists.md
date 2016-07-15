@@ -102,7 +102,7 @@ To see if your graph renders, copy the URL and then paste it in to:
 
 [Graphgist home](http://heardlibrary.github.io/graphgist/)
 
-Did it work? If not, did you get a screen that looks like this? Nine times out of ten, it is due to a punctuation error so recheck your code to make sure the code matches in syntax the one you have pasted. Common errors are missing square brackets, missing single or double quotation marks or unclosed statements. Neo4j will give you some clues about your errors below. The most common mistake is adding a comma after the last cypher statement. No comma signals the end of the sequence.
+Did it work? If not, nine times out of ten, it is due to a punctuation error so recheck your code to make sure the code matches in syntax the one you have pasted. Common errors are missing square brackets, missing single or double quotation marks or unclosed statements. Neo4j will give you some clues about your errors below the graph. The most common mistake is adding a comma after the last cypher statement. No comma signals the end of the sequence.
 
 Now we will add a property to a node. In the below example, name: 'Aether' is a property of the Person node we have arbitrarily called aether.
 
@@ -171,10 +171,11 @@ six sons (Oceanus, Coeus, Crius, Hyperion, Iapetus and Cronus).
 The Titanides which was the name given to the six daughters of
 Uranus and Gaia (Theia, Rhea, Themis, Mnemosyne, Phoebe and Tethys).
 ```
+[Completed Graph](http://heardlibrary.github.io/graphgist/?e7fe169ecc92f13563f949d25dea9358)
 
 Your graph may differ depending on what properties you selected to add. The nice thing about graphs is that you do not have to have a property for every node, only the ones you have the information to include or think is important to add.
 
-[Completed Graph](http://heardlibrary.github.io/graphgist/?e7fe169ecc92f13563f949d25dea9358)
+
 
 In the next lesson, I will show you how to query the completed graph.
 

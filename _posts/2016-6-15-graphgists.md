@@ -6,25 +6,25 @@ categories: tech
 description: "Learn how to use Neo4j graphgists"
 
 ---
-##Lesson Goals
+## Lesson Goals
 In this lesson, you will learn how to use Neo4j GraphGists to analyze simple networks.  This lesson will explain how to  encode objects and the relationships between them and how these networks can then be queried using the Neo4j query language cypher.
 
-###What is a Graph?
+### What is a Graph?
 
 Let's start out with what a graph is NOT (at least in the sense in which we mean it here). A graph is not a bar chart or a pie chart. For our purposes, a graph is a mathematically defined set of nodes (vertices) and edges that have inherent properties. Once data has been expressed as a graph, it can be traversed and queried so that the patterns inherent in the dataset, can be explored and analyzed, revealing insights that might not have been immediately apparent. The Panama Papers, the journalistic study suggesting possible improprieties in the offshore banking world used Neo4j to tease out illegal or immoral activities from millions of perfectly legal transactions.
 
 ![Mathematical graph](http://www.tutorialspoint.com/neo4j/images/neo4j_nodes_and_relationship.jpg)
 
 
-###What is a Graph Database
+### What is a Graph Database
 So what is a graph database? We are all familiar with relational databases as most people have used these kinds of databases even if they don't know they are using them. Originally built for the banking industry, they store data in predetermined rows and columns and require a rigid data model. Graph databases on the other hand, store data in graph structures. Because of this, they are good for projects where ambiguity and complex relationships do  not neatly fit into the more linear structure of a relational database.  Graph databases are especially helpful in humanities research when the data is often ambiguous and complex.
 
 [Differences between graph and relational databases](https://neo4j.com/developer/graph-db-vs-rdbms/)
 
-###Neo4j
+### Neo4j
 Neo4j is a graph database application that stores data as vertices and edges in the form of nodes and relationships or attributes of a node or relationship.  The [Neo4j community edition](https://neo4j.com/download/) is an open source tool that can be downloaded to your workstation or used in the cloud via [GrapheneDB](http://www.graphenedb.com/). There are certain restrictions on both of them but for many projects in the digital humanities, the community edition will be fine. Neo4j and Cypher, the Neo4j query language, are very intuitive and the [tutorials](https://neo4j.com/developer/get-started/) clear and concise so, while it may take some time to master cypher, it is not necessary to have a programming background to get started.  
 
-###GraphGists
+### GraphGists
 
 One of the best ways to familiarize yourself with how Neo4j and graph datamodelling works is to create a Neo4j GraphGist. GraphGists are good for relatively small datasets and can be used as either a learning tool or to create small scale digital humanities projects.
 
@@ -43,7 +43,7 @@ First you will need a Github account. You don't really need to know how to use G
 
 so that you have it in your own Github account and can play with it without changing the original.
 
-###Modelling your data
+### Modelling your data
 
 Modelling your data is always the first step toward creating the set of nodes and relationships that you think may be most valuable for your research. This process can be as simple as using a whiteboard or pen and pencil to  diagram how you want to represent your data. After sketching out your ideas, you will try to come up with a model that captures the essential structures and which aspects need to be nodes or objects, what relationships are important between them and which aspects of your data you want to use to qualify those points.  
 
@@ -64,7 +64,7 @@ Once you have done that, you will see a primitive graph where some of the data f
 
 
 
-###Coding a graphgist
+### Coding a graphgist
 
 So how does this work? First you must look at the code view of the gist. In order to do this, you can click on the "Page Source" button next to the library logo. This will take you back to the most recent version of the cypher code for the graph. You can also get to it directly from Github but clicking the button insures that you will be updating the most recent version.
 
@@ -177,7 +177,7 @@ Your graph may differ depending on what properties you selected to add. The nice
 
 
 
-###Querying the graph
+### Querying the graph
 
 Now let's use Cypher to ask a question of our data set. If you look on the bottom of the completed graph, you will see the cypher code that queries the graph for all the Person nodes with a "gender:male" property and following that, the code for all the Person nodes with the "gender:female" property. The last query asks for a graph of all the offspring of Nyx. 
 

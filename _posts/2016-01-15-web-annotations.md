@@ -3,7 +3,7 @@ layout: post
 title:  "Getting Started with Web Annotations"
 date:   2016-01-15 11:00:00
 categories: tech
-description: Explore the concept of web annotation and discuss its use in research and learning.
+description: Explore the concept of web annotation and discuss its use in research and learning. Review web annotation tools and participate with Hypothes.is annotations.
 ---
 #Web Annotations
 

@@ -59,9 +59,7 @@ The technical details of how web annotations work are laid out in the [The Web A
 ### Pedagogy
 * [Collaborative Learning](http://www.sciencedirect.com/science/article/pii/S0360131510000886)
 * This post on the Chronicle of Higher Education's ProfHacker blog discusses using web annotation tools in the classroom: [How Do You Annotate in Your Class? by Lee Skallerup Bessette](http://chronicle.com/blogs/profhacker/how-do-you-annotate-in-your-class/60101)
-* Applications for MOOCs? Blackboard?
-* [#Education Genius](http://genius.com/static/education)
-* [Hypothes.is/Education](https://hypothes.is/education/)
+* Annotation tools have dedicated education compnents to help apply these tools in teaching. See [#Education Genius](http://genius.com/static/education) and [Hypothes.is/Education](https://hypothes.is/education/)
 * Conversation with Robin DeRosa about her experience teaching in the open using Hypothes.is.
  - use of Hypothe.is in University classroom: https://www.youtube.com/watch?v=vpl4sh4-9Qs)
  * https://googleguacamole.wordpress.com/2016/05/11/in-search-of-connected-learning-exploring-the-pedagogy-of-the-open-web/

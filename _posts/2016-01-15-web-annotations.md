@@ -100,5 +100,10 @@ For the developers, [Annotator](http://annotatorjs.org/) provides open source so
 ### More Tools
 [The Web Annotations](https://en.wikipedia.org/wiki/Web_annotation) Wikipedia article includes a list of annotation tools and their features.
 
+### Goes well with
+* PERMA - save a view of a webpage as it is when you annotate.
+* Internet Archive - see older versions of websites using the Wayback Machine.
+* Zotero - keep a list of documents you or your group are annotating.
+
 ## Thank You!
 Thank you for participating in the annotation activities described in this post. Please feel free to provide feed back by annotating here with your comments.

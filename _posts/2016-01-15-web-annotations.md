@@ -23,7 +23,7 @@ A web annotation is an online annotation associated with a web resource. With a 
 
 Now let's  explore the concept of web annotation and discuss its use in research and learning.
 
-
+### Note
 This presentation uses [Hypothes.is](https://hypothes.is/groups/JEQoYxZJ/web-annotations-workshop) to explain and demonstrate web annotation tools. Participants are encouraged to use the Hypothes.is tool as a way to engage with the presentation content and to practice with a new technology.
 
 * Please download and enable the [Hypothes.is extension for Chrome](https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek), 
@@ -34,13 +34,9 @@ Now you can annotate this page and other pages mentioned in this post.
 
 
 ## What Are Web Annotations?
-Web annotations is a concept specific to the Internet. *Web* here refers to the World Wide Web - the global network of interconnected documents. Web annotations create another layer atop these networked documents - a graph of relationships binding each annotation to other annotations and to the Internet resources they reference.
+Web annotations extend a graph of relationships binding each annotation to other annotations and to the Internet resources they reference.
 
-The [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) provides two definitions along with a draft of specifications to use when implementing annotation functionality.
-
-* [Annotations](https://hypothes.is/a/AVJCyczf8sFu_DXLVd0N) are typically used to convey information about a resource or associations between resources. Simple examples include a comment or tag on a single web page or image, or a blog post about a news article. 
-
-* [An annotation](https://hypothes.is/a/AVJCxP6_8sFu_DXLVdz9) is considered to be a set of connected resources, typically including a body and target, and conveys that the body is related to the target. The exact nature of this relationship changes according to the intention of the annotation, but the body is most frequently somehow "about" the target. This perspective results in a basic model with three parts, depicted below. The full model supports additional functionality, enabling content to be embedded within the annotation, selecting arbitrary segments of resources, choosing the appropriate representation of a resource and providing styling hints to help clients render the annotation appropriately. Annotations created by or intended for machines are also possible, ensuring that the Data Web is not ignored in favor of only considering the human-oriented Document Web. 
+The [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) provides definition along with drafts of specifications to use when implementing annotation functionality in your website or application. [Annotations](https://hypothes.is/a/AVJCyczf8sFu_DXLVd0N) are typically used to convey information about a resource or associations between resources. Simple examples include a comment or tag on a single web page or image, or a blog post about a news article.
 
 ### History
 Early visions of the web included annotations ([Todd A Carpenter](http://scholarlykitchen.sspnet.org/2013/04/30/iannotate-whatever-happened-to-the-web-as-an-annotation-system/), [Wikipedia](https://en.wikipedia.org/wiki/Memex)). The Memex machine envisioned by Vannevar Bush was a prototype hypertext machine and included functionality for producing and recalling personal annotations. Tim Berners Lee included annotations in the early models of the web, and they were [almost](https://hypothes.is/a/AVJC6HpH8sFu_DXLVd11) part of the early web browser [Mosaic's](https://en.wikipedia.org/wiki/Mosaic_(web_browser)) design. 
@@ -69,12 +65,13 @@ The technical details of how web annotations work are laid out in the [The Web A
 * [Sharing](http://onlinelibrary.wiley.com/doi/10.1002/asi.23124/abstract) annotations made during the research process
 * Public Scholarship - [An astronomer discusses a poem about the sunset.](http://genius.com/789992)
 * Commenting on published research
-* Open peer review?
+	* some impact metrics measure the amount of commentary around a published work.
+* Could this lead to open peer review?
 * [Reading group](https://hypothes.is/groups/nwQKV3WM/vu-scholcommreadinggroup)
 * Data?
 
 ### What Else?
-* Add annotations to this passage with your own ideas for how this technology might be used. Use the tag *[useCase](https://hypothes.is/stream?q=tag:%27usecase%27)*.
+* Add annotations to this passage with your own ideas for how this technology might be used.
 
 ## Examples
 Now let's look at some other annotation tools. Perhaps you could implement the use of some of these tools in your research or teaching.

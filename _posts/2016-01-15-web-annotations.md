@@ -53,6 +53,8 @@ The technical details of how web annotations work are laid out in the [The Web A
 ## Use Cases for Web Annotations
 
 ### Pedagogy
+Could web annotations be used for teaching and learning?
+
 * [Collaborative Learning](http://www.sciencedirect.com/science/article/pii/S0360131510000886)
 * This post on the Chronicle of Higher Education's ProfHacker blog discusses using web annotation tools in the classroom: [How Do You Annotate in Your Class? by Lee Skallerup Bessette](http://chronicle.com/blogs/profhacker/how-do-you-annotate-in-your-class/60101)
 * Annotation tools have dedicated education compnents to help apply these tools in teaching. See [#Education Genius](http://genius.com/static/education) and [Hypothes.is/Education](https://hypothes.is/education/)
@@ -61,20 +63,21 @@ The technical details of how web annotations work are laid out in the [The Web A
  * https://googleguacamole.wordpress.com/2016/05/11/in-search-of-connected-learning-exploring-the-pedagogy-of-the-open-web/
 
 ### Open Research
+There may be applications for annotations in opening the research process as transparent activities on the Web. 
+
 * Scholarly Communications - [video @4:40](https://hypothes.is/annotating-all-knowledge/)
 * [Sharing](http://onlinelibrary.wiley.com/doi/10.1002/asi.23124/abstract) annotations made during the research process
 * Public Scholarship - [An astronomer discusses a poem about the sunset.](http://genius.com/789992)
 * Commenting on published research
 	* some impact metrics measure the amount of commentary around a published work.
 * Could this lead to open peer review?
-* [Reading group](https://hypothes.is/groups/nwQKV3WM/vu-scholcommreadinggroup)
-* Data?
+* Would you feel comfortable sharing your research annotations with a wide audience?
 
 ### What Else?
-* Add annotations to this passage with your own ideas for how this technology might be used.
+Add annotations to this passage with your own ideas for how this technology might be used.
 
 ## Examples
-Now let's look at some other annotation tools. Perhaps you could implement the use of some of these tools in your research or teaching.
+Now let's look at some other annotation tools. Perhaps you could implement some of these tools in your research or teaching. **Follow the links below and review a few tools. Annotate this page with your thoughts about these tools.**
 
 ### Genius.com
 [Genius.com](http://genius.com) grew out of RapGenius a site where the user community analyzed song lyrics. It has grown into an impressive site which collects and annotates documents of all sorts.

@@ -43,6 +43,8 @@ Early visions of the web included annotations ([Todd A Carpenter](http://scholar
 
 
 ### How do web annotations work?
+
+<image src="http://heardlibrary.github.io/workshops/MEDIA/annotation-architecture.svg"/>
 This **[InfoGraphic!](https://www.w3.org/annotation/diagrams/annotation-architecture.svg)** models the architecture of web annotation systems.
 
 

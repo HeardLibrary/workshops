@@ -27,10 +27,8 @@ Now let's  explore the concept of web annotation and discuss its use in research
 This presentation uses [Hypothes.is](https://hypothes.is/groups/JEQoYxZJ/web-annotations-workshop) to explain and demonstrate web annotation tools. Participants are encouraged to use the Hypothes.is tool as a way to engage with the presentation content and to practice with a new technology.
 
 * Please download and enable the [Hypothes.is extension for Chrome](https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek), 
-* create a user profile with the service, and
-* join the [Web Annotations Workshop](https://hypothes.is/groups/JEQoYxZJ/web-annotations-workshop) group.
-
-Now you can annotate this page and other pages mentioned in this post.
+* Create a user profile with the service.
+* Now you can annotate this page and other pages mentioned in this post. start posting annotations to the public group.
 
 
 ## What Are Web Annotations?
@@ -45,7 +43,8 @@ Early visions of the web included annotations ([Todd A Carpenter](http://scholar
 
 
 ### How do web annotations work?
-This **[InfoGraphic!](https://www.w3.org/annotation/diagrams/annotation-architecture.svg)** models the architecture of web annotation systems.
+
+<image src="https://www.w3.org/annotation/diagrams/annotation-architecture.svg"/>
 
 
 The technical details of how web annotations work are laid out in the [The Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). This W3C working draft describes a framework for sharing annotations across platforms. It describes bodies, targets, annotations and specificResources as entities in the graph of relationships produced by web annotations. Feel free to read this document at the link above, and annotate it using your new Hypothes.is account.

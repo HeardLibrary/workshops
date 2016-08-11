@@ -43,8 +43,7 @@ Early visions of the web included annotations ([Todd A Carpenter](http://scholar
 
 
 ### How do web annotations work?
-
-<image src="https://www.w3.org/annotation/diagrams/annotation-architecture.svg"/>
+This **[InfoGraphic!](https://www.w3.org/annotation/diagrams/annotation-architecture.svg)** models the architecture of web annotation systems.
 
 
 The technical details of how web annotations work are laid out in the [The Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). This W3C working draft describes a framework for sharing annotations across platforms. It describes bodies, targets, annotations and specificResources as entities in the graph of relationships produced by web annotations. Feel free to read this document at the link above, and annotate it using your new Hypothes.is account.

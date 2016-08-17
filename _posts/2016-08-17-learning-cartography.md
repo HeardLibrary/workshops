@@ -42,12 +42,12 @@ There are several design principles that are necessary to consider when making a
 
 ### Thematic
 
-* Choropleth
+#### Choropleth
   ![Choropleth Map of the United States](http://i.imgur.com/8iLtTL5.png)
-* Graduated Symbols
-* Dot map
-* Isopleth map
-* Cartogram
-* Dasymetric map
+#### Graduated Symbols
+#### Dot map
+#### Isopleth map
+#### Cartogram
+#### Dasymetric map
 
 ## A Note About Web maps

@@ -60,6 +60,7 @@ library(RCurl)
 # Data source: https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed
 data <- getURL("https://opendata.socrata.com/api/views/7sg8-44ed/rows.csv?accessType=DOWNLOAD")
 starbucks <- read.csv(text = data, header=TRUE)
+starbuckstn <- subset(starbucks, Country == "US")
 starbuckstn <- subset(starbucks, Country.Subdivision == "TN")
 
 # Create and display leaflet map
@@ -90,12 +91,10 @@ regions <- unique(as.vector(starbucks$Country.Subdivision))
 
 ```
 
-We then create a drop down list populated by the regions column of our data frame. Ideally, we'd clean up this list and make it more human readible.
+We then create a drop down list populated by the regions column of our data frame. Ideally, we'd clean up this list and make it more human readible. As you'll note, we're storing the CSV locally in a folder called ```data``` in order to avoid sending too many requests to the website of the data provider.
 
 ```R
 # ui.R
-
-regions <- unique(as.vector(starbucks$Country.Subdivision))
 
 shinyUI(fluidPage(
   titlePanel("Starbucks Locations"),
@@ -112,7 +111,7 @@ shinyUI(fluidPage(
 ))
 ```
 
-Like all Shiny applications, the ```server.R``` code below will update the map according to the region selected by the user. As you'll note, we're storing the CSV locally in a folder called ```data``` in order to avoid sending too many requests to the website of the data provider.
+Like all Shiny applications, the ```server.R``` code below will update the map according to the region selected by the user.
 
 ```R
 # server.R

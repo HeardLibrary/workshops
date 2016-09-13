@@ -61,12 +61,12 @@ library(RCurl)
 data <- getURL("https://opendata.socrata.com/api/views/7sg8-44ed/rows.csv?accessType=DOWNLOAD")
 starbucks <- read.csv(text = data, header=TRUE)
 starbuckstn <- subset(starbucks, Country == "US")
-starbuckstn <- subset(starbucks, Country.Subdivision == "TN")
+starbuckstn <- subset(starbuckstn, Country.Subdivision == "TN")
 
 # Create and display leaflet map
 map <- leaflet()
 map <- addTiles(map)
-map  <- addMarkers(map, starbuckstn$Longitude, starbuckstn$Latitude, popup=starbuckstn$Name)
+map <- addMarkers(map, starbuckstn$Longitude, starbuckstn$Latitude, popup=starbuckstn$Name)
 map
 ```
 

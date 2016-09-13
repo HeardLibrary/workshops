@@ -88,7 +88,7 @@ starbucks <- read.csv("data/starbucks.csv", header=TRUE)
 
 # Create a vector of country subdivions (i.e. states in the U.S.)
 regions <- unique(as.vector(starbucks$Country.Subdivision))
-
+regions <- sort(regions)
 ```
 
 We then create a drop down list populated by the regions column of our data frame. Ideally, we'd clean up this list and make it more human readible. As you'll note, we're storing the CSV locally in a folder called ```data``` in order to avoid sending too many requests to the website of the data provider.

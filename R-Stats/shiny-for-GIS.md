@@ -18,21 +18,17 @@ In this session, we will demonstrate how to visualize GIS data using R and Shiny
 
 ```R
 install.packages("ggplot2")
-library(ggplot2)
-
 install.packages("leaflet")
-library(leaflet)
-
 install.packages("REDCapR")
-library(REDCapR)
-
 install.packages("RCurl")
-library(RCurl)
-
 install.packages("scales")
-library(scales)
-
 install.packages("shiny")
+
+library(ggplot2)
+library(leaflet)
+library(REDCapR)
+library(RCurl)
+library(scales)
 library(shiny)
 ```
 

@@ -1,10 +1,10 @@
-#Visualizing GIS Data with R and Shiny
+# Visualizing GIS Data with R and Shiny
 
-##Goals
+## Goals
 
 In this session, we will demonstrate how to visualize GIS data using R and Shiny.
 
-##Prerequisites
+## Prerequisites
 
 * Download the [R Programming Language](http://www.r-project.org/) in the version appropriate to your computer.
 * Download the desktop version of [R Studio](http://www.rstudio.com/products/rstudio/)
@@ -32,18 +32,18 @@ library(scales)
 library(shiny)
 ```
 
-##Why R?
+## Why R?
 
 * R is open source, meaning that you can get started today without any upfront costs
 * R is widely-used both here at Vanderbilt and globally for data analysis
 * R has [a package (usually multiple packages!)](http://cran.r-project.org/) for nearly every kind of analysis
 * Using R fosters [reproducible research](http://christophergandrud.github.io/RepResR-RStudio/index.html)
 
-##Why Shiny?
+## Why Shiny?
 
 [Shiny](http://shiny.rstudio.com/) is a framework developed by [RStudio](https://www.rstudio.com/) for turning data analyses in R into interactive websites. Shiny allows you to port your code over to the web without having to know very much about HTML, CSS, Javascript or other web technologies. Shiny apps are generally divided into two parts: ```ui.R``` and ```server.R```. The first part contains the layout and the second the analysis. If you need to make code available to both ```ui.R``` and ```server.R```, you can also include a ```global.R``` file. 
 
-##[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
+## [Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
 
 In this example, we use [leaflet](https://rstudio.github.io/leaflet/), an open source Javascript mapping library, to produce a map of Starbuck's locations in Tennessee.
 
@@ -66,7 +66,7 @@ map <- addMarkers(map, starbuckstn$Longitude, starbuckstn$Latitude, popup=starbu
 map
 ```
 
-###Shiny Starbucks
+### Shiny Starbucks
 
 But why strict ourselves to Tennessee? Wouldn't it be better to allow users to select their own location from a dropdown control? Here's a Shiny version of the code above, which permits users to display Starbuck's locations in their own regions.
 
@@ -130,19 +130,19 @@ shinyServer(
 
 Here's how your Shiny application winds up looking:
 
-![Imgur](http://i.imgur.com/TqxSsi7.png)
+![Shiny Application](http://i.imgur.com/TqxSsi7.png)
 
-##Visualizing REDCap GIS Data
+## Visualizing REDCap GIS Data
 
 In this example, we will visualize GIS information from REDCap on map. Again, we will be using the leaflet Javascript library, as helpfully made available to use in the ```leaflet``` package.  We will also be using the ```REDCapR``` package to connect to our REDCap survey through the REDCap API.
 
-###REDCap Survey
+### REDCap Survey
 
 First, we'll develop a REDCap survey to collect our data. The survey looks like this to our end users.
 
 ![REDCap Survey](http://i.imgur.com/TPUHBos.png)
 
-###Using the REDCap API 
+### Using the REDCap API 
 
 Next we'll connect to the data in our REDCap survey using the REDCap API. For this purpose, we use the REDCapR package to access the API.
 
@@ -155,7 +155,7 @@ This package allows us to connect with REDCap, extract our data, and use it with
 
 ![REDCap data](http://i.imgur.com/WYrFZCE.png)
 
-###Mapping Our REDCap Data
+### Mapping Our REDCap Data
 
 ```R
 # global.R
@@ -216,7 +216,7 @@ Here's the result--an interactive map of the data that we've collected about pla
 
 ![REDCap Map](http://i.imgur.com/INjpKTe.png)
 
-###Next Steps with R
+### Next Steps with R
 
 * Sign up for the [Free Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) on [DataCamp](https://www.datacamp.com)
 * Take the Shiny tutorial at RStudio: [Shiny Tutorial](http://shiny.rstudio.com/tutorial/)

@@ -21,6 +21,12 @@ In this lesson, you'll learn some of the basics of managing your digital collect
 
 ##Pinterest##
 
+# Using a visual bookmarking tool like Pinterest allows users to collaborate and fosters community input about digital collections. Over [XX?] Galleries, Libraries, Archives and Museums use Pinterest as a way to promote discovery of their collections.  Pinterest's bulk uploader and simple platform mean it's easy to learn.
+
+Mobile App
+
+
+
 ##How are digital collections used in scholarship?##
 
 ##Managing Collections##

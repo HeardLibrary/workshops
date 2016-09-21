@@ -2,8 +2,8 @@
 
 19 September 2016
 
-* If you're dealing with the web, you face the problem of information overload. How do you collect and organize your scholarly interests, particularly collections of images? We'll teach you how to get started with digital curation using two platforms: [Pinterest](www.pinterest.com) and [Historypin](https://www.historypin.org/). Digital curation is not just about organizing images of cats and your favorite vacation spots. By the end of this workshop, you'll know how to use these curation tools to advance your scholarly work.  
--*   
+If you're dealing with the web, you face the problem of information overload. How do you collect and organize your scholarly interests, particularly collections of images? We'll teach you how to get started with digital curation using two platforms: [Pinterest](www.pinterest.com) and [Historypin](https://www.historypin.org/). Digital curation is not just about organizing images of cats and your favorite vacation spots. By the end of this workshop, you'll know how to use these curation tools to advance your scholarly work.  
+
 ### What is Digital Curation? ###
 
 ## Both the process--Curation--and the person--Curator all share the Latin root "curare" meaning to "take care."  Traditionally, curators manage and interpret material objects whether that's art, books, buidlings, scientific tools, or more recently, born-digital data and objects.  They are content specialists who interpret collections of objects for and increasingly with the public.

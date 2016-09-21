@@ -15,7 +15,7 @@ Digital Curation: the act of managing, storing, and interpreting a collection of
 
 In this lesson, you'll learn some of the basics of managing your digital collections using platforms like HistoryPin and Pinterest. This lesson will explore how you can use curatorial tools to build and manage collections of images and objects. 
 
-# HistoryPin # www.historypin.org
+# HistoryPin www.historypin.org
 
 Historypin’s members work together to create collections,telling the stories of the places that matter to them.## 
 

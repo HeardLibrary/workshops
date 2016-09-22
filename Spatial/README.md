@@ -2,7 +2,7 @@
 
 ## Goals
 
-In this session, we will look at how graphs can be incorporated with spatial data to produce intersting applications.
+In this session, we will look at how graphs can be incorporated with spatial data to produce interesting applications.
 
 
 ## Links 

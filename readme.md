@@ -4,7 +4,7 @@
 
 If you're dealing with the web, you face the problem of information overload. How do you collect and organize your scholarly interests, particularly collections of images? We'll teach you how to get started with digital curation using two platforms: [Pinterest](www.pinterest.com) and [Historypin](https://www.historypin.org/). Digital curation is not just about organizing images of cats and your favorite vacation spots. By the end of this workshop, you'll know how to use these curation tools to advance your scholarly work.  
 
-### What is Digital Curation? ###
+#### What is Digital Curation? ####
 
 Both the process--Curation--and the person--Curator all share the Latin root "curare" meaning to "take care."  Traditionally, curators manage and interpret material objects whether that's art, books, buidlings, scientific tools, or more recently, born-digital data and objects.  They are content specialists who interpret collections of objects for and increasingly with the public.
 
@@ -15,9 +15,9 @@ Digital Curation: the act of managing, storing, and interpreting a collection of
 
 In this lesson, you'll learn some of the basics of managing your digital collections using platforms like HistoryPin and Pinterest. This lesson will explore how you can use curatorial tools to build and manage collections of images and objects. 
 
-# HistoryPin www.historypin.org
+### HistoryPin www.historypin.org ###
 
-Historypin’s members work together to create collections,telling the stories of the places that matter to them.## 
+Historypin’s members work together to create collections,telling the stories of the places that matter to them.
 
 ### Pinterest ###
 
@@ -25,7 +25,7 @@ Using a visual bookmarking tool like Pinterest allows users to collaborate and f
 
 Mobile App
 
-##How are digital collections used in scholarship?##
+## How are digital collections used in scholarship? ##
 
 ##Managing Collections##
 

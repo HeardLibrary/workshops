@@ -19,7 +19,7 @@ Using a visual bookmarking tool like Pinterest allows users to collaborate and f
 
 [pinterest.application](https://about.pinterest.com/en)
 
-Once you create a username and password, you can follow topincs you like from architecture to libraries, from Github to manuscripts. Create your profile then search for topics that interest you. https://www.pinterest.com/ Settings allow you to know who's following your pins, who's invited you to follow their boards, and other ways to connect with users.https://www.pinterest.com/settings
+Once you create a username and password, you can follow topincs you like from architecture to libraries, from Github to manuscripts. Create your profile then search for topics that interest you. https://www.pinterest.com/ Settings allow you to know who's following your pins, who's invited you to follow their boards, and other ways to connect with users.
 
 Topics are called boards. Within each board, you can like or "pin" it, save it or follow the owner's board.  Click on Pinterest's Browser button up in your browser to link all your web searches into Pinterest and feed boards and images to you. 
 

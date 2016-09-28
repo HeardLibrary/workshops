@@ -1,4 +1,4 @@
-#### Getting Started with Digital Curation ####
+## Getting Started with Digital Curation ##
 
 19 September 2016
 

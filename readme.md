@@ -17,7 +17,7 @@ Both HistpryPin and Pinterest orignated with a basic framework of interpretation
 
 Using a visual bookmarking tool like Pinterest allows users to collaborate and fosters community input about digital collections. Over 100 Galleries, Libraries, Archives and Museums use Pinterest to promote discovery of their collections.  Pinterest's bulk uploader and simple platform mean it's easy to learn.
 
-[pinterest.application](https://about.pinterest.com/en)
+[pinterest](https://about.pinterest.com/en)
 
 Once you create a username and password, you can follow topincs you like from architecture to libraries, from Github to manuscripts. Create your profile then search for topics that interest you. https://www.pinterest.com/ Settings allow you to know who's following your pins, who's invited you to follow their boards, and other ways to connect with users.
 

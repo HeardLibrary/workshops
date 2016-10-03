@@ -4,7 +4,7 @@
 
 R is an open source programming language for statistical analysis. In this session, we’ll show you how to get started with creating graphs in R. In particular, we'll demonstrate how to use two popular alternative to the base graphics utilities in R: [ggplot2](http://ggplot2.org/) and [ggvis](http://ggvis.rstudio.com/). We'll talk about how these packages compliment each other as well as how they differ conceptually.
 
-##Prerequisites
+### Prerequisites
 
 * Download the [R Programming Language](http://www.r-project.org/) in the version appropriate to your computer.
 * Download the desktop version of [R Studio](http://www.rstudio.com/products/rstudio/)
@@ -28,16 +28,19 @@ library(scales)
 
 install.packages("readxl")
 library(readxl)
+
+install.packages("babynames")
+library(babynames)
 ```
 
-##Why R?
+### Why R?
 
 * R is open source, meaning that you can get started today without any upfront costs
 * R is widely-used both here at Vanderbilt and globally for data analysis
 * R has [a package (usually multiple packages!)](http://cran.r-project.org/) for nearly every kind of analysis
 * Using R fosters [reproducible research](http://christophergandrud.github.io/RepResR-RStudio/index.html)
 
-##R is a *Programming* Language
+### R is a *Programming* Language
 
 * R is a programming language, not a 'point-and-click' statistical application 
 * RStudio provides a integrated development environment (IDE) for R, making its appearance more user-friendly 
@@ -46,9 +49,9 @@ library(readxl)
   * to developing interactive web applications with [Shiny](http://shiny.rstudio.com/)
 * The combination of R & RStudio makes it possible to become production by learning a few functions and then develop expertise over time as necessary
   
-##R Exercises
+## R Exercises
 
-###[Average Heights and Weights for American Women](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html)
+### [Average Heights and Weights for American Women](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html)
 
 We'll begin our explorations by rendering a simple graph with base graphics, ggplot2, and ggvis. This practice dataset of the average heights and weights for American women (ages 30-39) comes built in with the R programming language. Let's load the dataset into R and then explore it a little.
 
@@ -104,7 +107,7 @@ averages %>%
 
 You may reasonably ask, why are there essentially three different ways of producing the same scatter plot? We'll answer that question as we move forward with our examples.
 
-###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
+### [ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 
 This dataset from the Association for Research Libraries (ARL) contains key information about academic library budgets and staffing. An Excel (XLS) file is available [here](http://www.arlstatistics.org/documents/ARLStats/index15.xls). Please download the file and save it somewhere accessible on your system.
 
@@ -135,17 +138,17 @@ names(arl)[c(1:5)] <- c("Institution", "Total", "Salaries", "Material", "Staff")
 View(arl)
 
 # Create a simple scatter plot
-ggplot(arl, aes(x=Staff, y=Salaries)) + geom_point()
+ggplot(arl, aes(x=Staff, y=Total)) + geom_point()
 
 # Create a simple scatter plot (with trend line)
-ggplot(arl, aes(x=Staff, y=Wages)) + geom_point()
-ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm")
+ggplot(arl, aes(x=Staff, y=Total)) + geom_point()
+ggplot(arl, aes(x=Staff, y=Total)) + geom_point() + stat_smooth(method="lm")
 
 # Make the Y axes less cluttered
-ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma)
+ggplot(arl, aes(x=Staff, y=Total)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma)
 
 # Add title
-ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + main("ARL Salaries")
+ggplot(arl, aes(x=Staff, y=Total)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + main("ARL Staff versus Total Expenditures")
 ```
 
 Of course, we're really interested to see where Vanderbilt appears on this trend line. Let's add another layer to our plot to highlight Vanderbilt in red.
@@ -159,40 +162,73 @@ Vandy <- subset(arl, Institution == "VANDERBILT")
 View(Vandy)
 
 # Then, create a scatter plot with a highlighted point for Vanderbilt
-ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Salaries") + xlab("All Staff") + ylab("Professional Salaries") + geom_point(data=Vandy, colour="red")
+ggplot(arl, aes(x=Staff, y=Total)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Staff versus Total Expenditures") + xlab("Staff") + ylab("Total Expenditures") + geom_point(data=Vandy, colour="red")
 
 ```
 
 Wouldn't it be nice as a next step to mark out points interactively? Here's where ggvis comes to the fore. We can use ggivs to set up an identical version of our graph with a dropdown box to select the library we'd like to highlight. 
 
 ```R
+# Load the required libraries
 library(dplyr)
 library(ggvis)
 library(scales)
 
-# data available at http://www.arlstatistics.org/documents/ARLStats/index15.xls
+# Data available at http://www.arlstatistics.org/documents/ARLStats/index15.xls
 arl <- read_excel(file.choose(), sheet="e15", skip=1)
+
+# Remove the unnecessary data columns and rows
 arl <- arl[,-c(1,2,3,9,10,11,12,13,14)]
 arl <- arl[-115,]
 
+# Add names to the colums
 names(arl)[c(1:5)] <- c("Institution", "Total", "Salaries", "Material", "Staff")
+
+# Create a list of institution names in alphabetical order for the dropdown list
 institutions <- as.vector(unique(arl$Institution))
 
+# Create an interactive graph of ARL staffing versus expenditures 
+# with the ability to dynamically highlight member institutions.
 arl %>%
     ggvis(~Staff, ~Total) %>% 
     layer_points() %>%
     layer_model_predictions(model = "lm", se = TRUE) %>%
+    # Thanks to Hadley Wickham for this filter technique (https://groups.google.com/forum/#!topic/ggvis/AJZCdjFcNaE)
     filter(Institution %in% eval(input_select(institutions, selected = 1))) %>%
     layer_points(fill := "red") 
 ```
 
+### Baby Names
 
+As a concluding exercise, let's make an interactive application to look at the popularity of particular baby names over the years. We'll draw on a [dataset of names given to at least five babies in any given year](https://cran.r-project.org/web/packages/babynames/index.html). We'll then create a visualization that allows us to switch between different names to chart their popularity.
 
-###Next Steps with R
+```R
+# Load the required libraries
+library(babynames)
+library(dplyr)
+library(ggvis)
 
-* Sign up for the [Free Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) on [DataCamp](https://www.datacamp.com)
-* Read a good book on R. 
- * Gentle introduction: [R for Dummies](http://www.amazon.com/R-For-Dummies-Andrie-Vries/dp/1119962846/ref=cm_cr_pr_product_top) by Andrie de Vries
- * Graphing in R (with ggplot2): [R Graphics Cookbook](http://www.amazon.com/R-Graphics-Cookbook-Winston-Chang/dp/1449316956) by Winston Chang
- * R as a programming language: [The Art of R Programming](http://www.nostarch.com/artofr.htm) by Norman Matloff
-* Consider pursuing the [Data Science specialization](https://www.coursera.org/specialization/jhudatascience/1) on Coursera.
+# Create a dplyr table because the dataset is so enormous
+babynames <- tbl_df(babynames)
+
+# Create a vector of all the unique names in the dataset, sorted alphabetically
+names <- as.vector(unique(babynames$name))
+
+# Take a sample of the most popular names for girls in the 1880's
+sample_names <- sort(names[1:10])
+
+# Generate an interactive plot wit the ability to select dynamically among baby names
+babynames %>% 
+    ggvis(~year, ~n) %>% 
+    # Thanks to Hadley Wickham for this filter technique (https://groups.google.com/forum/#!topic/ggvis/AJZCdjFcNaE)
+    filter(name %in% eval(input_select(sample_names, selected = 1)), sex == "F") %>% 
+    layer_points() %>%
+    add_axis("x", title="Year",  format="####") %>%
+    add_axis("y", title="Number", title_offset = 50)
+```   
+
+Why did we have to create a smaller vector to populate the dropdown list? Why not just add a dropdown with all the names? The problem is that there are 93,889 unique names, which are far too many to include in a dropdown menu. So we need to provide a smaller list. As an exercise, you might also make it possible for users to interactively switch between male and female births to see how different names fare across the sexes.
+
+### Next Steps with R
+
+If you're interested in learning more about ggplot, then definitely check out Winston Chang's [R Graphics Cookbook](http://www.amazon.com/R-Graphics-Cookbook-Winston-Chang/dp/1449316956). There aren't as many materials about ggvis, which continues to develop rapidly, but you may want to consider the premium course on [Data Visualization in R with ggvis](https://www.datacamp.com/courses/ggvis-data-visualization-r-tutorial) at DataCamp.

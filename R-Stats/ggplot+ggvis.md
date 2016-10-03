@@ -1,14 +1,14 @@
-#Open Source Statistical Analysis with R
+#Making Interactive Graphs with R
 
 ##Goals
 
-R is an open source programming language for statistical analysis. In this session, we’ll show you how to get started with R. Learn how to load data into R and to plot simple graphs. We’ll also introduce you to RStudio, a free integrated development environment (IDE) for R. You won’t leave as an R expert, but you’ll learn enough to get started on your data analysis journey.
+R is an open source programming language for statistical analysis. In this session, we’ll show you how to get started with creating graphs in R. In particular, we'll demonstrate how to use two popular alternative to the base graphics utilities in R: [ggplot2](http://ggplot2.org/) and [ggvis](http://ggvis.rstudio.com/). We'll talk about how these packages compliment each other as well as how they differ conceptually.
 
 ##Prerequisites
 
 * Download the [R Programming Language](http://www.r-project.org/) in the version appropriate to your computer.
 * Download the desktop version of [R Studio](http://www.rstudio.com/products/rstudio/)
-* Install [ggplot2](http://cran.r-project.org/web/packages/ggplot2/index.html) and [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html) packages (the code below is for our workshop laptops)
+* Install the required packages (the code below is for our workshop laptops)
 
 ```R
 install.packages("ggplot2")
@@ -16,6 +16,15 @@ library(ggplot2)
 
 install.packages("RCurl")
 library(RCurl)
+
+install.packages("dplyr")
+library(dplyr)
+
+install.packages("ggvis")
+library(ggvis)
+
+install.packages("scales")
+library(scales)
 ```
 
 ##Why R?
@@ -35,6 +44,8 @@ library(RCurl)
 * The combination of R & RStudio makes it possible to become production by learning a few functions and then develop expertise over time as necessary
   
 ##R Exercises
+
+We'll begin our explorations by rendering a simple graph with base graphics, ggplot2, and ggvis.
 
 ###[Average Heights and Weights for American Women](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html)
 

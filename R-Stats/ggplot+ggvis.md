@@ -107,6 +107,25 @@ averages %>%
 
 You may reasonably ask, why are there essentially three different ways of producing the same scatter plot? We'll answer that question as we move forward with our examples.
 
+### ggivs for data exploration
+
+An advantage of ggvis over ggplot is that it allows you to create interactive tools for exploratory data analysis. We'll try this technique out with the `mtcars` dataset that comes packaged with `ggpot2`.
+
+```R
+# Load libraries
+library(ggplot2)
+library(ggvis)
+
+# Create an interactive exploratory tool for the dataset
+# See http://stackoverflow.com/questions/24840804/is-it-possible-with-ggvis-to-interactively-change-the-variables-for-the-x-and-y
+
+mtcars 
+  %>% ggvis(~mpg, input_select(names(mtcars), map = as.name)) 
+  %>% layer_lines()
+```
+
+But watch out when using this technique because certain kinds of plots won't make sense. You may want to control the options by creating a vector of column names in advance to avoid potential plotting problems.
+
 ### [ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 
 This dataset from the Association for Research Libraries (ARL) contains key information about academic library budgets and staffing. An Excel (XLS) file is available [here](http://www.arlstatistics.org/documents/ARLStats/index15.xls). Please download the file and save it somewhere accessible on your system.

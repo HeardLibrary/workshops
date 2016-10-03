@@ -25,6 +25,9 @@ library(ggvis)
 
 install.packages("scales")
 library(scales)
+
+install.packages("readxl")
+library(readxl)
 ```
 
 ##Why R?
@@ -75,6 +78,9 @@ lines(lowess(weight,height), col="blue")
 The ggplot package allows us to produce the same graph, but provides a more consistent way to provide the data.
 
 ```R
+# load ggplot 
+library(ggplot2)
+
 # plot the dataset
 ggplot(averages, aes(x=weight, y=height)) + geom_point()
 
@@ -85,6 +91,11 @@ ggplot(averages, aes(x=height, y=weight)) + geom_point() + stat_smooth(method = 
 Finally, here's the same plot with regression line using the ggvis package.
 
 ```R
+# load ggvis and dplyr
+library(ggvis)
+library(dplyr)
+
+# plot the dataset
 averages %>%
   ggvis(~weight, ~height) %>% 
   layer_points() %>%
@@ -93,75 +104,18 @@ averages %>%
 
 You may reasonably ask, why are there essentially three different ways of producing the same scatter plot? We'll answer that question as we move forward with our examples.
 
-###[Lower Secondary School Age Population in the USA](https://www.quandl.com/data/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA-Lower-Secondary-School-age-population-All-genders-United-States-of-America)
-
-This dataset from the United Nations on [Quandl](https://www.quandl.com/) contains the population of all genders of middle school ("lower secondary school") kids in the United States.
-
-```R
-# Load the required libraries
-library(RCurl)
-library(ggplot2)
-
-# Load the dataset directly from Quandl & read CSV into data.frame
-csv <- getURL("https://www.quandl.com/api/v1/datasets/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA.csv")
-kids <- read.csv(text = csv, header=T)
-
-# Explore the dataset
-head(kids
-str(kids)
-View(kids)
-
-# Plot the dataset
-ggplot(kids, aes(x=Year, y=Number)) + geom_point()
-
-# Plot the dataset with cleaner x axis and title
-ggplot(kids, aes(x=Year, y=Number)) + geom_point() + theme(axis.text.x = element_text(angle = 90)) + ggtitle("Lower Secondary School Age Population")
-```
-
-###[New Private Housing Units Authorized By Building Permit for Tennessee](https://www.quandl.com/data/FRED/TNBPPRIV-New-Private-Housing-Units-Authorized-By-Building-Permit-for-Tennessee)
-
-This dataset from the Federal Reserve on [Quandl](https://www.quandl.com) contains data on new private housing units authorized by building permit for Tennessee.
-
-```R
-#Load required libraries
-library(ggplot2)
-library(RCurl)
-
-# Get dataset directly from Quandl 
-csv <- getURL("https://www.quandl.com/api/v1/datasets/FRED/TNBPPRIVSA.csv")
-permits <- read.csv(text = csv)
-
-# Explore dataset
-head(permits)
-View(permits)
-str(permits)
-
-# Make a simple scatter plot
-ggplot(permits, aes(x=Date, y=Value)) + geom_point()
- 
-# Edit the dates in the dataset using the strptime function
-# Thanks to http://stackoverflow.com/questions/20967445/plotting-historical-data-with-missing-values/20969623#20969623
-permits$Year <- strptime(as.character(permits$Date), "%Y-%m-%d")
-permits$Year <- format(permits$Year, "%Y")
-
-# Make another simple scatter plot
-ggplot(permits, aes(x=Year, y=Value)) + geom_point()
-
-# Switch to a boxplot
-ggplot(permits, aes(x=Year, y=Value)) + geom_boxplot() + ggtitle("New Private Housing Units Authorized By Building Permit for Tennessee")
-```
-
 ###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 
-This dataset from the Association for Research Libraries (ARL) contains key information about academic library budgets and staffing. An Excel (XLS) file is available [here](http://www.arlstatistics.org/documents/ARLStats/index13.xls), but we will be working with a converted CSV file on your desktop.
+This dataset from the Association for Research Libraries (ARL) contains key information about academic library budgets and staffing. An Excel (XLS) file is available [here](http://www.arlstatistics.org/documents/ARLStats/index15.xls). Please download the file and save it somewhere accessible on your system.
 
 ```R
 # Load required libraries
 library(ggplot2)
+library(readxl)
 library(scales)
 
-# Load dataset from CSV
-arl <- read.csv(file.choose(), header=T, skip=1)
+# Load dataset from the Excel file
+arl <- read_excel(file.choose(), sheet="e15", skip=1)
 
 # Explore dataset
 head(arl)
@@ -169,11 +123,11 @@ str(arl)
 View(arl)
 
 # Remove columns we do not want for our analysis
-arl <- arl[,-c(1,2,3,4,5)]
+arl <- arl[,-c(1,2,3,9,10,11,12,13,14)]
 View(arl)
 
 # Remove row of extraneous data
-arl <- arl[-116,]
+arl <- arl[-115,]
 View(arl)
 
 # Changes names of columns for easier access 
@@ -182,13 +136,6 @@ View(arl)
 
 # Create a simple scatter plot
 ggplot(arl, aes(x=Staff, y=Salaries)) + geom_point()
-
-# Convert wages from factor (discrete variable) to numeric (continuous variable)
-wages <- arl$Salaries
-wages <- unlist(wages)
-wages <- gsub(",","",wages)
-wages <- as.numeric(wages)
-arl$Wages <- wages
 
 # Create a simple scatter plot (with trend line)
 ggplot(arl, aes(x=Staff, y=Wages)) + geom_point()
@@ -199,7 +146,11 @@ ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + s
 
 # Add title
 ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + main("ARL Salaries")
+```
 
+Of course, we're really interested to see where Vanderbilt appears on this trend line. Let's add another layer to our plot to highlight Vanderbilt in red.
+
+```R
 # Highlight Vanderbilt on the plot
 # Thanks to http://stackoverflow.com/questions/14351608/color-one-point-and-add-an-annotation-in-ggplot2/14351684#14351684
 
@@ -211,6 +162,31 @@ View(Vandy)
 ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Salaries") + xlab("All Staff") + ylab("Professional Salaries") + geom_point(data=Vandy, colour="red")
 
 ```
+
+Wouldn't it be nice as a next step to mark out points interactively? Here's where ggvis comes to the fore. We can use ggivs to set up an identical version of our graph with a dropdown box to select the library we'd like to highlight. 
+
+```R
+library(dplyr)
+library(ggvis)
+library(scales)
+
+# data available at http://www.arlstatistics.org/documents/ARLStats/index15.xls
+arl <- read_excel(file.choose(), sheet="e15", skip=1)
+arl <- arl[,-c(1,2,3,9,10,11,12,13,14)]
+arl <- arl[-115,]
+
+names(arl)[c(1:5)] <- c("Institution", "Total", "Salaries", "Material", "Staff")
+institutions <- as.vector(unique(arl$Institution))
+
+arl %>%
+    ggvis(~Staff, ~Total) %>% 
+    layer_points() %>%
+    layer_model_predictions(model = "lm", se = TRUE) %>%
+    filter(Institution %in% eval(input_select(institutions, selected = 1))) %>%
+    layer_points(fill := "red") 
+```
+
+
 
 ###Next Steps with R
 

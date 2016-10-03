@@ -45,16 +45,11 @@ library(scales)
   
 ##R Exercises
 
-We'll begin our explorations by rendering a simple graph with base graphics, ggplot2, and ggvis.
-
 ###[Average Heights and Weights for American Women](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html)
 
-This practice dataset of the average heights and weights for American women (ages 30-39) comes built in with the R programming language.
+We'll begin our explorations by rendering a simple graph with base graphics, ggplot2, and ggvis. This practice dataset of the average heights and weights for American women (ages 30-39) comes built in with the R programming language. Let's load the dataset into R and then explore it a little.
 
 ```R
-# Load the ggplot2 graphing library
-library(ggplot2)
-
 # Assign the dataset to a variable
 averages <- women
 
@@ -62,13 +57,41 @@ averages <- women
 head(averages)
 str(averages)
 View(averages)
+```
 
+Now let's examine what how to make a scatter plot with this date using the built-in graphics package in R.
+
+```R
+attach(averages)
+plot(weight, height, main="Average Heights and Weights of American Women", xlab="Weight", ylab="Height", pch=1)
+```
+
+We can also add a regression line to our plot by calling the `lines` function.
+
+```R
+lines(lowess(weight,height), col="blue")
+```
+
+The ggplot package allows us to produce the same graph, but provides a more consistent way to provide the data.
+
+```R
 # plot the dataset
-ggplot(averages, aes(x=height, y=weight)) + geom_point()
+ggplot(averages, aes(x=weight, y=height)) + geom_point()
 
 # plot the dataset with a trend line (linear regression)
 ggplot(averages, aes(x=height, y=weight)) + geom_point() + stat_smooth(method = "lm")
 ```
+
+Finally, here's the same plot with regression line using the ggvis package.
+
+```R
+averages %>%
+  ggvis(~weight, ~height) %>% 
+  layer_points() %>%
+  layer_smooths()
+```
+
+You may reasonably ask, why are there essentially three different ways of producing the same scatter plot? We'll answer that question as we move forward with our examples.
 
 ###[Lower Secondary School Age Population in the USA](https://www.quandl.com/data/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA-Lower-Secondary-School-age-population-All-genders-United-States-of-America)
 

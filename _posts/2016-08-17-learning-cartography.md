@@ -28,14 +28,19 @@ There are several design principles that are necessary to consider when making a
 
 ## Elements of a map
 
-There are four very basic elements to a map shown below:
+There are some basic elements to a map that need to be considered and included when creating a useful and aesthetically pleasing map.
 
 * North arrow
 * Scale boundaries
 * Legend
 * Title or description
+* Projection
 
-Most maps contain several pieces of information that make them more useful.  For example, a north arrow and  scale are both very important features.  Without a north arrow and a scale, the map user may not be able to properly orient themselves.   A legend is also very important, as this relays information about what is being shown in the map.  It may not be apparent to the user what the content is without the use of an effective legend.  The legend usually contains a description of the variables being shown and their breakdown.  
+Most maps contain several pieces of information that make them more useful.  For example, a north arrow and scale are both very important features.  Without a north arrow and a scale, the map user may not be able to properly orient themselves. Choosing a north arrow that matches the theme of the map is also important.  For example, you would not typically choose a nautical themed north arrow for a map over the midwest United States.    
+
+A legend is also very important, as this relays information about what is being shown in the map.  It may not be apparent to the user what the content is without the use of an effective legend.  The legend usually contains a description of the variables being shown and their breakdown.  
+
+Projection is a very important element to consider when making a map.  Using an incorrect projection can have negative effects on the aesthetic of a map.  For example, using a mercator project can distort the poles and make land masses seem much larger than they actually are, so if the focus of the map is the north pole, using a mercator projection would not make sense.
 
 ### Map Types
 
@@ -43,14 +48,31 @@ There are two basic map "schools" if you will.  Reference and Thematic maps make
 
 ### Reference Maps
 
+
 #### Physical
+
+CIA Factbook
+![Physical Map](http://i.imgur.com/LdcF45m.jpg?1)
+
 #### Political
+
+CIA Factbook
+![Political Map](http://i.imgur.com/SrEQnOw.jpg)
+
 #### Relief
+
+![Relief Map](http://i.imgur.com/RGjci5z.png)
+
 #### Road
+
+CIA Maps
+![Road Map](http://i.imgur.com/WsidLrV.jpg)
+
 #### Topographic
 
-### Thematic Maps
+![Topographic Map](http://i.imgur.com/AxioZBU.png)
 
+### Thematic Maps
 #### Choropleth
 A choropleth map is a type of thematic map that is used to represent a statistic or variable by using shaded polygons.  Typically these shaded areas represent a range of amounts for a statistic, such as the age variable shown in the map below.  In this example each census block group is shaded to represent ranges of actual population values on the left, and population per acre values on the right.
 
@@ -86,7 +108,7 @@ The example shown below was done by [Mark Newman, 2012](http://www-personal.umic
 
 ![Imgur](http://i.imgur.com/AJ0UEIK.png)
 
-### What Does a Bad Map Look Like?
+## What Does a Bad Map Look Like?
 
 Not all maps are created equal.  So, what makes a bad map?  There are a lot of aesthetic mistakes a cartographer could make.  Some are less egregious than others.  Label placement and density is one very easy mistake commonly made.  Overpresentation of information should not be mistaken for an effective map.
 
@@ -103,3 +125,15 @@ Appropriate scale values are also important to consider when making a map.  Audi
 ## A Note About Web maps
 
 When to use paper maps versus web map is another important variable to consider when making a map.  Who will be the audience for this particular map?  Does it make more sense for the map to be interactive rather than passive?  In the case that it makes more sense for a map to be interactive, a web map would be the better choice.  
+
+## Map Candy
+
+Here are some cool map projects for you to drool over:
+* [Wind Map](http://hint.fm/wind/)
+* [The United States of Lego](http://www.arcgis.com/home/webmap/viewer.html?webmap=14bbbd118d3c4f48bd2aaf9cd888b219)
+* [Pollock Style Election Map 2015 UK General Election](http://carto.maps.arcgis.com/apps/webappviewer/index.html?id=661d96be9fe64b3db4124546b67b2f39)
+* [Artic Projection](https://www.mapbox.com/gallery/#map-15)
+* [The Obsessively Detailed Map of American Literature's Most Epic Road Trips](http://www.atlasobscura.com/articles/the-obsessively-detailed-map-of-american-literatures-most-epic-road-trips)
+
+
+

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting Started with Cartography"
-date:   2016-08-10 11:00:00
+date:   2016-10-04 11:00:00
 categories: tech
 description: Explore concepts of cartography.
 ---
@@ -14,45 +14,92 @@ description: Explore concepts of cartography.
 * Review examples of types of maps
 
 ## What is Cartography?
-Cartography is the science and aesthetic of map-making.  Given that maps are made up of static, tabular data at their core, it takes the artistic hand of the cartographer to display that data in a way that is not only pleasing to the eye, but also effective in making the argument presented.  Creating an effective map is akin to telling a story.  The map must be woven together in a way that gives purpose to every layer and that the user will be able to derive meaning.    
+Cartography is the science and aesthetic of map-making.  Given that maps are made up of static, tabular data at their core, it takes the artistic hand of the cartographer to display that data in a way that is not only pleasing to the eye, but also effective in making the argument presented.  Creating an effective map is akin to telling a story.  The map must be woven together in a way that gives purpose to every layer and that the user will be able to derive meaning.
 
-It is also the duty of the cartographer, to create a map that brings about spatial awareness in regards to the environment in which we live.  
+It is also the duty of the cartographer, to create a map that brings about spatial awareness in regards to the environment in which we live.
 
 ## Elements to Consider When Making a map
 
 One thing to consider when map-making, is what information you wan to present and for what purpose.  Who is the map being made for? For example, the type of map you would create for a journal publication would look drastically different from a map that you would make for a poster or conference presentation.  Organization, or how the information is presented, and scale (is local, regional or national scale appropriate?) are two other factors that may be useful to consider when making a map.
 
-* Insert example of map for paper vs. color
-
 ## Design Principles
 
-There are several design principles that are necessary to consider when making a map.  Contrast, legibility, balance, color scheme, and symbology are all important design factors.  
+There are several design principles that are necessary to consider when making a map.  Contrast, legibility, balance, color scheme, and symbology are all important design factors.
 
 ## Elements of a map
 
-## Map Types
+There are four very basic elements to a map shown below:
 
-#### Reference
+* North arrow
+* Scale boundaries
+* Legend
+* Title or description
 
-* Physical
-* Political
-* Relief
-* Road
-* Topographic
+Most maps contain several pieces of information that make them more useful.  For example, a north arrow and  scale are both very important features.  Without a north arrow and a scale, the map user may not be able to properly orient themselves.   A legend is also very important, as this relays information about what is being shown in the map.  It may not be apparent to the user what the content is without the use of an effective legend.  The legend usually contains a description of the variables being shown and their breakdown.  
 
-### Thematic
+### Map Types
+
+There are two basic map "schools" if you will.  Reference and Thematic maps make up most of what you see on a day to day basis.  Reference maps are meant to display geographic information about the world in which we live, directional type information.  Thematic maps, on the other hand, are used to display specific variables about the world in which we live.  For example, a thematic map might show what the weather is like for a given day, and may be layered on top of a reference map that shows the physical boundaries of the United States and major roads.
+
+### Reference Maps
+
+#### Physical
+#### Political
+#### Relief
+#### Road
+#### Topographic
+
+### Thematic Maps
 
 #### Choropleth
-  ![Choropleth Map of the United States](http://i.imgur.com/8iLtTL5.png)
+A choropleth map is a type of thematic map that is used to represent a statistic or variable by using shaded polygons.  Typically these shaded areas represent a range of amounts for a statistic, such as the age variable shown in the map below.  In this example each census block group is shaded to represent ranges of actual population values on the left, and population per acre values on the right.
+
+  ![Imgur](http://i.imgur.com/NZAfOTG.png)
 
 #### Graduated Symbols
 
+A graduated symbol map is very similar to a choropleth map, in that it is used to represent a statistic or variable.  This time, the variable is represented with a symbol of varying size, representing the quantity of the variable in question. In the example shown below, there is a choropleth map being used as the basemap, and layered on top of that are the graduated symbols.  Ranging from small to large, to represent low to high value ranges for percentage of the population with a high school diploma (data from the American Community Survey, 2006).
+
+  ![Graduated Symbol Map](http://i.imgur.com/LpV4hjL.png)
+
 #### Dot map
+
+A dot map (dot distribution or dot density map) is another type of thematic map.  A dot map is used to represent density of values.  The presence or absence of dots are used to show spatial variation or pattern of a particular variable.  In the example shown below ([Bill Rankin, 2009](http://www.radicalcartography.net/index.html?chicagodots)), each dot represents 25 people of various ethnic self-identifications from 2000 Census data.  The map cartographer in this example does a good job of representing the spatial distribution of various communities across Chicago in 2000 in both an effective and aesthetically pleasing manner.
+
+  ![Dot Map](http://i.imgur.com/SD0eTFU.png)
 
 #### Isopleth map
 
+An isopleth map or a contour map, is used to display areas of a region where similar phenomena or values occur.  When used in the context of a traditional elevation map, the contours are used to represent areas with the same elevation (where areas, above or below the line represent elevations that are higher or lower).  In the example shown below, the weather map is used to show areas where the pressure reaches 500mb, respectively.  This is used by meteorologists to interpret weather patterns.
+
+  ![Isopleth](http://i.imgur.com/WlLFevt.png)
+
 #### Cartogram
+
+A cartogram is a little bit harder to fully understand.  It is similar to a choropleth map in that the colors represent various values, the difference being that in a cartogram the polygons, or US Counties in the example shown below, are distorted in order to better represent the impact a certain variable has on the region.  In other words,  the polygon areas are normalized to the size of variable.
+
+The example shown below was done by [Mark Newman, 2012](http://www-personal.umich.edu/~mejn/election/2012/), and is one of a set of maps used to explore the 2012 US presidential election results.  Each county is distorted in order to represent the total population of a given area.  Notice, the higher populated areas of the northeast US, which take up a much smaller portion of the physical area in the United States, appear much larger.  This is because those areas are more densely populated and this is shown by the enlarged county sizes.
+
+  ![Cartogram](http://i.imgur.com/CH4PmDI.png)
 
 #### Dasymetric map
 
+![Imgur](http://i.imgur.com/AJ0UEIK.png)
+
+### What Does a Bad Map Look Like?
+
+Not all maps are created equal.  So, what makes a bad map?  There are a lot of aesthetic mistakes a cartographer could make.  Some are less egregious than others.  Label placement and density is one very easy mistake commonly made.  Overpresentation of information should not be mistaken for an effective map.
+
+* Example of too many labels
+
+The use of color is also an element that needs to be carefully considered.  For example, neon colors, in most cases, are usually not appropriate.  
+
+* Example of too many colors
+
+Appropriate scale values are also important to consider when making a map.  Audience considered, units and unit breakdown are vital to think through.
+
+ * Example of bad scale
+
 ## A Note About Web maps
+
+When to use paper maps versus web map is another important variable to consider when making a map.  Who will be the audience for this particular map?  Does it make more sense for the map to be interactive rather than passive?  In the case that it makes more sense for a map to be interactive, a web map would be the better choice.  

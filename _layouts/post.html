@@ -2,12 +2,10 @@
 layout: default
 ---
 <div class="page-header">
-  <h1>{{ site.name }} <small> navigating the basics of digital scholarship</small></h1>
-  <h5><a href="{{ site.baseurl }}">See all posts</a></h5>
+  <h2>{{ page.title }}</h2>
+  <h3>by {{ page.author }}</h3>
+  <p class="meta">{{ page.date | date_to_string }}</p>
 </div>
-<h2>{{ page.title }}</h2>
-<h3>by {{ page.author }}</h3>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
 {{ content }}
 

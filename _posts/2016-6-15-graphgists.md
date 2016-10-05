@@ -3,7 +3,7 @@ layout: post
 author: "Suellen Stringer-Hye"
 title:  "Getting Started with GraphGists"
 date:   2016-06-01 09:00:00
-categories: graphs, edtech
+categories: edtech
 description: "In this lesson, you will learn how to use Neo4j GraphGists to analyze simple networks. This lesson will explain how to encode objects and the relationships between them and how these networks can then be queried using the Neo4j query language cypher."
 ---
 In this lesson, you will learn how to use Neo4j GraphGists to analyze simple networks.  This lesson will explain how to  encode objects and the relationships between them and how these networks can then be queried using the Neo4j query language cypher.

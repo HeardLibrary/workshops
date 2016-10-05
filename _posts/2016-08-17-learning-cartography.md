@@ -10,9 +10,9 @@ description: Cartography is the science and aesthetic of map-making.  Given that
 # Fundamentals of Cartography
 
 ## Learning Objectives
-* Learn the basics of Cartography
-* Develop understanding of the types of maps
-* Review examples of types of maps
+*Learn the basics of Cartography
+*Develop understanding of the types of maps
+*Review examples of types of maps
 
 ## What is Cartography?
 Cartography is the science and aesthetic of map-making.  Given that maps are made up of static, tabular data at their core, it takes the artistic hand of the cartographer to display that data in a way that is not only pleasing to the eye, but also effective in making the argument presented.  Creating an effective map is akin to telling a story.  The map must be woven together in a way that gives purpose to every layer and that the user will be able to derive meaning.
@@ -31,11 +31,11 @@ There are several design principles that are necessary to consider when making a
 
 There are some basic elements to a map that need to be considered and included when creating a useful and aesthetically pleasing map.
 
-* North arrow
-* Scale boundaries
-* Legend
-* Title or description
-* Projection
+*North arrow
+*Scale boundaries
+*Legend
+*Title or description
+*Projection
 
 Most maps contain several pieces of information that make them more useful.  For example, a north arrow and scale are both very important features.  Without a north arrow and a scale, the map user may not be able to properly orient themselves. Choosing a north arrow that matches the theme of the map is also important.  For example, you would not typically choose a nautical themed north arrow for a map over the midwest United States.    
 
@@ -53,28 +53,30 @@ There are two basic map "schools" if you will.  Reference and Thematic maps make
 #### Physical
 
 CIA Factbook
-![Physical Map](http://i.imgur.com/LdcF45m.jpg?1)
+  ![Physical Map](http://i.imgur.com/LdcF45m.jpg?1)
 
 #### Political
 
 CIA Factbook
-![Political Map](http://i.imgur.com/SrEQnOw.jpg)
+  ![Political Map](http://i.imgur.com/SrEQnOw.jpg)
 
 #### Relief
 
-![Relief Map](http://i.imgur.com/RGjci5z.png)
+  ![Relief Map](http://i.imgur.com/RGjci5z.png)
 
 #### Road
 
 CIA Maps
-![Road Map](http://i.imgur.com/WsidLrV.jpg)
+  ![Road Map](http://i.imgur.com/WsidLrV.jpg)
 
 #### Topographic
 
-![Topographic Map](http://i.imgur.com/AxioZBU.png)
+  ![Topographic Map](http://i.imgur.com/AxioZBU.png)
 
 ### Thematic Maps
+
 #### Choropleth
+
 A choropleth map is a type of thematic map that is used to represent a statistic or variable by using shaded polygons.  Typically these shaded areas represent a range of amounts for a statistic, such as the age variable shown in the map below.  In this example each census block group is shaded to represent ranges of actual population values on the left, and population per acre values on the right.
 
   ![Imgur](http://i.imgur.com/NZAfOTG.png)
@@ -107,21 +109,21 @@ The example shown below was done by [Mark Newman, 2012](http://www-personal.umic
 
 #### Dasymetric map
 
-![Imgur](http://i.imgur.com/AJ0UEIK.png)
+  ![Imgur](http://i.imgur.com/AJ0UEIK.png)
 
 ## What Does a Bad Map Look Like?
 
 Not all maps are created equal.  So, what makes a bad map?  There are a lot of aesthetic mistakes a cartographer could make.  Some are less egregious than others.  Label placement and density is one very easy mistake commonly made.  Overpresentation of information should not be mistaken for an effective map.
 
-* Example of too many labels
+*Example of too many labels
 
 The use of color is also an element that needs to be carefully considered.  For example, neon colors, in most cases, are usually not appropriate.  
 
-* Example of too many colors
+*Example of too many colors
 
 Appropriate scale values are also important to consider when making a map.  Audience considered, units and unit breakdown are vital to think through.
 
- * Example of bad scale
+ *Example of bad scale
 
 ## A Note About Web maps
 
@@ -130,11 +132,12 @@ When to use paper maps versus web map is another important variable to consider 
 ## Map Candy
 
 Here are some cool map projects for you to drool over:
-* [Wind Map](http://hint.fm/wind/)
-* [The United States of Lego](http://www.arcgis.com/home/webmap/viewer.html?webmap=14bbbd118d3c4f48bd2aaf9cd888b219)
-* [Pollock Style Election Map 2015 UK General Election](http://carto.maps.arcgis.com/apps/webappviewer/index.html?id=661d96be9fe64b3db4124546b67b2f39)
-* [Artic Projection](https://www.mapbox.com/gallery/#map-15)
-* [The Obsessively Detailed Map of American Literature's Most Epic Road Trips](http://www.atlasobscura.com/articles/the-obsessively-detailed-map-of-american-literatures-most-epic-road-trips)
+
+*[Wind Map](http://hint.fm/wind/)
+*[The United States of Lego](http://www.arcgis.com/home/webmap/viewer.html?webmap=14bbbd118d3c4f48bd2aaf9cd888b219)
+*[Pollock Style Election Map 2015 UK General Election](http://carto.maps.arcgis.com/apps/webappviewer/index.html?id=661d96be9fe64b3db4124546b67b2f39)
+*[Artic Projection](https://www.mapbox.com/gallery/#map-15)
+*[The Obsessively Detailed Map of American Literature's Most Epic Road Trips](http://www.atlasobscura.com/articles/the-obsessively-detailed-map-of-american-literatures-most-epic-road-trips)
 
 
 

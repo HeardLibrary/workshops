@@ -1,9 +1,10 @@
 ---
 layout: post
+author: "Lindsey Fox"
 title:  "Getting Started with Cartography"
 date:   2016-10-04 11:00:00
 categories: tech
-description: Explore concepts of cartography.
+description: Cartography is the science and aesthetic of map-making.  Given that maps are made up of static, tabular data at their core, it takes the artistic hand of the cartographer to display that data in a way that is not only pleasing to the eye, but also effective in making the argument presented.  This workshop will explore various types of mapping and pitfalls associated.
 ---
 
 # Fundamentals of Cartography

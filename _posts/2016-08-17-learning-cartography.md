@@ -3,7 +3,7 @@ layout: post
 author: "Lindsey Fox"
 title:  "Getting Started with Cartography"
 date:   2016-10-04 11:00:00
-categories: tech
+categories: edtech
 description: Cartography is the science and aesthetic of map-making.  Given that maps are made up of static, tabular data at their core, it takes the artistic hand of the cartographer to display that data in a way that is not only pleasing to the eye, but also effective in making the argument presented.  This workshop will explore various types of mapping and pitfalls associated.
 ---
 
@@ -134,9 +134,13 @@ When to use paper maps versus web map is another important variable to consider 
 Here are some cool map projects for you to drool over:
 
 *[Wind Map](http://hint.fm/wind/)
+
 *[The United States of Lego](http://www.arcgis.com/home/webmap/viewer.html?webmap=14bbbd118d3c4f48bd2aaf9cd888b219)
+
 *[Pollock Style Election Map 2015 UK General Election](http://carto.maps.arcgis.com/apps/webappviewer/index.html?id=661d96be9fe64b3db4124546b67b2f39)
+
 *[Artic Projection](https://www.mapbox.com/gallery/#map-15)
+
 *[The Obsessively Detailed Map of American Literature's Most Epic Road Trips](http://www.atlasobscura.com/articles/the-obsessively-detailed-map-of-american-literatures-most-epic-road-trips)
 
 

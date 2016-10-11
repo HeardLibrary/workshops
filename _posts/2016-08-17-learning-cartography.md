@@ -26,6 +26,7 @@ One thing to consider when map-making, is what information you wan to present an
 ## Design Principles
 
 There are several design principles that are necessary to consider when making a map.  Contrast, legibility, balance, color scheme, and symbology are all important design factors.
+For more information on these principles, see [ESRI's blog post](http://www.esri.com/news/arcuser/0112/make-maps-people-want-to-look-at.html) on making beautiful maps.  They do a good job of explaining how all of these features work together to make a map that is pleasing to the eye.
 
 ## Elements of a map
 
@@ -49,33 +50,57 @@ There are two basic map "schools" if you will.  Reference and Thematic maps make
 
 ### Reference Maps
 
+I have gathered several examples of the major types of reference maps.  These examples tend to be more self explanatory than the next section that we will discus, thematic maps.  
 
-#### Physical
+Physical maps are the maps most of us see on a day to day basis.  They provide contextual information in a very straightforward manner.  Below you will find examples of the following types of reference maps:
 
-CIA Factbook
+* Physical
+* Political
+* Relief
+* Road
+* Topographic
+
+#### [Physical](https://www.cia.gov/library/publications/the-world-factbook/docs/refmaps.html)
+
+Physical maps give the audience a sense of "the big picture".  It shows all the major physical geographic features of an area, in the case of the map below, it shows the physical geographic of the world.  The content focuses on elevation changes, rivers, lakes, and oceans of the world.  
 
 <center><a href= "http://imgur.com/LdcF45m"><img src= "http://imgur.com/LdcF45m.jpg" alt="what image shows" width="600"></center>
 
-#### Political
+#### [Political](https://www.cia.gov/library/publications/the-world-factbook/docs/refmaps.html)
 
-CIA Factbook
+Just as the name implies, political maps exhibit the political boundaries of an area. In the map example below, we are looking at the country boundaries of Africa.  These types of maps could also show capitol cities and further administrative boundary breakdowns.
 
 <center><a href= "http://i.imgur.com/SrEQnOw.jpg"><img src= "http://i.imgur.com/SrEQnOw.jpg" alt="what image shows" width="600"></center>
 
-#### Relief
+#### [Relief](http://publiclands.org/Get-Books-and-Maps.php?plicstate=AK)
+
+Relief maps show elevation changes by shading the relief so that it looks almost 3D.  This is done to give the user a sense of high and low elevation areas on a map.
 
 <center><a href= "http://i.imgur.com/RGjci5z.png"><img src= "http://i.imgur.com/RGjci5z.png" alt="what image shows" width="600"></center>
 
-#### Road
+#### [Road](https://www.cia.gov/library/publications/the-world-factbook/docs/refmaps.html)
 
-CIA Maps
+Road map-- exactly what it says it is!  A road map!  Use this, especially if you are lost.
+
 <center><a href= "http://i.imgur.com/WsidLrV.jpg"><img src= "http://i.imgur.com/WsidLrV.jpg" alt="what image shows" width="600"></center>
 
 #### Topographic
 
+Topographic maps are used to display elevation information using isolines, or lines of equal elevation.  Each lines represents an area with the same elevation, above or below which the elevation either goes up or down.  These maps are typically used for field work or site maps.
+
 <center><a href= "http://i.imgur.com/AxioZBU.png"><img src= "http://i.imgur.com/AxioZBU.png" alt="what image shows" width="600"></center>
 
 ### Thematic Maps
+
+Thematic maps are, in my opinion, the most fun to make and to look at.  These maps display various types of information in many different ways. LEt's discus the following types of thematic maps:
+
+* Choropleth
+* Graduated symbols
+* Dot map or dot density map
+* Isopleth map
+* Cartogram
+
+While these are not all of the types of thematic maps out there, this represents the majority of what you may see.
 
 #### Choropleth
 
@@ -110,28 +135,19 @@ The example shown below was done by [Mark Newman, 2012](http://www-personal.umic
 
 <center><a href= "http://i.imgur.com/CH4PmDI.png"><img src= "http://i.imgur.com/CH4PmDI.png" alt="what image shows" width="600"></center>
 
-#### Dasymetric map
-
-<center><a href= "http://i.imgur.com/AJ0UEIK.png"><img src= "http://i.imgur.com/AJ0UEIK.png" alt="what image shows" width="600"></center>
-
-
 ## What Does a Bad Map Look Like?
 
-Not all maps are created equal.  So, what makes a bad map?  There are a lot of aesthetic mistakes a cartographer could make.  Some are less egregious than others.  Label placement and density is one very easy mistake commonly made.  Overpresentation of information should not be mistaken for an effective map.
+Not all maps are created equal.  So, what makes a bad map?  There are a lot of aesthetic mistakes a cartographer could make.  Some are less egregious than others.  Label placement and density is one very easy mistake commonly made.  Overrepresentation of information should not be mistaken for an effective map.
 
-* Example of too many labels
+The use of color is also an element that needs to be carefully considered.  For example, neon colors, in most cases, are usually not appropriate.  In the [example below](https://commons.wikimedia.org/wiki/File:Religions_of_the_US.PNG), the map has several aesthetic issues.  First, the use of color is a little bit bold for most.  Consider using more subdued colors.  Second, rather than too many labels, this map has too few.  While the legend does a good job of explaining the content, if you don't live in the United States, you likely don't know the geography as well.
 
-The use of color is also an element that needs to be carefully considered.  For example, neon colors, in most cases, are usually not appropriate.  
+Appropriate scale values are also important to consider when making a map.  Audience considered, units and unit breakdown are vital to think through. In the case of the map shown below, there is no orientation or scale at all.  While, it is obvious to most which way is north, this scale is not always evident.  Likely, a scale was not used in this map because it was not necessary to the content, another thing to consider.
 
-* Example of too many colors
+<center><a href= "http://i.imgur.com/fqUqlH8.png"><img src= "http://i.imgur.com/fqUqlH8.png" alt="what image shows" width="600"></center>
 
-Appropriate scale values are also important to consider when making a map.  Audience considered, units and unit breakdown are vital to think through.
+The next map, by [wikimedia user Newby](https://commons.wikimedia.org/wiki/File:LDS_Percentage_of_Population_2000.PNG#filelinks), shown below, is an example of a map with similar content, except the author has done a much better job of presenting the information.  They have include more context, and weighted the map in a way that your eye is drawn to the information in a meaningful manner.  This map also includes Alaska and Hawaii, something the last map did not consider.  While this map omits labels, this is a choice I tend to agree with.  Labels would have cluttered the map, which is already very busy showing the percentages by county.
 
- * Example of bad scale
-
-## A Note About Web maps
-
-When to use paper maps versus web map is another important variable to consider when making a map.  Who will be the audience for this particular map?  Does it make more sense for the map to be interactive rather than passive?  In the case that it makes more sense for a map to be interactive, a web map would be the better choice.  
+<center><a href= "http://i.imgur.com/bFx5kOA.png"><img src= "http://i.imgur.com/bFx5kOA.png" alt="what image shows" width="600"></center>
 
 ## Map Candy
 
@@ -143,10 +159,6 @@ Here are some cool map projects for you to drool over:
 
 * [Pollock Style Election Map 2015 UK General Election](http://carto.maps.arcgis.com/apps/webappviewer/index.html?id=661d96be9fe64b3db4124546b67b2f39)
 
-* [Artic Projection](https://www.mapbox.com/gallery/#map-15)
+* [Arctic Projection](https://www.mapbox.com/gallery/#map-15)
 
 * [The Obsessively Detailed Map of American Literature's Most Epic Road Trips](http://www.atlasobscura.com/articles/the-obsessively-detailed-map-of-american-literatures-most-epic-road-trips)
-
-
-
-

@@ -53,25 +53,27 @@ There are two basic map "schools" if you will.  Reference and Thematic maps make
 #### Physical
 
 CIA Factbook
-  ![Physical Map](http://i.imgur.com/LdcF45m.jpg?1)
+
+<center><a href= "http://imgur.com/LdcF45m"><img src= "http://imgur.com/LdcF45m.jpg" alt="what image shows" width="600"></center>
 
 #### Political
 
 CIA Factbook
-  ![Political Map](http://i.imgur.com/SrEQnOw.jpg)
+
+<center><a href= "http://i.imgur.com/SrEQnOw.jpg"><img src= "http://i.imgur.com/SrEQnOw.jpg" alt="what image shows" width="600"></center>
 
 #### Relief
 
-  ![Relief Map](http://i.imgur.com/RGjci5z.png)
+<center><a href= "http://i.imgur.com/RGjci5z.png"><img src= "http://i.imgur.com/RGjci5z.png" alt="what image shows" width="600"></center>
 
 #### Road
 
 CIA Maps
-  ![Road Map](http://i.imgur.com/WsidLrV.jpg)
+<center><a href= "http://i.imgur.com/WsidLrV.jpg"><img src= "http://i.imgur.com/WsidLrV.jpg" alt="what image shows" width="600"></center>
 
 #### Topographic
 
-  ![Topographic Map](http://i.imgur.com/AxioZBU.png)
+<center><a href= "http://i.imgur.com/AxioZBU.png"><img src= "http://i.imgur.com/AxioZBU.png" alt="what image shows" width="600"></center>
 
 ### Thematic Maps
 
@@ -79,25 +81,26 @@ CIA Maps
 
 A choropleth map is a type of thematic map that is used to represent a statistic or variable by using shaded polygons.  Typically these shaded areas represent a range of amounts for a statistic, such as the age variable shown in the map below.  In this example each census block group is shaded to represent ranges of actual population values on the left, and population per acre values on the right.
 
-  ![Imgur](http://i.imgur.com/NZAfOTG.png)
+<center><a href= "http://i.imgur.com/NZAfOTG.png"><img src= "http://i.imgur.com/NZAfOTG.png" alt="what image shows" width="600"></center>
 
 #### Graduated Symbols
 
 A graduated symbol map is very similar to a choropleth map, in that it is used to represent a statistic or variable.  This time, the variable is represented with a symbol of varying size, representing the quantity of the variable in question. In the example shown below, there is a choropleth map being used as the basemap, and layered on top of that are the graduated symbols.  Ranging from small to large, to represent low to high value ranges for percentage of the population with a high school diploma (data from the American Community Survey, 2006).
 
-  ![Graduated Symbol Map](http://i.imgur.com/LpV4hjL.png)
+<center><a href= "http://i.imgur.com/LpV4hjL.png"><img src= "http://i.imgur.com/LpV4hjL.png)" alt="what image shows" width="600"></center>
 
 #### Dot map
 
 A dot map (dot distribution or dot density map) is another type of thematic map.  A dot map is used to represent density of values.  The presence or absence of dots are used to show spatial variation or pattern of a particular variable.  In the example shown below ([Bill Rankin, 2009](http://www.radicalcartography.net/index.html?chicagodots)), each dot represents 25 people of various ethnic self-identifications from 2000 Census data.  The map cartographer in this example does a good job of representing the spatial distribution of various communities across Chicago in 2000 in both an effective and aesthetically pleasing manner.
 
-  ![Dot Map](http://i.imgur.com/SD0eTFU.png)
+<center><a href= "http://i.imgur.com/SD0eTFU.png"><img src= "http://i.imgur.com/SD0eTFU.png" alt="what image shows" width="600"></center>
+
 
 #### Isopleth map
 
 An isopleth map or a contour map, is used to display areas of a region where similar phenomena or values occur.  When used in the context of a traditional elevation map, the contours are used to represent areas with the same elevation (where areas, above or below the line represent elevations that are higher or lower).  In the example shown below, the weather map is used to show areas where the pressure reaches 500mb, respectively.  This is used by meteorologists to interpret weather patterns.
 
-  ![Isopleth](http://i.imgur.com/WlLFevt.png)
+<center><a href= "http://i.imgur.com/WlLFevt.png"><img src= "http://i.imgur.com/WlLFevt.png" alt="what image shows" width="600"></center>
 
 #### Cartogram
 
@@ -105,11 +108,12 @@ A cartogram is a little bit harder to fully understand.  It is similar to a chor
 
 The example shown below was done by [Mark Newman, 2012](http://www-personal.umich.edu/~mejn/election/2012/), and is one of a set of maps used to explore the 2012 US presidential election results.  Each county is distorted in order to represent the total population of a given area.  Notice, the higher populated areas of the northeast US, which take up a much smaller portion of the physical area in the United States, appear much larger.  This is because those areas are more densely populated and this is shown by the enlarged county sizes.
 
-  ![Cartogram](http://i.imgur.com/CH4PmDI.png)
+<center><a href= "http://i.imgur.com/CH4PmDI.png"><img src= "http://i.imgur.com/CH4PmDI.png" alt="what image shows" width="600"></center>
 
 #### Dasymetric map
 
-  ![Imgur](http://i.imgur.com/AJ0UEIK.png)
+<center><a href= "http://i.imgur.com/AJ0UEIK.png"><img src= "http://i.imgur.com/AJ0UEIK.png" alt="what image shows" width="600"></center>
+
 
 ## What Does a Bad Map Look Like?
 
@@ -142,6 +146,7 @@ Here are some cool map projects for you to drool over:
 * [Artic Projection](https://www.mapbox.com/gallery/#map-15)
 
 * [The Obsessively Detailed Map of American Literature's Most Epic Road Trips](http://www.atlasobscura.com/articles/the-obsessively-detailed-map-of-american-literatures-most-epic-road-trips)
+
 
 
 

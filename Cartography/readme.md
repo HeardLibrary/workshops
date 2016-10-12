@@ -124,7 +124,7 @@ A cartogram is a little bit harder to fully understand.  It is similar to a chor
 
 The example shown below was done by [Mark Newman, 2012](http://www-personal.umich.edu/~mejn/election/2012/), and is one of a set of maps used to explore the 2012 US presidential election results.  Each county is distorted in order to represent the total population of a given area.  Notice, the higher populated areas of the northeast US, which take up a much smaller portion of the physical area in the United States, appear much larger.  This is because those areas are more densely populated and this is shown by the enlarged county sizes.
 
-<center><a href= "http://i.imgur.com/CH4PmDI.png"><img src= "http://i.imgur.com/CH4PmDI.png" alt="what image shows" width="600"></center>
+<center><a href= "http://i.imgur.com/CH4PmDI.png"><img src= "http://i.imgur.com/CH4PmDI.png" alt="what image shows" width="600"/></a></center>
 
 ## What Does a Bad Map Look Like?
 
@@ -134,7 +134,7 @@ The use of color is also an element that needs to be carefully considered.  For 
 
 Appropriate scale values are also important to consider when making a map.  Audience considered, units and unit breakdown are vital to think through. In the case of the map shown below, there is no orientation or scale at all.  While, it is obvious to most which way is north, this scale is not always evident.  Likely, a scale was not used in this map because it was not necessary to the content, another thing to consider.
 
-<center><a href= "http://i.imgur.com/fqUqlH8.png"><img src= "http://i.imgur.com/fqUqlH8.png" alt="what image shows" width="600"></center>
+<center><a href= "http://i.imgur.com/fqUqlH8.png"><img src= "http://i.imgur.com/fqUqlH8.png" alt="what image shows" width="600"/></a></center>
 
 The next map, by [wikimedia user Newby](https://commons.wikimedia.org/wiki/File:LDS_Percentage_of_Population_2000.PNG#filelinks), shown below, is an example of a map with similar content, except the author has done a much better job of presenting the information.  They have include more context, and weighted the map in a way that your eye is drawn to the information in a meaningful manner.  This map also includes Alaska and Hawaii, something the last map did not consider.  While this map omits labels, this is a choice I tend to agree with.  Labels would have cluttered the map, which is already very busy showing the percentages by county.
 

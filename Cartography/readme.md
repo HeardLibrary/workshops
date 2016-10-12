@@ -1,12 +1,3 @@
----
-layout: post
-author: "Lindsey Fox"
-title:  "Getting Started with Cartography"
-date:   2016-10-04 11:00:00
-categories: edtech
-description: Cartography is the science and aesthetic of map-making.  Given that maps are made up of static, tabular data at their core, it takes the artistic hand of the cartographer to display that data in a way that is not only pleasing to the eye, but also effective in making the argument presented.  This workshop will explore various types of mapping and pitfalls associated.
----
-
 # Fundamentals of Cartography
 
 ## Learning Objectives
@@ -112,20 +103,20 @@ A choropleth map is a type of thematic map that is used to represent a statistic
 
 A graduated symbol map is very similar to a choropleth map, in that it is used to represent a statistic or variable.  This time, the variable is represented with a symbol of varying size, representing the quantity of the variable in question. In the example shown below, there is a choropleth map being used as the basemap, and layered on top of that are the graduated symbols.  Ranging from small to large, to represent low to high value ranges for percentage of the population with a high school diploma (data from the American Community Survey, 2006).
 
-<center><a href= "http://i.imgur.com/LpV4hjL.png"><img src= "http://i.imgur.com/LpV4hjL.png)" alt="what image shows" width="600"></center>
+<center><a href= "http://i.imgur.com/LpV4hjL.png"><img src= "http://i.imgur.com/LpV4hjL.png)" alt="what image shows" width="600"/></a></center>
 
 #### Dot map
 
 A dot map (dot distribution or dot density map) is another type of thematic map.  A dot map is used to represent density of values.  The presence or absence of dots are used to show spatial variation or pattern of a particular variable.  In the example shown below ([Bill Rankin, 2009](http://www.radicalcartography.net/index.html?chicagodots)), each dot represents 25 people of various ethnic self-identifications from 2000 Census data.  The map cartographer in this example does a good job of representing the spatial distribution of various communities across Chicago in 2000 in both an effective and aesthetically pleasing manner.
 
-<center><a href= "http://i.imgur.com/SD0eTFU.png"><img src= "http://i.imgur.com/SD0eTFU.png" alt="what image shows" width="600"></center>
+<center><a href= "http://i.imgur.com/SD0eTFU.png"><img src= "http://i.imgur.com/SD0eTFU.png" alt="what image shows" width="600"/></a></center>
 
 
 #### Isopleth map
 
 An isopleth map or a contour map, is used to display areas of a region where similar phenomena or values occur.  When used in the context of a traditional elevation map, the contours are used to represent areas with the same elevation (where areas, above or below the line represent elevations that are higher or lower).  In the example shown below, the weather map is used to show areas where the pressure reaches 500mb, respectively.  This is used by meteorologists to interpret weather patterns.
 
-<center><a href= "http://i.imgur.com/WlLFevt.png"><img src= "http://i.imgur.com/WlLFevt.png" alt="what image shows" width="600"></center>
+<center><a href= "http://i.imgur.com/WlLFevt.png"><img src= "http://i.imgur.com/WlLFevt.png" alt="what image shows" width="600"/></a></center>
 
 #### Cartogram
 

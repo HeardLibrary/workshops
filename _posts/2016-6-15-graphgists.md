@@ -180,4 +180,5 @@ Your graph may differ depending on what properties you selected to add. The nice
 
 Now let's use Cypher to ask a question of our data set. If you look on the bottom of the completed graph, you will see the cypher code that queries the graph for all the Person nodes with a "gender:male" property and following that, the code for all the Person nodes with the "gender:female" property. The last query asks for a graph of all the offspring of Nyx. 
 
-
+### Conclusion
+Graphgists are a great way to encode small amounts of data and display them easily in a web environment. At a certain point, when or if a dataset becomes too large, you will need to move to a larger instance of Neo4J. Neo4j makes it very easy to download and install a client to your desktop. This will allow you to upload data in .csv format into an instance of the database but you would need to find a server to host the application if you wanted to to display data on the web. A hosted service called allows you to store up to x amount of data and it is accessible via the web but to create a true web application rquires some progamming experience with tools like. The potential for data exploration and discovery is enormous when data is encoded as a graph and creating a graph gist is a great way to get started.  

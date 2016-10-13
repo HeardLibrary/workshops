@@ -46,7 +46,7 @@ so that you have it in your own Github account and can play with it without chan
 
 Modelling your data is always the first step toward creating the set of nodes and relationships that you think may be most valuable for your research. This process can be as simple as using a whiteboard or pen and pencil to  diagram how you want to represent your data. After sketching out your ideas, you will try to come up with a model that captures the essential structures and which aspects need to be nodes or objects, what relationships are important between them and which aspects of your data you want to use to qualify those points.  
 
-For this tutorial, we will use an already structured genealogy of Ancient Gods as our data model, simply because genealogies already have relationships built into them so it makes data modelling simpler to learn and understand.
+For this tutorial, we will use an [already structured genealogy of Ancient Gods](http://www.talesbeyondbelief.com/greek-gods-mythology/greek-gods-family-tree.htm) as our data model, simply because genealogies already have relationships built into them so it makes data modelling simpler to learn and understand.
 
 ![Imgur](http://i.imgur.com/XYWUkis.png?1)
 

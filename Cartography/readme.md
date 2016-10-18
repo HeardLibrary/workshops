@@ -1,3 +1,4 @@
+
 # Fundamentals of Cartography
 
 ## Learning Objectives
@@ -55,31 +56,31 @@ Physical maps are the maps most of us see on a day to day basis.  They provide c
 
 Physical maps give the audience a sense of "the big picture".  It shows all the major physical geographic features of an area, in the case of the map below, it shows the physical geographic of the world.  The content focuses on elevation changes, rivers, lakes, and oceans of the world.  
 
-<center><a href= "http://imgur.com/LdcF45m"><img src= "http://imgur.com/LdcF45m.jpg" alt="what image shows" width="600"></center>
+<center><a href= "http://imgur.com/LdcF45m"><img src= "http://imgur.com/LdcF45m.jpg" alt="what image shows" width="600"/></a></center>
 
 #### [Political](https://www.cia.gov/library/publications/the-world-factbook/docs/refmaps.html)
 
 Just as the name implies, political maps exhibit the political boundaries of an area. In the map example below, we are looking at the country boundaries of Africa.  These types of maps could also show capitol cities and further administrative boundary breakdowns.
 
-<center><a href= "http://i.imgur.com/SrEQnOw.jpg"><img src= "http://i.imgur.com/SrEQnOw.jpg" alt="what image shows" width="600"></center>
+<center><a href= "http://i.imgur.com/SrEQnOw.jpg"><img src= "http://i.imgur.com/SrEQnOw.jpg" alt="what image shows" width="600"/></a></center>
 
 #### [Relief](http://publiclands.org/Get-Books-and-Maps.php?plicstate=AK)
 
 Relief maps show elevation changes by shading the relief so that it looks almost 3D.  This is done to give the user a sense of high and low elevation areas on a map.
 
-<center><a href= "http://i.imgur.com/RGjci5z.png"><img src= "http://i.imgur.com/RGjci5z.png" alt="what image shows" width="600"></center>
+<center><a href= "http://i.imgur.com/RGjci5z.png"><img src= "http://i.imgur.com/RGjci5z.png" alt="what image shows" width="600"/></a></center>
 
 #### [Road](https://www.cia.gov/library/publications/the-world-factbook/docs/refmaps.html)
 
 Road map-- exactly what it says it is!  A road map!  Use this, especially if you are lost.
 
-<center><a href= "http://i.imgur.com/WsidLrV.jpg"><img src= "http://i.imgur.com/WsidLrV.jpg" alt="what image shows" width="600"></center>
+<center><a href= "http://i.imgur.com/WsidLrV.jpg"><img src= "http://i.imgur.com/WsidLrV.jpg" alt="what image shows" width="600"/></a></center>
 
 #### Topographic
 
 Topographic maps are used to display elevation information using isolines, or lines of equal elevation.  Each lines represents an area with the same elevation, above or below which the elevation either goes up or down.  These maps are typically used for field work or site maps.
 
-<center><a href= "http://i.imgur.com/AxioZBU.png"><img src= "http://i.imgur.com/AxioZBU.png" alt="what image shows" width="600"></center>
+<center><a href= "http://i.imgur.com/AxioZBU.png"><img src= "http://i.imgur.com/AxioZBU.png" alt="what image shows" width="600"/></a></center>
 
 ### Thematic Maps
 
@@ -97,7 +98,7 @@ While these are not all of the types of thematic maps out there, this represents
 
 A choropleth map is a type of thematic map that is used to represent a statistic or variable by using shaded polygons.  Typically these shaded areas represent a range of amounts for a statistic, such as the age variable shown in the map below.  In this example each census block group is shaded to represent ranges of actual population values on the left, and population per acre values on the right.
 
-<center><a href= "http://i.imgur.com/NZAfOTG.png"><img src= "http://i.imgur.com/NZAfOTG.png" alt="what image shows" width="600"></center>
+<center><a href= "http://i.imgur.com/NZAfOTG.png"><img src= "http://i.imgur.com/NZAfOTG.png" alt="what image shows" width="600"/></a></center>
 
 #### Graduated Symbols
 
@@ -138,7 +139,7 @@ Appropriate scale values are also important to consider when making a map.  Audi
 
 The next map, by [wikimedia user Newby](https://commons.wikimedia.org/wiki/File:LDS_Percentage_of_Population_2000.PNG#filelinks), shown below, is an example of a map with similar content, except the author has done a much better job of presenting the information.  They have include more context, and weighted the map in a way that your eye is drawn to the information in a meaningful manner.  This map also includes Alaska and Hawaii, something the last map did not consider.  While this map omits labels, this is a choice I tend to agree with.  Labels would have cluttered the map, which is already very busy showing the percentages by county.
 
-<center><a href= "http://i.imgur.com/bFx5kOA.png"><img src= "http://i.imgur.com/bFx5kOA.png" alt="what image shows" width="600"></center>
+<center><a href= "http://i.imgur.com/bFx5kOA.png"><img src= "http://i.imgur.com/bFx5kOA.png" alt="what image shows" width="600"/></a></center>
 
 ## Map Candy
 

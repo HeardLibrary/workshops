@@ -131,3 +131,7 @@ WHERE
 
 Limit 50
 ```
+
+### Let's Play
+
+By way of conclusion, let's try out the [Wikidata Game](https://tools.wmflabs.org/wikidata-game/) and see whether we can make improvements to the quality of Wikidata's data.

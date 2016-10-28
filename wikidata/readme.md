@@ -29,3 +29,105 @@ You create a username for Wikidata just like you do on Wikipedia. In fact, if yo
 ### Taking the *Items* Tour
 
 Let's start with taking an introductory [tour](https://www.wikidata.org/w/index.php?title=Q16943273&tour=wbitems&uselang=EN&data=ok) of how to edit Wikidata items. An [item](https://www.wikidata.org/wiki/Wikidata:Glossary#Item) according to Wikidata is a "a real-world object, concept, event that is given an identifier." Items have names like [Q30](https://www.wikidata.org/wiki/Q30). While these names look weird to speakers of English (or any other natural language), they provide a way of identifying information across editions without privileging any particular linguistic community. In other words, we all need to learn Wikidata's version of [Esperanto](https://www.wikidata.org/wiki/Q143).
+
+## Query Wikidata
+
+The best part about wikidata is that you don't need to look up information across its various pages. You can write simple (and complex) queries to pinpoint precisely the data you want to receive. The query language for Wikidata is called [SPARQL](https://www.w3.org/TR/sparql11-overview/) or the SPARQL Protocol and RDF Query Language. 
+
+### Example SPARQL Queries
+
+#### List of Female Artists
+
+```sparql
+#Female artists
+#Forked from http://tinyurl.com/zjnpbm5
+#added before 2016-10
+
+SELECT DISTINCT ?women ?womenLabel
+WHERE
+{
+       ?women wdt:P31 wd:Q5 .
+       ?women wdt:P21 wd:Q6581072 . 
+       ?women wdt:P106/wdt:P279* wd:Q483501 . # artists
+       SERVICE wikibase:label {bd:serviceParam wikibase:language "fr,en" }
+}
+LIMIT 100
+```
+
+#### Cultural Heritage Institutions in New York City
+
+```sparql
+#Cultural Heritage Institutions in New York City
+
+#defaultView:Map
+SELECT DISTINCT ?institutionLabel ?image ?coor
+WHERE
+{
+  ?entity wdt:P279* wd:Q5193377.
+  wd:Q60 wdt:P150* ?location . 
+  ?institution wdt:P31 ?entity ;
+               wdt:P131 ?location ;
+               wdt:P625 ?coor.
+OPTIONAL {?institution wdt:P18 ?image. }
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+```
+#### Genres of Artists in Wikipedia
+
+```sparql
+#Genres of Artists in Wikipedia
+#Forked from http://tinyurl.com/zo2cl2c
+
+#defaultView:BubbleChart
+SELECT ?genre ?genreLabel (count(*) as ?count)
+WHERE
+{
+	?pid wdt:P31 wd:Q5 .
+	?pid wdt:P135 ?genre .
+	OPTIONAL {
+		?genre rdfs:label ?genreLabel
+		filter (lang(?genreLabel) = "en")
+	}
+}
+
+GROUP BY ?genre ?genreLabel
+ORDER BY DESC(?count) 
+LIMIT 75
+```
+
+#### Founding of Research Universities
+
+```sparql
+#Research University Timeline
+#Forked from http://tinyurl.com/jrv757r
+#defaultView:Timeline
+SELECT ?university ?universityLabel ?founding (SAMPLE(?image) AS ?image)
+WHERE
+{
+	?university wdt:P31 wd:Q15936437 .
+  ?university wdt:P571 ?founding .
+	SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+  OPTIONAL { ?university wdt:P18 ?image }
+}
+GROUP BY ?university ?universityLabel ?founding
+LIMIT 50
+```
+
+#### Occupations of Graduates of Vanderbilt University
+
+```sparql
+#Occupations of Graduates of Vanderbilt University
+#defaultView:Graph
+SELECT ?graduate ?graduateLabel ?occupation ?occupationLabel ?university ?universityLabel
+WHERE
+{
+    ?university wdt:P373 "Vanderbilt University" .
+  	?graduate wdt:P69 ?university ;
+              wdt:P106 ?occupation .
+  	 
+	SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+    OPTIONAL { ?graduate wdt:P18 ?image }
+}
+
+Limit 50
+```

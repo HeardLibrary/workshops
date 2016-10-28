@@ -30,7 +30,7 @@ You create a username for Wikidata just like you do on Wikipedia. In fact, if yo
 
 Let's start with taking an introductory [tour](https://www.wikidata.org/w/index.php?title=Q16943273&tour=wbitems&uselang=EN&data=ok) of how to edit Wikidata items. An [item](https://www.wikidata.org/wiki/Wikidata:Glossary#Item) according to Wikidata is a "a real-world object, concept, event that is given an identifier." Items have names like [Q30](https://www.wikidata.org/wiki/Q30). While these names look weird to speakers of English (or any other natural language), they provide a way of identifying information across editions without privileging any particular linguistic community. In other words, we all need to learn Wikidata's version of [Esperanto](https://www.wikidata.org/wiki/Q143).
 
-## Query Wikidata
+## Let's Query Wikidata
 
 The best part about wikidata is that you don't need to look up information across its various pages. You can write simple (and complex) queries to pinpoint precisely the data you want to receive. The query language for Wikidata is called [SPARQL](https://www.w3.org/TR/sparql11-overview/) or the SPARQL Protocol and RDF Query Language. 
 
@@ -58,7 +58,6 @@ LIMIT 100
 
 ```sparql
 #Cultural Heritage Institutions in New York City
-
 #defaultView:Map
 SELECT DISTINCT ?institutionLabel ?image ?coor
 WHERE
@@ -77,7 +76,6 @@ SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
 ```sparql
 #Genres of Artists in Wikipedia
 #Forked from http://tinyurl.com/zo2cl2c
-
 #defaultView:BubbleChart
 SELECT ?genre ?genreLabel (count(*) as ?count)
 WHERE
@@ -95,7 +93,7 @@ ORDER BY DESC(?count)
 LIMIT 75
 ```
 
-#### Founding of Research Universities
+#### Founding Dates of Research Universities
 
 ```sparql
 #Research University Timeline
@@ -132,6 +130,6 @@ WHERE
 Limit 50
 ```
 
-### Let's Play
+### Let's Play with Wikidata
 
 By way of conclusion, let's try out the [Wikidata Game](https://tools.wmflabs.org/wikidata-game/) and see whether we can make improvements to the quality of Wikidata's data.

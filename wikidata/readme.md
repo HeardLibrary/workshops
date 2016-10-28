@@ -80,14 +80,13 @@ SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
 SELECT ?genre ?genreLabel (count(*) as ?count)
 WHERE
 {
-	?pid wdt:P31 wd:Q5 .
-	?pid wdt:P135 ?genre .
-	OPTIONAL {
-		?genre rdfs:label ?genreLabel
-		filter (lang(?genreLabel) = "en")
-	}
+  ?pid wdt:P31 wd:Q5 ;
+  wdt:P135 ?genre .
+  OPTIONAL {
+    ?genre rdfs:label ?genreLabel
+    filter (lang(?genreLabel) = "en")
+  }
 }
-
 GROUP BY ?genre ?genreLabel
 ORDER BY DESC(?count) 
 LIMIT 75
@@ -102,9 +101,9 @@ LIMIT 75
 SELECT ?university ?universityLabel ?founding (SAMPLE(?image) AS ?image)
 WHERE
 {
-	?university wdt:P31 wd:Q15936437 .
-  ?university wdt:P571 ?founding .
-	SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+  ?university wdt:P31 wd:Q15936437 ;
+              wdt:P571 ?founding .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
   OPTIONAL { ?university wdt:P18 ?image }
 }
 GROUP BY ?university ?universityLabel ?founding
@@ -120,10 +119,10 @@ SELECT ?graduate ?graduateLabel ?occupation ?occupationLabel ?university ?univer
 WHERE
 {
     ?university wdt:P373 "Vanderbilt University" .
-  	?graduate wdt:P69 ?university ;
+    ?graduate wdt:P69 ?university ;
               wdt:P106 ?occupation .
   	 
-	SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
     OPTIONAL { ?graduate wdt:P18 ?image }
 }
 

@@ -41,15 +41,13 @@ The best part about wikidata is that you don't need to look up information acros
 ```sparql
 #Female artists
 #Forked from http://tinyurl.com/zjnpbm5
-#added before 2016-10
-
 SELECT DISTINCT ?women ?womenLabel
 WHERE
 {
-       ?women wdt:P31 wd:Q5 .
-       ?women wdt:P21 wd:Q6581072 . 
-       ?women wdt:P106/wdt:P279* wd:Q483501 . # artists
-       SERVICE wikibase:label {bd:serviceParam wikibase:language "fr,en" }
+  ?women wdt:P31 wd:Q5 ; # human beings
+         wdt:P21 wd:Q6581072 ; # female
+         wdt:P106 wd:Q483501 . # artists
+  SERVICE wikibase:label {bd:serviceParam wikibase:language "en" }
 }
 LIMIT 100
 ```

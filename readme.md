@@ -23,11 +23,11 @@ Topics are called boards. Within each board, you can like or "pin" it, save it o
 
 Choose an image for your pin.  Pick a board to save it to. Pinterest hones your selections and suggests boards for you to follow. You can create boards of museum collections like the Metropolitan Museum of Art, or group together your favorite archaeology boards.  
 
-Special tips on [Pinterest for Business](https://business.pinterest.com/en/getting-started/) help you organize material, link it out and create pages that stand out.
+Special tips on [Pinterest for Business](https://business.pinterest.com/en/getting-started/) help you organize material, link it out and create pages that stand out.  Identify what your pinners like [Pinterest tips](https://business.pinterest.com/en/pin-pro) by checking your analytics, or better yet, ask them. This all leads to better "curation" or management of your images. Analytics, widgets, and rich pins help pinners build followers, create consistent imagery, and yes, sell products.
 
 ## [HistoryPin](http://www.historypin.org/en/) 
 
-Historypin’s members work together to create collections, telling the stories about their local communities and the places that matter to them. Over 25,000 collections are represented, including national culture palaces (the Bibliotheque Nationale in Paris, the US Archives), regional institutions with large collections (The Library of Virginia and California Historical Society) to specialized collections (the Dr. Pepper Museum) and individual member's collections. 
+HistoryPin’s members work together to create collections, telling the stories about their local communities and the places that matter to them. Over 25,000 collections are represented, including national culture palaces (the Bibliotheque Nationale in Paris, the US Archives), regional institutions with large collections (The Library of Virginia and California Historical Society) to specialized collections (the Dr. Pepper Museum) and individual member's collections. 
 
 Based on Pinterest's system of boards, HistoryPin users annotate images, locate them on a map, and store them in boards. After you create your account, you can search for places, people, and other details described in the photos. Searches can be sorted by most recent, most popular and other. Searches of bulleton board forums help users talk to each other about sources, historical details and resources. FAQs address HistoryPin in the classroom, for intergenerational learning, community building, and for digital field work.
 
@@ -35,7 +35,7 @@ Based on Pinterest's system of boards, HistoryPin users annotate images, locate 
 
 Public institutions have pooled resources for digital projects in California, New England, the UK, and Australia. California Historical Society posts selections of their large photography collections housed at University of Southern California Digital Library], focusing on the development of the Los Angeles region from 1860 to 1960. 
 
-The Minnesota Historical Society's collection of historic sites, images of the aftermath of 1906 San Francisco Earthquake, and other collections are available.
+The Minnesota Historical Society's collection of historic sites, images of the aftermath of 1906 San Francisco Earthquake, and other collections are available. Popular digital humanities projects like [Stanford Literary Lab's Mapping Emotion in Victorian London](https://www.historypin.org/en/collections/sort/popular/paging/1) blend the map with user content from the project homepage.
 
 ## Managing Collections ##
 

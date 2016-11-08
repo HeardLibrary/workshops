@@ -35,7 +35,7 @@ Based on Pinterest's system of boards, HistoryPin users annotate images, locate 
 
 Public institutions have pooled resources for digital projects in California, New England, the UK, and Australia. California Historical Society posts selections of their large photography collections housed at University of Southern California Digital Library], focusing on the development of the Los Angeles region from 1860 to 1960. 
 
-The Minnesota Historical Society's collection of historic sites, images of the aftermath of 1906 San Francisco Earthquake, and other collections are available. Popular digital humanities projects like [Stanford Literary Lab's Mapping Emotion in Victorian London](https://www.historypin.org/en/collections/sort/popular/paging/1) blend 4358 pins (images) with user content from the project homepage, as in this example of [Covent Garden flower women](https://www.historypin.org/en/victorian-london/pin/57647/).
+The Minnesota Historical Society's collection of historic sites, images of the aftermath of 1906 San Francisco Earthquake, and other collections are available. Popular digital humanities projects like [Stanford Literary Lab's Mapping Emotion in Victorian London](https://www.historypin.org/en/collections/sort/popular/paging/1) blend 4358 pins (images) with user content from the project homepage, as in this example of [Covent Garden flower women](https://www.historypin.org/en/victorian-london/pin/57647/) or this excerpt discussing [The Strand](https://www.historypin.org/en/victorian-london/geo/51.512907,-0.103854,14/bounds/51.498482,-0.122351,51.527327,-0.085357/sort/-date_taken/paging/1/pin/285311/state/hybrid).
 
 ## Managing Collections ##
 

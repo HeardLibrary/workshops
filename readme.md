@@ -4,7 +4,7 @@
 
 If you're dealing with the web, you face the problem of information overload. How do you collect and organize your scholarly interests, particularly collections of images? We'll teach you how to get started with digital curation using two platforms: [Pinterest](www.pinterest.com) and [Historypin](https://www.historypin.org/). Digital curation is not just about organizing images of cats and your favorite vacation spots. By the end of this workshop, you'll know how to use these curatorial tools to advance your scholarly work.  
 
-### What is Digital Curation?
+## What is Digital Curation?
 
 The process--Curation--and the person--Curator--share the Latin root "curare" meaning to "take care."  Traditionally, curators manage and interpret material objects whether that's art, books, buidlings, scientific tools, or more recently, born-digital data and objects.  They are content specialists who interpret collections of objects for and, increasingly, with the public.
 
@@ -23,6 +23,8 @@ Topics are called boards. Within each board, you can like or "pin" it, save it o
 
 Choose an image for your pin.  Pick a board to save it to. Pinterest hones your selections and suggests boards for you to follow. You can create boards of museum collections like the Metropolitan Museum of Art, or group together your favorite archaeology boards.  
 
+Special tips on [Pinterest for Business](https://business.pinterest.com/en/getting-started/) help you organize material, link it out and create pages that stand out.
+
 ## [HistoryPin](http://www.historypin.org/en/) 
 
 Historypin’s members work together to create collections, telling the stories about their local communities and the places that matter to them. Over 25,000 collections are represented, including national culture palaces (the Bibliotheque Nationale in Paris, the US Archives), regional institutions with large collections (The Library of Virginia and California Historical Society) to specialized collections (the Dr. Pepper Museum) and individual member's collections. 
@@ -33,8 +35,9 @@ Based on Pinterest's system of boards, HistoryPin users annotate images, locate 
 
 Public institutions have pooled resources for digital projects in California, New England, the UK, and Australia. California Historical Society posts selections of their large photography collections housed at University of Southern California Digital Library], focusing on the development of the Los Angeles region from 1860 to 1960. 
 
-
 The Minnesota Historical Society's collection of historic sites, images of the aftermath of 1906 San Francisco Earthquake, and other collections are available.
 
 ## Managing Collections ##
+
+
 

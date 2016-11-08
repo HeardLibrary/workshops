@@ -27,7 +27,7 @@ Special tips on [Pinterest for Business](https://business.pinterest.com/en/getti
 
 ## [HistoryPin](http://www.historypin.org/en/) 
 
-HistoryPin’s members work together to create collections, telling the stories about their local communities and the places that matter to them. Over 25,000 collections are represented, including national culture palaces (the Bibliotheque Nationale in Paris, the US Archives), regional institutions with large collections (The Library of Virginia and California Historical Society) to specialized collections ([the Dr. Pepper Museum]( )) and individual member's collections. 
+HistoryPin’s members work together to create collections, telling the stories about their local communities and the places that matter to them. Over 25,000 collections are represented, including national culture palaces (the Bibliotheque Nationale in Paris, the US Archives), regional institutions with large collections ([The Library of Virginia](https://www.historypin.org/en/library-of-virginia-s-collection/geo/37.238012,-76.775108,11/bounds/37.09027,-76.923081,37.385465,-76.627136/paging/1) and California Historical Society) to specialized collections (the Dr. Pepper Museum) and individual member's collections. 
 
 Based on Pinterest's system of boards, HistoryPin users annotate images, locate them on a map, and store them in boards. After you create your account, you can search for places, people, and other details described in the photos. Searches can be sorted by most recent, most popular and other. Searches of bulleton board forums help users talk to each other about sources, historical details and resources. FAQs address HistoryPin in the classroom, for intergenerational learning, community building, and for digital field work.
 

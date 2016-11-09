@@ -23,7 +23,7 @@ Topics are called boards. Within each board, you can like or "pin" it, save it o
 
 Choose an image for your pin.  Pick a board to save it to. Pinterest hones your selections and suggests boards for you to follow. You can create boards of museum collections like the Metropolitan Museum of Art, or group together your favorite archaeology boards.  
 
-Special tips on [Pinterest for Business](https://business.pinterest.com/en/getting-started/) help you organize material, link it out and create pages that stand out.  Identify what your pinners like [Pinterest tips](https://business.pinterest.com/en/pin-pro) by checking your analytics, or better yet, ask them. This all leads to better "curation" or management of your images. Analytics, widgets, and rich pins help pinners build followers, create consistent imagery, and yes, sell products.
+Special tips on [Pinterest for Business](https://business.pinterest.com/en/getting-started/) help you organize material, link it out and create pages that stand out.  Identify [what your pinners like](https://business.pinterest.com/en/pin-pro) by checking your analytics, or better yet, ask them. This all leads to better "curation" or management of your images. Analytics, widgets, and rich pins help pinners build followers, create consistent imagery, and yes, sell products.
 
 ## [HistoryPin](http://www.historypin.org/en/) 
 

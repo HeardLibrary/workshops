@@ -151,7 +151,7 @@ The next map, by [wikimedia user Newby](https://commons.wikimedia.org/wiki/File:
 
 ##Conclusion
 
-Maps are powerful tools.  A well designed map is capable of depicting your data in a highly visual, intuitive, and attractive way.  Special care must be taken, however, to choose a map type appropriate for your data, provide adequate labeling, and select a color scheme that makes sense.
+Maps are powerful tools.  A well designed map is capable of depicting your data in a highly visual, intuitive, and attractive way.  Special care must be taken, however, to choose a map type appropriate for your data, provide suitable labeling, and select a color scheme that makes sense.
 
 ## Map Candy
 

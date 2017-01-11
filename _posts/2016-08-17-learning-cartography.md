@@ -149,6 +149,10 @@ The next map, by [wikimedia user Newby](https://commons.wikimedia.org/wiki/File:
 
 <center><a href= "http://i.imgur.com/bFx5kOA.png"><img src= "http://i.imgur.com/bFx5kOA.png" alt="what image shows" width="600"/></a></center>
 
+##Conclusion
+
+Maps are powerful tools.  A well designed map is capable of depicting your data in a highly visual, intuitive, and attractive way.  Special care must be taken, however, to choose a map type appropriate for your data, provide suitable labeling, and select a color scheme that makes sense.
+
 ## Map Candy
 
 Here are some cool map projects for you to drool over:

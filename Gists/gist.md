@@ -13,11 +13,11 @@ Suellen Stringer-Hye
 * What is Github?
 * What are Github Gists and what are they good for.
 * Hands-on Activities
- *Set up Github account and do some basics with Gists
- *Creating a to-do list with Gists
- *CSVs with Gists
- *GeoJson with Gists 
- *Graphgists
+  *Set up Github account and do some basics with Gists
+  *Creating a to-do list with Gists
+  *CSVs with Gists
+  *GeoJson with Gists 
+  *Graphgists
 * Conclusion
 
 ##Useful Links

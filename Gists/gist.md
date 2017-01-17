@@ -12,14 +12,6 @@ Github offers a useful service called Gist. It was first created so  that develo
 
 ##Agenda
 
-* Fruit
-  * Apple
-  * Orange
-  * Banana
-* Dairy
-  * Milk
-  * Cheese
-
 * What is Github?
 * What are Github Gists and what are they good for? 
 * Hands on Acivities

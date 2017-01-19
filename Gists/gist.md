@@ -6,7 +6,7 @@ Suellen Stringer-Hye
 
 ##Workshop Description
 
-##[Github Gists](https://gist.github.com), 
+##[Github Gists](https://gist.github.com) 
 
 Github offers a useful service called Gist. It was first created so  that developers could share code snippets but Gists have many other practical uses as well. Gists can be used for a variety of tasks. We will learn accessible, (re)usable, and visually-appealing ways to share your data and research online. We'll explore how to create and share CSVs, GIS data points, and simple graphs using Gists.
 
@@ -18,7 +18,7 @@ Github offers a useful service called Gist. It was first created so  that develo
   * Set up Github account and go to Gist section
   * Create a to-do list 
   * Download a CSV file and create a searchable spreadsheet
-  * Import a Geo Json file and embed it in webpage
+  * Import a GeoJSON file 
   * Create a Graphgist 
 
 * Conclusion

@@ -19,8 +19,8 @@ Github offers a useful service called Gist. It was first created so  that develo
   * Create a to-do list 
   * Download a CSV file and create a searchable spreadsheet
   * Import a Geo Json file and embed it in webpage
-  * Create a to-do list 
   * Create a Graphgist 
+
 * Conclusion
 
 ##Useful Links

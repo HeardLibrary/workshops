@@ -1,4 +1,4 @@
-#Using Gists: 
+#Using Gists 
 
 Friday, January 20
 

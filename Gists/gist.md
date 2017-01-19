@@ -27,4 +27,5 @@ Github offers a useful service called Gist. It was first created so  that develo
 * Github [https://github.com](https://github.com)
 * Github Gists: [https://gist.github.com/](https://gist.github.com)
 * CSV in Github: [https://help.github.com/articles/rendering-csv-and-tsv-data/](https://help.github.com/articles/rendering-csv-and-tsv-data/)
-*Geo Json: [http://geojson.org](http://geojson.org)
+* Geo Json: [http://geojson.org](http://geojson.org)
+* Mapbox icons [https://www.mapbox.com/maki-icons/](https://www.mapbox.com/maki-icons/)

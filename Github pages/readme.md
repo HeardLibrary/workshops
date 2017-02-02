@@ -7,14 +7,14 @@ Friday, Feb 3
 
 ### Workshop Description
 
-Did you know it’s possible to host a website freely using your GitHub repository? We’ll show you how to use GitHub Pages to create a static HTML website with all the benefits of version control. We’ll also take a look at Jekyll, a tool for generating websites from Markdown. By the end, you’ll be ready to roll your own website for coursework or scholarly projects.
+Did you know it’s possible to host a website freely using your GitHub repository? We’ll show you how to use GitHub Pages to create a static HTML website with all the benefits of version control. We’ll also take a look at Jekyll, a tool for generating websites from Markdown. Jekyll is now built in to Github making it much easier to use Jekyll themes. By the end, you’ll be ready to roll your own website for coursework or scholarly projects.
 
 ### Agenda
 
 * Git, GitHub, and GitHub Pages: An Overview
 * Building Your Personal Website (Hands On)
 * What is Jekyll?
-* Getting Fancy with Jekyll (More hands on if time permits)
+* Using Jeckll themes from within Github
 * Wrap up and Evaluation
 
 ### Useful Links

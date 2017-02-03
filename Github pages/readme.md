@@ -19,6 +19,9 @@ Did you know it’s possible to host a website freely using your GitHub reposito
 
 ### Useful Links
 
+* Github pages templates: [http://tilomitra.github.io/prettypages/](http://tilomitra.github.io/prettypages/)
+* Fork and Go: [http://jlord.us/forkngo/](http://jlord.us/forkngo/)
+
 #### Official Documentation
 * Git: [http://git-scm.com/](http://git-scm.com/)
 * GitHub: [http://github.com](http://github.com)
@@ -32,7 +35,7 @@ Did you know it’s possible to host a website freely using your GitHub reposito
 * [Get Started With GitHub Pages (Plus Bonus Jekyll)](http://24ways.org/2013/get-started-with-github-pages/)
 
 #### Examples sites using  Github Pages and Jekyll
-* [Ramona's site, built for this workshop](http://ramona2020.github.io/) [[code](https://github.com/ramona2020/ramona2020.github.io)]
+* [Ramona's site ](http://ramona2020.github.io/) [[code](https://github.com/ramona2020/ramona2020.github.io)]
 * [Jodie's site, a barebones online portfolio](http://jodiegambill.com) [[code](https://github.com/jgambill/jgambill.github.io)]
 * [Short list of sites using Jekyll](http://jekyllrb.com/docs/sites/)
 * [Long list of sites using Jekyll](https://github.com/jekyll/jekyll/wiki/Sites)

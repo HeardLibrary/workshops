@@ -105,6 +105,8 @@ averages %>%
   layer_smooths()
 ```
 
+N.B. If you receive an error `Error: unexpected SPECIAL in "%>%"`, it's probably caused by the way you cut and pasted this tutorial code. Try removing line breaks after the `%>%` and things should work fine.
+
 You may reasonably ask, why are there essentially three different ways of producing the same scatter plot? We'll answer that question as we move forward with our examples.
 
 ### ggivs for data exploration

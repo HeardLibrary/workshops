@@ -169,7 +169,7 @@ ggplot(arl, aes(x=Staff, y=Total)) + geom_point() + stat_smooth(method="lm")
 ggplot(arl, aes(x=Staff, y=Total)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma)
 
 # Add title
-ggplot(arl, aes(x=Staff, y=Total)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + main("ARL Staff versus Total Expenditures")
+ggplot(arl, aes(x=Staff, y=Total)) + geom_point() + stat_smooth(method="lm") + scale_y_continuous(labels = comma) + ggtitle("ARL Staff versus Total Expenditures")
 ```
 
 Of course, we're really interested to see where Vanderbilt appears on this trend line. Let's add another layer to our plot to highlight Vanderbilt in red.
@@ -243,7 +243,7 @@ babynames %>%
     ggvis(~year, ~n) %>% 
     # Thanks to Hadley Wickham for this filter technique (https://groups.google.com/forum/#!topic/ggvis/AJZCdjFcNaE)
     filter(name %in% eval(input_select(sample_names, selected = 1)), sex == "F") %>% 
-    layer_points() %>%
+    layer_smooths() %>%
     add_axis("x", title="Year",  format="####") %>%
     add_axis("y", title="Number", title_offset = 50)
 ```   
@@ -253,3 +253,5 @@ Why did we have to create a smaller vector to populate the dropdown list? Why no
 ### Next Steps with R
 
 If you're interested in learning more about ggplot, then definitely check out Winston Chang's [R Graphics Cookbook](http://www.amazon.com/R-Graphics-Cookbook-Winston-Chang/dp/1449316956). There aren't as many materials about ggvis, which continues to develop rapidly, but you may want to consider the premium course on [Data Visualization in R with ggvis](https://www.datacamp.com/courses/ggvis-data-visualization-r-tutorial) at DataCamp.
+
+The next step from ggvis is probably [Shiny](https://shiny.rstudio.com/), RStudio's platform for deploying interactive graphics on the web. There is a [RStudio tutorial](http://ggvis.rstudio.com/interactivity.html) for adding ggvis plots to Shiny apps. We also have a workshop we teach [@VandyLibraries](https://twitter.com/vandylibraries) on [building Shiny apps](https://github.com/HeardLibrary/workshops/blob/master/R-Stats/shiny.md).

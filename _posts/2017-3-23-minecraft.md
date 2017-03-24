@@ -51,7 +51,7 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
 ### Minecraft in Higher Education
 
-  * Library Fellow's program used [Learn to Program with Minecraft Plugins](https://pragprog.com/book/ahmine2/learn-to-program-with-minecraft-plugins)
+  * [Library Fellow's program](http://library.vanderbilt.edu/about/fellows/fellowships/2015-minecraft-saulsberry.php) used [Learn to Program with Minecraft Plugins](https://pragprog.com/book/ahmine2/learn-to-program-with-minecraft-plugins)
 
   * [HullCraft](http://www.hullcraft.com/) at the University of Hull
 

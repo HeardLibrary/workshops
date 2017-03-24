@@ -7,9 +7,7 @@ categories: edtech
 description: An introduction to Minecraft and it's use in edication.
 ---
 
-## Modding Minecraft Maps
-
-![Minecraft Logo](http://i1279.photobucket.com/albums/y523/textcraft/Feb%202015%20-%203/493c46ec9f55ac99278f402717763559d1609cd2e00b34dafbf0ae02729b5e4c37cafd5a2addb345da39a3ee5e6b4b0d3255bfef95601890afd80709ca64874137734ff0cd79_zpsfe64cae9.png)
+![Imgur](http://i.imgur.com/MZZHuSw.png)
 
 ### Gaming in the Academy?
 

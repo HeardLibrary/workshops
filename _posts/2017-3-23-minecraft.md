@@ -15,7 +15,7 @@ The idea of learning through play is well-established in education and developme
 
  * On the value of hybrid, interactive learning environments with ludic components, see [Rieber 1996](https://link.springer.com/article/10.1007/BF02300540).
 
- * On learning through play and VR, see Roussou 2004.
+ * On learning through play and VR, see [Roussou 2004](https://pdfs.semanticscholar.org/10cf/d9452d4147e07faf3b89556e84b5eee0dd37.pdf).
 
  * On video games and playful learning, see [Marchetti 2014](http://vbn.aau.dk/en/publications/design-games-to-learn(cfe7331d-fd88-4d2b-8e0d-9364fb7e5bbb).html).
 

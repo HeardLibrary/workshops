@@ -32,6 +32,8 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
   * Minecraft is an [Open World](https://en.wikipedia.org/wiki/Open_world) style game, meaning that there aren't well-defined goals or narratives. The Minecraft game environment is frequently compared to an online Lego® set.
 
   * Minecraft is a client/server application. While it is possible to play the game on your own machine, a lot of the fun comes from interacting with other players on Minecraft servers.
+  
+ * [Making Sense of Minecraft](http://education.uic.edu/academics-admissions/student-life/making-sense-minecraft)
 
   * Minecraft offers several [game modes](http://minecraft.gamepedia.com/Gameplay). We'll be working in Creative Mode, which means that won't be inadvertently killed by creepers or skeletons.
 
@@ -44,7 +46,6 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
 ### Minecraft in Primary and Secondary Education
 
- * [Making Sense of Minecraft](http://education.uic.edu/academics-admissions/student-life/making-sense-minecraft)
  * [Minecraft.Edu](https://minecraftedu.com/)
  * [Minecraft: Educational Edition](http://education.minecraft.net/)
 

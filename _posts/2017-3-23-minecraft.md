@@ -64,7 +64,9 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
 [![Using Minecraft to Unboggle the Robot Mind](https://i.vimeocdn.com/video/199359555_640.webp)](https://vimeo.com/129738486)
 
-* Could it be considered not useful? [Why Educators Probably Shouldn’t Use Minecraft In Their Classrooms](https://higheredrevolution.com/why-educators-probably-shouldn-t-use-minecraft-in-their-classrooms-989f525c6e62#.d8rsaii8x)
+ * Use Minecraft to teach [Geology and Geography](http://www.bgs.ac.uk/discoveringGeology/geologyOfBritain/minecraft/home.html#/4928/64/12487/-1/0/0).  Also check out [BetterGeo](http://www.geek.com/news/bettergeo-turns-minecraft-into-an-immersive-tool-for-teaching-geology-1650115/)
+
+ * Could it be considered not useful? [Why Educators Probably Shouldn’t Use Minecraft In Their Classrooms](https://higheredrevolution.com/why-educators-probably-shouldn-t-use-minecraft-in-their-classrooms-989f525c6e62#.d8rsaii8x)
 
 ### Wrapping Up
   * What other uses might we find for Minecraft and other forms of educational gaming at Vanderbilt?

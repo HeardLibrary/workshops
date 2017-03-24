@@ -24,7 +24,6 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
   * In 2013, Jay Clayton, William R. Kenan Jr. Professor of English at Vanderbilt University, teaches the first MOOC on online gaming: [Online Games: Literature, New Media, and Narrative](https://www.coursera.org/course/onlinegames)
 
-  * Could it be considered not useful? [Why Educators Probably Shouldn’t Use Minecraft In Their Classrooms](https://higheredrevolution.com/why-educators-probably-shouldn-t-use-minecraft-in-their-classrooms-989f525c6e62#.d8rsaii8x)
 
 ### Exploring [Minecraft](https://minecraft.net/)
 
@@ -36,6 +35,7 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
   * Minecraft offers several [game modes](http://minecraft.gamepedia.com/Gameplay). We'll be working in Creative Mode, which means that won't be inadvertently killed by creepers or skeletons.
 
+
 ### Programming Inside Minecraft
 
  * [Redstone Programming Language](http://tossha.com/rpl/)
@@ -44,6 +44,7 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 
 ### Minecraft in Primary and Secondary Education
 
+ * [Making Sense of Minecraft](http://education.uic.edu/academics-admissions/student-life/making-sense-minecraft)
  * [Minecraft.Edu](https://minecraftedu.com/)
  * [Minecraft: Educational Edition](http://education.minecraft.net/)
 
@@ -62,6 +63,8 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
   * [Using Minecraft to Unboggle the Robot Mind](https://news.brown.edu/articles/2015/06/minecraft) at Brown University
 
 [![Using Minecraft to Unboggle the Robot Mind](https://i.vimeocdn.com/video/199359555_640.webp)](https://vimeo.com/129738486)
+
+* Could it be considered not useful? [Why Educators Probably Shouldn’t Use Minecraft In Their Classrooms](https://higheredrevolution.com/why-educators-probably-shouldn-t-use-minecraft-in-their-classrooms-989f525c6e62#.d8rsaii8x)
 
 ### Wrapping Up
   * What other uses might we find for Minecraft and other forms of educational gaming at Vanderbilt?

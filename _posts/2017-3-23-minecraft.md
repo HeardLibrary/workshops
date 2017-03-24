@@ -9,33 +9,45 @@ description: An introduction to Minecraft and it's use in edication.
 
 ![Imgur](http://i.imgur.com/MZZHuSw.png)
 
+### Learning Through Play
+
+The idea of learning through play is well-established in education and developmental psychology. Play, particularly in young children (<6y), simultaneously fosters the development of social, cognitive, and [meta-cognitive skills](https://www.researchgate.net/profile/Geerdina_Van_Der_Aalsvoort2/publication/232442434_Guest_editorial_Play_and_learning_in_educational_settings/links/00b7d520dce3b1e153000000.pdf#page=40). Studies continue to support the use of play - active engagement in fun, non-directional activities - as a valid learning method for older children, [adolescents](http://onlinelibrary.wiley.com/doi/10.1002/jaal.428/full), and adults as well.
+
+ * On the value of hybrid, interactive learning environments with ludic components, see [Rieber 1996](https://link.springer.com/article/10.1007/BF02300540).
+
+ * On learning through play and VR, see Roussou 2004.
+
+ * On video games and playful learning, see [Marchetti 2014](http://vbn.aau.dk/en/publications/design-games-to-learn(cfe7331d-fd88-4d2b-8e0d-9364fb7e5bbb).html).
+
+ * On game narratives for education, see [Slota and Young 2017](http://www.irma-international.org/chapter/stories-games-and-learning-through-play/162066/).
+
 ### Gaming in the Academy?
 
 *Just some highlights. Feel free to submit pull requests with other key moments.*
 
-  * [Game Studies: International Journal of Computer Game Research](http://gamestudies.org/), the "first academic, peer-reviewed journal dedicated to computer game studies," commences publication in 2001.
+ * [Game Studies: International Journal of Computer Game Research](http://gamestudies.org/), the "first academic, peer-reviewed journal dedicated to computer game studies," commences publication in 2001.
 
-  *  [DiGRA](http://www.digra.org/) (Digital Games Research Association), an "association for academics and professionals who research digital games and associated phenomena," is founded in 2003.
+ *  [DiGRA](http://www.digra.org/) (Digital Games Research Association), an "association for academics and professionals who research digital games and associated phenomena," is founded in 2003.
 
-  * Starting in 2008, the American Library Association sponsors the [International Games Day](http://igd.ala.org/) on the third Saturday every November.
+ * Starting in 2008, the American Library Association sponsors the [International Games Day](http://igd.ala.org/) on the third Saturday every November.
 
-  * Also in 2008, Scott Nicholson, Associate Professor at the School of Information Studies, founds the Library Game Lab at Syracuse University. He now
+ * Also in 2008, Scott Nicholson, Associate Professor at the School of Information Studies, founds the Library Game Lab at Syracuse University. He now
 directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters.com/)
 
-  * In 2013, Jay Clayton, William R. Kenan Jr. Professor of English at Vanderbilt University, teaches the first MOOC on online gaming: [Online Games: Literature, New Media, and Narrative](https://www.coursera.org/course/onlinegames)
+ * In 2013, Jay Clayton, William R. Kenan Jr. Professor of English at Vanderbilt University, teaches the first MOOC on online gaming: [Online Games: Literature, New Media, and Narrative](https://www.coursera.org/course/onlinegames)
 
 
 ### Exploring [Minecraft](https://minecraft.net/)
 
-  * [Markus Persson](https://en.wikipedia.org/wiki/Markus_Persson), a.k.a. "Notch," is the lead developer of Minecraft. [Mojang](https://mojang.com/), an independent game studio until its [acquisition by Microsoft in 2014](http://news.microsoft.com/2014/09/15/minecraft-to-join-microsoft/) launched the beta version of Minecraft in 2009 and the release version in 2011.
+ * [Markus Persson](https://en.wikipedia.org/wiki/Markus_Persson), a.k.a. "Notch," is the lead developer of Minecraft. [Mojang](https://mojang.com/), an independent game studio until its [acquisition by Microsoft in 2014](http://news.microsoft.com/2014/09/15/minecraft-to-join-microsoft/) launched the beta version of Minecraft in 2009 and the release version in 2011.
 
-  * Minecraft is an [Open World](https://en.wikipedia.org/wiki/Open_world) style game, meaning that there aren't well-defined goals or narratives. The Minecraft game environment is frequently compared to an online Lego® set.
+ * Minecraft is an [Open World](https://en.wikipedia.org/wiki/Open_world) style game, meaning that there aren't well-defined goals or narratives. The Minecraft game environment is frequently compared to an online Lego® set.
 
-  * Minecraft is a client/server application. While it is possible to play the game on your own machine, a lot of the fun comes from interacting with other players on Minecraft servers.
+ * Minecraft is a client/server application. While it is possible to play the game on your own machine, a lot of the fun comes from interacting with other players on Minecraft servers.
   
  * [Making Sense of Minecraft](http://education.uic.edu/academics-admissions/student-life/making-sense-minecraft)
 
-  * Minecraft offers several [game modes](http://minecraft.gamepedia.com/Gameplay). We'll be working in Creative Mode, which means that won't be inadvertently killed by creepers or skeletons.
+ * Minecraft offers several [game modes](http://minecraft.gamepedia.com/Gameplay). We'll be working in Creative Mode, which means that won't be inadvertently killed by creepers or skeletons.
 
 
 ### Programming Inside Minecraft
@@ -47,7 +59,6 @@ directs its successor, [Because Play Matters Game Lab](http://becauseplaymatters
 ### Minecraft in Primary and Secondary Education
 
  * [Minecraft.Edu](https://minecraftedu.com/)
- * [Minecraft: Educational Edition](http://education.minecraft.net/)
 
 ### Minecraft in Higher Education
 

@@ -1,17 +1,17 @@
-##Introduction to Project Management with Trello
-###Workshop Notes and Resources
+## Introduction to Project Management with Trello
+### Workshop Notes and Resources
 Friday, January 16, 2015
 
 *Jodie Gambill and Cliff Anderson*
 
-####Agenda
+#### Agenda
 * Brief introduction to agile project management principles -- Cliff
 * Trello tour, usage, examples -- Jodie
 * [Hands-on activity](#scenario-for-hands-on-activity): Creating a Trello board for a real-life scenario -- Jodie and attendees
 * Group sharing of boards -- Jodie and attendees
 * Wrap-up and [Evaluation](https://redcap.vanderbilt.edu/surveys/?s=XK87WNFLCP) -- Cliff
 
-###Agile Project Management
+### Agile Project Management
 * What's wrong with traditional project management? On [project failures](http://www.drdobbs.com/architecture-and-design/the-non-existent-software-crisis-debunki/240165910) and [death marches](http://books.google.com/books?id=FdAZUX9H_gAC&printsec=frontcove) 
 * [The Agile Manifesto](http://www.agilemanifesto.org/)
 * [Waterfalls](http://www.commonplaces.com/sites/commonplaces.com/files/waterfall_method.png) versus [Spirals](http://www.commonplaces.com/sites/commonplaces.com/files/agile_method-01.png)
@@ -52,10 +52,10 @@ If you have a **real-life scenario** in mind that you would like to try out, wor
 You will have about **30 minutes** to work on this, so get creative! After this hands-on time, we will share with the group how we put our boards together and what challenges, delights, or surprises we encountered during the process.
 
 
-###Further reading
+### Further reading
 Trello has amazing documentation and examples. All resources below are from them.
 
-#####Trello Resources: Beginner
+##### Trello Resources: Beginner
 * [Trello Tour](https://trello.com/tour) -- A brief overview of the basics of Trello.
 * [Beginner Tips for Using Trello](http://blog.trello.com/beginner-tips-for-using-trello/) -- This includes a great introductory video that reviews many of the features and board examples we went over in the workshop.
 * Trello board examples -- Here is a [short list](https://trello.com/examples) of basic Trello example boards. Here is a [long list](https://trello.com/inspiringboards) of creative ways to use Trello, curated by the Trello folks. Some particular example boards from this group that we looked at:
@@ -67,7 +67,7 @@ Trello has amazing documentation and examples. All resources below are from them
 * [Apps for all platforms](https://trello.com/platforms)
 * [Trello Help](http://help.trello.com/) -- Comprehensive help files.
 
-#####Trello Resources: Advanced
+##### Trello Resources: Advanced
 * How to use Trello like a pro: [Part 1](http://blog.trello.com/how-to-use-trello-like-a-pro/), [Part 2](http://blog.trello.com/using-trello-like-a-pro-part-2/), [Part 3](http://blog.trello.com/using-trello-like-a-pro-part-3/)
 * [Search for cards across all boards](http://help.trello.com/article/808-searching-for-cards-all-boards), or [filter cards on a single board](http://help.trello.com/article/787-filtering-cards-on-a-board)
 * [Keyboard shortcuts](https://trello.com/shortcuts) -- For the geeks among us

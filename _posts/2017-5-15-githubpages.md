@@ -11,12 +11,12 @@ In this lesson, you will learn how to use GitHub Pages to create a static HTML w
 
 
 
-
+There are many ways to create a website depending on your needs. But a very simple way to build a free, but fully functional website is to leverage the capapbilites of Github and Jekyll. You will then maintain control over your own informtion and won't need to pay hosting or maintenance fees. 
 
 
 
 ### What is Git?
-<h2>What is Git, GitHub, and GitHub Pages?</h2>
+
 Git is a version control system that tracks changes to files in a project over time. This is very useful when collaborating with other coders. It is also helpful in restoring earlier versions of a file should you need to.
 
 

@@ -47,6 +47,8 @@ Markdown is a lightweight markup language with plain text formatting syntax.
 
 ####Set up the repository
  Login to your GitHub account and go to <a href="https://github.com/new">https://github.com/new</a> or click the New repository icon from your account homepage.
+ 
+  ![Imgur](http://imgur.com/a/UJTHm)
 
  Name your repository <code>username.github.io</code>, replacing <code>username</code> with your GitHub username. Make it  public and agree  to creating a <code>README</code> file once the repo is set up.
 

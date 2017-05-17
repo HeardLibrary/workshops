@@ -52,7 +52,7 @@ Markdown is a lightweight markup language with plain text formatting syntax.
 
  Name your repository <code>username.github.io</code>, replacing <code>username</code> with your GitHub username. Make it  public and agree  to creating a <code>README</code> file once the repo is set up.
  
- [Imgur](http://i.imgur.com/zfTCR7R.png?1)
+ ![Imgur](http://i.imgur.com/zfTCR7R.png?1)
 
 ##### Make a page
 Make an <code>index.html</code> page by clicking the plus icon next to your repository name. You can then type the file name directly into the input box at the top.</p>

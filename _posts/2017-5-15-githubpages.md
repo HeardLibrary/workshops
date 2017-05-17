@@ -56,19 +56,24 @@ Markdown is a lightweight markup language with plain text formatting syntax.
 
 ##### Make a page
 Make an <code>index.html</code> page by clicking the plus icon next to your repository name. You can then type the file name directly into the input box at the top.</p>
+
+![Imgur](http://i.imgur.com/bfWfupP.png?1)
+
 You can now view it at <a href="#">http://username.github.io</a>. It can often take up to 5-10 minutes before you can see it on the web.
+
 If you want to style your website you can create a .css file from within your repository.  Create a new file named <code>css/main.css</code>. The <code>css/</code> before the filename will automatically create a subdirectory called <code>css</code>
 
 ### What is Jekyll?
 GitHub Pages is deeply integrated with Jekyll, a popular static site generator designed for blogging and software documentation, but used for much more. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers advanced templating features, the option to quickly create a new Jekyll site with the Jekyll Theme Chooser, and Jekyll theme support.
 
-It is now much easier to use Jekyl as Jekyl templates are built into github. To change use a template on the index page you have already created,
 
 #### Jekyll Theme Chooser
 
 Under your repository name, click  Settings.
 
 Under "GitHub Pages", click Choose a theme.
+
+![Imgur](http://i.imgur.com/dh2ok85.png?1)
 
 On the theme selection page, review your theme options. To choose a theme, click the theme you want and then click Select theme.
 
@@ -82,7 +87,9 @@ To further enhance your website, there are many downloadable Jekyll themes
 https://jekyllthemes.io/
 http://jekyllthemes.org/
 
+You can also purchase a domain name and have your github pages directed to that URL
 
+![Imgur](http://i.imgur.com/82yh9cy.png?1)
 
 ### Useful Links
 

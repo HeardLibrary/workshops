@@ -79,7 +79,7 @@ On the theme selection page, review your theme options. To choose a theme, click
 
 https://help.github.com/articles/creating-a-github-pages-site-with-the-jekyll-theme-chooser/
 
-####Using Jekyll templates
+#### Using Jekyll templates
 https://github.com/jekyll/jekyll/wiki/Themes
 
 To further enhance your website, there are many downloadable Jekyll themes
@@ -87,9 +87,6 @@ To further enhance your website, there are many downloadable Jekyll themes
 https://jekyllthemes.io/
 http://jekyllthemes.org/
 
-You can also purchase a domain name and have your github pages directed to that URL
-
-![Imgur](http://i.imgur.com/82yh9cy.png?1)
 
 ### Useful Links
 
@@ -119,3 +116,7 @@ You can also purchase a domain name and have your github pages directed to that 
 
 
 ### Conclusion
+Once you have launched your site, you may want to polish things up a bit. It is possible to add a blogging component to your site using Jekyll. You could also purchase a customized domain name and have your github pages directed to that URL
+
+![Imgur](http://i.imgur.com/82yh9cy.png?1)
+

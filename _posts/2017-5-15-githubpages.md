@@ -45,14 +45,14 @@ Markdown is a lightweight markup language with plain text formatting syntax.
 
 ### Building your first website
 
-####Set up the repository
+#### Set up the repository
  Login to your GitHub account and go to <a href="https://github.com/new">https://github.com/new</a> or click the New repository icon from your account homepage.
  
 ![Imgur](http://i.imgur.com/C9XaJOb.png)
 
  Name your repository <code>username.github.io</code>, replacing <code>username</code> with your GitHub username. Make it  public and agree  to creating a <code>README</code> file once the repo is set up.
 
-#####Make a page
+##### Make a page
 Make an <code>index.html</code> page by clicking the plus icon next to your repository name. You can then type the file name directly into the input box at the top.</p>
 You can now view it at <a href="#">http://username.github.io</a>. It can often take up to 5-10 minutes before you can see it on the web.
 If you want to style your website you can create a .css file from within your repository.  Create a new file named <code>css/main.css</code>. The <code>css/</code> before the filename will automatically create a subdirectory called <code>css</code>
@@ -62,7 +62,7 @@ GitHub Pages is deeply integrated with Jekyll, a popular static site generator d
 
 It is now much easier to use Jekyl as Jekyl templates are built into github. To change use a template on the index page you have already created,
 
-####Jekyll Theme Chooser
+#### Jekyll Theme Chooser
 
 Under your repository name, click  Settings.
 

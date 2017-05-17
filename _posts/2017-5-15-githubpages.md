@@ -30,7 +30,7 @@ Git is a version control system that tracks changes to files in a project over t
 
 GitHub is a web hosting service for the source code of software and web development projects (or other text based projects) that use Git. This code can be then shared with others who are either working on a project with you or would like to download your code for there own purposes.
 
-###Why would I want to use Github to build a website?
+### Why would I want to use Github to build a website?
 
 Static websites are good when you just want to put up some documentation or simple information about yourself or organization. Github  allows you to do this without having to find a server to host the webpages. You can do this for free, it is easy to maintain and track changes in your website due to the versioning qualities of Github. This is especially useful if multiple people will be collaborating on the site.
 
@@ -51,6 +51,8 @@ Markdown is a lightweight markup language with plain text formatting syntax.
 ![Imgur](http://i.imgur.com/C9XaJOb.png)
 
  Name your repository <code>username.github.io</code>, replacing <code>username</code> with your GitHub username. Make it  public and agree  to creating a <code>README</code> file once the repo is set up.
+ 
+ [Imgur](http://i.imgur.com/zfTCR7R.png?1)
 
 ##### Make a page
 Make an <code>index.html</code> page by clicking the plus icon next to your repository name. You can then type the file name directly into the input box at the top.</p>

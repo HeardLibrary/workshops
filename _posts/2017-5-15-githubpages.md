@@ -11,7 +11,7 @@ In this lesson, you will learn how to use GitHub Pages to create a static HTML w
 
 
 
-There are many ways to create a website depending on your needs. But a very simple way to build a free, but fully functional website is to leverage the capapbilites of Github and Jekyll. You will then maintain control over your own informtion and won't need to pay hosting or maintenance fees. 
+There are many ways to create a website depending on your needs. But a very simple way to build a free, but fully functional website is to leverage the capapbilites of Github and Jekyll. You will then maintain control over your own informtion and won't need to pay hosting or maintenance fees.
 
 
 
@@ -47,21 +47,40 @@ Markdown is a lightweight markup language with plain text formatting syntax.
 
 #### Set up the repository
  Login to your GitHub account and go to <a href="https://github.com/new">https://github.com/new</a> or click the New repository icon from your account homepage.
- 
+
 ![Imgur](http://i.imgur.com/C9XaJOb.png)
 
  Name your repository <code>username.github.io</code>, replacing <code>username</code> with your GitHub username. Make it  public and agree  to creating a <code>README</code> file once the repo is set up.
- 
+
  ![Imgur](http://i.imgur.com/zfTCR7R.png?1)
 
 ##### Make a page
-Make an <code>index.html</code> page by clicking the plus icon next to your repository name. You can then type the file name directly into the input box at the top.</p>
+First make an <code>index.html</code> page by clicking the plus icon next to your repository name. You can then type the file name directly into the input box at the top.</p>
 
 ![Imgur](http://i.imgur.com/bfWfupP.png?1)
 
-You can now view it at <a href="#">http://username.github.io</a>. It can often take up to 5-10 minutes before you can see it on the web.
+Then add the Markdown code <code>## Your Name</code>.
 
-If you want to style your website you can create a .css file from within your repository.  Create a new file named <code>css/main.css</code>. The <code>css/</code> before the filename will automatically create a subdirectory called <code>css</code>
+You can now view your webpage  at <a href="#">http://username.github.io</a>. It can often take up to 5-10 minutes before you can see it on the web.
+###### Getting fancier.
+
+If you want to use html, delete the above code and add this code instead.
+
+<code><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Your Job Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/lighter.css" rel="stylesheet">
+  </head>
+  <body><h1> Your Name</h1>
+    </body><code>
+
+This is a basic html web page with an outside link to a bootstrap stylesheet that will render your page with formatting and styles controlled by that css file. If you want to customize the css, copy the css file into a new folder named css, adapt it for your purposes and then change the pointer in the html code to the css directory.
+
+###### Getting fancier still...
 
 ### What is Jekyll?
 GitHub Pages is deeply integrated with Jekyll, a popular static site generator designed for blogging and software documentation, but used for much more. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers advanced templating features, the option to quickly create a new Jekyll site with the Jekyll Theme Chooser, and Jekyll theme support.
@@ -119,4 +138,3 @@ http://jekyllthemes.org/
 Once you have launched your site, you may want to polish things up a bit. It is possible to add a blogging component to your site using Jekyll. You could also purchase a customized domain name and have your github pages directed to that URL
 
 ![Imgur](http://i.imgur.com/82yh9cy.png?1)
-

@@ -65,7 +65,7 @@ You can now view your webpage  at <a href="#">http://username.github.io</a>. It 
 ###### Getting fancier.
 
 If you want to use html, delete the above code and add this code instead.
-<code>
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -78,7 +78,7 @@ If you want to use html, delete the above code and add this code instead.
   <body><h1> Your Name</h1>
     </body>
     </code>
-
+```
 This is a basic html web page with an outside link to a bootstrap stylesheet that will render your page with formatting and styles controlled by that css file. If you want to customize the css, copy the css file into a new folder named css, adapt it for your purposes and then change the pointer in the html code to the css directory.
 
 ###### Getting fancier still...

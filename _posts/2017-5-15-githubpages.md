@@ -62,7 +62,8 @@ First make an <code>index.html</code> page by clicking the plus icon next to you
 Then add the Markdown code <code>## Your Name</code>.
 
 You can now view your webpage  at <a href="#">http://username.github.io</a>. It can often take up to 5-10 minutes before you can see it on the web.
-###### Getting fancier.
+
+##### Getting Fancier: Using HTML
 
 If you want to use html, delete the above code and add this code instead.
 ```
@@ -81,9 +82,9 @@ If you want to use html, delete the above code and add this code instead.
 ```
 This is a basic html web page with an outside link to a bootstrap stylesheet that will render your page with formatting and styles controlled by that css file. If you want to customize the css, copy the css file into a new folder named css, adapt it for your purposes and then change the pointer in the html code to the css directory.
 
-###### Getting fancier still...
 
-### What is Jekyll?
+
+### Getting fancier still: What is Jekyll?
 GitHub Pages is deeply integrated with Jekyll, a popular static site generator designed for blogging and software documentation, but used for much more. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers advanced templating features, the option to quickly create a new Jekyll site with the Jekyll Theme Chooser, and Jekyll theme support.
 
 
@@ -102,11 +103,15 @@ https://help.github.com/articles/creating-a-github-pages-site-with-the-jekyll-th
 #### Using Jekyll templates
 https://github.com/jekyll/jekyll/wiki/Themes
 
-To further enhance your website, there are many downloadable Jekyll themes
+To further enhance your website, there are many downloadable Jekyll themes. Once you download and add files to your github pages repository, you can then go into the code and modify for your own purposes. 
 
 https://jekyllthemes.io/
 http://jekyllthemes.org/
 
+
+Once you have launched your site, you may want to polish things up a bit. You may even want to purchase a custom domain> Once you have done that, redirect your site under the settings tab. 
+
+![Imgur](http://i.imgur.com/82yh9cy.png?1)
 
 ### Useful Links
 
@@ -129,13 +134,10 @@ http://jekyllthemes.org/
 * [Ramona's site ](http://ramona2020.github.io/) [[code](https://github.com/ramona2020/ramona2020.github.io)]
 * [Jodie's site, a barebones online portfolio](http://jodiegambill.com) [[code](https://github.com/jgambill/jgambill.github.io)]
 * [Short list of sites using Jekyll](http://jekyllrb.com/docs/sites/)
-* [Long list of sites using Jekyll](https://github.com/jekyll/jekyll/wiki/Sites)
-
-
+* [Long list of sites using Jekyll](https://github.com/jekyll/jekyll/wiki/Sites
 
 
 
 ### Conclusion
-Once you have launched your site, you may want to polish things up a bit. It is possible to add a blogging component to your site using Jekyll. You could also purchase a customized domain name and have your github pages directed to that URL
+Once you have a basic website up and running, you can enhance your website further by  adding  a blogging component using Jekyll. This allows you to create posts in either Markdown or HTML and have them automatically appear with the styles assoicated with your website. 
 
-![Imgur](http://i.imgur.com/82yh9cy.png?1)

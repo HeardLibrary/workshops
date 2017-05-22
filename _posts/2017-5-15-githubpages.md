@@ -114,7 +114,7 @@ Once you have launched your site, you may want to polish things up a bit. You ma
 ![Imgur](http://i.imgur.com/82yh9cy.png?1)
 
 ### Conclusion
-Once you have a basic website up and running, you can enhance your website further by  adding  a blogging component using Jekyll. This allows you to create posts in either Markdown or HTML and have them automatically appear with the styles assoicated with your website. 
+Now that you have a basic website up and running, you can enhance your web presence further by  adding  a blogging component using Jekyll. This allows you to create posts in either Markdown or HTML and have them automatically appear with the styles associated with your website. 
 
 
 ### Useful Links

@@ -63,7 +63,7 @@ Then add the Markdown code <code>## Your Name</code>.
 
 You can now view your webpage  at <a href="#">http://username.github.io</a>. It can often take up to 5-10 minutes before you can see it on the web.
 
-##### Getting Fancier: Using HTML
+#### Getting Fancier: Using HTML
 
 If you want to use html, delete the above code and add this code instead.
 ```

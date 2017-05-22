@@ -137,7 +137,7 @@ Now that you have a basic website up and running, you can enhance your web prese
 #### Examples sites using  Github Pages and Jekyll
 
 * [Short list of sites using Jekyll](http://jekyllrb.com/docs/sites/)
-* [Long list of sites using Jekyll](https://github.com/jekyll/jekyll/wiki/Sites
+* [Long list of sites using Jekyll](https://github.com/jekyll/jekyll/wiki/Sites)
 
 
 

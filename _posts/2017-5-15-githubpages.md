@@ -63,7 +63,7 @@ Then add the Markdown code <code>## Your Name</code>.
 
 You can now view your webpage  at <a href="#">http://username.github.io</a>. It can often take up to 5-10 minutes before you can see it on the web.
 
-#### Getting Fancier: Using HTML
+### Getting Fancier: Using HTML
 
 If you want to use html, delete the above code and add this code instead.
 ```
@@ -113,6 +113,10 @@ Once you have launched your site, you may want to polish things up a bit. You ma
 
 ![Imgur](http://i.imgur.com/82yh9cy.png?1)
 
+### Conclusion
+Once you have a basic website up and running, you can enhance your website further by  adding  a blogging component using Jekyll. This allows you to create posts in either Markdown or HTML and have them automatically appear with the styles assoicated with your website. 
+
+
 ### Useful Links
 
 * Github pages templates: [http://tilomitra.github.io/prettypages/](http://tilomitra.github.io/prettypages/)
@@ -131,13 +135,10 @@ Once you have launched your site, you may want to polish things up a bit. You ma
 * [Get Started With GitHub Pages (Plus Bonus Jekyll)](http://24ways.org/2013/get-started-with-github-pages/)
 
 #### Examples sites using  Github Pages and Jekyll
-* [Ramona's site ](http://ramona2020.github.io/) [[code](https://github.com/ramona2020/ramona2020.github.io)]
-* [Jodie's site, a barebones online portfolio](http://jodiegambill.com) [[code](https://github.com/jgambill/jgambill.github.io)]
+
 * [Short list of sites using Jekyll](http://jekyllrb.com/docs/sites/)
 * [Long list of sites using Jekyll](https://github.com/jekyll/jekyll/wiki/Sites
 
 
 
-### Conclusion
-Once you have a basic website up and running, you can enhance your website further by  adding  a blogging component using Jekyll. This allows you to create posts in either Markdown or HTML and have them automatically appear with the styles assoicated with your website. 
 

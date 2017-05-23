@@ -23,7 +23,7 @@ Git is a version control system that tracks changes to files in a project over t
 
 GitHub is a web hosting service for the source code of software and web development projects (or other text based projects) that use Git. This code can be then shared with others who are either working on a project with you or would like to download your code for there own purposes.
 
-If you'd like to know more about Git and Github, watch this video. 
+If you'd like to know more about Git and Github, watch this <a href='https://www.youtube.com/watch?v=xKVlZ3wFVKA&list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD'>video</a>. 
 
 ![Imgur](http://i.imgur.com/t8iyl1X.png)
 

@@ -17,7 +17,7 @@ There are many ways to create a website depending on your needs. But a very simp
 
 
 
-### What is Git and Github?
+### What are Git and Github?
 
 Git is a version control system that tracks changes to files in a project over time. This is very useful when collaborating with other coders. It is also helpful in restoring earlier versions of a file should you need to.
 
@@ -25,7 +25,7 @@ GitHub is a web hosting service for the source code of software and web developm
 
 If you'd like to know more about Git and Github, watch this video. 
 
-[![Video about Github](http://img.youtube.com/vi/xKVlZ3wFVKA?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD/0.jpg)](https://www.youtube.com/embed/xKVlZ3wFVKA?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xKVlZ3wFVKA?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD" frameborder="0" allowfullscreen></iframe>
 
 
 ### Why would I want to use Github to build a website?

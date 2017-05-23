@@ -6,9 +6,9 @@ date:   2016-06-01 09:00:00
 categories: edtech
 description: "In this lesson, you will learn how to use GitHub Pages to create a static HTML website with all the benefits of version control. We’ll also take a look at Jekyll, a tool for generating websites from Markdown."
 ---
-Learning Outcomes: In this lesson, you will learn how to use GitHub Pages to create a static HTML website with all the benefits of version control. We’ll also take a look at Jekyll, a tool for generating websites from Markdown. Jekyll is now built into Github making it much easier to use Jekyll themes. By the end, you’ll be ready to create your own website for coursework or scholarly projects.
+**Learning Outcomes:** In this lesson, you will learn how to use GitHub Pages to create a static HTML website with all the benefits of version control. We’ll also take a look at Jekyll, a tool for generating websites from Markdown. Jekyll is now built into Github making it much easier to use Jekyll themes. By the end, you’ll be ready to create your own website for coursework or scholarly projects.
 
-Prerequisites: Understanding of Git and Github
+**Prerequisites:** Understanding of Git and Github
 
 ### Introduction
 
@@ -25,7 +25,7 @@ GitHub is a web hosting service for the source code of software and web developm
 
 If you'd like to know more about Git and Github, watch this video. 
 
-[![Video about Github](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/embed/xKVlZ3wFVKA?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD")
+[![Video about Github](http://img.youtube.com/vi/xKVlZ3wFVKA?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD/0.jpg)](https://www.youtube.com/embed/xKVlZ3wFVKA?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD")
 
 
 ### Why would I want to use Github to build a website?

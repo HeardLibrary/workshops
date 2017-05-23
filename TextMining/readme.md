@@ -1,6 +1,6 @@
-#Getting Started with Text Mining in R
+# Getting Started with Text Mining in R
 
-##Prerequisites
+## Prerequisites
 
 In this talk, I am using [R]( https://www.r-project.org/) version 3.1.3 (2015-03-09) -- "Smooth Sidewalk" for my examples. Any recent version of R should also be fine. We'll be using Revision 1345 of the [tm Package](http://tm.r-forge.r-project.org/).
 
@@ -14,7 +14,7 @@ library(reshape2)
 library(tm)
 ```
 
-##Creating a Corpus
+## Creating a Corpus
 
 *Ted Underwood collected this data from Project Gutenberg. See his excellent introduction to text mining [Where to start with text mining](http://tedunderwood.com/2012/08/14/where-to-start-with-text-mining/) as well as his updated post titled [Seven ways humanists are using computers to understand text](http://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/).*
 
@@ -64,7 +64,7 @@ DublinCore(corpus[[2]], tag="title") <- strsplit(corpus[[1]]$content, '\t')[[2]]
 writeCorpus(corpus, path = "./corpus", filenames = DublinCore(corpus)$identifier)
 ```
 
-##Cleaning a Corpus
+## Cleaning a Corpus
 
 
 ```R
@@ -107,7 +107,7 @@ stem  <- tm_map(clean, stemDocument, language = "english")
 writeCorpus(corpus, path = "./corpus", filenames = DublinCore(corpus)$identifier)
 ```
 
-##Exploring Term Document Matrices
+## Exploring Term Document Matrices
 
 ```R
 tdm <- TermDocumentMatrix(clean)
@@ -145,9 +145,9 @@ fishmongers     granted       later       naval   newcastle  poflefllon     sell
        0.85        0.85        0.85        0.85        0.85        0.85        0.85        0.85 
 ```
 
-##Visualizing A Corpus
+## Visualizing A Corpus
 
-###Making a Heatmap
+### Making a Heatmap
 
 *This example is adapted slightly from [Text Mining the Complete Works of William Shakespeare](http://www.exegetic.biz/blog/2013/09/text-mining-the-complete-works-of-william-shakespeare/) by Andrew Collier.*
 
@@ -176,7 +176,7 @@ g
 ![Heatmap](http://i.imgur.com/pESrRzd.png)
 
 
-###Clustering Similar Words
+### Clustering Similar Words
 
 *This visualization is adapted slightly from [Basic Text Mining in R](https://rstudio-pubs-static.s3.amazonaws.com/31867_8236987cf0a8444e962ccd2aec46d9c3.html).*
 
@@ -201,7 +201,7 @@ g
 
 ![dendrogram](http://i.imgur.com/yfYTnQY.png)
 
-##Next Steps
+## Next Steps
 
 * If you're interested in going farther with text mining in R, you should definitely read Ingo Feinerer's [Introduction to the tm Package: Text Mining in R](https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf). 
 * After reading that, you should check out the blog post by Andrew Collier titled[Text Mining the Complete Works of William Shakespeare](http://www.exegetic.biz/blog/2013/09/text-mining-the-complete-works-of-william-shakespeare/) and RStudio's [Basic Text Mining in R](https://rstudio-pubs-static.s3.amazonaws.com/31867_8236987cf0a8444e962ccd2aec46d9c3.html).

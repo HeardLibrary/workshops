@@ -6,29 +6,26 @@ date:   2016-06-01 09:00:00
 categories: edtech
 description: "In this lesson, you will learn how to use GitHub Pages to create a static HTML website with all the benefits of version control. We’ll also take a look at Jekyll, a tool for generating websites from Markdown."
 ---
-In this lesson, you will learn how to use GitHub Pages to create a static HTML website with all the benefits of version control. We’ll also take a look at Jekyll, a tool for generating websites from Markdown. Jekyll is now built into Github making it much easier to use Jekyll themes. By the end, you’ll be ready to create your own website for coursework or scholarly projects.
+Learning Outcomes: In this lesson, you will learn how to use GitHub Pages to create a static HTML website with all the benefits of version control. We’ll also take a look at Jekyll, a tool for generating websites from Markdown. Jekyll is now built into Github making it much easier to use Jekyll themes. By the end, you’ll be ready to create your own website for coursework or scholarly projects.
 
+Prerequisites: Understanding of Git and Github
 
+### Introduction
 
 
 There are many ways to create a website depending on your needs. But a very simple way to build a free, but fully functional website is to leverage the capapbilites of Github and Jekyll. You will then maintain control over your own informtion and won't need to pay hosting or maintenance fees.
 
 
 
-### What is Git?
+### What is Git and Github?
 
 Git is a version control system that tracks changes to files in a project over time. This is very useful when collaborating with other coders. It is also helpful in restoring earlier versions of a file should you need to.
 
-
-
-
-
-### What is Github
-
-
-
-
 GitHub is a web hosting service for the source code of software and web development projects (or other text based projects) that use Git. This code can be then shared with others who are either working on a project with you or would like to download your code for there own purposes.
+
+If you'd like to know more about Git and Github, watch this video. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xKVlZ3wFVKA?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD" frameborder="0" allowfullscreen></iframe>
 
 ### Why would I want to use Github to build a website?
 
@@ -37,7 +34,7 @@ Static websites are good when you just want to put up some documentation or simp
 
 ### What are Github Pages?
 
-GitHub Pages are a way to host webpages fro free using GitHub. Once you are signed in to GitHub you can create and host a personal website (one allowed per user) or websites related to specific GitHub projects. Github pages use either HTML or Markdown.
+GitHub Pages are a way to host webpages for free using GitHub. Once you are signed in to GitHub you can create and host a personal website (one allowed per user) or websites related to specific GitHub projects. Github pages use either HTML or Markdown.
 
 ### What is Markdown?
 
@@ -85,6 +82,7 @@ This is a basic html web page with an outside link to a bootstrap stylesheet tha
 
 
 ### Getting fancier still: What is Jekyll?
+
 GitHub Pages is deeply integrated with Jekyll, a popular static site generator designed for blogging and software documentation, but used for much more. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers advanced templating features, the option to quickly create a new Jekyll site with the Jekyll Theme Chooser, and Jekyll theme support.
 
 

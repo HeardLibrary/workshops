@@ -25,7 +25,8 @@ GitHub is a web hosting service for the source code of software and web developm
 
 If you'd like to know more about Git and Github, watch this video. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xKVlZ3wFVKA?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD" frameborder="0" allowfullscreen></iframe>
+[![Video about Github](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/embed/xKVlZ3wFVKA?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD")
+
 
 ### Why would I want to use Github to build a website?
 

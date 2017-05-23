@@ -1,10 +1,10 @@
-#Open Source Statistical Analysis with R
+# Open Source Statistical Analysis with R
 
-##Goals
+## Goals
 
 R is an open source programming language for statistical analysis. In this session, we’ll show you how to get started with R. Learn how to load data into R and to plot simple graphs. We’ll also introduce you to RStudio, a free integrated development environment (IDE) for R. You won’t leave as an R expert, but you’ll learn enough to get started on your data analysis journey.
 
-##Prerequisites
+## Prerequisites
 
 * Download the [R Programming Language](http://www.r-project.org/) in the version appropriate to your computer.
 * Download the desktop version of [R Studio](http://www.rstudio.com/products/rstudio/)
@@ -18,14 +18,14 @@ install.packages("RCurl")
 library(RCurl)
 ```
 
-##Why R?
+## Why R?
 
 * R is open source, meaning that you can get started today without any upfront costs
 * R is widely-used both here at Vanderbilt and globally for data analysis
 * R has [a package (usually multiple packages!)](http://cran.r-project.org/) for nearly every kind of analysis
 * Using R fosters [reproducible research](http://christophergandrud.github.io/RepResR-RStudio/index.html)
 
-##R is a *Programming* Language
+## R is a *Programming* Language
 
 * R is a programming language, not a 'point-and-click' statistical application 
 * RStudio provides a integrated development environment (IDE) for R, making its appearance more user-friendly 
@@ -34,9 +34,9 @@ library(RCurl)
   * to developing interactive web applications with [Shiny](http://shiny.rstudio.com/)
 * The combination of R & RStudio makes it possible to become production by learning a few functions and then develop expertise over time as necessary
   
-##R Exercises
+## R Exercises
 
-###[Average Heights and Weights for American Women](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html)
+### [Average Heights and Weights for American Women](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html)
 
 This practice dataset of the average heights and weights for American women (ages 30-39) comes built in with the R programming language.
 
@@ -59,7 +59,7 @@ ggplot(averages, aes(x=height, y=weight)) + geom_point()
 ggplot(averages, aes(x=height, y=weight)) + geom_point() + stat_smooth(method = "lm")
 ```
 
-###[Lower Secondary School Age Population in the USA](https://www.quandl.com/data/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA-Lower-Secondary-School-age-population-All-genders-United-States-of-America)
+### [Lower Secondary School Age Population in the USA](https://www.quandl.com/data/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA-Lower-Secondary-School-age-population-All-genders-United-States-of-America)
 
 This dataset from the United Nations on [Quandl](https://www.quandl.com/) contains the population of all genders of middle school ("lower secondary school") kids in the United States.
 
@@ -84,7 +84,7 @@ ggplot(kids, aes(x=Year, y=Number)) + geom_point()
 ggplot(kids, aes(x=Year, y=Number)) + geom_point() + theme(axis.text.x = element_text(angle = 90)) + ggtitle("Lower Secondary School Age Population")
 ```
 
-###[New Private Housing Units Authorized By Building Permit for Tennessee](https://www.quandl.com/data/FRED/TNBPPRIV-New-Private-Housing-Units-Authorized-By-Building-Permit-for-Tennessee)
+### [New Private Housing Units Authorized By Building Permit for Tennessee](https://www.quandl.com/data/FRED/TNBPPRIV-New-Private-Housing-Units-Authorized-By-Building-Permit-for-Tennessee)
 
 This dataset from the Federal Reserve on [Quandl](https://www.quandl.com) contains data on new private housing units authorized by building permit for Tennessee.
 
@@ -117,7 +117,7 @@ ggplot(permits, aes(x=Year, y=Value)) + geom_point()
 ggplot(permits, aes(x=Year, y=Value)) + geom_boxplot() + ggtitle("New Private Housing Units Authorized By Building Permit for Tennessee")
 ```
 
-###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
+### [ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 
 This dataset from the Association for Research Libraries (ARL) contains key information about academic library budgets and staffing. An Excel (XLS) file is available [here](http://www.arlstatistics.org/documents/ARLStats/index13.xls), but we will be working with a converted CSV file on your desktop.
 
@@ -178,7 +178,7 @@ ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + s
 
 ```
 
-###Next Steps with R
+### Next Steps with R
 
 * Sign up for the [Free Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) on [DataCamp](https://www.datacamp.com)
 * Read a good book on R. 

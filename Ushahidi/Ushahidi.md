@@ -1,10 +1,8 @@
 # Ushahidi
 
-### What is [Ushahidi](https://www.ushahidi.com)?
+### What is [Ushahidi](https://www.ushahidi.com/about)?
 
 Ushahidi, which means 'testimony' or 'witness' in Swahili, was born out of necessity in the wake of the 2008 Kenyan election. Ushahidi was built as means to crowdsource instances of violence following the election.
-
-### Case Uses
 
 Since then it has been used to crowd-map events like the 2010 earthquake that devastated Port-au-Prince, Haiti.  Users of Ushahidi were able to pull in tweets and other social media that contained geographic information.
 
@@ -46,4 +44,11 @@ Since then it has been used to crowd-map events like the 2010 earthquake that de
   * May run into problems with Gmail set up
     * in some cases, may need to set up new accounts
   * Requires post-processing of data from email and text data--- web form seems to be best, but may not be available in all scenarios
+  
+#### Let's Build an Account!
+  * [Create and account](https://ushahidi.io/create?tier=free)
+  * Add you email
+    * Be careful about gmail settings, certain security settings must be turned off in order for this method to work
+  * Create a survey
+  * Add a point!
   

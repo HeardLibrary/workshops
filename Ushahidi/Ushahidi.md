@@ -46,7 +46,7 @@ Since then it has been used to crowd-map events like the 2010 earthquake that de
   * Requires post-processing of data from email and text data--- web form seems to be best, but may not be available in all scenarios
   
 #### Let's Build an Account!
-  * [Create and account](https://ushahidi.io/create?tier=free)
+  * [Create an account](https://ushahidi.io/create?tier=free)
   * Add you email
     * Be careful about gmail settings, certain security settings must be turned off in order for this method to work
   * Create a survey

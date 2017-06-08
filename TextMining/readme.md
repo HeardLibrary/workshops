@@ -33,15 +33,7 @@ corpus
 ```
 
 ```R
-clean <- corpus[-1]
-```
-
-```R
 corpus[[2]]$content
-```
-
-```R
-(corpus[[2]]$content)[5:15]
 ```
 
 ```R
@@ -57,11 +49,9 @@ DublinCore(corpus[[2]])
 ```
 
 ```R 
-DublinCore(corpus[[2]], tag="title") <- strsplit(corpus[[1]]$content, '\t')[[2]][14]
-```
-
-```R
-writeCorpus(corpus, path = "./corpus", filenames = DublinCore(corpus)$identifier)
+metadata <- (strsplit(corpus[[1]]$content, '\n'))[[1]]
+title <- strsplit(metadata[1], '\t')[[1]][14]
+DublinCore(corpus[[2]], tag="title") <- title
 ```
 
 ## Cleaning a Corpus
@@ -73,6 +63,10 @@ getTransformations()
 
 ```txt
 [1] "removeNumbers"     "removePunctuation" "removeWords"       "stemDocument"      "stripWhitespace"
+```
+
+```R
+clean <- corpus[-1]
 ```
 
 ```R

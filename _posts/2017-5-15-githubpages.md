@@ -2,7 +2,7 @@
 layout: post
 author: "Suellen Stringer-Hye"
 title:  "Getting Started with Building a Free Website using GitHub Pages"
-date:   2016-06-01 09:00:00
+date:   2017-06-01 09:00:00
 categories: edtech
 description: "In this lesson, you will learn how to use GitHub Pages to create a static HTML website with all the benefits of version control. We’ll also take a look at Jekyll, a tool for generating websites from Markdown."
 ---

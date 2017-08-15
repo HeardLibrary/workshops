@@ -127,6 +127,65 @@ WHERE
 Limit 50
 ```
 
+#### Paintings by Vincent van Gogh
+
+```sparql
+# Adapted from https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Creator/Vincent_van_Gogh
+#defaultView:ImageGrid
+SELECT ?item ?fcode ?jhcode ?image WHERE { 
+  ?item wdt:P31 wd:Q3305213 . 
+  ?item p:P170 ?creatorstatement .
+  ?creatorstatement ps:P170 wd:Q5582 . 
+  # Depicts a hat
+  # ?item wdt:P180 wd:Q80151 . 
+  MINUS { ?item wdt:P31 wd:Q18761202 } .
+  OPTIONAL {?item wdt:P18 ?image . }
+  OPTIONAL {?item p:P528 ?fstatement .
+  ?fstatement ps:P528 ?fcode .
+  ?fstatement pq:P972 wd:Q17280421 . }
+  OPTIONAL {?item p:P528 ?jhstatement .
+  ?jhstatement ps:P528 ?jhcode .
+  ?jhstatement pq:P972 wd:Q19833315 . }     
+  } #ORDER BY xsd:integer(REPLACE(?jhcode, "JH(\\d+)(.+)?", "$1"))
+LIMIT 1000
+```
+
+#### Chinese Temples 
+
+```sparql
+# Adapted from https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Creator/Vincent_van_Gogh
+#defaultView:ImageGrid
+SELECT ?item ?fcode ?jhcode ?image WHERE { 
+  ?item wdt:P31 wd:Q3305213 . 
+  ?item p:P170 ?creatorstatement .
+  ?creatorstatement ps:P170 wd:Q5582 . 
+  # ?item wdt:P180 wd:Q80151 . 
+  MINUS { ?item wdt:P31 wd:Q18761202 } .
+  OPTIONAL {?item wdt:P18 ?image . }
+  OPTIONAL {?item p:P528 ?fstatement .
+  ?fstatement ps:P528 ?fcode .
+  ?fstatement pq:P972 wd:Q17280421 . }
+  OPTIONAL {?item p:P528 ?jhstatement .
+  ?jhstatement ps:P528 ?jhcode .
+  ?jhstatement pq:P972 wd:Q19833315 . }     
+  } #ORDER BY xsd:integer(REPLACE(?jhcode, "JH(\\d+)(.+)?", "$1"))
+LIMIT 1000
+```
+
+#### Lookup by [AAT](http://www.getty.edu/research/tools/vocabularies/aat/) Identifier
+
+```sparql
+#defaultView:ImageGrid
+
+SELECT ?item ?itemLabel ?image WHERE { 
+ ?aat wdt:P1014 "300047600" . #Statue
+ ?item wdt:P279 ?aat .
+ OPTIONAL {?item wdt:P18 ?image . }
+ SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+ }
+```
+
+
 ### Let's Play with Wikidata
 
 By way of conclusion, let's try out the [Wikidata Game](https://tools.wmflabs.org/wikidata-game/) and see whether we can make improvements to the quality of Wikidata's data.

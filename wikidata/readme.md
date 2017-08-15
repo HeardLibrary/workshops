@@ -113,18 +113,17 @@ LIMIT 50
 ```sparql
 #Occupations of Graduates of Vanderbilt University
 #defaultView:Graph
-SELECT ?graduate ?graduateLabel ?occupation ?occupationLabel ?university ?universityLabel
+SELECT DISTINCT ?occupation ?occupationLabel ?university ?universityLabel
 WHERE
 {
     ?university wdt:P373 "Vanderbilt University" .
     ?graduate wdt:P69 ?university ;
               wdt:P106 ?occupation .
-  	 
+             
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-    OPTIONAL { ?graduate wdt:P18 ?image }
 }
 
-Limit 50
+Limit 100
 ```
 
 #### Paintings by Vincent van Gogh

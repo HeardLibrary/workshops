@@ -16,73 +16,73 @@ An online presence is any existence of yourself that can be found via an online 
 ## Stategies to improve online presence
 
 
-####Google Yourself
+#### Google Yourself
 So what should you do to make sure your online presence is consistent with the way in which you want others to see you? The first thing you might do is Google yourself. Write down the first 10 hits you find and see if those are the 10 references to yourself that you would most want an internet searcher to see.
 
-####Build a webpage
+#### Build a webpage
 
 One of the best ways to control your online presence is to build a webpage. There are several ways you can go about doing this. The first is to:
 
-#####Pay for it
+##### Pay for it
 
 There are many services that allow you to set up a robust web site for yourself. These can include blogs or just links to important aspects of your web presence such as CVs or resumes, photos, research data, articles etc...
 
-####Squarespace
+#### Squarespace
 (http://marcelogleiser.com/)
 
-####Host your own Wordpress instance
+#### Host your own Wordpress instance
 (http://rochelleterman.com/)
 
 
-#####Build it for free
+##### Build it for free
 
-####Github Pages
+#### Github Pages
 (http://jodiegambill.com/)
 
-#####Wordpress at Vanderbilt
+##### Wordpress at Vanderbilt
 (https://my.vanderbilt.edu/)
 
-#####Free with option to upgrade
+##### Free with option to upgrade
 (https://about.me/)
 
-####Social Media
+#### Social Media
 The Social Media that is most relevant to you somewhat depends on your discipline. Find out who the important voices are in your field and where they are communicating with each other.  Most disciplines at least use Twitter to stay connected as a form of "micro-blogging". Twitter is great for getting immediate answers to research questions, sharing references, research and pointers, and interfacing with the media.
 
 
-####Academia.edu "A platform for academics to share research papers. The company's mission is to accelerate the world's research."
+#### Academia.edu "A platform for academics to share research papers. The company's mission is to accelerate the world's research."
 
-####ResearchGate "Our mission is to connect researchers and make it easy for them to share and access scientific output, knowledge, and expertise."
+#### ResearchGate "Our mission is to connect researchers and make it easy for them to share and access scientific output, knowledge, and expertise."
 
 Academia.edu and ResearchGate do similar things and again, depending on your discipline have more or less accessiblity and credibility. These social media type sites have yet to mature but are often good ways to make your research available online. There is a lot of complexity involved in publishing rights, open access and peer review so these tools need to be used with awareness of the issues. For more on this subject see:
 
 
-####Mendeley/Zotero"a free reference manager and academic social network"
+#### Mendeley/Zotero"a free reference manager and academic social network"
 
-###Create a network
+### Create a network
 #### ORCID
 (https://orcid.org/)
-####Scopus
+#### Scopus
 (https://www.scopus.com/authid/detail.uri?authorId=39963062500)
-####Google Scholar
+#### Google Scholar
 (https://scholar.google.com/)
-####Publons "a website and free service for academics to track, verify and showcase their peer review and editorial contributions across the world's academic journals. ... Publons' mission is to "speed up science by harnessing the power of peer review"."
+#### Publons "a website and free service for academics to track, verify and showcase their peer review and editorial contributions across the world's academic journals. ... Publons' mission is to "speed up science by harnessing the power of peer review"."
 (https://publons.com/home/)
-####LinkedIn "To connect the world's professionals to make them more productive and successful."
+#### LinkedIn "To connect the world's professionals to make them more productive and successful."
 
-Engagement with your network
-####Conference Hashtags
+### Engagement with your network
+#### Conference Hashtags
 
-####SlideShare "Show what you know through a presentation, infographic, document or videos" (part of LinkedIn)
-####SpeakerDeck Share presentation slides online (part of GitHub)
+#### SlideShare "Show what you know through a presentation, infographic, document or videos" (part of LinkedIn)
+#### SpeakerDeck Share presentation slides online (part of GitHub)
 Mendeley, Zotero,
 
-####Make your research data available
-Github
+#### Make your research data available
+#### Github
 
-####Figshare "a repository where users can make all of their research outputs available in a citable, shareable and discoverable manner"
+#### Figshare "a repository where users can make all of their research outputs available in a citable, shareable and discoverable manner"
 ####Tips for Maintaining a good online presence
 
-####Publishing
+### Publishing
 
 Your published research is obviously an important part of your online presence. Thinking through decisions about how and where to publish is beyond the scope of this workshop but I'll leave you with one word, Open Access. 
 

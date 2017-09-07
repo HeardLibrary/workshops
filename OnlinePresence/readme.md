@@ -36,10 +36,10 @@ There are many services that allow you to set up a robust web site for yourself.
 
 #### Build it for free
 
-###### Github Pages
+##### Github Pages
 (http://jodiegambill.com/)
 
-###### Wordpress at Vanderbilt
+##### Wordpress at Vanderbilt
 (https://my.vanderbilt.edu/)
 
 #### Freeish
@@ -51,28 +51,29 @@ There are many services that allow you to set up a robust web site for yourself.
 ### Get your own domain name
 
 ### Develop content 
-audio, podcasts, video, you tube Vimeo
+Audio/Podcasts: SoundCloud, Video: You Tube, Vimeo
 
 #### Social Media
 The Social Media that is most relevant to you somewhat depends on your discipline. Find out who the important voices are in your field and where they are communicating with each other.  Most disciplines at least use Twitter to stay connected as a form of "micro-blogging". Twitter is great for getting immediate answers to research questions, sharing references, research and pointers, and interfacing with the media.
 
 
-#### Academia.edu "A platform for academics to share research papers. The company's mission is to accelerate the world's research."
+##### Academia.edu "A platform for academics to share research papers. The company's mission is to accelerate the world's research."
 (https://www.academia.edu/)
 
-#### ResearchGate "Our mission is to connect researchers and make it easy for them to share and access scientific output, knowledge, and expertise."
+##### ResearchGate "Our mission is to connect researchers and make it easy for them to share and access scientific output, knowledge, and expertise."
 (https://www.researchgate.net/)
 
 Academia.edu and ResearchGate do similar things and again, depending on your discipline have more or less accessiblity and credibility. These social media type sites have yet to mature but are often good ways to make your research available online. There is a lot of complexity involved in publishing rights, open access and peer review so these tools need to be used with awareness of the issues. For more on this subject see:
 
 
-#### Zotero "Grab your research with a single click.
+##### Zotero "Grab your research with a single click.
 (https://www.zotero.org/)
 
-#### Mendeley "a free reference manager and academic social network"
+##### Mendeley "a free reference manager and academic social network"
 (https://www.mendeley.com/)
 
 ### Create a network
+
 #### ORCID
 (https://orcid.org/)
 #### Scopus
@@ -85,7 +86,8 @@ Academia.edu and ResearchGate do similar things and again, depending on your dis
 (https://www.linkedin.com)
 
 ### Engagement with your network
-#### Conference Hashtags
+#### Twitter/Conference Hashtags
+(https://twitter.com/hashtag/DH2017?src=hash&lang=en)
 
 #### SlideShare (part of LinkedIn)
 (https://www.slideshare.net/)
@@ -93,7 +95,7 @@ Academia.edu and ResearchGate do similar things and again, depending on your dis
 (https://speakerdeck.com/)
 
 
-#### Make your research data available
+### Make your research data available
 
 #### Mendeley, Zotero,
 (https://www.zotero.org/)
@@ -119,7 +121,7 @@ Your published research is obviously an important part of your online presence. 
 * Don’t do it because you think you have to.
 * Be careful about what you share (data, unpublished results, proprietary information or anything embarrassing).
 
-### Resource links from Zotero
+### Resource links 
 
 (https://www.zotero.org/stardustnrust/items/collectionKey/DJ94TGTH)
 

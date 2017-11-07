@@ -1,6 +1,6 @@
 # Using Tails
 
-##The American Library Association’s Code of Ethics
+## The American Library Association’s Code of Ethics
 We protect each library user’s right to privacy and confidentiality with respect to information sought or
 received and resources consulted, borrowed, acquired or transmitted.
 
@@ -25,32 +25,32 @@ Tails is an operating system that allows you to compute without
 * FB can tell from social graph sexual orientation, Frequency of communication, breakups divorce etc.
 * Data mining marketing materials (ex: for pregnant girl, purchase patterns predict pregnancy, switching from scented to unscented lotion. Patterns that with high degree of accuracy correlate.)
 * Amount of info that accounts have on you, were they in the hands of the gov't would look like a Police state.
-** what you are thinking about,
-** medical conditions,
-** politics,
-** music you like,
-** tracking in detail what you are doing on a page,
-** scrolling speed,
-** moving mouse around page,
-** what you copied.
-** what pages you are looking at ads coming from 3rd party sites
+* what you are thinking about,
+* medical conditions,
+* politics,
+* music you like,
+* tracking in detail what you are doing on a page,
+* scrolling speed,
+* moving mouse around page,
+* what you copied.
+* what pages you are looking at ads coming from 3rd party sites
 
 All of these indicators of human activity act as transmitters on page.  Data brokers then connect activity on one part of the internet with other areas.
 
 Both Creepy and convenient at the same time
 
-** Fit bits
-** Network sensing devices
-** Green energy use?
-** Reccomendation engines
+* Fit bits
+* Network sensing devices
+* Green energy use?
+* Reccomendation engines
 
 Data gathering is invisible. You can see using a plugin called ghost ray...entity and correlate that fact that ...megabytes of trackers that come from ...marketing email contains tracking links to unique identifier. You can shut this off but you might not know about it ...privacy features.
 
 
 ## Should we be alarmed?
 
-** Companies want to make money by and large so they are not that interested in using info against you.
-** Govt intelligence agencies for political activism,
+* Companies want to make money by and large so they are not that interested in using info against you.
+**Govt intelligence agencies for political activism,
 Current legal doctrines, data has easy access...3rd party doctrine, established before large data mining. Can be obtained by simple subpoena. Phone bill call history must be stored for 4 years, symbiotic survillance state, partnership with major technology platforms. Bot vs. person. Govt has access to it but companies are willing and able to fight back especially if public. Will you expend time and money on expensive lawyers if it’s invisible?
 By default, computer is sending some info. Fingerprinting. They should be turning over info consensually.  Too much friction if you make everyone constantly agree and functions move offshore. Balkanizing  internet. Thorny problem. Practically how do you achieve.
 

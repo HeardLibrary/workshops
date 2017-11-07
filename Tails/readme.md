@@ -86,3 +86,5 @@ Apple vs. FBI fight first salvo into developer keys. Have backdoor already needs
 
 Secure operating system called Tails
 Starts afresh each time...new version is the same and doesn’t have spyware. Required to trust companies. Serious privacy and security protection come at cost of convenience.
+
+https://extension.ghostery.com/en/settings

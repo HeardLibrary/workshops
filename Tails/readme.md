@@ -68,37 +68,32 @@ Companies are going to collect data, do we really want the government involved i
 
 ## Should we do something about it? 
 
-Step in a suite of things to protect your online privacy
-Privacy subset of security
-Level of security depends on what you are defending against
+* Step in a suite of things to protect your online privacy
+* Privacy subset of security
+* Level of security depends on what you are defending against
 
-Don’t want to be casually tracked
-Journalist
-Academics
-Activists
-Celebrities
+People who don’t want to be casually tracked are:
 
-Govts look for encrypted trafffic …
+* Journalists
+* Academics
+* Activists
+* Celebrities
 
-Telegram messaging app…
+The problem is, Governments look for encrypted traffic to see unusual activites relative to yourself or everyone. It's the heard effect.
 
-Threat model..I think I’m being targeted by state
-
-Make the stuff the default.
-Heard effect...govts look for encrypting to see unusual activites relative to yourself or everyone.
+One solution, make the stuff the default.
 
 Constant arms race with data gathers vs. public interest. 
 
-As we move into the Internet of Things we now have censor enabled networked computing devices. More convenience but increasing difficulty  to have assurance of anonymity. Reconstruct pattern of sounds . Am I aware of every censor around me? 
+As we move into the Internet of Things we now have censor enabled networked computing devices. More convenience but increasing difficulty  to have assurance of anonymity. Reconstruct pattern of sounds. Am I aware of every censor around me? 
 
 Apple vs. FBI fight 
 
 The first salvo into access to developer keys. Developer keys are what software and hardware companies use to update our systems so your computer needs to have a backdoor in order to accept updates. This is regulated by cryptographic keyswhich depends on a system of trust. Apple knows this and therefore doesn't want the govt to have access to these keys as that would undermine trust. If you think that keeping your software up to date may mean gov't intrusion, you might be less inclined at best, to keep your software up to date and at worse, use it at all. Sooner or later governments will start demanding access to developer keys.
 
-Secure operating system called Tails
-Starts afresh each time...new version is the same and doesn’t have spyware. Required to trust companies. Serious privacy and security protection come at cost of convenience.
+## Tails 
+Secure operating system called Tails, Tails tarts fresh each time, it's a new version is the same and doesn’t have spyware. Required to trust companies. Serious privacy and security protection come at cost of convenience.
 
-That can't be said loud enough. 
 
 https://extension.ghostery.com/en/settings
 

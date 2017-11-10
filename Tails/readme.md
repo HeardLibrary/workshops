@@ -84,11 +84,11 @@ The problem is, Governments look for encrypted traffic to see unusual activites 
 
 One solution, make the stuff the default.
 
-Constant arms race with data gathers vs. public interest. 
+Constant arms race with data gatherers vs. public interest. 
 
 As we move into the Internet of Things we now have censor enabled networked computing devices. More convenience but increasing difficulty  to have assurance of anonymity. Reconstruct pattern of sounds. Am I aware of every censor around me? 
 
-Apple vs. FBI fight 
+### Apple vs. FBI fight 
 
 The first salvo into access to developer keys. Developer keys are what software and hardware companies use to update our systems so your computer needs to have a backdoor in order to accept updates. This is regulated by cryptographic keyswhich depends on a system of trust. Apple knows this and therefore doesn't want the govt to have access to these keys as that would undermine trust. If you think that keeping your software up to date may mean gov't intrusion, you might be less inclined at best, to keep your software up to date and at worse, use it at all. Sooner or later governments will start demanding access to developer keys.
 

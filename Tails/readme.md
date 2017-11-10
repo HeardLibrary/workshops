@@ -95,7 +95,7 @@ The first salvo into access to developer keys. Developer keys are what software 
 ## Tails 
 Secure operating system called Tails, Tails starts fresh each time, it's a new version is the same and doesn’t have spyware. Required to trust companies. Serious privacy and security protection come at cost of convenience.
 
-
+https://tails.boum.org/
 
 
 https://extension.ghostery.com/en/settings

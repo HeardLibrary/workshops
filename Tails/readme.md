@@ -26,15 +26,15 @@ Tails is an operating system that allows you to compute and still maintain priva
 https://lifehacker.com/facebook-isn-t-recording-your-conversations-but-it-may-1820193946
 * Data mining marketing materials (ex: for pregnant girl, purchase patterns predict pregnancy, switching from scented to unscented lotion. Patterns that with high degree of accuracy correlate.)
 * Amount of info that accounts have on you, were they in the hands of the gov't would look like a Police state.
-* What you are thinking about,
+
 * Medical conditions,
 * Politics,
 * Music you like,
-* Books you buy. 
+* Books you buy, 
 * Tracking in detail what you are doing on a page,
 * Scrolling speed,
 * Moving mouse around page,
-* What you copied.
+* What you copied,
 * What pages you are looking at.
 
 All of these indicators of human activity act as transmitters on page.  Data brokers then connect activity on one part of the internet with other areas.

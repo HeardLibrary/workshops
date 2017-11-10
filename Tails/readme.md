@@ -51,6 +51,7 @@ Data gathering is invisible. You can see using a plugin called ghost ray.
 https://www.ghostery.com/
 
 
+https://extension.ghostery.com/en/settings
 
 ## Should we be alarmed?
 
@@ -92,7 +93,9 @@ Apple vs. FBI fight
 The first salvo into access to developer keys. Developer keys are what software and hardware companies use to update our systems so your computer needs to have a backdoor in order to accept updates. This is regulated by cryptographic keyswhich depends on a system of trust. Apple knows this and therefore doesn't want the govt to have access to these keys as that would undermine trust. If you think that keeping your software up to date may mean gov't intrusion, you might be less inclined at best, to keep your software up to date and at worse, use it at all. Sooner or later governments will start demanding access to developer keys.
 
 ## Tails 
-Secure operating system called Tails, Tails tarts fresh each time, it's a new version is the same and doesn’t have spyware. Required to trust companies. Serious privacy and security protection come at cost of convenience.
+Secure operating system called Tails, Tails starts fresh each time, it's a new version is the same and doesn’t have spyware. Required to trust companies. Serious privacy and security protection come at cost of convenience.
+
+
 
 
 https://extension.ghostery.com/en/settings

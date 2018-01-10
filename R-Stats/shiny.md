@@ -1,11 +1,11 @@
-#Interactive Data Analysis with R and Shiny
+# Interactive Data Analysis with R and Shiny
 
 
-##Goals
+## Goals
 
 R is an open source programming language for statistical analysis. In this session, we’ll show you how to get started with R. We’ll introduce you to RStudio, a free integrated development environment (IDE) for R. You will learn how to load data into R and to plot simple graphs. We'll also demonstrate how to migrate your graphs to the web and make them interactive. You won’t leave as an R expert, but you’ll learn enough to get started on your data analysis journey.
 
-##Prerequisites
+## Prerequisites
 
 * Download the [R Programming Language](http://www.r-project.org/) in the version appropriate to your computer.
 * Download the desktop version of [R Studio](http://www.rstudio.com/products/rstudio/)
@@ -33,14 +33,14 @@ install.packages("shiny")
 library(shiny)
 ```
 
-##Why R?
+## Why R?
 
 * R is open source, meaning that you can get started today without any upfront costs
 * R is widely-used both here at Vanderbilt and globally for data analysis
 * R has [a package (usually multiple packages!)](http://cran.r-project.org/) for nearly every kind of analysis
 * Using R fosters [reproducible research](http://christophergandrud.github.io/RepResR-RStudio/index.html)
 
-##R is a *Programming* Language
+## R is a *Programming* Language
 
 * R is a programming language, not a 'point-and-click' statistical application 
 * RStudio provides a integrated development environment (IDE) for R, making its appearance more user-friendly 
@@ -49,9 +49,9 @@ library(shiny)
   * to developing interactive web applications with [Shiny](http://shiny.rstudio.com/)
 * The combination of R & RStudio makes it possible to become production by learning a few functions and then develop expertise over time as necessary
   
-##R Exercises
+## R Exercises
 
-###[Average Heights and Weights for American Women](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html)
+### [Average Heights and Weights for American Women](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html)
 
 This practice dataset of the average heights and weights for American women (ages 30-39) comes built in with the R programming language.
 
@@ -78,7 +78,7 @@ This code produces a nice plot of the dataset.
 
 ![Imgur](http://i.imgur.com/M6CXxYv.png)
 
-###[Lower Secondary School Age Population in the USA](https://www.quandl.com/data/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA-Lower-Secondary-School-age-population-All-genders-United-States-of-America)
+### [Lower Secondary School Age Population in the USA](https://www.quandl.com/data/UN/UIS_LOWERSECONDARYSCHOOLAGEPOPULATION__ALLGENDERS_USA-Lower-Secondary-School-age-population-All-genders-United-States-of-America)
 
 This dataset from the United Nations on [Quandl](https://www.quandl.com/) contains the population of all genders of middle school ("lower secondary school") kids in the United States.
 
@@ -108,7 +108,7 @@ And, voila, we have another nice plot:
 
 ![Imgur](http://i.imgur.com/NrhcJ2x.png)
 
-###[New Private Housing Units Authorized By Building Permit for Tennessee](https://www.quandl.com/data/FRED/TNBPPRIV-New-Private-Housing-Units-Authorized-By-Building-Permit-for-Tennessee)
+### [New Private Housing Units Authorized By Building Permit for Tennessee](https://www.quandl.com/data/FRED/TNBPPRIV-New-Private-Housing-Units-Authorized-By-Building-Permit-for-Tennessee)
 
 This dataset from the Federal Reserve on [Quandl](https://www.quandl.com) contains data on new private housing units authorized by building permit for Tennessee.
 
@@ -141,7 +141,7 @@ ggplot(permits, aes(x=Year, y=Value)) + geom_point()
 ggplot(permits, aes(x=Year, y=Value)) + geom_boxplot() + ggtitle("New Private Housing Units Authorized By Building Permit for Tennessee")
 ```
 
-####Shiny Housing Starts
+#### Shiny Housing Starts
 
 [Shiny](http://shiny.rstudio.com/) is a framework developed by [RStudio](https://www.rstudio.com/) for turning data analyses in R into interactive websites. Shiny allows you to port your code over to the web without having to know very much about HTML, CSS, Javascript or other web technologies. Shiny apps are divided into two parts: ```ui.R``` and ```server.R```. The first part contains the layout and the second the analysis.
 
@@ -209,7 +209,7 @@ Here's a screenshow the resulting [Shiny application](https://andersoncliffb.shi
 
 ![Imgur](http://i.imgur.com/mrmYE0L.png)
 
-###[Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
+### [Mapping Stabucks Locations](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
 
 R doesn't just produce plots. You can produce all kinds of outputs with the appropriate packages. In this example, we use [leaflet](https://rstudio.github.io/leaflet/), an open source Javascript mapping library, to produce a map of Starbuck's locations in Tennessee.
 
@@ -231,7 +231,7 @@ map  <- addMarkers(map, starbuckstn$Longitude, starbuckstn$Latitude, popup=starb
 map
 ```
 
-####Shiny Starbucks
+#### Shiny Starbucks
 
 But why strict ourselves to Tennessee? Wouldn't it be better to allow users to select their own location from a dropdown control? Here's a Shiny version of the code above, which permits users to display Starbuck's locations in their own regions.
 
@@ -299,7 +299,7 @@ Here's how your Shiny application winds up looking:
 
 ![Imgur](http://i.imgur.com/TqxSsi7.png)
 
-###[ARL Library Investment Index](http://www.arlstatistics.org/analytics)
+### [ARL Library Investment Index](http://www.arlstatistics.org/analytics)
 
 This dataset from the Association for Research Libraries (ARL) contains key information about academic library budgets and staffing. An Excel (XLS) file is available [here](http://www.arlstatistics.org/documents/ARLStats/index13.xls), but we will be working with a converted CSV file on your desktop.
 
@@ -360,7 +360,7 @@ ggplot(arl, aes(x=Staff, y=Wages)) + geom_point() + stat_smooth(method="lm") + s
 
 ```
 
-####Shiny ARL
+#### Shiny ARL
 
 A final example makes it possible for users to select their own institution as a basis of comparison. As before, we put code to load the data in ```global.r```, putting it in scope of both ```ui.r``` and ```server.r```.
 
@@ -435,7 +435,7 @@ The resulting website allows users to select an institution to highlight on the 
 
 ![Imgur](http://i.imgur.com/RoSGjUq.png)
 
-###Next Steps with R
+### Next Steps with R
 
 * Sign up for the [Free Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) on [DataCamp](https://www.datacamp.com)
 * Take the Shiny tutorial at RStudio: [Shiny Tutorial](http://shiny.rstudio.com/tutorial/)

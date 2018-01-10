@@ -68,7 +68,7 @@ map
 
 ### Shiny Starbucks
 
-But why strict ourselves to Tennessee? Wouldn't it be better to allow users to select their own location from a dropdown control? Here's a Shiny version of the code above, which permits users to display Starbuck's locations in their own regions.
+But why restrict ourselves to Tennessee? Wouldn't it be better to allow users to select their own location from a dropdown control? Here's a Shiny version of the code above, which permits users to display Starbuck's locations in their own regions.
 
 We divide the code between the files this time. Note how we've divided things up. We've placed most of the code outside the reactive context in ```global.R```, meaning that it will only be called on loading the application, not everytime a user updates the plot. ```global.R``` puts our code in scope of both ```ui.R``` and ```server.R```.
 

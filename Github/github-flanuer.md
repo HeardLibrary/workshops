@@ -16,9 +16,9 @@ By Ramona Romero, with textual edits by Clifford Anderson
 
 * Source Control: the management of changes to documents, computer programs, large web sites, and other collections of information. Examples of source control tools:  Subversion, Perforce, Git...
 
-* Git: [http://git-scm.com/](http://git-scm.com/), is a version control system that tracks changes to files in a project over time. Git is a command line tool.
+* [Git](http://git-scm.com/), is a version control system that tracks changes to files in a project over time. Git is a command line tool.
 
-* GitHub" [http://github.com](http://github.com), is a web-based Git repository hosting service with all of the revision control and source code management of Git plus some added features. GitHub provides a web-based graphical interface and desktop as well as mobile integration. See GitHub repositories in action at [https://github.com/HeardLibrary](https://github.com/HeardLibrary)
+* [GitHub](http://github.com), is a web-based Git repository hosting service with all of the revision control and source code management of Git plus some added features. GitHub provides a web-based graphical interface and desktop as well as mobile integration. See GitHub repositories in action at [https://github.com/HeardLibrary](https://github.com/HeardLibrary)
 
 ## The Basics of Markdown
 

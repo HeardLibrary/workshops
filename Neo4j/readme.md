@@ -4,7 +4,7 @@ Not flimsy nonsense, but a web of sense.
 
 ## Learning Outcomes
 
-* Articulate the differences between graph databases and relational difference.
+* Articulate the differences between graph databases and relational databases.
 * Understand the principles of mathematic graphs.
 * Be able to load .csv data into Neo4j.
 
@@ -27,5 +27,8 @@ want to create inferences based on patterns. Also when you want to be able to sh
 
 ## What kinds of graph databases are out there?  
 
+## Data from VU institutional repository
 
 ## Loading data from .csv files into Neo4j
+
+Github repository [https://github.com/suellenstringer-hye/VUIR-Data-Project] 

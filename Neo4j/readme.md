@@ -32,3 +32,4 @@ want to create inferences based on patterns. Also when you want to be able to sh
 ## Loading data from .csv files into Neo4j
 
 Github repository [https://github.com/suellenstringer-hye/VUIR-Data-Project] 
+Graphs without ontologies [https://github.com/HeardLibrary/graphs-without-ontologies]

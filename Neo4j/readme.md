@@ -2,7 +2,7 @@
 Not flimsy nonsense, but a web of sense.
 ---Vladimir Nabokov
 
-##Learning Outcomes
+## Learning Outcomes
 
 * Articulate the differences between graph databases and relational difference.
 * Understand the principles of mathematic graphs.

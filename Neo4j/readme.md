@@ -1,4 +1,4 @@
-# Graph Databases vs. Relational Database
+# Graph Databases 
 Not flimsy nonsense, but a web of sense.
 ---Vladimir Nabokov
 
@@ -17,6 +17,10 @@ Let's start out with what a graph is NOT (at least in the sense in which we mean
 
 ### What is a Graph Database
 So what is a graph database? We are all familiar with relational databases as most people have used these kinds of databases even if they don't know they are using them. Originally built for the banking industry, they store data in predetermined rows and columns and require a rigid data model. Graph databases on the other hand, store data in graph structures. Because of this, they are good for projects where ambiguity and complex relationships do  not neatly fit into the more linear structure of a relational database.  Graph databases are especially helpful in humanities research when the data is often ambiguous and complex.
+
+![Relational Databases](https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/from_relational_model.png)
+
+![Graph Database](https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/to_graph_model.png)
 
 [Differences between graph and relational databases](https://neo4j.com/developer/graph-db-vs-rdbms
 

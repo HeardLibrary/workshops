@@ -31,5 +31,6 @@ Neo4j is a graph database application that stores data as vertices and edges in 
 
 ## Loading data from .csv files into Neo4j
 
+Code for loading .csv files [https://gist.github.com/suellenstringer-hye/8b18944955a99542a5728d856705d46c]
 Github repository [https://github.com/suellenstringer-hye/VUIR-Data-Project] 
 Graphs without ontologies [https://github.com/HeardLibrary/graphs-without-ontologies]

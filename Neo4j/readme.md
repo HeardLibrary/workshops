@@ -22,7 +22,7 @@ So what is a graph database? We are all familiar with relational databases as mo
 
 ![Graph Database](https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/to_graph_model.png)
 
-[Differences between graph and relational databases](https://neo4j.com/developer/graph-db-vs-rdbms
+[Differences between graph and relational databases](https://neo4j.com/developer/graph-db-vs-rdbms)
 
 ## What kinds of graph databases are out there?  
 

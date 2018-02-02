@@ -1,3 +1,7 @@
+# Fundamentals Document-Oriented Databases 
+
+If you have lots of heterogeneous data, then document-oriented databases may be your solution. In this short workshop, we will show you how to set up [Cloudant](https://www.ibm.com/cloud/cloudant), a hosted version of [CouchDB](http://couchdb.apache.org/), and to query it using the map/reduce paradigm.
+
 ### Create an IBM Cloudant Database
 
 * Create an account on IBM Cloud
@@ -47,12 +51,16 @@ find . -name '*.json' -exec cat {} \; | jq -s '{"docs": [ .[] ]}' | http -a ###:
 
 ### Views
 
+* Which of the monsters are indifferent?
+
 ```js
-function(doc) {
+function (doc) {
   if (doc.alignement == "N")
-    emit(doc.id, doc);
+    emit(doc.name, doc.alignement);
 }
 ```
+
+* What are the most dangerous monsters?
 
 ```js
 function (doc) {
@@ -63,11 +71,31 @@ function (doc) {
 }
 ```
 
+### Reduce
+
+```js
+function (doc) {
+  emit(doc.alignement, 1);
+}
+```
+
+We'll use a built-in reduce function to count up the totals: `_sum`.
+
+We can test out this map/reduce function by calling it with the appropriate query string values.
+
+```
+http get https://5bf7ab22-9d65-400d-8db3-4aa44c4dd32e-bluemix.cloudant.com/monsters/_design/monsters/_view/good-bad-indifferent reduce=true key=N
+```
+
+
 ### Search
+
+* What are the names of the vampires?
 
 ```js
 function(doc) {
     index("default", doc.name);
 }
 ```
-### Query
+
+

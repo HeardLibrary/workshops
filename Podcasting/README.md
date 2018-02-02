@@ -1,25 +1,25 @@
 ## Getting Started with Podcasting ##
 
-###Workshop Notes and Resources
-*Presented by [Ed Warga](mailto:ed.warga@vanderbilt.edu)*
+### Workshop Notes and Resources
+*Presented by Ed Warga; contact [Suellen Stringer-Hye](suellen.stringer-hye@vanderbilt.edu) for additional information*
 
-##Agenda  
+### Agenda  
 * Discussion: What is a [Podcast](http://en.wikipedia.org/wiki/Podcast)?
 * Discussion: Podcasting at Vanderbilt University
 * Activity: Recording podcasts with [Audacity](http://audacity.sourceforge.net/)
 * Discussion: Publishing a podcast
 
-##What is a Podcast?
+### What is a Podcast?
 What makes a podcast a podcast? What's the difference between podcasts, broadcasts, and webcasts? Let's list some characteristics of podcasts.
 
-##Podcasting at Vanderbilt
+### Podcasting at Vanderbilt
 
 * What podcasts are being produced at Vanderbilt University - what purpose and audience?
 * Support - [Center for Teaching Podcasting Guide](http://cft.vanderbilt.edu/guides-sub-pages/podcasting/)
 * Example - [Center for Teaching Podcast](http://cft.vanderbilt.edu/blog/podcasts/)
 * [DiscoverArchive Podcast collection](http://discoverarchive.vanderbilt.edu/handle/1803/143)- podcast collecting initiative mirrored the iTunesU collection; needs to be relaunched to collect current and ongoing podcasts at the University.
 
-##Audacity
+### Audacity
 Let's take a look at Audacity. I have created some example files for us to work with. (To use the examples, click the name of the file in the GitHub folder 'Examples"; then right click the Raw button and choose 'save link as'. Then you can open the saved file in your local copy of Audacity.) All the examples feature a dry signal from the mic. No added effects or editing have been applied to the audio.
 
 * Open this file in Audacity: [EdwargaPodcastIntroOutro.mp3](https://drive.google.com/file/d/0B5qrNoxFaFhueTdzQmlmMEItb2s/view?usp=sharing)
@@ -27,7 +27,7 @@ Let's take a look at Audacity. I have created some example files for us to work 
 * Close the project and open it again. 
 * Export the audio to MP3.
 
-##Activites
+### Activites
 1. Listen to the five mic test files ([iPhone](https://drive.google.com/file/d/0B5qrNoxFaFhuLUdXVUJlQ2pXd00/view?usp=sharing), [Internal](https://drive.google.com/file/d/0B5qrNoxFaFhubzFSR1BGR3VQWEU/view?usp=sharing), [HeadSet](https://drive.google.com/file/d/0B5qrNoxFaFhuMXhFa0Q5d1MwRkU/view?usp=sharing), [Dynamic](https://drive.google.com/file/d/0B5qrNoxFaFhuTExhcFpYRkxtSm8/view?usp=sharing), [Yeti](https://drive.google.com/file/d/0B5qrNoxFaFhuXzh3MndYQjVrNW8/view?usp=sharing)). Which one sounds best?
 
 4. Edit this file: Remove some of the silence between the audio in [DynamicMic.mp3](https://drive.google.com/file/d/0B5qrNoxFaFhuTExhcFpYRkxtSm8/view?usp=sharing)
@@ -38,7 +38,7 @@ Let's take a look at Audacity. I have created some example files for us to work 
 
 5. Record a test track of your own. Try recording a short introduction to your own podcast. Record the audio, apply the [editing recipe](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast), add some music, and export the track as an MP3. Use the notes as guide.
 
-##Notes
+### Notes
 
 **Example Podcasts**
 
@@ -86,11 +86,11 @@ Let's take a look at Audacity. I have created some example files for us to work 
 * [Publishing your podcast](http://wiki.audacityteam.org/wiki/How_to_publish_a_Podcast)
 * Publishing includes : Licensing, Hosting, RSS, sharing with podcast directories
 
-***Licensing***
+**Licensing**
 
 * Consider releasing your podcast under a Creative Commons license so others can reuse the content without seeking permission first.
 
-***Hosting***
+**Hosting**
 
 * [WordPress](http://codex.wordpress.org/Podcasting)
 * [SoundCloud](http://help.soundcloud.com/customer/portal/articles/1209292-can-i-podcast-with-soundcloud-)
@@ -99,11 +99,11 @@ Let's take a look at Audacity. I have created some example files for us to work 
   * [libsyn](http://www.libsyn.com/plans-pricing/)
   * [PodcastGenerator](http://podcastgen.sourceforge.net/)
 
-***RSS***
+**RSS**
 
 * Feeds: [https://support.google.com/feedburner/answer/79408]()
 
-***Podcast Readers/Directories***
+**Podcast Readers/Directories**
 
 * iTunes
 * Juice

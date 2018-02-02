@@ -15,8 +15,8 @@ What makes a podcast a podcast? What's the difference between podcasts, broadcas
 ### Podcasting at Vanderbilt
 
 * What podcasts are being produced at Vanderbilt University - what purpose and audience?
-* Support - [Center for Teaching Podcasting Guide](http://cft.vanderbilt.edu/guides-sub-pages/podcasting/)
-* Example - [Center for Teaching Podcast](http://cft.vanderbilt.edu/blog/podcasts/)
+* Support - [Center for Teaching Podcasting Guide](https://cft.vanderbilt.edu/guides-sub-pages/podcasting/)
+* Example - [Leading Lines Podcasts](http://leadinglinespod.com/)
 * [DiscoverArchive Podcast collection](http://discoverarchive.vanderbilt.edu/handle/1803/143)- podcast collecting initiative mirrored the iTunesU collection; needs to be relaunched to collect current and ongoing podcasts at the University.
 
 ### Audacity
@@ -43,7 +43,7 @@ Let's take a look at Audacity. I have created some example files for us to work 
 **Example Podcasts**
 
 * [EscapePod](http://escapepod.org/). Free science fiction stories since 2005. Over 400 episodes.
-* Vanderbilt University [Center for Teaching Podcast](http://cft.vanderbilt.edu/blog/podcasts/). A solid example of a locally produced podcast.
+* Vanderbilt University [Center for Teaching Student Projects Podcast](https://cft.vanderbilt.edu/2012/06/new-podcast-series-highlights-student-projects/). A solid example of a locally produced podcast.
 
 **Recording Gear**  
 
@@ -71,13 +71,13 @@ Let's take a look at Audacity. I have created some example files for us to work 
 **Editing**
 
 * [Editing voice recording for podcasts](http://www.buzzsprout.com/blog/2014/05/02/how-to-get-the-best-sounding-audio-for-your-podcast) - This looks like a good place to start. As you get more comfortable with mixing audio you can strike off and explore the world of compression and other effects processing on your own.
-* [Editing Narration in Audacity](http://blogs.techsmith.com/tips-how-tos/editing-narration-in-audacity-tutorial/): check out this video after the workshop.
+* [Editing Narration in Audacity](https://youtu.be/OqKFUPmvIPs): check out this video after the workshop.
 
 
 **Adding Music**
 
 * [Mixing Narration with Background Music](http://manual.audacityteam.org/o/man/tutorial_mixing_a_narration_with_background_music.html)
-* [SoundCloud](https://soundcloud.com) is a great place to search for music released under a [Creative Commons](http://creativecommons.org/about) license. Here's a [FAQ about that](http://help.soundcloud.com/customer/portal/articles/243852).
+* [SoundCloud](https://soundcloud.com) is a great place to search for music released under a [Creative Commons](http://creativecommons.org/about) license. Here's a [FAQ about that](https://help.soundcloud.com/hc/en-us/articles/115003454287-Protecting-my-content-on-SoundCloud).
 
 
 **Publishing Your Podcast**
@@ -93,7 +93,7 @@ Let's take a look at Audacity. I have created some example files for us to work 
 **Hosting**
 
 * [WordPress](http://codex.wordpress.org/Podcasting)
-* [SoundCloud](http://help.soundcloud.com/customer/portal/articles/1209292-can-i-podcast-with-soundcloud-)
+* [SoundCloud](https://help.soundcloud.com/hc/en-us/articles/115003453807-Getting-started-with-podcasting)
 * [Vanderbilt Content Management Options](http://web.vanderbilt.edu/resources/cms-options/)
 * 3rd party podcast solutions: 
   * [libsyn](http://www.libsyn.com/plans-pricing/)
@@ -101,7 +101,7 @@ Let's take a look at Audacity. I have created some example files for us to work 
 
 **RSS**
 
-* Feeds: [https://support.google.com/feedburner/answer/79408]()
+* Feeds: [Get regular updates on your podcasts](https://support.google.com/feedburner/answer/79408])
 
 **Podcast Readers/Directories**
 

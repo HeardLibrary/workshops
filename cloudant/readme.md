@@ -1,6 +1,6 @@
-# Fundamentals Document-Oriented Databases 
+# Fundamentals of Document-Oriented Databases 
 
-If you have lots of heterogeneous data, then document-oriented databases may be your solution. In this short workshop, we will show you how to set up [Cloudant](https://www.ibm.com/cloud/cloudant), a hosted version of [CouchDB](http://couchdb.apache.org/), and to query it using the map/reduce paradigm.
+If you have lots of heterogeneous data, then document-oriented databases may be your solution. In this short workshop, we will show you how to set up [Cloudant](https://www.ibm.com/cloud/cloudant), a hosted version of [CouchDB](http://couchdb.apache.org/), and to query it using the [map/reduce](https://console.bluemix.net/docs/services/Cloudant/api/creating_views.html) paradigm.
 
 ### Create an IBM Cloudant Database
 

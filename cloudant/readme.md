@@ -42,8 +42,7 @@ We're going to use [Postman](https://www.getpostman.com/) to interact with Cloun
 
 ### Bulk Docs
 
-* [jq](https://stedolan.github.io/jq/)
-* [HTTPie](https://httpie.org/)
+It is also possible to upload multiple JSON documents at once using the `_bulk_docs` interface along with tools like [jq](https://stedolan.github.io/jq/) and [HTTPie](https://httpie.org/).
 
 ```bash
 find . -name '*.json' -exec cat {} \; | jq -s '{"docs": [ .[] ]}' | http -a ###:### post https://5bf7ab22-9d65-400d-8db3-4aa44c4dd32e-bluemix.cloudant.com/monsters/_bulk_docs
@@ -60,6 +59,10 @@ function (doc) {
 }
 ```
 
+```
+http get https://5bf7ab22-9d65-400d-8db3-4aa44c4dd32e-bluemix.cloudant.com/monsters/_design/monsters/_view/neutral
+```
+
 * What are the most dangerous monsters?
 
 ```js
@@ -71,7 +74,13 @@ function (doc) {
 }
 ```
 
+```
+http get https://5bf7ab22-9d65-400d-8db3-4aa44c4dd32e-bluemix.cloudant.com/monsters/_design/monsters/_view/big-monsters
+```
+
 ### Reduce
+
+* How many monsters of various alignments are there?
 
 ```js
 function (doc) {
@@ -98,4 +107,7 @@ function(doc) {
 }
 ```
 
+```
+http get https://5bf7ab22-9d65-400d-8db3-4aa44c4dd32e-bluemix.cloudant.com/monsters/_design/monsters/_search/name q==vampire
+```
 

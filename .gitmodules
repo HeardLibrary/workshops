@@ -1,0 +1,3 @@
+[submodule "d3-workshop"]
+	path = d3-workshop
+	url = https://github.com/broadwym/d3-workshop

@@ -24,6 +24,8 @@
 
 ## Dates as Data
 
+[https://jezcope.github.io/library-spreadsheets/03-dates-as-data/]
+
 ### Preferred Date format
 
 ### Exporting, tools, open data formats

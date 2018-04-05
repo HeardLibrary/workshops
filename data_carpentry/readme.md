@@ -28,7 +28,9 @@
 
 ### Preferred Date format
 
-### Exporting, tools, open data formats
+### Exporting from Excel
+
+[https://jezcope.github.io/library-spreadsheets/05-exporting-data/]
 
 
 

@@ -8,7 +8,7 @@
 * Be able to format dates correctly
 
 
-## Why use a Spreadsheet for Data Collection 
+## Why use a Spreadsheet for Data Collection? 
 
 ## Why not use a Spreadsheet for Data Analysis?
 
@@ -16,7 +16,7 @@
 
 ## How have you used a spreadsheet in your work? (group discussion)
 
-## Let's look  at monsters.xslx
+### Let's look  at monsters.xslx
 
 ## Common Formatting Problems
 

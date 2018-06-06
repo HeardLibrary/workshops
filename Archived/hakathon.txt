@@ -1,0 +1,23 @@
+ <content>
+    <!-- com.omniupdate.div label="content" group="Everyone" button="864" break="break" --><!-- ouc:editor csspath="/assets/css/screen.css"/ -->
+<h2 id="introduction">Introduction</h2>
+<p>The HyperStudio at MIT is sponsoring a <em>Hack the Comédie Française</em> event on December 16 in Paris to celebrate the completion of <a href="http://cfregisters.org/">The Comédie Française Registers</a> Project. The HyperStudio is a Laboratory for Digital Humanities that incorporates new media technology to increase education and research. The <em>Comédie Française Registers</em> encodes data about plays, performers, and performances at the Comédie Française from 1680 to 1790.</p>
+<p>Vanderbilt University Library is sponsoring a satellite hackathon (in collaboration with the Department of French and Italian) during the morning of Wednesday, December 16th. Participants will learn how to access the data from the Comédie Française Registers (including plays, actors,locations of performances, etc.) and to develop different kinds of digital humanities applications with that data.</p>
+<p>All are welcome. No registration is necessary! Just bring your interest in French culture and history. Coffee and French pastries will be provided.</p>
+<h3 id="location">Location</h3>
+<p>Room 418A, Central Library (off the 4th floor Central Lobby)</p>
+<h3 id="schedule">Schedule</h3>
+<p>8:30 Arrival and light breakfast</p>
+<p>8:45 Welcome by <a href="https://as.vanderbilt.edu/french-italian/faculty/robert-barsky-2/">Robert Barsky</a> (Chair of the Department of French and Italian)</p>
+<p>9:00 Skype Call with Paris, Greetings to <a href="http://as.vanderbilt.edu/history/bio/lauren-clay">Lauren Clay</a> (Associate Professor of History)</p>
+<p>9:15 Presentation by <a href="https://wp0.its.vanderbilt.edu/french-italian/hanna-roman/">Hanna Roman</a> (Mellon Assistant Professor of Enlightenment French Studies) on the French Enlightenment</p>
+<p>9:45 Introduction to the <a href="http://api.cfregisters.org/">CFRegisters.org API</a> by Clifford Anderson (Director, Scholarly Communications)</p>
+<p>10:00 Hacking Groups</p>
+<ul>
+<li>Analyzing the Registers with Neo4j (Suellen Stringer­Hye and Ed Warga, Coordinators)</li>
+<li>Editing Wikipedia Article sabout the Comédie Française and its Plays (Mary Anne Caton and Carla Beals, Coordinators)</li>
+<li>Developing a Visual Timeline of the Plays (Lindsey Fox and Cliff Anderson, Coordinators)</li>
+</ul>
+<p>12:00 Group Presentations</p>
+<p>12:30 Concluding Remarks</p><!-- /com.omniupdate.div -->
+  </content>

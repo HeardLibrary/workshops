@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?pcf-stylesheet path="/_resources/xsl/default.xsl" extension="php"?>
+
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd">
+<document>
+	
+<!-- Will be called at the VERY top of the document -->
+<headcode>
+</headcode>
+
+  <scriptcode>
+    
+  </scriptcode>
+
+  <stylecode>
+    <!-- Put any css files that you want loaded in the header here -->
+  </stylecode>
+
+  <!-- Will be placed in footer right above closing body tag -->
+<footscripts>
+   
+  <script src="/_resources/overrides.js">//</script>
+</footscripts>
+
+  <config>
+    <!-- com.omniupdate.properties -->
+
+    <parameter name="pagetype" prompt="Page Type" type="select" alt="Pick a page layout type from the dropdown." output="xml">
+<option value="one" selected="true">One Column</option>
+<option value="onefull" selected="false">One Column Full Width</option>
+<option value="two" selected="false">Two Column</option>
+<option value="three" selected="false">Three Column</option>
+</parameter>
+
+<parameter name="librarypagetype" type="select" group="Superadmins" prompt="Library Page Type" output="xml">
+<option value="home" selected="false">Home</option>
+<option value="local" selected="false">Local Library</option>
+<option value="interior" selected="true">Interior</option>
+</parameter>
+
+    <parameter name="showpagetitle" type="select" group="Everyone" prompt="Display page title?" output="xml">
+<option value="true" selected="true">Yes</option>
+<option value="false" selected="false">No</option>
+</parameter>
+
+    <parameter name="featuredimage" type="select" group="Everyone" prompt="Featured Image?" alt="Will this page have a featured image at the top?" output="xml">
+<option value="true" selected="true">Yes</option>
+<option value="false" selected="false">No</option>
+</parameter>
+
+    	<parameter name="featuredimage_file" type="filechooser" group="Everyone" prompt="Choose Image File" alt="If Featured Image Turned On" path="/images/">/images/banners/banner-heard.jpg</parameter>
+	
+	<parameter name="sitehomepage" type="select" group="Everyone" prompt="Is this the homepage?" output="xml">
+<option value="true" selected="false">Yes</option>
+<option value="false" selected="true">No</option>
+</parameter>
+
+<parameter name="vunetid" type="select" group="Everyone" prompt="Protect this page behind VUnetID" output="xml">
+<option value="true" selected="false">Yes</option>
+<option value="false" selected="true">No</option>
+</parameter>
+
+<parameter name="fullfooter" type="select" group="Everyone" prompt="Use Full Footer" output="xml">
+<option value="true" selected="true">Yes</option>
+<option value="false" selected="false">No</option>
+</parameter>
+
+<parameter name="footermedia" type="select" group="Everyone" prompt="Footer Media Section?" alt="add area for map or video in footer" output="xml">
+<option value="true" selected="true">Yes</option>
+<option value="false" selected="false">No</option>
+</parameter>
+
+<parameter name="socialsharing" type="select" group="Everyone" prompt="Add Social Sharing Icons" alt="2/3 Col Only" output="xml">
+<option value="none" selected="true">No</option>
+<option value="main" selected="false">Bottom Main Column</option>
+<option value="right" selected="false">Right Column</option>
+</parameter>
+
+<parameter name="attention" type="select" group="Everyone" prompt="Add an Attention box" alt="2/3 Col Only" output="xml">
+<option value="false" selected="true">No</option>
+<option value="true" selected="false">Yes</option>
+<option value="wide" selected="false">Wide</option>
+</parameter>
+
+<parameter name="foldermenu" type="select" group="Everyone" prompt="Use Folder Menu" alt="Shared menu for this folder" output="xml">
+<option value="none" selected="true">No</option>
+<option value="left" selected="false">Left Column (3-column layout only)</option>
+<option value="right" selected="false">Right Sidebar</option>
+</parameter>
+
+<parameter name="leftmenu" type="select" group="Everyone" prompt="Add Left Column Menu" alt="Sitewide menu in left column? 3 Col Only" output="xml">
+<option value="false" selected="true">No</option>
+<option value="true" selected="false">Yes</option>
+</parameter>
+
+<parameter name="rightmenu" type="select" group="Everyone" prompt="Add Menu to Right Sidebar" alt="2/3 Col Only" output="xml">
+<option value="true" selected="true">Yes</option>
+<option value="false" selected="false">No</option>
+</parameter>
+
+<parameter name="slideshow" type="select" group="Everyone" prompt="Add SlideShow" alt="2/3 Col Only" output="xml">
+<option value="false" selected="true">No</option>
+<option value="true" selected="false">Yes</option>
+<option value="mini" selected="false">Mini Slider (3-column layout center)</option>
+<option value="wide" selected="false">Wide (full width of site)</option>
+<option value="edge" selected="false">Edge (full width of browser)</option>
+</parameter>
+
+<parameter name="calendar" type="select" group="Everyone" prompt="Add calendar listing" output="xml">
+<option value="true" selected="false">Yes Right Sidebar</option>
+<option value="false" selected="true">No</option>
+<option value="full" selected="false">Full Width</option>
+</parameter>
+
+<parameter name="calendarfeed" type="text" group="Everyone" prompt="VU Calendar Tag" alt="2/3 Col Only">myvu</parameter>
+
+<parameter name="rssnews" type="select" group="Everyone" prompt="Display News Feed" output="xml">
+<option value="right" selected="false">Right Sidebar</option>
+<option value="left" selected="false">Main Content</option>
+<option value="false" selected="true">No</option>
+</parameter>
+
+<parameter name="rsswebsite" type="text" group="Everyone" prompt="News Website" alt="URL that will be linked to from the MORE links">https://news.vanderbilt.edu/research/</parameter> 
+<parameter name="rightbarrss" type="text" group="Everyone" prompt="News Feed" alt="Feed URL. 2/3 Col Only.">https://news.vanderbilt.edu/xmlslider/?tag=featured-research</parameter> 
+
+<parameter name="flickrsidebar" type="select" group="Everyone" prompt="Add a Flickr gallery to left Sidebar" alt="3 Col Only" output="xml">
+<option value="true" selected="true">Yes</option>
+<option value="false" selected="false">No</option>
+</parameter>
+
+<parameter name="sbflickrnum" type="text" group="Everyone" prompt="How many flickr images" alt="Max 10">6</parameter>
+<parameter name="flickrtitle" type="text" group="Everyone" prompt="Flickr Title" alt="Used in Footer and 3 Col Only">See Our Campus</parameter>
+<parameter name="flickrlink" type="text" group="Everyone" prompt="Flickr Homepage URL" alt="Footer/3 Col Only.">http://www.flickr.com/photos/digitalvu/</parameter>
+<parameter name="flickrid" type="text" group="Everyone" prompt="Flickr User ID" alt="Look up at http://idgettr.com/  Footer/3 Col Only.">48007774%40N03</parameter>
+<parameter name="flickrset" type="text" group="Everyone" prompt="Flickr Photo Set" alt="Use specific set of photos. Footer/3 Col Only.">72157623555141080</parameter>
+
+<parameter name="bcrumb" type="select" group="Everyone" prompt="Add Breadcrumb" alt="Display a breadcrumb?" output="xml">
+<option value="true" selected="true">Yes</option>
+<option value="false" selected="false">No</option>
+</parameter>
+<parameter name="leftsidebar" type="select" group="Superadmins" prompt="Sidebar" output="xml">
+<option value="populated" selected="false">Sidebar w/ Content</option>
+<option value="blank" selected="false">Blank Sidebar</option>
+<option value="none" selected="true">No Sidebar</option>
+</parameter>
+
+    <parameter name="bodyclasses" prompt="Additional Body Classes" >full-width</parameter>
+
+    <parameter name="include" type="filechooser" group="Superadmins" prompt="Include File Location?" alt="Specify the file you would like to include."></parameter>
+
+    <!-- /com.omniupdate.properties -->
+  </config>
+
+  <metadata>
+    <!-- com.omniupdate.properties -->
+    <meta name="Description" content="Jean and Alexander Heard Library, Vanderbilt University" />
+    <meta name="Keywords" content="vanderbilt university, nashville, tennessee, vanderbilt, vanderbilt libraries, jean and alexander heard library" />
+    <!-- /com.omniupdate.properties -->
+  </metadata>
+
+  <!-- com.omniupdate.properties -->
+  <title>Scholarly Communications</title>
+  <!-- /com.omniupdate.properties -->
+
+  
+
+  <content>
+    <!-- com.omniupdate.div label="content" group="Everyone" button="864" break="break" --><!-- ouc:editor csspath="/assets/css/screen.css"/ -->
+<h2 id="workshop-series-fall-2015">Digital Scholarship Workshop Series, Fall 2015</h2>
+<h4>11:00am-12:00pm, 418A, Central Library</h4>
+<p>The purpose of these workshops is to introduce students, faculty, and staff members at Vanderbilt University to new tools and techniques in the field of scholarly communications and digital scholarship. All are welcome! No need to RSVP. If you have questions, please contact clifford.anderson@vanderbilt.edu.</p>	  
+	  
+	  
+<h3 id="get-started-with-github">Get Started with GitHub</h3>
+<h4 id="friday-september-11-2015">Friday, September 11, 2015</h4>
+<p>Ramona Romero</p>
+<p><em>Among other things, <a href="https://github.com/">GitHub</a> is a social network for computer programmers. But GitHub is also a fantastic educational technology. In this session, we’ll introduce you to <a href="http://git-scm.com/">git</a>, the distributed version control system that powers GitHub. We’ll show you how to set up an account with GitHub and collaborate with others on projects. You will learn the basics of Markdown, the simple markup language used to communicate on GitHub. We’ll talk about the uses of GitHub in the classroom, the sciences, and the digital humanities. If you’re brave, we’ll even get into advance topics like branching and forking. By the end of the session, you’ll be ready to create repositories and collaborate with scholars around the interwebs.</em></p>
+<h3 id="get-started-with-mapping-online">Get Started with Mapping Online</h3>
+<h4 id="friday-september-18-2015">Friday, September 18, 2015</h4>
+<p>Lindsey Fox</p>
+<p><em>A Geographic Information System (GIS) is a suite of mapping software and technology that is used to create, store, change, analyze, and display geographically referenced data. This workshop will explore the basics of online GIS including: types of data, terminology, and various platforms. We will also spend time create a basic online map.</em></p>
+<h3 id="get-started-with-network-analysis">Get Started with Network Analysis</h3>
+<h4 id="friday-september-25-2015">Friday, September 25, 2015</h4>
+<p>Suellen Stringer-Hye</p>
+<p><em>Networks are everywhere these days - Facebook, LinkedIn, Twitter are all networks of one form or another. In this session, we’ll teach you how to analyze networks using the open source graph database <a href="http://www.neo4j.org/">Neo4J</a>. We will show you how to set up a sample network, analyze the relations between its parts, and visualize the results using a simple query language called <a href="http://www.neo4j.org/learn/cypher">Cypher</a>. You’ll leave with the ability to analyze simple networks and with the tools you’ll need to develop more complex projects.</em></p>
+<h3 id="get-started-with-interactive-data-analysis">Get Started with Interactive Data Analysis</h3>
+<h4 id="friday-october-2-2015">Friday, October 2, 2015</h4>
+<p>Cliff Anderson</p>
+<p><em>The <a href="http://www.r-project.org/">R programming language</a> is an open-source statistical programming language. You can use R to produce really nice graphs. But did you also know that you can create interactive data visualizations with R? In this workshop, we will learn to create an online visualization using <a href="http://shiny.rstudio.com/">Shiny</a>, a framework for creating web applications using R.</em></p>
+<h3 id="get-started-with-editing-wikipedia">Get Started with Editing Wikipedia</h3>
+<h4 id="friday-october-9-2015">Friday, October 9, 2015</h4>
+<p>Ed Warga</p>
+<p><em>Wikipedia is the premier reference source of our era. But who writes its articles? How does the editorial process work? In this session, we’ll teach you everything you need to know to become a productive editor of Wikipedia. Learn how to create an account, add to existing articles, comment and pose questions on talk pages, and even create your own articles. We’ll also suggest how to incorporate Wikipedia into your pedagogy and scholarship.</em></p>
+<h3 id="get-started-with-querying-the-semantic-web">Get Started with Querying the Semantic Web</h3>
+<h4 id="friday-october-23-2015">Friday October 23, 2015</h4>
+<p>Steve Baskauf</p>
+<p><em>The concept of Linked Data encompasses a broad set of techniques, tools and query languages that allow for connecting structured data. RDF is a tool for structuring data as defined by the W3C. Once data is structured using RDF, you can query it using the query langauage SPARQL. Callimachus is a Linked Data management system. It is an open source tool that allows you to easily execute SPARQL queries on RDF data. Join us as we explore an RDF dataset to see the power of linked data and the range of questions we can now ask of this structured data.</em></p>
+<h3 id="get-started-with-encrypting-communications">Get Started with Encrypting Communications</h3>
+<h4 id="friday-october-30-2015">Friday October 30, 2015</h4>
+<p>Derek Bruff</p>
+<p><em>Communicating privately and securely is crucial when corresponding about sensitive topics. Learn the basics of Public/Private Key Encryption. We will explore how services like <a href="/scholarly/keybase.io/">keybase.io</a> and <a href="https://www.mailvelope.com/">Mailvelope</a> enable secure communication. By the end of this session, you will know how to prevent unauthorized actors from surveilling your scholarly communications.</em></p>
+<h3 id="get-started-with-extracting-data">Get Started with Extracting Data</h3>
+<h4 id="friday-november-6-2015">Friday, November 6, 2015</h4>
+<p>Morgan Daniels</p>
+<p><em>There is an enormous amount of data available on the Internet to download, combine, and analyze. It can be difficult, though, to bring together data in different formats, from different sources, for analysis. In this session, we will try out tools for working with data from websites, in formats like .xls, .csv, and .pdf, using APIs and other tools.</em></p>
+<h3 id="get-started-with-the-internet-of-things">Get Started with the Internet of Things</h3>
+<h4 id="november-13-2015">November 13, 2015</h4>
+<p>Ed Warga</p>
+<p><em>This workshop explores automating tasks. Receive alerts if it’s raining. Post articles with certain tags to your blog or Twitter feed automatically. Control the Internet of things. We will test one particular automation application - <a href="https://ifttt.com/">IFTTT</a>, discuss possible uses in various workflows (research, social media, personal), and practice using the app to create programs to automate tasks.</em></p>
+<h3 id="get-started-with-data-visualization">Get Started with Data Visualization</h3>
+<h4 id="november-20-2015">November 20, 2015</h4>
+<p>Morgan Daniels</p>
+<p><em>Data visualization can help you turn your research data into an easily interpreted, compelling story. In this workshop, we will load datasets into several visualization tools to explore their benefits for different research needs.</em></p>
+<h3 id="get-started-with-creating-scholarly-websites">Get Started with Creating Scholarly Websites</h3>
+<h4 id="friday-december-4-2015">Friday December 4, 2015</h4>
+<p>Suellen Stringer-Hye</p>
+<p><em>If you’d like to have a scholarly presence on the web, you have many options available to you at low or no cost. We’ll look at several possibilities during this session, including Github Pages and Wordpress. Join us as we explore the pros and cons of the various platforms for enhancing your scholarly profile.</em></p><!-- /com.omniupdate.div -->
+  </content>
+
+<codecontent>
+<!-- ouc:div label="codecontent" group="Superadmins" button-class="oucEditButton" button-text="Edit Restricted Code Content Area" break="break" -->
+
+<!-- /ouc:div -->
+</codecontent>
+
+<attention_box>
+<!-- ouc:div label="attentionBox" group="Everyone" button-class="oucEditButton" button-text="Edit" break="break" -->
+<h4>Link Group Title</h4>
+<ul>
+<li><a href="#" target="_blank">Link 2</a></li>
+<li><a href="#" target="_blank">Link 3</a></li>
+<li><a href="#" target="_blank">Link 2</a></li>
+<li><a href="#" target="_blank">Link 3</a></li>
+<li><a href="#" target="_blank">Link 2</a></li>
+<li><a href="#" target="_blank">Link 3</a></li>
+</ul>
+<!-- /ouc:div -->
+</attention_box>
+<attention_box_last>
+<!-- ouc:div label="attentionBoxLast" group="Everyone" button-class="oucEditButton" button-text="Edit" break="break" -->
+<h4>Link Group Title</h4>
+<p>This is placeholder text for the right attention box.  Edit to replace with your own text! Boxes can contain list of links, paragraphs or images.</p>
+<!-- /ouc:div -->
+</attention_box_last>
+<attention_box_wide>
+<!-- ouc:div label="attentionBoxWide" group="Everyone" button-class="oucEditButton" button-text="Edit" break="break" -->
+<h4>Link Group Title</h4>
+<ul>
+<li><a href="#" target="_blank">Link 2</a></li>
+<li><a href="#" target="_blank">Link 3</a></li>
+<li><a href="#" target="_blank">Link 2</a></li>
+<li><a href="#" target="_blank">Link 3</a></li>
+<li><a href="#" target="_blank">Link 2</a></li>
+<li><a href="#" target="_blank">Link 3</a></li>
+</ul>
+<!-- /ouc:div -->
+
+</attention_box_wide>
+<rightsidebar>
+<!-- ouc:div label="rightsidebar" group="Everyone" button-class="oucEditButton" button-text="Edit Right Area Content" break="break" -->
+
+<!-- /ouc:div -->
+</rightsidebar>
+
+<leftsidebar>
+<!-- ouc:div label="leftsidebar" group="Everyone" button-class="oucEditButton" button-text="Edit Left Area Content" break="break" -->
+<!-- /ouc:div -->
+</leftsidebar>
+
+<leftbottomcontent>
+<!-- ouc:div label="leftbottomcontent" group="Everyone" button-class="oucEditButton" button-text="Edit Left Bottom Area" break="break" -->
+<!-- /ouc:div -->
+</leftbottomcontent>
+
+
+<mainbottomcontent>
+<!-- ouc:div label="mainbottomcontent" group="Everyone" button-class="oucEditButton" button-text="Edit Main Content Bottom" break="break" -->
+<!-- /ouc:div -->
+</mainbottomcontent>
+
+<fullwidthbelowslider>
+<!-- ouc:div label="fullwidthbelowslider" group="Everyone" button-class="oucEditButton" button-text="Edit Content Directly Below Slideshow" break="break" -->
+<!-- /ouc:div -->
+</fullwidthbelowslider>
+
+<minislider>
+<!-- ouc:div label="minislider" group="Everyone" button-class="oucEditButton" button-text="Edit Slideshow" break="break" -->
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/mini/mini1.jpg" alt="Photo" title="1 Caption for Photo is usually around 140 characters" width="100%"/></a>
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/mini/mini2.jpg" alt="Photo" title="2 Caption for Photo is usually around 140 characters" width="100%" /></a>
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/mini/mini3.jpg" alt="Photo" title="3 Caption for Photo is usually around 140 characters" width="100%"/></a><!-- /ouc:div -->
+</minislider>
+
+<fullslider>
+<!-- ouc:div label="fullslider" group="Everyone" button-class="oucEditButton" button-text="Edit Slideshow" break="break" -->
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/full/full1.jpg" alt="Photo" title="1 Caption for Photo is usually around 140 characters" width="100%" /></a>
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/full/full2.jpg" alt="Photo" title="2 Caption for Photo is usually around 140 characters" width="100%" /></a>
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/full/full3.jpg" alt="Photo" title="3 Caption for Photo is usually around 140 characters" width="100%" /></a>
+<!-- /ouc:div -->
+</fullslider>
+
+<wideslider>
+<!-- ouc:div label="wideslider" group="Everyone" button-class="oucEditButton" button-text="Edit Slideshow" break="break" -->
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/wide/full1.jpg" alt="Photo" title="1 Caption for Photo is usually around 140 characters" width="100%" /></a>
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/wide/full2.jpg" alt="Photo" title="2 Caption for Photo is usually around 140 characters" width="100%"  /></a>
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/wide/full3.jpg" alt="Photo" title="3 Caption for Photo is usually around 140 characters" width="100%" /></a>
+<!-- /ouc:div -->
+</wideslider>
+
+<edgeslider>
+<!-- ouc:div label="edgeslider" group="Everyone" button-class="oucEditButton" button-text="Edit Slideshow" break="break" -->
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/wide/full1.jpg" alt="Photo" title="1 Caption for Photo is usually around 140 characters" width="100%" /></a>
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/wide/full2.jpg" alt="Photo" title="2 Caption for Photo is usually around 140 characters" width="100%" /></a>
+<a href="http://www.vanderbilt.edu/"><img src="https://s3.amazonaws.com/vu-www4/omni/i/sliders/wide/full3.jpg" alt="Photo" title="3 Caption for Photo is usually around 140 characters" width="100%" /></a>
+<!-- /ouc:div -->
+</edgeslider>
+
+<fullwidthbottom>
+<!-- ouc:div label="fullwidthbottom" group="Everyone" button-class="oucEditButton" button-text="Edit Full Width Lower Section" break="break" --><!-- /ouc:div -->
+</fullwidthbottom>
+
+
+  <featuredimage>
+    <!-- com.omniupdate.div label="featuredimage" group="Everyone" button="860" break="break" -->
+      <!-- com.omniupdate.editor csspath="/assets/css/screen.css"  -->
+      <script>
+        var num = Math.round(Math.random() * (30 - 1) + 1);
+        document.write('<img src="/images/featured_images/featured' + num + '.jpg" />');
+      </script>
+    <!-- /com.omniupdate.div -->
+  </featuredimage>
+
+  <slideshowhome>
+    <!-- com.omniupdate.div label="slideshowhome" group="Everyone" button="864" break="break" -->
+      <!-- com.omniupdate.editor wysiwyg='no' -->
+      <div class="slider slider-full" id="slider-home">
+        <div class="slide" id="slide-1">
+          <div class="slide-body">
+            <h6>Title</h6>
+            <h1>Heading</h1>
+            <h3>Sub-Heading</h3>
+            <p>Description for the slide.</p>
+            <a href="#" class="more-link-large">Learn More</a>
+          </div>
+          <div class="slide-image" style="background-image: url('http://dummyimage.com/683x310/666666/ffffff');">&nbsp;</div>
+        </div>
+        <div class="slide" id="slide-2">
+          <div class="slide-body">
+            <h6>Title</h6>
+            <h1>Heading</h1>
+            <h3>Sub-Heading</h3>
+            <p>Description for the slide.</p>
+            <a href="#" class="more-link-large">Learn More</a>
+          </div>
+          <div class="slide-image" style="background-image: url('http://dummyimage.com/683x310/666666/ffffff')">&nbsp;</div>
+        </div>
+        <div class="slide" id="slide-3">
+          <div class="slide-body">
+            <h6>Title</h6>
+            <h1>Heading</h1>
+            <h3>Sub-Heading</h3>
+            <p>Description for the slide.</p>
+            <a href="#" class="more-link-large">Learn More</a>
+          </div>
+          <div class="slide-image" style="background-image: url('http://dummyimage.com/683x310/666666/ffffff');">&nbsp;</div>
+        </div>
+      </div>
+
+      <div class="carousel pager" id="carousel-home">
+        <div class="slide selected" id="thumb-1">
+          <img src="http://dummyimage.com/72x53/666666/ffffff" />
+        </div>
+        <div class="slide" id="thumb-2">
+          <img src="http://dummyimage.com/72x53/666666/ffffff" />
+        </div>
+        <div class="slide" id="thumb-3">
+          <img src="http://dummyimage.com/72x53/666666/ffffff" />
+        </div>
+      </div>
+
+      <button class="prev nav-pager">Prev</button>
+      <button class="next nav-pager">Next</button>
+    <!-- /com.omniupdate.div -->
+  </slideshowhome>
+
+  <mostusedresources>
+    <!-- com.omniupdate.div label="mostusedresources" group="Everyone" button="860" break="break" -->
+      <!-- com.omniupdate.editor wysiwyg='no' -->
+      <nav id="nav-most-used">
+        <h6>Most Used Resources</h6>
+        <ul>
+          <li>
+            <a href="#">Link Title</a>
+            <div class="link-label">Link Description</div>
+          </li>
+          <li>
+            <a href="#">Link Title</a>
+            <div class="link-label">Link Description</div>
+          </li>
+          <li>
+            <a href="#">Link Title</a>
+            <div class="link-label">Link Description</div>
+          </li>
+          <li>
+            <a href="#">Link Title</a>
+            <div class="link-label">Link Description</div>
+          </li>
+        </ul>
+      </nav>
+    <!-- /com.omniupdate.div -->
+  </mostusedresources>
+
+  <slideshowlocal>
+    <!-- com.omniupdate.div label="slideshowlocal" group="Everyone" button="864" break="break" -->
+      <!-- com.omniupdate.editor wysiwyg='no' -->
+      <div class="wrap-slide">
+        <div class="slider slider-split flexslider" id="slider-library">
+          <div class="slide" id="slide-1">
+            <div class="slide-body">
+              <h1>Slide Title</h1>
+              <p>Description for slide.</p>
+              <a href="#" class="more-link-large">Learn More</a>
+            </div>
+            <div class="slide-image" style="background-image: url('http://dummyimage.com/683x310/666666/ffffff');">&nbsp;</div>
+          </div>
+          <div class="slide" id="slide-2">
+            <div class="slide-body">
+              <h1>Slide Title</h1>
+              <p>Description for slide.</p>
+              <a href="#" class="more-link-large">Learn More</a>
+            </div>
+            <div class="slide-image" style="background-image: url('http://dummyimage.com/683x310/666666/ffffff')">&nbsp;</div>
+          </div>
+          <div class="slide" id="slide-3">
+            <div class="slide-body">
+              <h1>Slide Title</h1>
+              <p>Description for slide.</p>
+              <a href="#" class="more-link-large">Learn More</a>
+            </div>
+            <div class="slide-image" style="background-image: url('http://dummyimage.com/683x310/666666/ffffff');">&nbsp;</div>
+          </div>
+        </div>
+
+        <div class="carousel pager" id="carousel-library">
+          <div class="slide selected" id="thumb-1">
+            <img src="http://dummyimage.com/72x53/666666/ffffff" />
+          </div>
+          <div class="slide" id="thumb-2">
+            <img src="http://dummyimage.com/72x53/666666/ffffff" />
+          </div>
+          <div class="slide" id="thumb-3">
+            <img src="http://dummyimage.com/72x53/666666/ffffff" />
+          </div>
+        </div>
+
+        <div class="pager">
+          <button class="prev nav-pager">Prev</button>
+          <button class="next nav-pager">Next</button>
+        </div>
+      </div>
+    <!-- /com.omniupdate.div -->
+  </slideshowlocal>
+
+</document>

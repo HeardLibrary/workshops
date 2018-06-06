@@ -1,0 +1,58 @@
+
+
+
+  
+
+  <content>
+    <!-- com.omniupdate.div label="content" group="Everyone" button="864" break="break" --><!-- ouc:editor csspath="/assets/css/screen.css"/ -->
+<h2 id="workshop-series-fall-2015">Digital Scholarship Workshop Series, Fall 2015</h2>
+<h4>11:00am-12:00pm, 418A, Central Library</h4>
+<p>The purpose of these workshops is to introduce students, faculty, and staff members at Vanderbilt University to new tools and techniques in the field of scholarly communications and digital scholarship. All are welcome! No need to RSVP. If you have questions, please contact clifford.anderson@vanderbilt.edu.</p>	  
+	  
+	  
+<h3 id="get-started-with-github">Get Started with GitHub</h3>
+<h4 id="friday-september-11-2015">Friday, September 11, 2015</h4>
+<p>Ramona Romero</p>
+<p><em>Among other things, <a href="https://github.com/">GitHub</a> is a social network for computer programmers. But GitHub is also a fantastic educational technology. In this session, we’ll introduce you to <a href="http://git-scm.com/">git</a>, the distributed version control system that powers GitHub. We’ll show you how to set up an account with GitHub and collaborate with others on projects. You will learn the basics of Markdown, the simple markup language used to communicate on GitHub. We’ll talk about the uses of GitHub in the classroom, the sciences, and the digital humanities. If you’re brave, we’ll even get into advance topics like branching and forking. By the end of the session, you’ll be ready to create repositories and collaborate with scholars around the interwebs.</em></p>
+<h3 id="get-started-with-mapping-online">Get Started with Mapping Online</h3>
+<h4 id="friday-september-18-2015">Friday, September 18, 2015</h4>
+<p>Lindsey Fox</p>
+<p><em>A Geographic Information System (GIS) is a suite of mapping software and technology that is used to create, store, change, analyze, and display geographically referenced data. This workshop will explore the basics of online GIS including: types of data, terminology, and various platforms. We will also spend time create a basic online map.</em></p>
+<h3 id="get-started-with-network-analysis">Get Started with Network Analysis</h3>
+<h4 id="friday-september-25-2015">Friday, September 25, 2015</h4>
+<p>Suellen Stringer-Hye</p>
+<p><em>Networks are everywhere these days - Facebook, LinkedIn, Twitter are all networks of one form or another. In this session, we’ll teach you how to analyze networks using the open source graph database <a href="http://www.neo4j.org/">Neo4J</a>. We will show you how to set up a sample network, analyze the relations between its parts, and visualize the results using a simple query language called <a href="http://www.neo4j.org/learn/cypher">Cypher</a>. You’ll leave with the ability to analyze simple networks and with the tools you’ll need to develop more complex projects.</em></p>
+<h3 id="get-started-with-interactive-data-analysis">Get Started with Interactive Data Analysis</h3>
+<h4 id="friday-october-2-2015">Friday, October 2, 2015</h4>
+<p>Cliff Anderson</p>
+<p><em>The <a href="http://www.r-project.org/">R programming language</a> is an open-source statistical programming language. You can use R to produce really nice graphs. But did you also know that you can create interactive data visualizations with R? In this workshop, we will learn to create an online visualization using <a href="http://shiny.rstudio.com/">Shiny</a>, a framework for creating web applications using R.</em></p>
+<h3 id="get-started-with-editing-wikipedia">Get Started with Editing Wikipedia</h3>
+<h4 id="friday-october-9-2015">Friday, October 9, 2015</h4>
+<p>Ed Warga</p>
+<p><em>Wikipedia is the premier reference source of our era. But who writes its articles? How does the editorial process work? In this session, we’ll teach you everything you need to know to become a productive editor of Wikipedia. Learn how to create an account, add to existing articles, comment and pose questions on talk pages, and even create your own articles. We’ll also suggest how to incorporate Wikipedia into your pedagogy and scholarship.</em></p>
+<h3 id="get-started-with-querying-the-semantic-web">Get Started with Querying the Semantic Web</h3>
+<h4 id="friday-october-23-2015">Friday October 23, 2015</h4>
+<p>Steve Baskauf</p>
+<p><em>The concept of Linked Data encompasses a broad set of techniques, tools and query languages that allow for connecting structured data. RDF is a tool for structuring data as defined by the W3C. Once data is structured using RDF, you can query it using the query langauage SPARQL. Callimachus is a Linked Data management system. It is an open source tool that allows you to easily execute SPARQL queries on RDF data. Join us as we explore an RDF dataset to see the power of linked data and the range of questions we can now ask of this structured data.</em></p>
+<h3 id="get-started-with-encrypting-communications">Get Started with Encrypting Communications</h3>
+<h4 id="friday-october-30-2015">Friday October 30, 2015</h4>
+<p>Derek Bruff</p>
+<p><em>Communicating privately and securely is crucial when corresponding about sensitive topics. Learn the basics of Public/Private Key Encryption. We will explore how services like <a href="/scholarly/keybase.io/">keybase.io</a> and <a href="https://www.mailvelope.com/">Mailvelope</a> enable secure communication. By the end of this session, you will know how to prevent unauthorized actors from surveilling your scholarly communications.</em></p>
+<h3 id="get-started-with-extracting-data">Get Started with Extracting Data</h3>
+<h4 id="friday-november-6-2015">Friday, November 6, 2015</h4>
+<p>Morgan Daniels</p>
+<p><em>There is an enormous amount of data available on the Internet to download, combine, and analyze. It can be difficult, though, to bring together data in different formats, from different sources, for analysis. In this session, we will try out tools for working with data from websites, in formats like .xls, .csv, and .pdf, using APIs and other tools.</em></p>
+<h3 id="get-started-with-the-internet-of-things">Get Started with the Internet of Things</h3>
+<h4 id="november-13-2015">November 13, 2015</h4>
+<p>Ed Warga</p>
+<p><em>This workshop explores automating tasks. Receive alerts if it’s raining. Post articles with certain tags to your blog or Twitter feed automatically. Control the Internet of things. We will test one particular automation application - <a href="https://ifttt.com/">IFTTT</a>, discuss possible uses in various workflows (research, social media, personal), and practice using the app to create programs to automate tasks.</em></p>
+<h3 id="get-started-with-data-visualization">Get Started with Data Visualization</h3>
+<h4 id="november-20-2015">November 20, 2015</h4>
+<p>Morgan Daniels</p>
+<p><em>Data visualization can help you turn your research data into an easily interpreted, compelling story. In this workshop, we will load datasets into several visualization tools to explore their benefits for different research needs.</em></p>
+<h3 id="get-started-with-creating-scholarly-websites">Get Started with Creating Scholarly Websites</h3>
+<h4 id="friday-december-4-2015">Friday December 4, 2015</h4>
+<p>Suellen Stringer-Hye</p>
+<p><em>If you’d like to have a scholarly presence on the web, you have many options available to you at low or no cost. We’ll look at several possibilities during this session, including Github Pages and Wordpress. Join us as we explore the pros and cons of the various platforms for enhancing your scholarly profile.</em></p><!-- /com.omniupdate.div -->
+  </content>
+

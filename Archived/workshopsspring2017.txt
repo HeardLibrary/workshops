@@ -1,0 +1,75 @@
+ <content>
+    <!-- com.omniupdate.div label="content" group="Everyone" button="864" break="break" --><!-- ouc:editor csspath="/assets/css/screen.css"/ -->
+<h2>Digital Scholarship Workshop Series, Spring 2017</h2>
+<h4>11 a.m. on Fridays in Room 418a, Central Library</h4>
+<p>The purpose of these workshops is to introduce students, faculty, and staff members at Vanderbilt University to new tools and techniques in the field of scholarly communications and digital scholarship. All are welcome! No need to RSVP. If you have questions, please contact <a href="http://library.vanderbilt.edu/staffmember.php?staff_id=2">clifford.anderson@vanderbilt.edu</a>.</p>
+
+	  
+	  
+<!-- Blue box containing flyer
+
+	  <div class="callout-box callout-small">
+<h4>Digital Scholarship Workshop Series</h4>
+<div class="callout-content">
+<h5>Fall 2016 Flyer</h5>
+<p>&nbsp;<a href="/scholarly/digitalscholarshipworkshopseries_fall2016.pdf"><img title="Workshop Series, Fall 2016" src="/scholarly/small%20flyer.png" alt="Preview of flyer" width="93" height="120" /></a></p>
+<a href="/scholarly/digitalscholarshipworkshopseries_fall2016.pdf"><em>Full size</em></a></div>
+</div>
+-->
+	  
+	  
+	  
+<ul>
+<li>
+<h3>Open Source Collaboration</h3>
+</li>
+<ul>
+<li>
+<h4>Gists - January 20</h4>
+Learn accessible, (re)usable, and visually-appealing ways to share your data and research online. We'll explore how to create and share CSVs, GIS data points, and simple graphs using Gists.
+</li>
+<li>
+<h4>GitHub - January 27</h4>
+GitHub is a resource-rich, version-controlled repository for code and digital initiatives. Learn how GitHub can help you organize individual and group projects from beginning to end.
+</li>
+<li>
+<h4>GitHub Pages - February 3</h4>
+GitHub Pages hosts personal, organizational, and project websites. Learn how freely to publish your own website and show off your digital scholarship.
+</li>
+</ul>
+<li>
+<h3>Digital Writing</h3>
+</li>
+<ul>
+<li>
+<h4>Markdown - February 10</h4>
+Learn the basics of markdown and see how it can help you focus on the content rather than the formatting of your next writing project.
+</li>
+<li>
+<h4>Zotero - February 17</h4>
+Gather, organize, and analyze your resources and make writing footnotes a breeze with Zotero, a free and powerful citation manager.
+</li>
+<li>
+<h4>Pandoc - February 24</h4>
+Learn how Pandoc, “the swiss army knife” of file converters, can help you move from notes, through drafts, to a perfectly-formatted final manuscript of your next paper, article, or book.
+</li>
+</ul>
+<li>
+<h3>Educational Gaming</h3>
+</li>
+<ul>
+<li>
+<h4>Scratch - March 17</h4>
+Learn how to incorporate game design into your classroom using Scratch, a fun and collaborative platform for coding narratives and games.
+</li>
+<li>
+<h4>Minecraft - March 24</h4>
+See how Minecraft for Education provides opportunities for engaged learning in a rich and interactive virtual environment.
+</li>
+<li>
+<h4>Unity - March 31</h4>
+Come explore the potential of the Unity game engine for creating RPGs, virtual worlds, and other multisensory digital narratives for the classroom.
+</li>
+</ul>
+</ul><!-- /com.omniupdate.div -->
+  </content>

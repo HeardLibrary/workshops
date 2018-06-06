@@ -1,0 +1,83 @@
+
+  <content>
+    <!-- com.omniupdate.div label="content" group="Everyone" button="864" break="break" --><!-- ouc:editor csspath="/assets/css/screen.css"/ -->
+<h2>Digital Scholarship Workshops, Fall 2017</h2>
+<h4>Workshops take place from 11:10 a.m. to 12:00 p.m. in Room 418a of the Central Library.</h4>
+<p>The purpose of these workshops is to introduce students, faculty, and staff members at Vanderbilt University to new tools and techniques in the field of scholarly communications and digital scholarship. All are welcome! No need to RSVP. If you have questions, please contact <a href="http://library.vanderbilt.edu/staffmember.php?staff_id=2">clifford.anderson@vanderbilt.edu</a>.</p>
+
+	  
+	  
+<!-- Blue box containing flyer
+
+	  <div class="callout-box callout-small">
+<h4>Digital Scholarship Workshop Series</h4>
+<div class="callout-content">
+<h5>Fall 2016 Flyer</h5>
+<p>&nbsp;<a href="/scholarly/digitalscholarshipworkshopseries_fall2016.pdf"><img title="Workshop Series, Fall 2016" src="/scholarly/small%20flyer.png" alt="Preview of flyer" width="93" height="120" /></a></p>
+<a href="/scholarly/digitalscholarshipworkshopseries_fall2016.pdf"><em>Full size</em></a></div>
+</div>
+-->
+	  
+	  
+	  
+<ul>
+<li>
+<h3>Building Your Research Portfolio</h3>
+</li>
+<ul>
+<li>
+	<h4>September 8: <i>Building an Online Presence</i></h4>
+How do you establish a scholarly presence on the web? Should you use commercial services like Academia.edu or roll your own website with Wordpress or Jekyll? We’ll talk about the pros and cons of hosting your own scholarly documents, data, and domain.
+</li>
+<li>
+<h4>September 15: <i>Tracking Your Scholarly Impact</i></h4>
+How do you know that your research is making a difference? Learn how to track your impact with traditional metrics as well as with “altmetric” tools.
+</li>
+<li>
+<h4>September 22: <i>Who Owns Your Research?</i></h4>
+You do the research, write up the results, and get an article published, but do you own your work after publication? This workshop will discuss copyright, publisher policies, and how to ensure you’re the owner of your work post-publication.
+</li>
+</ul>
+<li>
+<h3>Publishing Your Research in the Cloud</h3>
+</li>
+<ul>
+<li>
+<h4>September 29: <i>Collaborative Publishing with Overleaf</i></h4>
+Learn how to make the process of writing, editing, and producing your research papers and project reports quicker for both you and your collaborators. We’ll teach the fundamentals of Overleaf, a real-time collaborative writing and publishing tool, as well as the advantages of using LaTeX for scientific publications.
+
+</li>
+<li>
+<h4>October 6: <i>Data-based Storytelling with R Markdown</i></h4>
+Do you want your colleagues to be able to actively engage with your research and statistical analyses? We'll learn about R Markdown, a language for embedding R code in easy-to-read, interactive documents.
+
+</li>
+<li>
+<h4>October 20: <i>Jupyter Notebook for Interactive Coding</i></h4>
+Do you ever have problems sharing your code projects? Is your code getting stuck in Outlook's outbox? Learn how to streamline sharing your collaborative code projects with Jupyter Notebook!
+
+</li>
+</ul>
+<li>
+<h3>Protecting Your Digital Privacy</h3>
+</li>
+<ul>
+<li>
+<h4>October 27: <i>Encrypting Messages with Keybase</i></h4>
+Learn how to ensure that your messages are read only by your intended recipients. We’ll teach public key/private key encryption and the benefits of using them in an academic setting.
+
+</li>
+<li>
+<h4>November 3: <i>Surf Safely with Tor</i></h4>
+From researching sensitive topics to protecting data from prying internet service providers, there are many reasons to use a secure browser for online searching. We’ll discuss issues related to digital security and privacy and how the Tor browser can help you search safely and anonymously.
+
+</li>
+<li>
+<h4>November 10: <i>Leaving No Trace with Tails</i></h4>
+Tails is an operating system built explicitly with confidentiality in mind. We’ll teach you the basics of avoiding censorship and surveillance while communicating over the Internet.
+
+</li>
+</ul>
+</ul><!-- /com.omniupdate.div -->
+  </content>
+

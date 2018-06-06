@@ -1,0 +1,62 @@
+
+  
+
+  <content>
+    <!-- com.omniupdate.div label="content" group="Everyone" button="864" break="break" --><!-- ouc:editor csspath="/assets/css/screen.css"/ -->
+<h2>Digital Scholarship Workshop Series, Fall 2016</h2>
+
+<h4>11 a.m. on Fridays in Room 418a, Central Library</h4>
+<p>The purpose of these workshops is to introduce students, faculty, and staff members at Vanderbilt University to new tools and techniques in the field of scholarly communications and digital scholarship. All are welcome! No need to RSVP. If you have questions, please contact <a href="http://library.vanderbilt.edu/staffmember.php?staff_id=2">clifford.anderson@vanderbilt.edu</a>.</p>
+<div class="callout-box callout-small">
+<h4>Digital Scholarship Workshop Series</h4>
+<div class="callout-content">
+<h5>Fall 2016 Flyer</h5>
+<p>&nbsp;<a href="/scholarly/digitalscholarshipworkshopseries_fall2016.pdf"><img title="Workshop Series, Fall 2016" src="/scholarly/small%20flyer.png" alt="Preview of flyer" width="93" height="120" /></a></p>
+<a href="/scholarly/digitalscholarshipworkshopseries_fall2016.pdf"><em>Full size</em></a></div>
+</div>
+	  <ul>
+<li>
+<h3>Geospatial Analysis</h3>
+</li>
+<ul>
+<li>
+<h4>Mapping Information with QGIS</h4>
+Friday, September 9, at 11:00am, Central Library Room 418a</li>
+<li>
+<h4>Geospatial Data Collection with R and REDCap</h4>
+Friday, September 16, at 11:00am, Central Library Room 418a</li>
+<li>
+<h4>Exploring Spatial Networks with Neo4j</h4>
+Friday, September 23, at 11:00am, Central Library Room 418a</li>
+</ul>
+<li>
+<h3>Data Visualization</h3>
+</li>
+<ul>
+<li>
+<h4>Visualizing Data with Tableau</h4>
+Friday, September 30, at 11:00am, Central Library Room 418a</li>
+<li>
+<h4>Interactive Data Analysis with R &amp; ggvis</h4>
+Friday, October 7, at 11:00am, Central Library Room 418a</li>
+<li>
+<h4>Creating Illustrations and Figures with Inkscape</h4>
+Friday, October 21, at 11:00am, Central Library Room 418a</li>
+</ul>
+<li>
+<h3>Digital Humanities</h3>
+</li>
+<ul>
+<li>
+<h4>Exploring Linked Data with Wikidata</h4>
+Friday, October 28, at 11:00am, Central Library Room 418a</li>
+<li>
+<h4>Introduction to Stylometry using R &amp; stylo</h4>
+Friday, November 4, at 11:00am, Central Library Room 418a</li>
+<li>
+<h4>Scholarly Publishing with Scalar</h4>
+Friday, November 11, at 11:00am, Central Library Room 418a</li>
+</ul>
+</ul><!-- /com.omniupdate.div -->
+  </content>
+

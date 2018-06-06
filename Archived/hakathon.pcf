@@ -1,0 +1,69 @@
+logo
+ Dashboard
+ Content
+ Reports
+ Add-Ons
+global search icon
+User Gravatar
+Suellen Stringer-Hye
+ Help
+Content  Pages  /scholarly/hackathon.pcf  
+
+
+ Preview  Edit  Source  Properties  Versions     Submit  
+ Save Save As
+Syntax  
+Theme  
+AA
+
+<?xml version="1.0" encoding="utf-8"?>
+<?pcf-stylesheet path="/_resources/xsl/default.xsl" extension="php"?>
+​
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd">
+<document>
+    
+<!-- Will be called at the VERY top of the document -->
+<headcode>
+</headcode>
+​
+  <scriptcode>
+    
+  </scriptcode>
+​
+  <stylecode>
+    <!-- Put any css files that you want loaded in the header here -->
+  </stylecode>
+​
+  <!-- Will be placed in footer right above closing body tag -->
+<footscripts>
+   
+  <script src="/_resources/overrides.js">//</script>
+</footscripts>
+​
+  <config>
+    <!-- com.omniupdate.properties -->
+​
+    <parameter name="pagetype" prompt="Page Type" type="select" alt="Pick a page layout type from the dropdown." output="xml">
+<option value="one" selected="true">One Column</option>
+<option value="onefull" selected="false">One Column Full Width</option>
+<option value="two" selected="false">Two Column</option>
+<option value="three" selected="false">Three Column</option>
+</parameter>
+​
+<parameter name="librarypagetype" type="select" group="Superadmins" prompt="Library Page Type" output="xml">
+<option value="home" selected="false">Home</option>
+<option value="local" selected="false">Local Library</option>
+<option value="interior" selected="true">Interior</option>
+</parameter>
+​
+    <parameter name="showpagetitle" type="select" group="Everyone" prompt="Display page title?" output="xml">
+<option value="true" selected="true">Yes</option>
+<option value="false" selected="false">No</option>
+</parameter>
+​
+    <parameter name="featuredimage" type="select" group="Everyone" prompt="Featured Image?" alt="Will this page have a featured image at the top?" output="xml">
+<option value="true" selected="true">Yes</option>
+  
+Gadgets 
+ 
+ File saved successfully - /scholarly/_breadcrumb.xml
